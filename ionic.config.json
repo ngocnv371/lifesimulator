@@ -1,0 +1,7 @@
+{
+  "name": "Life Simulator",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
