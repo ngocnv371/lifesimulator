@@ -24,6 +24,7 @@ import '@ionic/react/css/display.css';
 import './theme/variables.css';
 
 import CharacterCreationPage from './features/character-creation/CharacterCreationPage';
+import SkillsPage from './features/skills/SkillsPage';
 
 setupIonicReact();
 
@@ -42,6 +43,9 @@ const App: React.FC = () => {
             </Route>
             <Route path="/character-creation" exact={true}>
               <CharacterCreationPage />
+            </Route>
+            <Route path="/skills" exact={true}>
+              <SkillsPage />
             </Route>
           </IonRouterOutlet>
         </IonSplitPane>
