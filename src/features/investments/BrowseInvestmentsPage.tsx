@@ -12,15 +12,69 @@ import {
   IonItem,
   IonLabel,
   IonPage,
+  IonSegment,
+  IonSegmentButton,
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
 import { add, school } from "ionicons/icons";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import InvestmentModal from "./InvestmentModal";
+
+type Investment = {
+  id: string;
+  name: string;
+  type: "fund" | "estate" | "stock";
+  description: string;
+  roi: number;
+};
+
+const investments: Investment[] = [
+  {
+    id: "1",
+    name: "Big Company 2 Stock",
+    type: "stock",
+    description: "Making big stuff to sells",
+    roi: 300,
+  },
+  {
+    id: "2",
+    name: "Big Fund",
+    type: "fund",
+    description: "Making big stuff to sells",
+    roi: 300,
+  },
+  {
+    id: "3",
+    name: "House #21",
+    type: "estate",
+    description: "Making big stuff to sells",
+    roi: 300,
+  },
+  {
+    id: "4",
+    name: "Small Company 3",
+    type: "stock",
+    description: "Making big stuff to sells",
+    roi: 300,
+  },
+  {
+    id: "5",
+    name: "Small Fund 6",
+    type: "fund",
+    description: "Making big stuff to sells",
+    roi: 300,
+  },
+];
 
 const BrowseInvestmentsPage: React.FC = () => {
   const [open, setOpen] = useState(false);
+  const [type, setType] = useState("stock");
+
+  const filtered = useMemo(() => {
+    return investments.filter((i) => i.type === type);
+  }, [type]);
+
   return (
     <IonPage>
       <IonHeader>
@@ -32,51 +86,32 @@ const BrowseInvestmentsPage: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonItem onClick={() => setOpen(true)}>
-          <IonLabel>
-            <span>Big Company 2 Stock</span>
-            <p>Making big stuff to sells</p>
-          </IonLabel>
-          <IonLabel slot="end" color="warning">
-            $300
-          </IonLabel>
-        </IonItem>
-        <IonItem onClick={() => setOpen(true)}>
-          <IonLabel>
-            <span>Bitcoins</span>
-            <p>Hot stuff right now</p>
-          </IonLabel>
-          <IonLabel slot="end" color="warning">
-            $100
-          </IonLabel>
-        </IonItem>
-        <IonItem onClick={() => setOpen(true)}>
-          <IonLabel>
-            <span>Savings</span>
-            <p>Put this away for a rainy day</p>
-          </IonLabel>
-          <IonLabel slot="end" color="warning">
-            $234
-          </IonLabel>
-        </IonItem>
-        <IonItem onClick={() => setOpen(true)}>
-          <IonLabel>
-            <span>Real Estate</span>
-            <p>We need something solid</p>
-          </IonLabel>
-          <IonLabel slot="end" color="warning">
-            $1234
-          </IonLabel>
-        </IonItem>
-        <IonItem onClick={() => setOpen(true)}>
-          <IonLabel>
-            <span>Index Fund</span>
-            <p>Can't go wrong with this</p>
-          </IonLabel>
-          <IonLabel slot="end" color="warning">
-            $334
-          </IonLabel>
-        </IonItem>
+        <IonSegment
+          value={type}
+          onIonChange={(v) => setType(v.detail.value || "")}
+        >
+          <IonSegmentButton value="stock">
+            <IonLabel>Stocks</IonLabel>
+          </IonSegmentButton>
+          <IonSegmentButton value="estate">
+            <IonLabel>Real Estates</IonLabel>
+          </IonSegmentButton>
+          <IonSegmentButton value="fund">
+            <IonLabel>Index Funds</IonLabel>
+          </IonSegmentButton>
+        </IonSegment>
+
+        {filtered.map((i) => (
+          <IonItem key={i.name} onClick={() => setOpen(true)}>
+            <IonLabel>
+              <span>{i.name}</span>
+              <p>{i.description}</p>
+            </IonLabel>
+            <IonLabel slot="end" color="warning">
+              {`$${i.roi}`}
+            </IonLabel>
+          </IonItem>
+        ))}
         <InvestmentModal open={open} onClosed={() => setOpen(false)} />
       </IonContent>
       <IonFooter>
