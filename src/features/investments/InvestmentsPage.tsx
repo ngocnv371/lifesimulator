@@ -10,6 +10,7 @@ import {
   IonInput,
   IonItem,
   IonLabel,
+  IonMenuButton,
   IonPage,
   IonTitle,
   IonToolbar,
@@ -24,6 +25,9 @@ const InvestmentsPage: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
+          <IonButtons slot="start">
+            <IonMenuButton autoHide />
+          </IonButtons>
           <IonTitle>Investments</IonTitle>
           <IonButtons slot="end">
             <IonButton routerLink="/investments/browse">

@@ -10,6 +10,7 @@ import {
   IonInput,
   IonItem,
   IonLabel,
+  IonMenuButton,
   IonPage,
   IonTitle,
   IonToolbar,
@@ -39,6 +40,9 @@ const JobPage: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
+          <IonButtons slot="start">
+            <IonMenuButton autoHide />
+          </IonButtons>
           <IonTitle>Your Job</IonTitle>
           <IonButtons slot="end">
             <IonButton routerLink="/job/browse">
