@@ -15,11 +15,15 @@ import {
   IonToolbar,
 } from "@ionic/react";
 import { add, school } from "ionicons/icons";
-import { useState } from "react";
+import { useMemo, useState } from "react";
+import { useAppSelector } from "../../app/store";
+import SkillItem from "./SkillItem";
 import SkillModal from "./SkillModal";
 
 const SkillsPage: React.FC = () => {
+  const levels = useAppSelector((state) => state.skills);
   const [open, setOpen] = useState(false);
+
   return (
     <IonPage>
       <IonHeader>
@@ -36,20 +40,15 @@ const SkillsPage: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonItem onClick={() => setOpen(true)}>
-          <IonLabel>
-            <span>Cans Collecting</span>
-            <p>You can sometimes find cans laying around</p>
-          </IonLabel>
-          <IonLabel slot="end">Level 1</IonLabel>
-        </IonItem>
-        <IonItem onClick={() => setOpen(true)}>
-          <IonLabel>
-            <span>Cooking</span>
-            <p>You can reliably boil an egg every dozen tries</p>
-          </IonLabel>
-          <IonLabel slot="end">Level 1</IonLabel>
-        </IonItem>
+        {Object.keys(levels).map((id) => (
+          <SkillItem
+            key={id}
+            id={id}
+            level={levels[id]}
+            onClick={() => setOpen(true)}
+          />
+        ))}
+
         <SkillModal open={open} onClosed={() => setOpen(false)} />
       </IonContent>
     </IonPage>

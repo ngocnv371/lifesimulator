@@ -8,10 +8,12 @@ import { TypedUseSelectorHook, useDispatch, useSelector } from "react-redux";
 import thunk, { ThunkDispatch } from "redux-thunk";
 import profileReducer from "../features/profile/ProfileSlice";
 import inventoryReducer from "../features/inventory/InventorySlice";
+import skillsReducer from "../features/skills/SkillsSlice";
 
 const rootReducer = combineReducers({
   profile: profileReducer,
   inventory: inventoryReducer,
+  skills: skillsReducer,
 });
 
 export const store = configureStore({
