@@ -4,6 +4,7 @@ import {
   IonCard,
   IonCardHeader,
   IonContent,
+  IonFooter,
   IonHeader,
   IonIcon,
   IonInput,
@@ -12,13 +13,28 @@ import {
   IonPage,
   IonTitle,
   IonToolbar,
+  useIonToast,
 } from "@ionic/react";
-import { add, school, search } from "ionicons/icons";
+import { add, cash, school, search } from "ionicons/icons";
 import { useState } from "react";
 import ApplyJobModal from "./ApplyJobModal";
 
 const JobPage: React.FC = () => {
   const [open, setOpen] = useState(false);
+  const [present, dismiss] = useIonToast();
+
+  function work() {
+    dismiss();
+    present({
+      message: "+$20",
+      color: "success",
+      duration: 1500,
+      animated: true,
+      icon: cash,
+      position: "bottom",
+    });
+  }
+
   return (
     <IonPage>
       <IonHeader>
@@ -47,10 +63,20 @@ const JobPage: React.FC = () => {
             $20
           </IonLabel>
         </IonItem>
-        <IonItem color="danger">
-          <IonLabel>Quit</IonLabel>
-        </IonItem>
+        <IonButton
+          className="ion-margin"
+          size="large"
+          expand="block"
+          onClick={() => work()}
+        >
+          Work
+        </IonButton>
       </IonContent>
+      <IonFooter>
+        <IonItem>
+          <IonLabel color="danger">Quit</IonLabel>
+        </IonItem>
+      </IonFooter>
     </IonPage>
   );
 };
