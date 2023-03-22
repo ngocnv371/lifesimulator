@@ -11,7 +11,7 @@ import {
 } from '@ionic/react';
 
 import { useLocation } from 'react-router-dom';
-import { archiveOutline, archiveSharp, bookmarkOutline, hammerOutline, hammerSharp, heartOutline, heartSharp, mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, peopleCircleOutline, peopleCircleSharp, trashOutline, trashSharp, warningOutline, warningSharp } from 'ionicons/icons';
+import { archiveOutline, archiveSharp, bag, bagSharp, bookmarkOutline, hammerOutline, hammerSharp, heartOutline, heartSharp, mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, peopleCircleOutline, peopleCircleSharp, trashOutline, trashSharp, warningOutline, warningSharp } from 'ionicons/icons';
 import './Menu.css';
 
 interface AppPage {
@@ -33,6 +33,12 @@ const appPages: AppPage[] = [
     url: '/skills',
     iosIcon: hammerOutline,
     mdIcon: hammerSharp
+  },
+  {
+    title: 'Job',
+    url: '/job',
+    iosIcon: bag,
+    mdIcon: bagSharp
   },
   {
     title: 'Inbox',
