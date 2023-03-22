@@ -7,9 +7,11 @@ import {
 import { TypedUseSelectorHook, useDispatch, useSelector } from "react-redux";
 import thunk, { ThunkDispatch } from "redux-thunk";
 import profileReducer from "../features/profile/ProfileSlice";
+import inventoryReducer from "../features/inventory/InventorySlice";
 
 const rootReducer = combineReducers({
   profile: profileReducer,
+  inventory: inventoryReducer,
 });
 
 export const store = configureStore({

@@ -13,6 +13,7 @@ import {
 import { useLocation } from 'react-router-dom';
 import { archiveOutline, archiveSharp, bag, bagSharp, bookmarkOutline, cashOutline, cashSharp, hammerOutline, hammerSharp, heartOutline, heartSharp, mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, peopleCircleOutline, peopleCircleSharp, trashOutline, trashSharp, warningOutline, warningSharp } from 'ionicons/icons';
 import './Menu.css';
+import Cheats from '../features/cheat/Cheats';
 
 interface AppPage {
   url: string;
@@ -70,6 +71,8 @@ const Menu: React.FC = () => {
             );
           })}
         </IonList>
+
+        <Cheats />
 
         <IonList id="labels-list">
           <IonListHeader>Labels</IonListHeader>
