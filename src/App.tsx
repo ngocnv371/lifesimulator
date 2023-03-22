@@ -25,6 +25,7 @@ import './theme/variables.css';
 
 import CharacterCreationPage from './features/character-creation/CharacterCreationPage';
 import SkillsPage from './features/skills/SkillsPage';
+import BrowseSkillsPage from './features/skills/BrowseSkillsPage';
 
 setupIonicReact();
 
@@ -43,6 +44,9 @@ const App: React.FC = () => {
             </Route>
             <Route path="/character-creation" exact={true}>
               <CharacterCreationPage />
+            </Route>
+            <Route path="/skills/browse" exact={true}>
+              <BrowseSkillsPage />
             </Route>
             <Route path="/skills" exact={true}>
               <SkillsPage />

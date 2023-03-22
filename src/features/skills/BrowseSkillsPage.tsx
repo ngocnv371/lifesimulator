@@ -1,55 +1,56 @@
 import {
-  IonButton,
+  IonBackButton,
   IonButtons,
-  IonCard,
-  IonCardHeader,
   IonContent,
   IonHeader,
-  IonIcon,
-  IonInput,
   IonItem,
   IonLabel,
   IonPage,
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
-import { add, school } from "ionicons/icons";
 import { useState } from "react";
 import SkillModal from "./SkillModal";
+import UnlockSkillModal from "./UnlockSkillModal";
 
-const SkillsPage: React.FC = () => {
+const BrowseSkillsPage: React.FC = () => {
   const [open, setOpen] = useState(false);
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Skills</IonTitle>
-          <IonButtons slot="end">
-            <IonButton routerLink="/skills/browse">
-              <IonIcon icon={add}></IonIcon>
-            </IonButton>
+          <IonButtons slot="start">
+            <IonBackButton />
           </IonButtons>
+          <IonTitle>Browse Skills</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
         <IonItem onClick={() => setOpen(true)}>
           <IonLabel>
-            <span>Cans Collecting</span>
-            <p>You can sometimes find cans laying around</p>
+            <span>Pickpocket</span>
+            <p>You can steal a key without loosing a finger</p>
           </IonLabel>
           <IonLabel slot="end">Level 1</IonLabel>
         </IonItem>
         <IonItem onClick={() => setOpen(true)}>
           <IonLabel>
-            <span>Cooking</span>
-            <p>You can reliably boil an egg every dozen tries</p>
+            <span>Street Fight</span>
+            <p>You can throw a punch without slipping</p>
           </IonLabel>
           <IonLabel slot="end">Level 1</IonLabel>
         </IonItem>
-        <SkillModal open={open} onClosed={() => setOpen(false)} />
+        <IonItem onClick={() => setOpen(true)}>
+          <IonLabel>
+            <span>Sucking</span>
+            <p>You can suck without grating bloody</p>
+          </IonLabel>
+          <IonLabel slot="end">Level 1</IonLabel>
+        </IonItem>
+        <UnlockSkillModal open={open} onClosed={() => setOpen(false)} />
       </IonContent>
     </IonPage>
   );
 };
 
-export default SkillsPage;
+export default BrowseSkillsPage;
