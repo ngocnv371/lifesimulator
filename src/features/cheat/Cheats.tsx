@@ -4,6 +4,7 @@ import {
   IonLabel,
   IonList,
   IonListHeader,
+  IonMenuToggle,
 } from "@ionic/react";
 import { bugOutline } from "ionicons/icons";
 import { useAppDispatch } from "../../app/store";
@@ -18,18 +19,24 @@ const Cheats: React.FC = () => {
   return (
     <IonList id="cheats-list">
       <IonListHeader>Cheats</IonListHeader>
-      <IonItem lines="none" onClick={() => cheatMoney(100)}>
-        <IonIcon aria-hidden="true" slot="start" icon={bugOutline} />
-        <IonLabel>+$100</IonLabel>
-      </IonItem>
-      <IonItem lines="none" onClick={() => cheatMoney(1000)}>
-        <IonIcon aria-hidden="true" slot="start" icon={bugOutline} />
-        <IonLabel>+$1000</IonLabel>
-      </IonItem>
-      <IonItem lines="none" onClick={() => cheatMoney(10000)}>
-        <IonIcon aria-hidden="true" slot="start" icon={bugOutline} />
-        <IonLabel>+$10000</IonLabel>
-      </IonItem>
+      <IonMenuToggle autoHide={false}>
+        <IonItem lines="none" onClick={() => cheatMoney(100)}>
+          <IonIcon aria-hidden="true" slot="start" icon={bugOutline} />
+          <IonLabel>+$100</IonLabel>
+        </IonItem>
+      </IonMenuToggle>
+      <IonMenuToggle autoHide={false}>
+        <IonItem lines="none" onClick={() => cheatMoney(1000)}>
+          <IonIcon aria-hidden="true" slot="start" icon={bugOutline} />
+          <IonLabel>+$1000</IonLabel>
+        </IonItem>
+      </IonMenuToggle>
+      <IonMenuToggle autoHide={false}>
+        <IonItem lines="none" onClick={() => cheatMoney(10000)}>
+          <IonIcon aria-hidden="true" slot="start" icon={bugOutline} />
+          <IonLabel>+$10000</IonLabel>
+        </IonItem>
+      </IonMenuToggle>
     </IonList>
   );
 };
