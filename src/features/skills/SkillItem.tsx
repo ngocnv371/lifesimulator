@@ -1,22 +1,26 @@
 import { IonItem, IonLabel } from "@ionic/react";
 import { useEffect, useState } from "react";
-import { Skill } from "../../app/models";
-import skills, { getSkillById } from "../../data/skills";
+import { Skill, SkillLevel } from "../../app/models";
+import skills, { getSkillById, getSkillByLevel } from "../../data/skills";
 
 type Props = {
   id: string;
-  level?: number;
+  level: number;
   onClick?: Function;
 };
 
 const SkillItem: React.FC<Props> = (props) => {
-  const [skill, setSkill] = useState<Skill | null>(null);
+  const [skill, setSkill] = useState<SkillLevel | null>(null);
 
   // load skill
   useEffect(() => {
-    const found = getSkillById(props.id);
+    const found = getSkillByLevel(props.id, props.level);
+    if (!found) {
+      return;
+    }
+
     setSkill(found);
-  }, [props.id]);
+  }, [props.id, props.level]);
 
   if (!skill) {
     return null;
@@ -26,7 +30,7 @@ const SkillItem: React.FC<Props> = (props) => {
     <IonItem itemID={skill.id} onClick={() => props.onClick && props.onClick()}>
       <IonLabel>
         <span>{skill.name}</span>
-        <p>{skill.name}</p>
+        <p>{skill.description}</p>
       </IonLabel>
       {props.level && <IonLabel slot="end">Level {props.level}</IonLabel>}
     </IonItem>

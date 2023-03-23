@@ -76,6 +76,7 @@ export function getThresholdValue<T>(bag: Record<number, T>, value: number) {
   const sortedKeys = Object.keys(bag)
     .map((k) => +k)
     .sort((a, b) => a - b);
+
   let index = 0;
   for (let i = 1; i < sortedKeys.length; i++) {
     if (sortedKeys[i] > value) {

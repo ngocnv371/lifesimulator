@@ -26,6 +26,7 @@ const UpgradeSkillModal: React.FC<Props> = (props) => {
   const modal = useRef<HTMLIonModalElement>(null);
   const level = useAppSelector((state) => state.skills[props.id]);
   const [skill, setSkill] = useState<SkillLevel | null>(null);
+  const [nextLevel, setNextLevel] = useState<SkillLevel | null>(null);
   const dispatch = useAppDispatch();
   const canLevelUp = skill && skill.canLevelUp && skill.cost < money;
 
@@ -45,6 +46,7 @@ const UpgradeSkillModal: React.FC<Props> = (props) => {
     }
 
     setSkill(found);
+    setNextLevel(getSkillByLevel(props.id, level + 1));
   }, [props.id, level]);
 
   // open/close
@@ -99,15 +101,15 @@ const UpgradeSkillModal: React.FC<Props> = (props) => {
               <p>{skill.description}</p>
             </IonLabel>
           </IonItem>
-          {skill.canLevelUp && (
+          {skill.canLevelUp && nextLevel && (
             <>
               <IonItem>
                 <IonLabel>Next Level</IonLabel>
-                <IonLabel slot="end">Level {skill.level + 1}</IonLabel>
+                <IonLabel slot="end">Level {nextLevel.level}</IonLabel>
               </IonItem>
               <IonItem>
                 <IonLabel>
-                  <p>{skill.description}</p>
+                  <p>{nextLevel.description}</p>
                 </IonLabel>
               </IonItem>
               <IonItem>

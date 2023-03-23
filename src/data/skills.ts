@@ -3,14 +3,34 @@ import { calculateProgression, getThresholdValue } from "../app/utils";
 
 const skills: Skill[] = [
   {
+    id: "hoping",
+    name: "Hoping",
+    maxLevel: 10,
+    levelDescriptions: {
+      9: "You hope",
+      10: "Your hope can never die",
+    },
+    upgradeCosts: ["linear", 10e6, 10e6],
+  },
+  {
+    id: "dreaming",
+    name: "Dreaming",
+    maxLevel: 10,
+    levelDescriptions: {
+      9: "You have a dream",
+      10: "Your dream shall never die",
+    },
+    upgradeCosts: ["linear", 10e6, 10e6],
+  },
+  {
     id: "canpicking",
     name: "Can Picking",
     maxLevel: 10,
     levelDescriptions: {
-      3: "You can find cans if it's right in front of you",
-      5: "You can find cans even if it's 10 steps away",
-      7: "You can find cans even if it's in a trashcan",
-      10: "You can find cans even if it's not there",
+      3: "You can pick up a can if it's shoved into your face",
+      5: "You can pick up a can even if it's 10 steps away",
+      7: "You can pick up a can even if it's in a trashcan",
+      10: "You can look for cans",
     },
     upgradeCosts: ["linear", 5, 64],
   },
@@ -39,6 +59,8 @@ const skills: Skill[] = [
     upgradeCosts: ["linear", 15, 3000],
   },
 ];
+
+// pickpocket ->
 
 const map = Object.fromEntries(skills.map((s) => [s.id, s]));
 
