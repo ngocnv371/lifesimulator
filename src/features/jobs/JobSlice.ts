@@ -16,6 +16,9 @@ const slice = createSlice({
     apply(state, action: PayloadAction<string>) {
       state.id = action.payload;
     },
+    quit(state) {
+      state.id = "";
+    },
   },
 });
 
@@ -26,6 +29,6 @@ export const selectAvailableJobs = createSelector(
 
 export const selectJob = (state: { job: State }) => getJobById(state.job.id);
 
-export const { apply } = slice.actions;
+export const { apply, quit } = slice.actions;
 
 export default slice.reducer;

@@ -15,28 +15,47 @@ import {
   IonPage,
   IonTitle,
   IonToolbar,
+  useIonAlert,
   useIonToast,
 } from "@ionic/react";
 import { add, cash, school, search, time } from "ionicons/icons";
 import { useState } from "react";
-import { useAppSelector } from "../../app/store";
+import { useAppDispatch, useAppSelector } from "../../app/store";
 import ApplyJobModal from "./ApplyJobModal";
-import { selectJob } from "./JobSlice";
+import { quit, selectJob } from "./JobSlice";
 import UnemployedItem from "./UnemployedItem";
+import useStackedToast from "./useStackedToast";
 
 const JobPage: React.FC = () => {
   const job = useAppSelector(selectJob);
-  const [present, dismiss] = useIonToast();
+  const present = useStackedToast();
+  const dispatch = useAppDispatch();
+  const [alert] = useIonAlert();
 
-  function work() {
-    dismiss();
+  function handleWork() {
     present({
-      message: "+$20",
+      message: `+$20`,
       color: "success",
-      duration: 1500,
+      duration: 1000,
       animated: true,
       icon: cash,
       position: "bottom",
+    });
+  }
+
+  function handleQuit() {
+    alert({
+      message: "Do you really want to quit your job?",
+      buttons: [
+        { text: "Cancel", role: "cancel" },
+        {
+          text: "Yes",
+          role: "destructive",
+          handler: () => {
+            dispatch(quit());
+          },
+        },
+      ],
     });
   }
 
@@ -86,7 +105,7 @@ const JobPage: React.FC = () => {
               className="ion-margin"
               size="large"
               expand="block"
-              onClick={() => work()}
+              onClick={() => handleWork()}
             >
               Work
             </IonButton>
@@ -95,7 +114,7 @@ const JobPage: React.FC = () => {
       </IonContent>
       {job && (
         <IonFooter>
-          <IonItem>
+          <IonItem onClick={() => handleQuit()}>
             <IonLabel color="danger">Quit</IonLabel>
           </IonItem>
         </IonFooter>
