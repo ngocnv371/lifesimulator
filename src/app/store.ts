@@ -9,11 +9,13 @@ import thunk, { ThunkDispatch } from "redux-thunk";
 import profileReducer from "../features/profile/ProfileSlice";
 import inventoryReducer from "../features/inventory/InventorySlice";
 import skillsReducer from "../features/skills/SkillsSlice";
+import jobReducer from "../features/jobs/JobSlice";
 
 const rootReducer = combineReducers({
   profile: profileReducer,
   inventory: inventoryReducer,
   skills: skillsReducer,
+  job: jobReducer,
 });
 
 export const store = configureStore({

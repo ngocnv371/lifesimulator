@@ -18,9 +18,12 @@ import {
 } from "@ionic/react";
 import { add, cash, school, search } from "ionicons/icons";
 import { useState } from "react";
+import { useAppSelector } from "../../app/store";
 import ApplyJobModal from "./ApplyJobModal";
+import UnemployedItem from "./UnemployedItem";
 
 const JobPage: React.FC = () => {
+  const job = useAppSelector((state) => state.job.id);
   const [open, setOpen] = useState(false);
   const [present, dismiss] = useIonToast();
 
@@ -52,35 +55,42 @@ const JobPage: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonItem>
-          <IonLabel>
-            <span>Cans Collector</span>
-            <p>Go find some cans</p>
-          </IonLabel>
-          <IonLabel slot="end">Level 1</IonLabel>
-        </IonItem>
-        <IonItem>
-          <IonLabel>
-            <span>Pay</span>
-          </IonLabel>
-          <IonLabel slot="end" color="warning">
-            $20
-          </IonLabel>
-        </IonItem>
-        <IonButton
-          className="ion-margin"
-          size="large"
-          expand="block"
-          onClick={() => work()}
-        >
-          Work
-        </IonButton>
+        {!job && <UnemployedItem />}
+        {job && (
+          <>
+            <IonItem>
+              <IonLabel>
+                <span>Cans Collector</span>
+                <p>Go find some cans</p>
+              </IonLabel>
+              <IonLabel slot="end">Level 1</IonLabel>
+            </IonItem>
+            <IonItem>
+              <IonLabel>
+                <span>Pay</span>
+              </IonLabel>
+              <IonLabel slot="end" color="warning">
+                $20
+              </IonLabel>
+            </IonItem>
+            <IonButton
+              className="ion-margin"
+              size="large"
+              expand="block"
+              onClick={() => work()}
+            >
+              Work
+            </IonButton>
+          </>
+        )}
       </IonContent>
-      <IonFooter>
-        <IonItem>
-          <IonLabel color="danger">Quit</IonLabel>
-        </IonItem>
-      </IonFooter>
+      {job && (
+        <IonFooter>
+          <IonItem>
+            <IonLabel color="danger">Quit</IonLabel>
+          </IonItem>
+        </IonFooter>
+      )}
     </IonPage>
   );
 };

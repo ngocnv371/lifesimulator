@@ -1,4 +1,5 @@
 import {
+  IonBackButton,
   IonButton,
   IonButtons,
   IonCard,
@@ -26,6 +27,9 @@ const BrowseJobsPage: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
+          <IonButtons slot="start">
+            <IonBackButton />
+          </IonButtons>
           <IonTitle>Browse Jobs</IonTitle>
           <IonButtons slot="end">
             <IonButton routerLink="/skills/browse">
