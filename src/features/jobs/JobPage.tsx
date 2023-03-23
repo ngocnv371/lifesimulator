@@ -3,6 +3,7 @@ import {
   IonButtons,
   IonCard,
   IonCardHeader,
+  IonChip,
   IonContent,
   IonFooter,
   IonHeader,
@@ -16,15 +17,15 @@ import {
   IonToolbar,
   useIonToast,
 } from "@ionic/react";
-import { add, cash, school, search } from "ionicons/icons";
+import { add, cash, school, search, time } from "ionicons/icons";
 import { useState } from "react";
 import { useAppSelector } from "../../app/store";
 import ApplyJobModal from "./ApplyJobModal";
+import { selectJob } from "./JobSlice";
 import UnemployedItem from "./UnemployedItem";
 
 const JobPage: React.FC = () => {
-  const job = useAppSelector((state) => state.job.id);
-  const [open, setOpen] = useState(false);
+  const job = useAppSelector(selectJob);
   const [present, dismiss] = useIonToast();
 
   function work() {
@@ -58,19 +59,27 @@ const JobPage: React.FC = () => {
         {!job && <UnemployedItem />}
         {job && (
           <>
-            <IonItem>
+            <IonItem lines="none">
               <IonLabel>
                 <span>Cans Collector</span>
-                <p>Go find some cans</p>
               </IonLabel>
-              <IonLabel slot="end">Level 1</IonLabel>
             </IonItem>
             <IonItem>
-              <IonLabel>
-                <span>Pay</span>
+              <p>Go find some cans</p>
+            </IonItem>
+            <IonItem>
+              <IonLabel>Shift length</IonLabel>
+              <IonLabel slot="end">
+                <IonChip>
+                  <IonIcon icon={time} />
+                  <IonLabel>{job.shiftLength} hours</IonLabel>
+                </IonChip>
               </IonLabel>
+            </IonItem>
+            <IonItem>
+              <IonLabel>Pay</IonLabel>
               <IonLabel slot="end" color="warning">
-                $20
+                ${job.salary}
               </IonLabel>
             </IonItem>
             <IonButton

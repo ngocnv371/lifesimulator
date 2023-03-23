@@ -23,3 +23,12 @@ export interface SkillLevel extends Omit<Skill, "upgradeCosts"> {
   cost: number;
   canLevelUp: boolean;
 }
+
+export interface Job {
+  id: string;
+  name: string;
+  description: string;
+  requiredSkills: Record<string, number>;
+  salary: number;
+  shiftLength: number;
+}

@@ -1,32 +1,54 @@
 import {
   IonButton,
   IonButtons,
+  IonChip,
   IonContent,
   IonHeader,
+  IonIcon,
   IonItem,
   IonLabel,
   IonModal,
+  IonSkeletonText,
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
+import { time } from "ionicons/icons";
 import { useEffect, useRef } from "react";
+import { useAppDispatch, useAppSelector } from "../../app/store";
+import { getJobById } from "../../data/jobs";
+import { apply, selectJob } from "./JobSlice";
 
 type Props = {
-  open?: Boolean;
+  id?: string;
   onClosed?: Function;
+  onApplied?: Function;
 };
 
 const ApplyJobModal: React.FC<Props> = (props) => {
+  const dispatch = useAppDispatch();
+  const job = (props.id && getJobById(props.id)) || null;
   const modal = useRef<HTMLIonModalElement>(null);
 
   // handle open/close
   useEffect(() => {
-    if (props.open) {
+    if (props.id) {
+      console.log("[ApplyJobModal] present");
       modal.current?.present();
-    } else {
+    } else if (modal.current?.isOpen) {
+      console.log("[ApplyJobModal] dismiss");
       modal.current?.dismiss();
     }
-  }, [props.open]);
+  }, [props.id]);
+
+  function handleApply() {
+    if (!job) {
+      return;
+    }
+
+    dispatch(apply(job.id));
+    modal.current?.dismiss();
+    props.onApplied && props.onApplied();
+  }
 
   return (
     <IonModal
@@ -37,28 +59,40 @@ const ApplyJobModal: React.FC<Props> = (props) => {
     >
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Job 1</IonTitle>
+          <IonTitle>{(job && job.name) || <IonSkeletonText />}</IonTitle>
           <IonButtons slot="end">
-            <IonButton onClick={() => modal.current?.dismiss()} color="warning">
+            <IonButton
+              disabled={!job}
+              onClick={() => handleApply()}
+              color="primary"
+            >
               Apply
             </IonButton>
           </IonButtons>
         </IonToolbar>
       </IonHeader>
-      <IonContent>
-        <IonItem>
-          <IonLabel>
-            Delivery
-            <p>Go deliver this package to that location</p>
-          </IonLabel>
-        </IonItem>
-        <IonItem>
-          <IonLabel>Pay</IonLabel>
-          <IonLabel slot="end" color="warning">
-            $20
-          </IonLabel>
-        </IonItem>
-      </IonContent>
+      {job && (
+        <IonContent>
+          <IonItem>
+            <p>{job.description}</p>
+          </IonItem>
+          <IonItem>
+            <IonLabel>Shift length</IonLabel>
+            <IonLabel slot="end">
+              <IonChip>
+                <IonIcon icon={time} />
+                <IonLabel>{job.shiftLength} hours</IonLabel>
+              </IonChip>
+            </IonLabel>
+          </IonItem>
+          <IonItem>
+            <IonLabel>Pay</IonLabel>
+            <IonLabel slot="end" color="warning">
+              ${job.salary}
+            </IonLabel>
+          </IonItem>
+        </IonContent>
+      )}
     </IonModal>
   );
 };

@@ -1,13 +1,8 @@
 import {
   IonBackButton,
-  IonButton,
   IonButtons,
-  IonCard,
-  IonCardHeader,
   IonContent,
   IonHeader,
-  IonIcon,
-  IonInput,
   IonItem,
   IonLabel,
   IonPage,
@@ -15,12 +10,15 @@ import {
   IonToolbar,
   useIonRouter,
 } from "@ionic/react";
-import { add, school } from "ionicons/icons";
 import { useState } from "react";
+import { useAppSelector } from "../../app/store";
 import ApplyJobModal from "./ApplyJobModal";
+import { selectAvailableJobs } from "./JobSlice";
 
 const BrowseJobsPage: React.FC = () => {
-  const [open, setOpen] = useState(false);
+  const currentJob = useAppSelector((state) => state.job.id);
+  const jobs = useAppSelector(selectAvailableJobs);
+  const [selectedJob, setSelectedJob] = useState("");
   const router = useIonRouter();
 
   return (
@@ -31,34 +29,36 @@ const BrowseJobsPage: React.FC = () => {
             <IonBackButton />
           </IonButtons>
           <IonTitle>Browse Jobs</IonTitle>
-          <IonButtons slot="end">
-            <IonButton routerLink="/skills/browse">
-              <IonIcon icon={add}></IonIcon>
-            </IonButton>
-          </IonButtons>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonItem onClick={() => setOpen(true)}>
-          <IonLabel>
-            <span>Cans Collector</span>
-            <p>Go find some cans</p>
-          </IonLabel>
-          <IonLabel slot="end">Level 1</IonLabel>
-        </IonItem>
-        <IonItem onClick={() => setOpen(true)}>
-          <IonLabel>
-            <span>Delivery</span>
-            <p>Delivery not suspicious packages to not suspicious locations</p>
-          </IonLabel>
-          <IonLabel slot="end">Level 1</IonLabel>
-        </IonItem>
+        {jobs.map((j) => (
+          <IonItem
+            itemID={j.id}
+            key={j.id}
+            disabled={j.id === currentJob}
+            onClick={() => setSelectedJob(j.id)}
+          >
+            <IonLabel>
+              <span>{j.name}</span>
+              <p>{j.shiftLength} hours</p>
+            </IonLabel>
+            <IonLabel slot="end">${j.salary}</IonLabel>
+          </IonItem>
+        ))}
+        {!jobs.length && (
+          <IonItem>
+            <IonLabel>
+              <span>No jobs available for your skillset</span>
+              <p>Try harder, young man!</p>
+            </IonLabel>
+          </IonItem>
+        )}
+
         <ApplyJobModal
-          open={open}
-          onClosed={() => {
-            setOpen(false);
-            router.goBack();
-          }}
+          id={selectedJob}
+          onClosed={() => setSelectedJob("")}
+          onApplied={() => router.goBack()}
         />
       </IonContent>
     </IonPage>
