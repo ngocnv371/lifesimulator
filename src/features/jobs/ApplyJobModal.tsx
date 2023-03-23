@@ -14,9 +14,9 @@ import {
 } from "@ionic/react";
 import { time } from "ionicons/icons";
 import { useEffect, useRef } from "react";
-import { useAppDispatch, useAppSelector } from "../../app/store";
+import { useAppDispatch } from "../../app/store";
 import { getJobById } from "../../data/jobs";
-import { apply, selectJob } from "./JobSlice";
+import { apply } from "./JobSlice";
 
 type Props = {
   id?: string;

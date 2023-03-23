@@ -3,9 +3,9 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 type State = Record<string, number>;
 
 const initialState: State = {
-  ["hoping"]: 9,
-  ["dreaming"]: 9,
-  ["canpicking"]: 1,
+  hoping: 9,
+  dreaming: 9,
+  canpicking: 1,
 };
 
 const slice = createSlice({

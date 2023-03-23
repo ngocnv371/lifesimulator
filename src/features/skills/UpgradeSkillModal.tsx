@@ -11,7 +11,7 @@ import {
   IonToolbar,
 } from "@ionic/react";
 import { useEffect, useRef, useState } from "react";
-import { Skill, SkillLevel } from "../../app/models";
+import { SkillLevel } from "../../app/models";
 import { useAppDispatch, useAppSelector } from "../../app/store";
 import { getSkillByLevel } from "../../data/skills";
 import { levelUp } from "./SkillsSlice";
@@ -94,7 +94,9 @@ const UpgradeSkillModal: React.FC<Props> = (props) => {
         <IonContent>
           <IonItem>
             <IonLabel>Current Level</IonLabel>
-            <IonLabel slot="end">Level {skill.level}</IonLabel>
+            <IonLabel slot="end">
+              Level {skill.level}/{skill.maxLevel}
+            </IonLabel>
           </IonItem>
           <IonItem>
             <IonLabel>

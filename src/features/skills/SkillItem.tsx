@@ -1,7 +1,7 @@
 import { IonItem, IonLabel } from "@ionic/react";
 import { useEffect, useState } from "react";
-import { Skill, SkillLevel } from "../../app/models";
-import skills, { getSkillById, getSkillByLevel } from "../../data/skills";
+import { SkillLevel } from "../../app/models";
+import { getSkillByLevel } from "../../data/skills";
 
 type Props = {
   id: string;

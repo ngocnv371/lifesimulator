@@ -1,14 +1,11 @@
 import {
   IonButton,
   IonButtons,
-  IonCard,
-  IonCardHeader,
   IonChip,
   IonContent,
   IonFooter,
   IonHeader,
   IonIcon,
-  IonInput,
   IonItem,
   IonLabel,
   IonMenuButton,
@@ -16,12 +13,9 @@ import {
   IonTitle,
   IonToolbar,
   useIonAlert,
-  useIonToast,
 } from "@ionic/react";
-import { add, cash, school, search, time } from "ionicons/icons";
-import { useState } from "react";
+import { cash, search, time } from "ionicons/icons";
 import { useAppDispatch, useAppSelector } from "../../app/store";
-import ApplyJobModal from "./ApplyJobModal";
 import { quit, selectJob } from "./JobSlice";
 import UnemployedItem from "./UnemployedItem";
 import useStackedToast from "./useStackedToast";
