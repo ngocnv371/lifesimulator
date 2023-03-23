@@ -2,7 +2,9 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
 type State = Record<string, number>;
 
-const initialState: State = {};
+const initialState: State = {
+  ["canpicking"]: 1,
+};
 
 const slice = createSlice({
   name: "skills",
@@ -24,5 +26,5 @@ export const { levelUp } = slice.actions;
 export default slice.reducer;
 
 export const selectSkillLevelById =
-  (id: string) => (state: { skills: State }) =>
+  (id: string) => (state: { skills: State }) => 
     state.skills[id];

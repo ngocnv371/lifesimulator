@@ -1,45 +1,39 @@
 import { IonItem, IonLabel, useIonAlert } from "@ionic/react";
 import { useEffect, useState } from "react";
-import { Skill } from "../../app/models";
-import { useAppDispatch } from "../../app/store";
-import skills, {
-  getDescription,
-  getSkillById,
-  getUnlockCost,
-} from "../../data/skills";
+import { SkillLevel } from "../../app/models";
+import { useAppDispatch, useAppSelector } from "../../app/store";
+import { getSkillByLevel } from "../../data/skills";
 import { levelUp } from "./SkillsSlice";
 
 type Props = {
   id: string;
-  onClick?: Function;
 };
 
 const UnlockSkillItem: React.FC<Props> = (props) => {
-  const [skill, setSkill] = useState<Skill | null>(null);
-  const [cost, setCost] = useState(0);
-  const [description, setDescription] = useState("");
+  const money = useAppSelector((state) => state.inventory.money);
+  const level = useAppSelector((state) => state.skills[props.id]);
+  const [skill, setSkill] = useState<SkillLevel | null>(null);
   const [present] = useIonAlert();
   const dispatch = useAppDispatch();
+  const canUnlock = skill && skill.cost <= money && !level;
 
   // load skill
   useEffect(() => {
-    const found = getSkillById(props.id);
+    const found = getSkillByLevel(props.id, 0);
     if (!found) {
       return;
     }
 
     setSkill(found);
-    setCost(getUnlockCost(found));
-    setDescription(getDescription(found, 0));
   }, [props.id]);
 
   function confirmUnlock() {
-    if (!skill) {
+    if (!skill || !canUnlock) {
       return;
     }
 
     present({
-      message: `Do you really want to unlock ${skill.name} for $${cost}?`,
+      message: `Do you really want to unlock ${skill.name} for $${skill.cost}?`,
       buttons: [
         { text: "Cancel", role: "cancel" },
         {
@@ -58,13 +52,17 @@ const UnlockSkillItem: React.FC<Props> = (props) => {
   }
 
   return (
-    <IonItem itemID={skill.id} onClick={() => confirmUnlock()}>
+    <IonItem
+      disabled={!canUnlock}
+      itemID={skill.id}
+      onClick={() => confirmUnlock()}
+    >
       <IonLabel>
         <span>{skill.name}</span>
-        <p>{description}</p>
+        <p>{skill.description}</p>
       </IonLabel>
       <IonLabel slot="end" color="warning">
-        ${cost}
+        ${skill.cost}
       </IonLabel>
     </IonItem>
   );

@@ -6,7 +6,7 @@ export interface Skill {
    * description for a certain level threshold
    * `{3: 'good', 6: 'very good'}` means 'good' is the description for level 1, 2, 3
    */
-  leveldescriptions: Record<number, string>;
+  levelDescriptions: Record<number, string>;
   /**
    * cost to unlock is `upgradeCost[0]` and to level up is `upgradeCost[level]`
    */
@@ -16,3 +16,10 @@ export interface Skill {
 export type Curve = "linear" | "ease-out" | "ease-in-out" | "ease-in";
 
 export type Progression = [curve: Curve, min: number, max: number];
+
+export interface SkillLevel extends Omit<Skill, "upgradeCosts"> {
+  level: number;
+  description: string;
+  cost: number;
+  canLevelUp: boolean;
+}

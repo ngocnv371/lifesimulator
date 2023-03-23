@@ -1,4 +1,4 @@
-import { Skill } from "../app/models";
+import { Skill, SkillLevel } from "../app/models";
 import { calculateProgression, getThresholdValue } from "../app/utils";
 
 const skills: Skill[] = [
@@ -6,7 +6,7 @@ const skills: Skill[] = [
     id: "canpicking",
     name: "Can Picking",
     maxLevel: 10,
-    leveldescriptions: {
+    levelDescriptions: {
       3: "You can find cans if it's right in front of you",
       5: "You can find cans even if it's 10 steps away",
       7: "You can find cans even if it's in a trashcan",
@@ -18,7 +18,7 @@ const skills: Skill[] = [
     id: "lockpicking",
     name: "Lock Picking",
     maxLevel: 10,
-    leveldescriptions: {
+    levelDescriptions: {
       3: "You can pick a lock with a hammer",
       5: "You can pick a lock with a crowbar",
       7: "You can pick a lock with a fake key",
@@ -30,7 +30,7 @@ const skills: Skill[] = [
     id: "streetfighting",
     name: "Street Fighting",
     maxLevel: 10,
-    leveldescriptions: {
+    levelDescriptions: {
       3: "You can throw a punch without pulling a muscle",
       5: "You can aim your punch",
       7: "You can actually hit someone with a punch",
@@ -46,12 +46,18 @@ export function getSkillById(id: string) {
   return map[id];
 }
 
-export function getUnlockCost(skill: Skill) {
-  return calculateProgression(skill.upgradeCosts, 0);
-}
-
-export function getDescription(skill: Skill, level: number) {
-  return getThresholdValue(skill.leveldescriptions, level);
+export function getSkillByLevel(id: string, level: number): SkillLevel {
+  const skill = map[id];
+  const description = getThresholdValue(skill.levelDescriptions, level);
+  const cost = calculateProgression(skill.upgradeCosts, 0);
+  const canLevelUp = level < skill.maxLevel;
+  return {
+    ...skill,
+    level,
+    description,
+    cost,
+    canLevelUp,
+  };
 }
 
 export default skills;

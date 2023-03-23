@@ -18,11 +18,16 @@ import { add, school } from "ionicons/icons";
 import { useMemo, useState } from "react";
 import { useAppSelector } from "../../app/store";
 import SkillItem from "./SkillItem";
-import SkillModal from "./SkillModal";
+import UpgradeSkillModal from "./UpgradeSkillModal";
 
 const SkillsPage: React.FC = () => {
   const levels = useAppSelector((state) => state.skills);
-  const [open, setOpen] = useState(false);
+  const [selectedId, setSelectedId] = useState("");
+
+  function handleSkillSelected(id: string) {
+    console.log("[SkillsPage] skill selected", id);
+    setSelectedId(id);
+  }
 
   return (
     <IonPage>
@@ -45,11 +50,11 @@ const SkillsPage: React.FC = () => {
             key={id}
             id={id}
             level={levels[id]}
-            onClick={() => setOpen(true)}
+            onClick={() => handleSkillSelected(id)}
           />
         ))}
 
-        <SkillModal open={open} onClosed={() => setOpen(false)} />
+        <UpgradeSkillModal id={selectedId} onClosed={() => setSelectedId("")} />
       </IonContent>
     </IonPage>
   );
