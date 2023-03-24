@@ -29,7 +29,7 @@ const UpgradeSkillModal: React.FC<Props> = (props) => {
   const [skill, setSkill] = useState<SkillLevel | null>(null);
   const [nextLevel, setNextLevel] = useState<SkillLevel | null>(null);
   const dispatch = useAppDispatch();
-  const canLevelUp = skill && skill.canLevelUp && skill.cost < money;
+  const canLevelUp = skill && skill.canLevelUp && skill.cost <= money;
 
   // load skill
   useEffect(() => {
@@ -93,10 +93,28 @@ const UpgradeSkillModal: React.FC<Props> = (props) => {
       </IonHeader>
       {skill && (
         <IonContent>
-          <SkillItem id={props.id} level={skill.level} />
+          <IonItem lines="none">
+            <IonLabel>Current Level</IonLabel>
+            <IonLabel slot="end">Level {skill.level}</IonLabel>
+          </IonItem>
+          <IonItem>
+            <IonLabel style={{ whiteSpace: "pre-wrap" }}>
+              <p>{skill.description}</p>
+            </IonLabel>
+          </IonItem>
           {skill.canLevelUp && nextLevel && (
             <>
-              <SkillItem id={props.id} level={nextLevel.level} />
+              <IonItem lines="none">
+                <IonLabel>Next Level</IonLabel>
+                <IonLabel slot="end">Level {nextLevel.level}</IonLabel>
+              </IonItem>
+              {skill.description !== nextLevel.description && (
+                <IonItem>
+                  <IonLabel style={{ whiteSpace: "pre-wrap" }}>
+                    <p>{nextLevel.description}</p>
+                  </IonLabel>
+                </IonItem>
+              )}
               <IonItem>
                 <IonLabel>Upgrade cost</IonLabel>
                 <IonLabel slot="end" color="warning">

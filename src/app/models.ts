@@ -2,6 +2,8 @@ export interface Skill {
   id: string;
   name: string;
   maxLevel: number;
+  tags: string;
+  active: boolean;
   /**
    * description for a certain level threshold
    * `{3: 'good', 6: 'very good'}` means 'good' is the description for level 1, 2, 3
