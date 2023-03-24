@@ -38,6 +38,7 @@ export interface Job {
 export interface Investment {
   id: string;
   name: string;
+  type: 'stock' | 'fund' | 'estate';
   description: string;
   minAmount: number;
   bounds: [min: number, max: number];

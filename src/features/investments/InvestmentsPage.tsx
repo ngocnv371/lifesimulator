@@ -17,10 +17,16 @@ import {
 } from "@ionic/react";
 import { add, school } from "ionicons/icons";
 import { useState } from "react";
+import { useAppSelector } from "../../app/store";
+import InvestmentItem from "./InvestmentItem";
 import InvestmentModal from "./InvestmentModal";
 
 const InvestmentsPage: React.FC = () => {
+  const investments = useAppSelector((state) => state.investments);
   const [open, setOpen] = useState(false);
+  const [selectedId, setSelectedId] = useState("");
+  const keys = Object.keys(investments);
+
   return (
     <IonPage>
       <IonHeader>
@@ -37,24 +43,15 @@ const InvestmentsPage: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonItem onClick={() => setOpen(true)}>
-          <IonLabel>
-            <span>Big Company 1 Stock</span>
-            <p>Making big stuff to sells</p>
-          </IonLabel>
-          <IonLabel slot="end" color="warning">
-            $300
-          </IonLabel>
-        </IonItem>
-        <IonItem onClick={() => setOpen(true)}>
-          <IonLabel>
-            <span>Savings</span>
-            <p>Put this away for a rainy day</p>
-          </IonLabel>
-          <IonLabel slot="end" color="warning">
-            $234
-          </IonLabel>
-        </IonItem>
+        {keys.map((k) => (
+          <InvestmentItem id={k} key={k} onClick={() => setSelectedId(k)} />
+        ))}
+        {!keys.length && (
+          <IonItem>
+            <IonLabel>You haven't invested in anything yet</IonLabel>
+          </IonItem>
+        )}
+
         <InvestmentModal open={open} onClosed={() => setOpen(false)} />
       </IonContent>
       <IonFooter>
