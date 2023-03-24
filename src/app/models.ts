@@ -34,3 +34,11 @@ export interface Job {
   salary: number;
   shiftLength: number;
 }
+
+export interface Investment {
+  id: string;
+  name: string;
+  description: string;
+  minAmount: number;
+  bounds: [min: number, max: number];
+}
