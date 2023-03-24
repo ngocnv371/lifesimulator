@@ -2,16 +2,16 @@
 
 # Game mechanics:
 
-- The game will be a text-based RPG game.
-- The player will start with minimal resources and skills.
-- The player will have to work their way up from there by unlocking skills, applying to jobs, and accumulating money.
-- The player can invest their money into stocks, real estates, and index funds.
-- The winning conditions will be either reaching a certain wealth milestone or achieving some goals.
+- The player can unlock skills by spending money or by completing certain tasks.
+- The player can apply to different types of jobs, each with different requirements and rewards.
+- The player can invest their money into different types of investments, each with different risks and rewards.
+- The player can interact with other characters in the game, each with different personalities and backgrounds.
+- The player can participate in different events, each with different challenges and rewards.
 
 # Game design:
 
-- The target audience is teenagers and young adults.
-- The purpose of the game is to help them with personal development and navigating life.
-- The game will have a simple and intuitive user interface.
-- The game will have a tutorial to help the player understand the game mechanics.
-- The game will have a leaderboard to show the player’s progress and achievements.
+- The game should have a storyline that is engaging and relevant to the target audience.
+- The game should have a simple and intuitive user interface.
+- The game should have a tutorial to help the player understand the game mechanics.
+- The game should have a leaderboard to show the player’s progress and achievements.
+- The game should have a feedback system to allow the player to provide feedback and suggestions.
