@@ -14,6 +14,10 @@ const SkillItem: React.FC<Props> = (props) => {
 
   // load skill
   useEffect(() => {
+    if (!props.id || !props.level) {
+      return;
+    }
+
     const found = getSkillByLevel(props.id, props.level);
     if (!found) {
       return;
@@ -27,13 +31,21 @@ const SkillItem: React.FC<Props> = (props) => {
   }
 
   return (
-    <IonItem itemID={skill.id} onClick={() => props.onClick && props.onClick()}>
-      <IonLabel>
-        <span>{skill.name}</span>
-        <p>{skill.description}</p>
-      </IonLabel>
-      {props.level && <IonLabel slot="end">Level {props.level}</IonLabel>}
-    </IonItem>
+    <>
+      <IonItem
+        itemID={skill.id}
+        onClick={() => props.onClick && props.onClick()}
+        lines="none"
+      >
+        <IonLabel>{skill.name}</IonLabel>
+        {props.level && <IonLabel slot="end">Level {props.level}</IonLabel>}
+      </IonItem>
+      <IonItem onClick={() => props.onClick && props.onClick()}>
+        <IonLabel style={{ whiteSpace: "pre-wrap" }}>
+          <p>{skill.description}</p>
+        </IonLabel>
+      </IonItem>
+    </>
   );
 };
 

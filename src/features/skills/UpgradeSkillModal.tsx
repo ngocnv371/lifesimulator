@@ -14,6 +14,7 @@ import { useEffect, useRef, useState } from "react";
 import { SkillLevel } from "../../app/models";
 import { useAppDispatch, useAppSelector } from "../../app/store";
 import { getSkillByLevel } from "../../data/skills";
+import SkillItem from "./SkillItem";
 import { levelUp } from "./SkillsSlice";
 
 type Props = {
@@ -92,28 +93,10 @@ const UpgradeSkillModal: React.FC<Props> = (props) => {
       </IonHeader>
       {skill && (
         <IonContent>
-          <IonItem>
-            <IonLabel>Current Level</IonLabel>
-            <IonLabel slot="end">
-              Level {skill.level}/{skill.maxLevel}
-            </IonLabel>
-          </IonItem>
-          <IonItem>
-            <IonLabel>
-              <p>{skill.description}</p>
-            </IonLabel>
-          </IonItem>
+          <SkillItem id={props.id} level={skill.level} />
           {skill.canLevelUp && nextLevel && (
             <>
-              <IonItem>
-                <IonLabel>Next Level</IonLabel>
-                <IonLabel slot="end">Level {nextLevel.level}</IonLabel>
-              </IonItem>
-              <IonItem>
-                <IonLabel>
-                  <p>{nextLevel.description}</p>
-                </IonLabel>
-              </IonItem>
+              <SkillItem id={props.id} level={nextLevel.level} />
               <IonItem>
                 <IonLabel>Upgrade cost</IonLabel>
                 <IonLabel slot="end" color="warning">
