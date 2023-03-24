@@ -1,0 +1,602 @@
+[
+  {
+    "name": "Software Developer",
+    "salary": 120730,
+    "listings": 370600,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Nurse Practitioner",
+    "salary": 120680,
+    "listings": 112700,
+    "education": "Master's"
+  },
+  {
+    "name": "Medical and Health Services Manager",
+    "salary": 101340,
+    "listings": 136200,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Physician Assistant",
+    "salary": 121530,
+    "listings": 38400,
+    "education": "Master's"
+  },
+  {
+    "name": "Information Security Analyst",
+    "salary": 102600,
+    "listings": 56500,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Physical Therapist",
+    "salary": 95620,
+    "listings": 40400,
+    "education": "Doctorate"
+  },
+  {
+    "name": "Financial Manager",
+    "salary": 131710,
+    "listings": 123100,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "IT Manager",
+    "salary": 159010,
+    "listings": 82400,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Web Developer",
+    "salary": 77030,
+    "listings": 28900,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Dentist",
+    "salary": 160370,
+    "listings": 7700,
+    "education": "Doctorate"
+  },
+  {
+    "name": "Lawyer",
+    "salary": 127990,
+    "listings": 80200,
+    "education": "Doctorate"
+  },
+  {
+    "name": "Veterinarian",
+    "salary": 100370,
+    "listings": 16800,
+    "education": "Doctorate"
+  },
+  {
+    "name": "Physician",
+    "salary": 208000,
+    "listings": 19400,
+    "education": "Doctorate"
+  },
+  {
+    "name": "Orthodontist",
+    "salary": 208000,
+    "listings": 300,
+    "education": "Doctorate"
+  },
+  {
+    "name": "Market Research Analyst",
+    "salary": 63920,
+    "listings": 150300,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Logistician",
+    "salary": 77030,
+    "listings": 54100,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Registered Nurse",
+    "salary": 77600,
+    "listings": 195400,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Management Analyst",
+    "salary": 93000,
+    "listings": 108400,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Occupational Therapy Assistant",
+    "salary": 61730,
+    "listings": 11000,
+    "education": "Associate's"
+  },
+  {
+    "name": "Computer Systems Analyst",
+    "salary": 99270,
+    "listings": 50900,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Financial Advisor",
+    "salary": 94170,
+    "listings": 50900,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Data Scientist",
+    "salary": 100910,
+    "listings": 40500,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Financial Analyst",
+    "salary": 81730,
+    "listings": 77200,
+    "education": ""
+  },
+  {
+    "name": "Oral and Maxillofacial Surgeon",
+    "salary": 208000,
+    "listings": 300,
+    "education": "Doctorate"
+  },
+  {
+    "name": "Nurse Anesthetist",
+    "salary": 195610,
+    "listings": 5300,
+    "education": "Master's"
+  },
+  {
+    "name": "Epidemiologist/Medical Scientist",
+    "salary": 78830,
+    "listings": 2200,
+    "education": "Master's"
+  },
+  {
+    "name": "Actuary",
+    "salary": 105900,
+    "listings": 5900,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Operations Research Analyst",
+    "salary": 82360,
+    "listings": 24200,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Database Administrator",
+    "salary": 96710,
+    "listings": 7400,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Statistician",
+    "salary": 95570,
+    "listings": 11200,
+    "education": "Master's"
+  },
+  {
+    "name": "Speech-Language Pathologist",
+    "salary": 79060,
+    "listings": 34000,
+    "education": "Master's"
+  },
+  {
+    "name": "Psychiatrist",
+    "salary": 208000,
+    "listings": 2400,
+    "education": "Doctorate"
+  },
+  {
+    "name": "Optometrist",
+    "salary": 124300,
+    "listings": 4000,
+    "education": "Doctorate"
+  },
+  {
+    "name": "Pediatrician",
+    "salary": 170480,
+    "listings": 400,
+    "education": "Doctorate"
+  },
+  {
+    "name": "Dental Hygienist",
+    "salary": 77810,
+    "listings": 19000,
+    "education": "Associate's"
+  },
+  {
+    "name": "Respiratory Therapist",
+    "salary": 61830,
+    "listings": 18400,
+    "education": "Associate's"
+  },
+  {
+    "name": "Mental Health Counselor",
+    "salary": 49130,
+    "listings": 13300,
+    "education": "Master's"
+  },
+  {
+    "name": "Physical Therapist Assistant",
+    "salary": 61180,
+    "listings": 25600,
+    "education": "Associate's"
+  },
+  {
+    "name": "Business Operations Manager",
+    "salary": 97970,
+    "listings": 209800,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "School Psychologist",
+    "salary": 78780,
+    "listings": 3200,
+    "education": "Master's"
+  },
+  {
+    "name": "Anesthesiologist",
+    "salary": 208000,
+    "listings": 400,
+    "education": "Doctorate"
+  },
+  {
+    "name": "Obstetrician and Gynecologist",
+    "salary": 208000,
+    "listings": 400,
+    "education": "Doctorate"
+  },
+  {
+    "name": "Biochemist",
+    "salary": 102270,
+    "listings": 5700,
+    "education": "Doctorate"
+  },
+  {
+    "name": "Construction Manager",
+    "salary": 98890,
+    "listings": 36400,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Marketing Manager",
+    "salary": 135030,
+    "listings": 31700,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Chiropractor",
+    "salary": 75000,
+    "listings": 5500,
+    "education": "Doctorate"
+  },
+  {
+    "name": "Pilot",
+    "salary": 134630,
+    "listings": 7700,
+    "education": ""
+  },
+  {
+    "name": "Medical Records Technician",
+    "salary": 46660,
+    "listings": 12300,
+    "education": "Postsecondary non-degree"
+  },
+  {
+    "name": "Psychologist",
+    "salary": 102900,
+    "listings": 1500,
+    "education": "Master's"
+  },
+  {
+    "name": "Biomedical Engineer",
+    "salary": 97410,
+    "listings": 1700,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Petroleum Engineer",
+    "salary": 130850,
+    "listings": 1900,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "High School Teacher",
+    "salary": 61820,
+    "listings": 48700,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Substance Abuse and Behavioral Disorder Counselor",
+    "salary": 48520,
+    "listings": 77500,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Veterinary Technologist and Technician",
+    "salary": 36850,
+    "listings": 24100,
+    "education": "Associate's"
+  },
+  {
+    "name": "Wind Turbine Technician",
+    "salary": 56260,
+    "listings": 4900,
+    "education": "Postsecondary non-degree"
+  },
+  {
+    "name": "Computer Network Architect",
+    "salary": 120520,
+    "listings": 7500,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Public Relations Specialist",
+    "salary": 62800,
+    "listings": 22300,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Elementary School Teacher",
+    "salary": 61400,
+    "listings": 54900,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "School Counselor",
+    "salary": 60510,
+    "listings": 32400,
+    "education": "Master's"
+  },
+  {
+    "name": "Social and Community Service Manager",
+    "salary": 74000,
+    "listings": 20400,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Computer Systems Administrator",
+    "salary": 80600,
+    "listings": 11300,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Community Health Worker",
+    "salary": 46590,
+    "listings": 10600,
+    "education": "High School"
+  },
+  {
+    "name": "Landscaper and Groundskeeper",
+    "salary": 34430,
+    "listings": 56900,
+    "education": "Not required"
+  },
+  {
+    "name": "Diagnostic Medical Sonographer",
+    "salary": 77740,
+    "listings": 12100,
+    "education": "Associate's"
+  },
+  {
+    "name": "Home Health Aide",
+    "salary": 29430,
+    "listings": 924000,
+    "education": "High School"
+  },
+  {
+    "name": "Personal Care Aide",
+    "salary": 29430,
+    "listings": 924000,
+    "education": "High School"
+  },
+  {
+    "name": "Prosthodontist",
+    "salary": 100950,
+    "listings": 0,
+    "education": "Doctorate"
+  },
+  {
+    "name": "Paralegal",
+    "salary": 56230,
+    "listings": 49900,
+    "education": "Associate's"
+  },
+  {
+    "name": "Delivery Truck Driver",
+    "salary": 38280,
+    "listings": 110700,
+    "education": "High School"
+  },
+  {
+    "name": "Orthotist and Prosthetist",
+    "salary": 75440,
+    "listings": 1900,
+    "education": "Master's"
+  },
+  {
+    "name": "Industrial Psychologist",
+    "salary": 105310,
+    "listings": 100,
+    "education": "Master's"
+  },
+  {
+    "name": "Occupational Therapist",
+    "salary": 85570,
+    "listings": 18600,
+    "education": "Master's"
+  },
+  {
+    "name": "Loan Officer",
+    "salary": 63380,
+    "listings": 12600,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "MRI Technologist",
+    "salary": 77360,
+    "listings": 3000,
+    "education": "Associate's"
+  },
+  {
+    "name": "Accountant",
+    "salary": 77250,
+    "listings": 81800,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Dietitian and Nutritionist",
+    "salary": 61650,
+    "listings": 5100,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Medical Assistant",
+    "salary": 37190,
+    "listings": 117800,
+    "education": "Postsecondary non-degree"
+  },
+  {
+    "name": "Cardiovascular Technologist",
+    "salary": 60570,
+    "listings": 2700,
+    "education": "Associate's"
+  },
+  {
+    "name": "Licensed Practical and Licensed Vocational Nurse",
+    "salary": 48070,
+    "listings": 41300,
+    "education": "Postsecondary non-degree"
+  },
+  {
+    "name": "Electrician",
+    "salary": 60040,
+    "listings": 50200,
+    "education": "High School"
+  },
+  {
+    "name": "Massage Therapist",
+    "salary": 46910,
+    "listings": 29900,
+    "education": "Postsecondary non-degree"
+  },
+  {
+    "name": "Hearing Aid Specialist",
+    "salary": 59500,
+    "listings": 1800,
+    "education": "High School"
+  },
+  {
+    "name": "Genetic Counselor",
+    "salary": 80150,
+    "listings": 500,
+    "education": "Master's"
+  },
+  {
+    "name": "Recreation and Fitness Worker",
+    "salary": 30930,
+    "listings": 85800,
+    "education": ""
+  },
+  {
+    "name": "Patrol Officer",
+    "salary": 64610,
+    "listings": 21500,
+    "education": "High School"
+  },
+  {
+    "name": "Clinical Laboratory Technician",
+    "salary": 57800,
+    "listings": 21800,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Restaurant Cook",
+    "salary": 30010,
+    "listings": 459900,
+    "education": "Not required"
+  },
+  {
+    "name": "Solar Photovoltaic Installer",
+    "salary": 47670,
+    "listings": 4600,
+    "education": "High School"
+  },
+  {
+    "name": "Pharmacist",
+    "salary": 128570,
+    "listings": 7700,
+    "education": "Doctorate"
+  },
+  {
+    "name": "Audiologist",
+    "salary": 78950,
+    "listings": 1500,
+    "education": "Doctorate"
+  },
+  {
+    "name": "Middle School Teacher",
+    "salary": 61320,
+    "listings": 25000,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Pharmacy Technician",
+    "salary": 36740,
+    "listings": 22400,
+    "education": "High School"
+  },
+  {
+    "name": "Credit Counselor",
+    "salary": 47580,
+    "listings": 3300,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Technical Writer",
+    "salary": 78060,
+    "listings": 3100,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Firefighter",
+    "salary": 50700,
+    "listings": 13900,
+    "education": "Postsecondary non-degree"
+  },
+  {
+    "name": "Nail Technician",
+    "salary": 29210,
+    "listings": 36600,
+    "education": "Postsecondary non-degree"
+  },
+  {
+    "name": "Sales Manager",
+    "salary": 127490,
+    "listings": 23800,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Environmental Engineer",
+    "salary": 96820,
+    "listings": 1800,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "HR Specialist",
+    "salary": 61570,
+    "listings": 28900,
+    "education": "Bachelor's"
+  },
+  {
+    "name": "Political Scientist",
+    "salary": 122510,
+    "listings": 400,
+    "education": "Master's"
+  }
+]
