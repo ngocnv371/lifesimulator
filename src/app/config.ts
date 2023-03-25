@@ -66,6 +66,8 @@ const areaDarkOptions: DeepPartial<AreaStyleOptions & SeriesOptionsCommon> = {
 export default {
   investment: {
     agencyCutPercentage: .4,
+    estateAgencyCutPercentage: 6,
+    salesTaxPercentage: 16,
     simulatedHistoryLength: 365,
     numberOfInvestments: 50,
     chart: {

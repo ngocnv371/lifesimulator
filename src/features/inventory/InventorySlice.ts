@@ -26,14 +26,21 @@ const slice = createSlice({
   },
   extraReducers(builder) {
     builder.addCase(invest, (state, action) => {
-      state.money -= action.payload.amount;
       const fee = Math.ceil(
         (action.payload.amount * config.investment.agencyCutPercentage) / 100
       );
-      state.money -= fee;
+      const real = action.payload.amount + fee;
+      state.money -= real;
     });
     builder.addCase(withdraw, (state, action) => {
-      state.money += action.payload.amount;
+      const fee = Math.ceil(
+        (action.payload.amount * config.investment.agencyCutPercentage) / 100
+      );
+      const tax = Math.ceil(
+        (action.payload.amount * config.investment.salesTaxPercentage) / 100
+      );
+      const real = action.payload.amount - tax - fee;
+      state.money += real;
     });
   },
 });

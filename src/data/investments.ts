@@ -24,7 +24,28 @@ function generateProfitHistory(
   return records.reverse();
 }
 
+function generateEstate(): Investment {
+  const inv: Investment = {
+    id: nanoid(),
+    type: "estate",
+    name: faker.address.streetAddress(),
+    minAmount: faker.datatype.number({ min: 100, max: 99999 }),
+    invested: 0,
+    profit: {
+      min: faker.datatype.number({ min: -20, max: 0 }),
+      max: faker.datatype.number({ min: 0, max: 20 }),
+    },
+    description: faker.fake("{{address.cityPrefix}} {{address.city}} {{address.citySuffix}}, {{address.county}}"),
+    history: [],
+  };
+  inv.history = generateProfitHistory(inv.profit, inv.minAmount);
+  return inv;
+}
+
 export function generateInvestment(): Investment {
+  if (Math.random() < .3) {
+    return generateEstate();
+  }
   const inv: Investment = {
     id: nanoid(),
     type: faker.random.arrayElement(["stock", "fund"]),

@@ -63,7 +63,7 @@ const BrowseInvestmentsPage: React.FC = () => {
         {filtered.map((i) => (
           <PotentialInvestmentItem
             id={i.id}
-            key={i.name}
+            key={i.id}
             routerLink={`/investments/${i.id}`}
           />
         ))}

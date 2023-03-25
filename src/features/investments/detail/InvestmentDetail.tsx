@@ -5,7 +5,9 @@ import { formatCurrency } from "../../../app/utils";
 import LongTextItem from "../../../components/LongTextItem";
 import { selectInvestmentById } from "../InvestmentsSlice";
 import ProfitChart from "../ProfitChart";
+import BuyButton from "./BuyButton";
 import InvestButton from "./InvestButton";
+import SellButton from "./SellButton";
 import WithdrawButton from "./WithdrawButton";
 
 type Props = {
@@ -45,8 +47,18 @@ const InvestmentDetail: React.FC<Props> = (props) => {
         </IonLabel>
       </IonItem>
       <ProfitChart id={item.id} />
-      <InvestButton id={item.id} />
-      <WithdrawButton id={item.id} />
+      {item.type !== "estate" && (
+        <>
+          <InvestButton id={item.id} />
+          <WithdrawButton id={item.id} />
+        </>
+      )}
+      {item.type === "estate" && (
+        <>
+          {!item.invested && <BuyButton id={item.id} />}
+          {item.invested && <SellButton id={item.id} />}
+        </>
+      )}
     </>
   );
 };
