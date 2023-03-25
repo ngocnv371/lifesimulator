@@ -5,11 +5,30 @@ import { Investment } from "../app/models";
 import { addDays, intlFormat } from "date-fns";
 import { fluctuate } from "../app/utils";
 
+function generateProfitHistory(
+  profit: { min: number; max: number },
+  amount: number
+) {
+  const records = [];
+  let time = new Date();
+  let value = amount;
+  const { min, max } = profit;
+  for (let i = 0; i < config.investment.simulatedHistoryLength; i++) {
+    time = addDays(time, -1);
+    value = value + Math.floor((value * fluctuate(min, max)) / 100);
+    records.push({
+      time: +time,
+      value,
+    });
+  }
+  return records.reverse();
+}
+
 export function generateInvestment(): Investment {
   const inv: Investment = {
     id: nanoid(),
-    type: "stock",
-    name: faker.fake("{{company.companyName}} {{company.companySuffix}} Stock"),
+    type: faker.random.arrayElement(["stock", "fund"]),
+    name: faker.fake("{{company.companyName}} {{company.companySuffix}}"),
     minAmount: faker.datatype.number({ min: 100, max: 99999 }),
     invested: 0,
     profit: {
@@ -19,19 +38,11 @@ export function generateInvestment(): Investment {
     description: faker.random.words(20),
     history: [],
   };
-  // generate history 365 days
-  const records = [];
-  let time = new Date();
-  let value = inv.minAmount;
-  const { min, max } = inv.profit;
-  for (let i = 0; i < config.investment.simulatedHistoryLength; i++) {
-    time = addDays(time, -1);
-    value = value + Math.floor((value * fluctuate(min, max)) / 100);
-    records.push({
-      time: +time,
-      value,
-    });
+  if (inv.type === "fund") {
+    inv.name += " Fund";
+  } else {
+    inv.name += " Stock";
   }
-  inv.history = records.reverse();
+  inv.history = generateProfitHistory(inv.profit, inv.minAmount);
   return inv;
 }
