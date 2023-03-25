@@ -3,30 +3,38 @@ import {
   IonButtons,
   IonContent,
   IonHeader,
+  IonInput,
   IonItem,
   IonLabel,
   IonModal,
+  IonText,
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
+import { useAppSelector } from "../../app/store";
+import { formatCurrency } from "../../app/utils";
+import useInvestment from "./useInvestment";
 
 type Props = {
-  open?: Boolean;
+  id?: string;
   onClosed?: Function;
 };
 
 const InvestmentModal: React.FC<Props> = (props) => {
+  const item = useInvestment(props.id || "");
+  const amount = useAppSelector((state) => state.investments[props.id || ""]);
   const modal = useRef<HTMLIonModalElement>(null);
+  const [deposit, setDeposit] = useState(item?.minAmount);
 
   // handle open/close
   useEffect(() => {
-    if (props.open) {
+    if (props.id) {
       modal.current?.present();
     } else {
       modal.current?.dismiss();
     }
-  }, [props.open]);
+  }, [props.id]);
 
   return (
     <IonModal
@@ -38,45 +46,52 @@ const InvestmentModal: React.FC<Props> = (props) => {
       <IonHeader>
         <IonToolbar>
           <IonTitle>Big Company 1 Stock</IonTitle>
-          <IonButtons slot="end">
-            <IonButton onClick={() => modal.current?.dismiss()} color="warning">
-              Invest
-            </IonButton>
-          </IonButtons>
         </IonToolbar>
       </IonHeader>
-      <IonContent>
-        <IonItem>
-          <IonLabel>Current Level</IonLabel>
-          <IonLabel slot="end">Level 1</IonLabel>
-        </IonItem>
-        <IonItem>
-          <IonLabel>
-            <p>$5000 deposits</p>
-          </IonLabel>
-          <IonLabel slot="end" color="warning">
-            $234
-          </IonLabel>
-        </IonItem>
-        <IonItem>
-          <IonLabel>Next Level</IonLabel>
-          <IonLabel slot="end">Level 2</IonLabel>
-        </IonItem>
-        <IonItem>
-          <IonLabel>
-            <p>$8000 deposits</p>
-          </IonLabel>
-          <IonLabel slot="end" color="warning">
-            $234
-          </IonLabel>
-        </IonItem>
-        <IonItem>
-          <IonLabel>Invest cost</IonLabel>
-          <IonLabel slot="end" color="warning">
-            $1000
-          </IonLabel>
-        </IonItem>
-      </IonContent>
+      {item && (
+        <IonContent>
+          <IonItem>
+            <IonLabel>{item.name}</IonLabel>
+          </IonItem>
+          <IonItem>
+            <IonLabel>Minimum Amount</IonLabel>
+            <IonLabel slot="end" color="warning">
+              {formatCurrency(item.minAmount)}
+            </IonLabel>
+          </IonItem>
+          {amount && (
+            <IonItem>
+              <IonLabel>Invested</IonLabel>
+              <IonLabel slot="end">{formatCurrency(amount)}</IonLabel>
+            </IonItem>
+          )}
+          {!amount && (
+            <IonItem>
+              <IonText color="warning">
+                You haven't invested in this business yet
+              </IonText>
+            </IonItem>
+          )}
+          <IonItem>
+            <IonLabel>Deposit</IonLabel>
+            <IonInput
+              type="number"
+              placeholder="Enter your deposit"
+              value={deposit}
+              onIonChange={(e) => setDeposit(+(e.detail.value || 0))}
+            />
+          </IonItem>
+          <IonItem>
+            <IonButton
+              className="ion-margin"
+              onClick={() => modal.current?.dismiss()}
+              color="warning"
+            >
+              Invest
+            </IonButton>
+          </IonItem>
+        </IonContent>
+      )}
     </IonModal>
   );
 };

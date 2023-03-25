@@ -19,12 +19,16 @@ import {
 } from "@ionic/react";
 import { add, school } from "ionicons/icons";
 import { useMemo, useState } from "react";
-import investments from "../../data/investments";
+import investments from "../../../data/investments";
 import PotentialInvestmentItem from "./PotentialInvestmentItem";
-import InvestmentModal from "./InvestmentModal";
+import InvestmentModal from "../InvestmentModal";
+import { formatCurrency } from "../../../app/utils";
+import { useAppSelector } from "../../../app/store";
+import CurrentMoneyItem from "../../inventory/CurrentMoneyItem";
 
 const BrowseInvestmentsPage: React.FC = () => {
-  const [open, setOpen] = useState(false);
+  const money = useAppSelector((state) => state.inventory.money);
+  const [selectedId, setSelectedId] = useState("");
   const [type, setType] = useState("stock");
 
   const filtered = useMemo(() => {
@@ -61,22 +65,14 @@ const BrowseInvestmentsPage: React.FC = () => {
           <PotentialInvestmentItem
             id={i.id}
             key={i.name}
-            onClick={() => setOpen(true)}
+            routerLink={`/investments/${i.id}`}
           />
         ))}
 
-        <InvestmentModal open={open} onClosed={() => setOpen(false)} />
+        <InvestmentModal id={selectedId} onClosed={() => setSelectedId("")} />
       </IonContent>
       <IonFooter>
-        <IonItem>
-          <IonLabel>
-            <span>Your Capital</span>
-            <p>From liquid assets</p>
-          </IonLabel>
-          <IonLabel slot="end" color="warning">
-            $566
-          </IonLabel>
-        </IonItem>
+        <CurrentMoneyItem />
       </IonFooter>
     </IonPage>
   );

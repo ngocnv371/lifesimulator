@@ -12,6 +12,7 @@ import {
 } from "@ionic/react";
 import { useState } from "react";
 import { useAppSelector } from "../../app/store";
+import { formatCurrency } from "../../app/utils";
 import ApplyJobModal from "./ApplyJobModal";
 import { selectAvailableJobs } from "./JobSlice";
 
@@ -43,7 +44,7 @@ const BrowseJobsPage: React.FC = () => {
               <span>{j.name}</span>
               <p>{j.shiftLength} hours</p>
             </IonLabel>
-            <IonLabel slot="end">${j.salary}</IonLabel>
+            <IonLabel slot="end">{formatCurrency(j.salary)}</IonLabel>
           </IonItem>
         ))}
         {!jobs.length && (

@@ -34,7 +34,8 @@ import BrowseSkillsPage from "./features/skills/BrowseSkillsPage";
 import BrowseJobsPage from "./features/jobs/BrowseJobsPage";
 import JobPage from "./features/jobs/JobPage";
 import InvestmentsPage from "./features/investments/InvestmentsPage";
-import BrowseInvestmentsPage from "./features/investments/BrowseInvestmentsPage";
+import BrowseInvestmentsPage from "./features/investments/browse/BrowseInvestmentsPage";
+import InvestmentDetailPage from "./features/investments/detail/InvestmentDetailPage";
 
 setupIonicReact();
 
@@ -66,8 +67,11 @@ const App: React.FC = () => {
             <Route path="/job" exact={true}>
               <JobPage />
             </Route>
-            <Route path="/investments/browse" exact={true}>
+            <Route path="/investments/browse/all" exact={true}>
               <BrowseInvestmentsPage />
+            </Route>
+            <Route path="/investments/:id" exact={true}>
+              <InvestmentDetailPage />
             </Route>
             <Route path="/investments" exact={true}>
               <InvestmentsPage />

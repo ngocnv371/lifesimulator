@@ -2,6 +2,7 @@ import { IonItem, IonLabel, useIonAlert } from "@ionic/react";
 import { useEffect, useState } from "react";
 import { SkillLevel } from "../../app/models";
 import { useAppDispatch, useAppSelector } from "../../app/store";
+import { formatCurrency } from "../../app/utils";
 import { getSkillByLevel } from "../../data/skills";
 import { levelUp } from "./SkillsSlice";
 
@@ -32,8 +33,9 @@ const UnlockSkillItem: React.FC<Props> = (props) => {
       return;
     }
 
+    const cost = formatCurrency(skill.cost);
     present({
-      message: `Do you really want to unlock ${skill.name} for $${skill.cost}?`,
+      message: `Do you really want to unlock ${skill.name} for ${cost}?`,
       buttons: [
         { text: "Cancel", role: "cancel" },
         {
@@ -62,7 +64,7 @@ const UnlockSkillItem: React.FC<Props> = (props) => {
         <p>{skill.description}</p>
       </IonLabel>
       <IonLabel slot="end" color="warning">
-        ${skill.cost}
+        {formatCurrency(skill.cost)}
       </IonLabel>
     </IonItem>
   );

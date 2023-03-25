@@ -1,9 +1,8 @@
-import { IonItem, IonLabel, IonText } from "@ionic/react";
+import { IonItem, IonLabel } from "@ionic/react";
 import { useEffect, useState } from "react";
-import { useAppSelector } from "../../app/store";
-import { formatCurrency } from "../../app/utils";
-import LongTextItem from "../../components/LongTextItem";
-import useInvestment from "./useInvestment";
+import { formatCurrency } from "../../../app/utils";
+import LongTextItem from "../../../components/LongTextItem";
+import useInvestment from "../useInvestment";
 
 type Props = {
   id: string;
@@ -11,8 +10,7 @@ type Props = {
   [key: string]: any;
 };
 
-const InvestmentItem: React.FC<Props> = (props) => {
-  const amount = useAppSelector((state) => state.investments[props.id]);
+const PotentialInvestmentItem: React.FC<Props> = (props) => {
   const item = useInvestment(props.id);
 
   if (!item) {
@@ -26,7 +24,7 @@ const InvestmentItem: React.FC<Props> = (props) => {
           <span>{item.name}</span>
         </IonLabel>
         <IonLabel slot="end" color="warning">
-          {formatCurrency(amount)}
+          {formatCurrency(item.minAmount)}
         </IonLabel>
       </IonItem>
       <LongTextItem {...props}>
@@ -36,4 +34,4 @@ const InvestmentItem: React.FC<Props> = (props) => {
   );
 };
 
-export default InvestmentItem;
+export default PotentialInvestmentItem;

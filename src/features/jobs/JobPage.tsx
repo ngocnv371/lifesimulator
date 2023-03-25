@@ -16,6 +16,7 @@ import {
 } from "@ionic/react";
 import { cash, search, time } from "ionicons/icons";
 import { useAppDispatch, useAppSelector } from "../../app/store";
+import { formatCurrency } from "../../app/utils";
 import { quit, selectJob } from "./JobSlice";
 import UnemployedItem from "./UnemployedItem";
 import useStackedToast from "./useStackedToast";
@@ -92,7 +93,7 @@ const JobPage: React.FC = () => {
             <IonItem>
               <IonLabel>Pay</IonLabel>
               <IonLabel slot="end" color="warning">
-                ${job.salary}
+                {formatCurrency(job.salary)}
               </IonLabel>
             </IonItem>
             <IonButton

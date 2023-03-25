@@ -86,3 +86,12 @@ export function getThresholdValue<T>(bag: Record<number, T>, value: number) {
   }
   return bag[sortedKeys[index]];
 }
+
+export function formatCurrency(value: number) {
+  // Format the amount as currency
+  const formattedAmount = new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: "USD",
+  }).format(value);
+  return formattedAmount;
+}

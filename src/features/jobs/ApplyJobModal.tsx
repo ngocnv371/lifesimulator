@@ -15,6 +15,7 @@ import {
 import { time } from "ionicons/icons";
 import { useEffect, useRef } from "react";
 import { useAppDispatch } from "../../app/store";
+import { formatCurrency } from "../../app/utils";
 import { getJobById } from "../../data/jobs";
 import { apply } from "./JobSlice";
 
@@ -88,7 +89,7 @@ const ApplyJobModal: React.FC<Props> = (props) => {
           <IonItem>
             <IonLabel>Pay</IonLabel>
             <IonLabel slot="end" color="warning">
-              ${job.salary}
+            {formatCurrency(job.salary)}
             </IonLabel>
           </IonItem>
         </IonContent>

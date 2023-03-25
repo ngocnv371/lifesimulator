@@ -13,6 +13,7 @@ import {
 import { useEffect, useRef, useState } from "react";
 import { SkillLevel } from "../../app/models";
 import { useAppDispatch, useAppSelector } from "../../app/store";
+import { formatCurrency } from "../../app/utils";
 import { getSkillByLevel } from "../../data/skills";
 import SkillItem from "./SkillItem";
 import { levelUp } from "./SkillsSlice";
@@ -118,7 +119,7 @@ const UpgradeSkillModal: React.FC<Props> = (props) => {
               <IonItem>
                 <IonLabel>Upgrade cost</IonLabel>
                 <IonLabel slot="end" color="warning">
-                  ${skill.cost}
+                  {formatCurrency(skill.cost)}
                 </IonLabel>
               </IonItem>
             </>
