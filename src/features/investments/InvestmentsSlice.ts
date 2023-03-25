@@ -1,4 +1,5 @@
 import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { addDays } from "date-fns";
 import config from "../../app/config";
 import { Investment } from "../../app/models";
 import { fluctuate } from "../../app/utils";
@@ -26,6 +27,7 @@ const slice = createSlice({
           return;
         }
 
+        // update networth
         investment.minAmount += Math.floor(
           (percentage * investment.minAmount) / 100
         );
@@ -34,6 +36,13 @@ const slice = createSlice({
             (percentage * investment.invested) / 100
           );
         }
+
+        // update history
+        const lastHistory = investment.history[investment.history.length - 1];
+        investment.history.push({
+          time: +addDays(lastHistory.time, 1),
+          value: investment.minAmount,
+        });
       }
     },
     invest(state, action: PayloadAction<{ id: string; amount: number }>) {

@@ -8,12 +8,35 @@ import {
   IonMenu,
   IonMenuToggle,
   IonNote,
-} from '@ionic/react';
+} from "@ionic/react";
 
-import { useLocation } from 'react-router-dom';
-import { archiveOutline, archiveSharp, bag, bagSharp, bookmarkOutline, cashOutline, cashSharp, hammerOutline, hammerSharp, heartOutline, heartSharp, mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, peopleCircleOutline, peopleCircleSharp, trashOutline, trashSharp, warningOutline, warningSharp } from 'ionicons/icons';
-import './Menu.css';
-import Cheats from '../features/cheat/Cheats';
+import { useLocation } from "react-router-dom";
+import {
+  archiveOutline,
+  archiveSharp,
+  bag,
+  bagSharp,
+  bookmarkOutline,
+  cashOutline,
+  cashSharp,
+  hammerOutline,
+  hammerSharp,
+  heartOutline,
+  heartSharp,
+  mailOutline,
+  mailSharp,
+  paperPlaneOutline,
+  paperPlaneSharp,
+  peopleCircleOutline,
+  peopleCircleSharp,
+  trashOutline,
+  trashSharp,
+  warningOutline,
+  warningSharp,
+} from "ionicons/icons";
+import "./Menu.css";
+import Cheats from "../features/cheat/Cheats";
+import NextDayItem from "./NextDayItem";
 
 interface AppPage {
   url: string;
@@ -24,32 +47,32 @@ interface AppPage {
 
 const appPages: AppPage[] = [
   {
-    title: 'Character Creation',
-    url: '/character-creation',
+    title: "Character Creation",
+    url: "/character-creation",
     iosIcon: peopleCircleOutline,
-    mdIcon: peopleCircleSharp
+    mdIcon: peopleCircleSharp,
   },
   {
-    title: 'Skills',
-    url: '/skills',
+    title: "Skills",
+    url: "/skills",
     iosIcon: hammerOutline,
-    mdIcon: hammerSharp
+    mdIcon: hammerSharp,
   },
   {
-    title: 'Job',
-    url: '/job',
+    title: "Job",
+    url: "/job",
     iosIcon: bag,
-    mdIcon: bagSharp
+    mdIcon: bagSharp,
   },
   {
-    title: 'Investments',
-    url: '/investments',
+    title: "Investments",
+    url: "/investments",
     iosIcon: cashOutline,
-    mdIcon: cashSharp
+    mdIcon: cashSharp,
   },
 ];
 
-const labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
+const labels = ["Family", "Friends", "Notes", "Work", "Travel", "Reminders"];
 
 const Menu: React.FC = () => {
   const location = useLocation();
@@ -63,8 +86,21 @@ const Menu: React.FC = () => {
           {appPages.map((appPage, index) => {
             return (
               <IonMenuToggle key={index} autoHide={false}>
-                <IonItem className={location.pathname === appPage.url ? 'selected' : ''} routerLink={appPage.url} routerDirection="none" lines="none" detail={false}>
-                  <IonIcon aria-hidden="true" slot="start" ios={appPage.iosIcon} md={appPage.mdIcon} />
+                <IonItem
+                  className={
+                    location.pathname === appPage.url ? "selected" : ""
+                  }
+                  routerLink={appPage.url}
+                  routerDirection="none"
+                  lines="none"
+                  detail={false}
+                >
+                  <IonIcon
+                    aria-hidden="true"
+                    slot="start"
+                    ios={appPage.iosIcon}
+                    md={appPage.mdIcon}
+                  />
                   <IonLabel>{appPage.title}</IonLabel>
                 </IonItem>
               </IonMenuToggle>
@@ -72,6 +108,10 @@ const Menu: React.FC = () => {
           })}
         </IonList>
 
+        <IonMenuToggle autoHide={false}>
+          <NextDayItem />
+        </IonMenuToggle>
+        
         <Cheats />
 
         <IonList id="labels-list">
