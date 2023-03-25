@@ -56,7 +56,7 @@ const InvestmentDetail: React.FC<Props> = (props) => {
       {item.type === "estate" && (
         <>
           {!item.invested && <BuyButton id={item.id} />}
-          {item.invested && <SellButton id={item.id} />}
+          {Boolean(item.invested) && <SellButton id={item.id} />}
         </>
       )}
     </>

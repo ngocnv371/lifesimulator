@@ -38,7 +38,7 @@ const SkillItem: React.FC<Props> = (props) => {
         lines="none"
       >
         <IonLabel>{skill.name}</IonLabel>
-        {props.level && <IonLabel slot="end">Level {props.level}</IonLabel>}
+        {Boolean(props.level) && <IonLabel slot="end">Level {props.level}</IonLabel>}
       </IonItem>
       <IonItem onClick={() => props.onClick && props.onClick()}>
         <IonLabel style={{ whiteSpace: "pre-wrap" }}>

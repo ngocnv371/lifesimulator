@@ -27,7 +27,7 @@ type Props = {
 
 const ApplyJobModal: React.FC<Props> = (props) => {
   const dispatch = useAppDispatch();
-  const job = (props.id && getJobById(props.id)) || null;
+  const job = props.id ? getJobById(props.id) : null;
   const modal = useRef<HTMLIonModalElement>(null);
 
   // handle open/close
