@@ -21,11 +21,9 @@ import { useAppSelector } from "../../app/store";
 import { formatCurrency } from "../../app/utils";
 import CurrentMoneyItem from "../inventory/CurrentMoneyItem";
 import InvestmentItem from "./InvestmentItem";
-import InvestmentModal from "./InvestmentModal";
 
 const InvestmentsPage: React.FC = () => {
   const investments = useAppSelector((state) => state.investments);
-  const [selectedId, setSelectedId] = useState("");
   const keys = Object.keys(investments);
 
   return (

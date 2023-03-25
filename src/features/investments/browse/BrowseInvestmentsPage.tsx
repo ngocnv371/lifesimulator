@@ -21,18 +21,17 @@ import { add, school } from "ionicons/icons";
 import { useMemo, useState } from "react";
 import investments from "../../../data/investments";
 import PotentialInvestmentItem from "./PotentialInvestmentItem";
-import InvestmentModal from "../InvestmentModal";
 import { formatCurrency } from "../../../app/utils";
 import { useAppSelector } from "../../../app/store";
 import CurrentMoneyItem from "../../inventory/CurrentMoneyItem";
 
 const BrowseInvestmentsPage: React.FC = () => {
-  const money = useAppSelector((state) => state.inventory.money);
-  const [selectedId, setSelectedId] = useState("");
   const [type, setType] = useState("stock");
 
   const filtered = useMemo(() => {
-    return investments.filter((i) => i.type === type);
+    return investments
+      .filter((i) => i.type === type)
+      .sort((a, b) => a.minAmount - b.minAmount);
   }, [type]);
 
   return (
@@ -68,8 +67,11 @@ const BrowseInvestmentsPage: React.FC = () => {
             routerLink={`/investments/${i.id}`}
           />
         ))}
-
-        <InvestmentModal id={selectedId} onClosed={() => setSelectedId("")} />
+        {!filtered.length && (
+          <IonItem>
+            <IonLabel>No data</IonLabel>
+          </IonItem>
+        )}
       </IonContent>
       <IonFooter>
         <CurrentMoneyItem />
