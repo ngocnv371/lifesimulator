@@ -52,12 +52,16 @@ const slice = createSlice({
         return;
       }
 
+      const fee = Math.ceil(
+        (action.payload.amount * config.investment.agencyCutPercentage) / 100
+      );
+
       const prevAmount = investment.invested;
       if (prevAmount < amount) {
         return;
       }
 
-      const remaining = prevAmount - amount;
+      const remaining = prevAmount - amount - fee;
       if (remaining < investment.minAmount) {
         return;
       }

@@ -6,6 +6,7 @@ import LongTextItem from "../../../components/LongTextItem";
 import { selectInvestmentById } from "../InvestmentsSlice";
 import ProfitChart from "../ProfitChart";
 import InvestButton from "./InvestButton";
+import WithdrawButton from "./WithdrawButton";
 
 type Props = {
   id: string;
@@ -45,6 +46,7 @@ const InvestmentDetail: React.FC<Props> = (props) => {
       </IonItem>
       <ProfitChart id={item.id} />
       <InvestButton id={item.id} />
+      <WithdrawButton id={item.id} />
     </>
   );
 };

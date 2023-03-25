@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import config from "../../app/config";
-import { invest } from "../investments/InvestmentsSlice";
+import { invest, withdraw } from "../investments/InvestmentsSlice";
 
 type State = {
   money: number;
@@ -31,6 +31,9 @@ const slice = createSlice({
         (action.payload.amount * config.investment.agencyCutPercentage) / 100
       );
       state.money -= fee;
+    });
+    builder.addCase(withdraw, (state, action) => {
+      state.money += action.payload.amount;
     });
   },
 });
