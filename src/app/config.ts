@@ -53,12 +53,14 @@ const areaLightOptions: DeepPartial<AreaStyleOptions & SeriesOptionsCommon> = {
   topColor: "rgba(33, 150, 243, 0.56)",
   bottomColor: "rgba(33, 150, 243, 0.04)",
   lineColor: "rgba(33, 150, 243, 1)",
+  priceFormat: { type: "volume" },
 };
 
 const areaDarkOptions: DeepPartial<AreaStyleOptions & SeriesOptionsCommon> = {
   topColor: "rgba(32, 226, 47, 0.56)",
   bottomColor: "rgba(32, 226, 47, 0.04)",
   lineColor: "rgba(32, 226, 47, 1)",
+  priceFormat: { type: "volume" },
 };
 
 export default {
