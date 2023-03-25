@@ -19,9 +19,11 @@ export function getJobById(id: string): Job {
 
 export function getJobsBySkills(skills: Record<string, number>): Job[] {
   return jobs.filter((job) => {
-    for (const skillId in skills) {
+    for (const skillId in job.requiredSkills) {
       const requiredLevel = job.requiredSkills[skillId];
-      if (!requiredLevel || requiredLevel < skills[skillId]) {
+      const currentLevel = skills[skillId];
+      console.log('check', {skillId, currentLevel, requiredLevel})
+      if (!currentLevel || requiredLevel > currentLevel) {
         return false;
       }
     }
