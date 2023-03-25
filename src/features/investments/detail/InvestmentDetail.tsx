@@ -4,6 +4,7 @@ import { useAppSelector } from "../../../app/store";
 import { formatCurrency } from "../../../app/utils";
 import LongTextItem from "../../../components/LongTextItem";
 import { selectInvestmentById } from "../InvestmentsSlice";
+import ProfitChart from "../ProfitChart";
 import InvestButton from "./InvestButton";
 
 type Props = {
@@ -42,6 +43,7 @@ const InvestmentDetail: React.FC<Props> = (props) => {
           {formatCurrency(item.minAmount)}
         </IonLabel>
       </IonItem>
+      <ProfitChart id={item.id} />
       <InvestButton id={item.id} />
     </>
   );

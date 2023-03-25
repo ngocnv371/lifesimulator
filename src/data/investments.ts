@@ -24,7 +24,7 @@ export function generateInvestment(): Investment {
   let time = new Date();
   let value = inv.minAmount;
   const { min, max } = inv.profit;
-  for (let i = 0; i < config.investmentSimulatedHistoryLength; i++) {
+  for (let i = 0; i < config.investment.simulatedHistoryLength; i++) {
     time = addDays(time, -1);
     value = value + Math.floor((value * fluctuate(min, max)) / 100);
     records.push({

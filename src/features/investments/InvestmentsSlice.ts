@@ -6,7 +6,7 @@ import { generateInvestment } from "../../data/investments";
 
 type State = Investment[];
 
-const initialState: State = Array(config.investmentNumberOfInvestments)
+const initialState: State = Array(config.investment.numberOfInvestments)
   .fill(1)
   .map((k) => generateInvestment());
 
