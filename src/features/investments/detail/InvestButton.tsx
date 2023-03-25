@@ -53,7 +53,7 @@ const InvestButton: React.FC<Props> = (props) => {
   return (
     <>
       <IonButton
-        disabled={!item}
+        disabled={!item || money < item.minAmount}
         id={elementId}
         className="ion-margin"
         size="large"
@@ -73,7 +73,7 @@ const InvestButton: React.FC<Props> = (props) => {
             <IonTitle>Invest</IonTitle>
             <IonButtons slot="end">
               <IonButton
-                disabled={amount < item.minAmount}
+                disabled={amount < item.minAmount || money < amount}
                 onClick={() => handleConfirm()}
               >
                 Confirm

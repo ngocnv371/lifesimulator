@@ -1,4 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { invest } from "../investments/InvestmentsSlice";
 
 type State = {
   money: number;
@@ -21,6 +22,11 @@ const slice = createSlice({
         state.money = 0;
       }
     },
+  },
+  extraReducers(builder) {
+    builder.addCase(invest, (state, action) => {
+      state.money -= action.payload.amount;
+    });
   },
 });
 
