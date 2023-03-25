@@ -24,7 +24,6 @@ const ProfitChart: React.FC<Props> = (props) => {
       return;
     }
 
-    console.log("[Chart] size", container.current.clientWidth, container.current.style.margin);
     const size = {
       width: document.body.clientWidth,
       height: Math.floor(document.body.clientWidth * config.investment.chart.ratio),

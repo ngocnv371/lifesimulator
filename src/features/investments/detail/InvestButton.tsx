@@ -12,7 +12,9 @@ import {
   IonToolbar,
 } from "@ionic/react";
 import { useEffect, useId, useRef, useState } from "react";
+import config from "../../../app/config";
 import { useAppDispatch, useAppSelector } from "../../../app/store";
+import { formatCurrency } from "../../../app/utils";
 import LongTextItem from "../../../components/LongTextItem";
 import { invest, selectInvestmentById } from "../InvestmentsSlice";
 
@@ -49,6 +51,11 @@ const InvestButton: React.FC<Props> = (props) => {
     return null;
   }
 
+  const fee = Math.ceil(
+    (amount * config.investment.agencyCutPercentage) / 100
+  );
+  const total = fee + amount;
+
   return (
     <>
       <IonButton
@@ -72,8 +79,9 @@ const InvestButton: React.FC<Props> = (props) => {
             <IonTitle>Invest</IonTitle>
             <IonButtons slot="end">
               <IonButton
-                disabled={amount < item.minAmount || money < amount}
+                disabled={amount < item.minAmount || money < total}
                 onClick={() => handleConfirm()}
+                color="warning"
               >
                 Confirm
               </IonButton>
@@ -94,6 +102,18 @@ const InvestButton: React.FC<Props> = (props) => {
                   setAmount(+(e.detail.value || item.minAmount))
                 }
               />
+            </IonItem>
+            <IonItem>
+              <IonLabel>Transaction Fee</IonLabel>
+              <IonLabel slot="end" color="warning">
+                {formatCurrency(fee)}
+              </IonLabel>
+            </IonItem>
+            <IonItem>
+              <IonLabel>Total</IonLabel>
+              <IonLabel slot="end" color="warning">
+                {formatCurrency(total)}
+              </IonLabel>
             </IonItem>
           </IonContent>
         )}

@@ -1,4 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import config from "../../app/config";
 import { invest } from "../investments/InvestmentsSlice";
 
 type State = {
@@ -26,6 +27,10 @@ const slice = createSlice({
   extraReducers(builder) {
     builder.addCase(invest, (state, action) => {
       state.money -= action.payload.amount;
+      const fee = Math.ceil(
+        (action.payload.amount * config.investment.agencyCutPercentage) / 100
+      );
+      state.money -= fee;
     });
   },
 });
