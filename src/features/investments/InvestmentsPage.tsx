@@ -24,7 +24,7 @@ import InvestmentItem from "./InvestmentItem";
 
 const InvestmentsPage: React.FC = () => {
   const investments = useAppSelector((state) => state.investments);
-  const keys = Object.keys(investments);
+  const mine = investments.filter(i => i.invested > 0);
 
   return (
     <IonPage>
@@ -42,14 +42,14 @@ const InvestmentsPage: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        {keys.map((k) => (
+        {mine.map((k) => (
           <InvestmentItem
-            id={k}
-            key={k}
-            routerLink={`/investments/${k}`}
+            id={k.id}
+            key={k.id}
+            routerLink={`/investments/${k.id}`}
           />
         ))}
-        {!keys.length && (
+        {!mine.length && (
           <IonItem>
             <IonLabel>You haven't invested in anything yet</IonLabel>
           </IonItem>

@@ -19,7 +19,6 @@ import {
 } from "@ionic/react";
 import { add, school } from "ionicons/icons";
 import { useMemo, useState } from "react";
-import investments from "../../../data/investments";
 import PotentialInvestmentItem from "./PotentialInvestmentItem";
 import { formatCurrency } from "../../../app/utils";
 import { useAppSelector } from "../../../app/store";
@@ -27,6 +26,7 @@ import CurrentMoneyItem from "../../inventory/CurrentMoneyItem";
 
 const BrowseInvestmentsPage: React.FC = () => {
   const [type, setType] = useState("stock");
+  const investments = useAppSelector((state) => state.investments);
 
   const filtered = useMemo(() => {
     return investments

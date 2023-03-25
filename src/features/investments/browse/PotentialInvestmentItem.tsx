@@ -1,8 +1,9 @@
 import { IonItem, IonLabel } from "@ionic/react";
 import { useEffect, useState } from "react";
+import { useAppSelector } from "../../../app/store";
 import { formatCurrency } from "../../../app/utils";
 import LongTextItem from "../../../components/LongTextItem";
-import useInvestment from "../useInvestment";
+import { selectInvestmentById } from "../InvestmentsSlice";
 
 type Props = {
   id: string;
@@ -11,7 +12,7 @@ type Props = {
 };
 
 const PotentialInvestmentItem: React.FC<Props> = (props) => {
-  const item = useInvestment(props.id);
+  const item = useAppSelector(selectInvestmentById(props.id));
 
   if (!item) {
     return null;

@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { useAppSelector } from "../../app/store";
 import { formatCurrency } from "../../app/utils";
 import LongTextItem from "../../components/LongTextItem";
-import useInvestment from "./useInvestment";
+import { selectInvestmentById } from "./InvestmentsSlice";
 
 type Props = {
   id: string;
@@ -12,8 +12,7 @@ type Props = {
 };
 
 const InvestmentItem: React.FC<Props> = (props) => {
-  const amount = useAppSelector((state) => state.investments[props.id]);
-  const item = useInvestment(props.id);
+  const item = useAppSelector(selectInvestmentById(props.id));
 
   if (!item) {
     return null;
@@ -26,7 +25,7 @@ const InvestmentItem: React.FC<Props> = (props) => {
           <span>{item.name}</span>
         </IonLabel>
         <IonLabel slot="end" color="warning">
-          {formatCurrency(amount)}
+          {formatCurrency(item.invested)}
         </IonLabel>
       </IonItem>
       <LongTextItem {...props}>

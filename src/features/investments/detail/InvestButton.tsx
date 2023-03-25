@@ -14,8 +14,7 @@ import {
 import { useEffect, useId, useRef, useState } from "react";
 import { useAppDispatch, useAppSelector } from "../../../app/store";
 import LongTextItem from "../../../components/LongTextItem";
-import { invest } from "../InvestmentsSlice";
-import useInvestment from "../useInvestment";
+import { invest, selectInvestmentById } from "../InvestmentsSlice";
 
 type Props = {
   id: string;
@@ -24,7 +23,7 @@ type Props = {
 
 const InvestButton: React.FC<Props> = (props) => {
   const modal = useRef<HTMLIonModalElement>(null);
-  const item = useInvestment(props.id);
+  const item = useAppSelector(selectInvestmentById(props.id));
   const money = useAppSelector((state) => state.inventory.money);
   const dispatch = useAppDispatch();
   const [amount, setAmount] = useState(0);

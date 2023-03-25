@@ -35,11 +35,17 @@ export interface Job {
   shiftLength: number;
 }
 
+export interface HistoryValue {
+  time: number;
+  value: number;
+}
 export interface Investment {
   id: string;
   name: string;
-  type: 'stock' | 'fund' | 'estate';
+  type: "stock" | "fund" | "estate";
   description: string;
   minAmount: number;
-  bounds: [min: number, max: number];
+  invested: number;
+  profit: { min: number; max: number };
+  history: HistoryValue[];
 }

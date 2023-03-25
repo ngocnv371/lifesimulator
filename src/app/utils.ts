@@ -96,3 +96,7 @@ export function formatCurrency(value: number) {
   }).format(value);
   return formattedAmount;
 }
+
+export function fluctuate(a: number, b: number) {
+  return Math.floor(Math.random() * (b - a + 1)) + a;
+}

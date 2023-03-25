@@ -19,13 +19,14 @@ import {
   IonToolbar,
 } from "@ionic/react";
 import { useParams } from "react-router";
+import { useAppSelector } from "../../../app/store";
 import CurrentMoneyItem from "../../inventory/CurrentMoneyItem";
-import useInvestment from "../useInvestment";
+import { selectInvestmentById } from "../InvestmentsSlice";
 import InvestmentDetail from "./InvestmentDetail";
 
 const InvestmentDetailPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
-  const item = useInvestment(id);
+  const item = useAppSelector(selectInvestmentById(id));
 
   return (
     <IonPage>
