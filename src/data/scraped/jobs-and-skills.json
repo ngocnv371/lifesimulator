@@ -1,0 +1,1129 @@
+[
+  {
+    "job": "Software Developer",
+    "skills": [
+      "problem-solving",
+      "programming languages",
+      "data structures and algorithms",
+      "version control",
+      "software design",
+      "software testing",
+      "debugging",
+      "critical thinking",
+      "communication"
+    ]
+  },
+  {
+    "job": "Nurse Practitioner",
+    "skills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "medication management",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Medical and Health Services Manager",
+    "skills": [
+      "healthcare regulations and policies",
+      "healthcare administration",
+      "budgeting",
+      "management",
+      "leadership",
+      "communication",
+      "strategic planning"
+    ]
+  },
+  {
+    "job": "Physician Assistant",
+    "skills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "medication management",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Information Security Analyst",
+    "skills": [
+      "network security",
+      "cybersecurity",
+      "vulnerability assessments",
+      "risk management",
+      "cryptography",
+      "security policies",
+      "communication",
+      "analytical thinking"
+    ]
+  },
+  {
+    "job": "Physical Therapist",
+    "skills": [
+      "anatomy",
+      "physiology",
+      "exercise science",
+      "rehabilitation",
+      "patient care",
+      "communication",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Financial Manager",
+    "skills": [
+      "accounting",
+      "financial analysis",
+      "financial planning",
+      "management",
+      "leadership",
+      "communication",
+      "strategic planning"
+    ]
+  },
+  {
+    "job": "IT Manager",
+    "skills": [
+      "IT infrastructure",
+      "project management",
+      "leadership",
+      "communication",
+      "strategic planning",
+      "networking",
+      "software development"
+    ]
+  },
+  {
+    "job": "Web Developer",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "web development frameworks",
+      "responsive design",
+      "user experience design",
+      "version control",
+      "communication"
+    ]
+  },
+  {
+    "job": "Dentist",
+    "skills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Lawyer",
+    "skills": [
+      "legal knowledge",
+      "critical thinking",
+      "research",
+      "communication",
+      "negotiation",
+      "problem-solving",
+      "attention to detail"
+    ]
+  },
+  {
+    "job": "Veterinarian",
+    "skills": [
+      "animal health and behavior",
+      "diagnosis",
+      "treatment",
+      "surgery",
+      "communication",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Physician",
+    "skills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "medication management",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Orthodontist",
+    "skills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Market Research Analyst",
+    "skills": [
+      "research methods",
+      "data analysis",
+      "statistical analysis",
+      "communication",
+      "critical thinking",
+      "problem-solving"
+    ]
+  },
+  {
+    "job": "Logistician",
+    "skills": [
+      "logistics",
+      "supply chain management",
+      "inventory management",
+      "transportation",
+      "communication",
+      "attention to detail",
+      "problem-solving"
+    ]
+  },
+  {
+    "job": "Registered Nurse",
+    "skills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "medication management",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Management Analyst",
+    "skills": [
+      "business management",
+      "data analysis",
+      "communication",
+      "critical thinking",
+      "problem-solving",
+      "attention to detail"
+    ]
+  },
+  {
+    "job": "Occupational Therapy Assistant",
+    "skills": [
+      "anatomy",
+      "physiology",
+      "rehabilitation",
+      "patient care",
+      "communication",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Computer Systems Analyst",
+    "skills": [
+      "computer systems",
+      "software design",
+      "data analysis",
+      "communication",
+      "critical thinking",
+      "problem-solving"
+    ]
+  },
+  {
+    "job": "Financial Advisor",
+    "skills": [
+      "financial planning",
+      "investment strategies",
+      "communication",
+      "analytical thinking",
+      "attention to detail"
+    ]
+  },
+  {
+    "job": "Data Scientist",
+    "skills": [
+      "statistical analysis",
+      "data analysis",
+      "machine learning",
+      "programming languages",
+      "communication",
+      "critical thinking"
+    ]
+  },
+  {
+    "job": "Financial Analyst",
+    "skills": [
+      "financial analysis",
+      "financial planning",
+      "data analysis",
+      "communication",
+      "analytical thinking",
+      "attention to detail"
+    ]
+  },
+  {
+    "job": "Oral and Maxillofacial Surgeon",
+    "skills": [
+      "surgical skills",
+      "clinical knowledge",
+      "patient care",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Nurse Anesthetist",
+    "skills": [
+      "anesthesia administration",
+      "patient monitoring",
+      "patient care",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Epidemiologist/Medical Scientist",
+    "skills": [
+      "public health",
+      "research methods",
+      "data analysis",
+      "statistics",
+      "critical thinking",
+      "communication",
+      "problem-solving"
+    ]
+  },
+  {
+    "job": "Actuary",
+    "skills": [
+      "mathematics",
+      "statistics",
+      "risk management",
+      "analytical thinking",
+      "communication",
+      "problem-solving"
+    ]
+  },
+  {
+    "job": "Operations Research Analyst",
+    "skills": [
+      "mathematical modeling",
+      "data analysis",
+      "problem-solving",
+      "critical thinking",
+      "communication"
+    ]
+  },
+  {
+    "job": "Database Administrator",
+    "skills": [
+      "database management",
+      "database design",
+      "data analysis",
+      "communication",
+      "problem-solving",
+      "attention to detail"
+    ]
+  },
+  {
+    "job": "Statistician",
+    "skills": [
+      "statistical analysis",
+      "research methods",
+      "data analysis",
+      "communication",
+      "critical thinking"
+    ]
+  },
+  {
+    "job": "Speech-Language Pathologist",
+    "skills": [
+      "communication disorders",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Psychiatrist",
+    "skills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "medication management",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Optometrist",
+    "skills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Pediatrician",
+    "skills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "medication management",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Dental Hygienist",
+    "skills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Respiratory Therapist",
+    "skills": [
+      "respiratory care",
+      "patient monitoring",
+      "patient care",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Mental Health Counselor",
+    "skills": [
+      "counseling",
+      "communication",
+      "empathy",
+      "problem-solving",
+      "critical thinking",
+      "attention to detail"
+    ]
+  },
+  {
+    "job": "Physical Therapist Assistant",
+    "skills": [
+      "anatomy",
+      "physiology",
+      "rehabilitation",
+      "patient care",
+      "communication",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Business Operations Manager",
+    "skills": [
+      "business management",
+      "leadership",
+      "communication",
+      "strategic planning",
+      "problem-solving",
+      "attention to detail"
+    ]
+  },
+  {
+    "job": "School Psychologist",
+    "skills": [
+      "psychology",
+      "assessment",
+      "communication",
+      "problem-solving",
+      "critical thinking",
+      "attention to detail"
+    ]
+  },
+  {
+    "job": "Anesthesiologist",
+    "skills": [
+      "anesthesia administration",
+      "patient monitoring",
+      "patient care",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Obstetrician and Gynecologist",
+    "skills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "medication management",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Biochemist",
+    "skills": [
+      "biochemistry",
+      "research methods",
+      "data analysis",
+      "critical thinking",
+      "communication"
+    ]
+  },
+  {
+    "job": "Construction Manager",
+    "skills": [
+      "construction management",
+      "leadership",
+      "communication",
+      "problem-solving",
+      "attention to detail"
+    ]
+  },
+  {
+    "job": "Marketing Manager",
+    "skills": [
+      "marketing",
+      "leadership",
+      "communication",
+      "strategic planning",
+      "problem-solving",
+      "attention to detail"
+    ]
+  },
+  {
+    "job": "Chiropractor",
+    "skills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Pilot",
+    "skills": [
+      "aviation",
+      "communication",
+      "critical thinking",
+      "attention to detail",
+      "problem-solving"
+    ]
+  },
+  {
+    "job": "Medical Records Technician",
+    "skills": [
+      "medical records management",
+      "data analysis",
+      "communication",
+      "attention to detail",
+      "problem-solving"
+    ]
+  },
+  {
+    "job": "Psychologist",
+    "skills": [
+      "psychology",
+      "assessment",
+      "communication",
+      "problem-solving",
+      "critical thinking",
+      "attention to detail"
+    ]
+  },
+  {
+    "job": "Biomedical Engineer",
+    "skills": [
+      "biomedical engineering",
+      "research methods",
+      "data analysis",
+      "critical thinking",
+      "communication"
+    ]
+  },
+  {
+    "job": "Petroleum Engineer",
+    "skills": [
+      "petroleum engineering",
+      "research methods",
+      "data analysis",
+      "critical thinking",
+      "communication"
+    ]
+  },
+  {
+    "job": "High School Teacher",
+    "skills": [
+      "teaching",
+      "communication",
+      "empathy",
+      "problem-solving",
+      "critical thinking",
+      "attention to detail"
+    ]
+  },
+  {
+    "job": "Substance Abuse and Behavioral Disorder Counselor",
+    "skills": [
+      "counseling",
+      "communication",
+      "empathy",
+      "problem-solving",
+      "critical thinking",
+      "attention to detail"
+    ]
+  },
+  {
+    "job": "Veterinary Technologist and Technician",
+    "skills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Wind Turbine Technician",
+    "skills": ["wind turbine technology", "communication", "critical thinking"]
+  },
+  {
+    "job": "Computer Network Architect",
+    "skills": [
+      "network design",
+      "network protocols",
+      "network security",
+      "communication",
+      "critical thinking",
+      "problem-solving",
+      "attention to detail"
+    ]
+  },
+  {
+    "job": "Public Relations Specialist",
+    "skills": [
+      "communication",
+      "media relations",
+      "writing",
+      "public speaking",
+      "critical thinking",
+      "problem-solving",
+      "attention to detail"
+    ]
+  },
+  {
+    "job": "Elementary School Teacher",
+    "skills": [
+      "teaching",
+      "classroom management",
+      "lesson planning",
+      "communication",
+      "creativity",
+      "patience",
+      "empathy"
+    ]
+  },
+  {
+    "job": "School Counselor",
+    "skills": [
+      "counseling",
+      "psychology",
+      "communication",
+      "empathy",
+      "problem-solving",
+      "critical thinking"
+    ]
+  },
+  {
+    "job": "Social and Community Service Manager",
+    "skills": [
+      "social and community services",
+      "management",
+      "leadership",
+      "communication",
+      "strategic planning",
+      "critical thinking"
+    ]
+  },
+  {
+    "job": "Computer Systems Administrator",
+    "skills": [
+      "computer systems",
+      "network administration",
+      "system security",
+      "communication",
+      "problem-solving",
+      "attention to detail"
+    ]
+  },
+  {
+    "job": "Community Health Worker",
+    "skills": [
+      "community health",
+      "patient care",
+      "communication",
+      "empathy",
+      "problem-solving"
+    ]
+  },
+  {
+    "job": "Landscaper and Groundskeeper",
+    "skills": [
+      "landscaping",
+      "groundskeeping",
+      "plant care",
+      "communication",
+      "physical fitness"
+    ]
+  },
+  {
+    "job": "Diagnostic Medical Sonographer",
+    "skills": [
+      "medical imaging",
+      "patient care",
+      "communication",
+      "attention to detail"
+    ]
+  },
+  {
+    "job": "Home Health Aide",
+    "skills": ["patient care", "communication", "empathy", "problem-solving"]
+  },
+  {
+    "job": "Personal Care Aide",
+    "skills": ["patient care", "communication", "empathy", "problem-solving"]
+  },
+  {
+    "job": "Prosthodontist",
+    "skills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Paralegal",
+    "skills": [
+      "legal knowledge",
+      "critical thinking",
+      "research",
+      "communication",
+      "attention to detail",
+      "problem-solving"
+    ]
+  },
+  {
+    "job": "Delivery Truck Driver",
+    "skills": [
+      "driving",
+      "navigation",
+      "time management",
+      "communication",
+      "attention to detail"
+    ]
+  },
+  {
+    "job": "Orthotist and Prosthetist",
+    "skills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Industrial Psychologist",
+    "skills": [
+      "psychology",
+      "communication",
+      "critical thinking",
+      "problem-solving",
+      "attention to detail"
+    ]
+  },
+  {
+    "job": "Occupational Therapist",
+    "skills": [
+      "anatomy",
+      "physiology",
+      "rehabilitation",
+      "patient care",
+      "communication",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Loan Officer",
+    "skills": [
+      "finance",
+      "credit analysis",
+      "communication",
+      "critical thinking",
+      "attention to detail"
+    ]
+  },
+  {
+    "job": "MRI Technologist",
+    "skills": [
+      "medical imaging",
+      "patient care",
+      "communication",
+      "attention to detail"
+    ]
+  },
+  {
+    "job": "Accountant",
+    "skills": [
+      "accounting",
+      "financial analysis",
+      "communication",
+      "attention to detail",
+      "critical thinking"
+    ]
+  },
+  {
+    "job": "Dietitian and Nutritionist",
+    "skills": [
+      "nutrition",
+      "patient care",
+      "communication",
+      "empathy",
+      "problem-solving"
+    ]
+  },
+  {
+    "job": "Medical Assistant",
+    "skills": [
+      "clinical knowledge",
+      "patient care",
+      "medical terminology",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Cardiovascular Technologist",
+    "skills": [
+      "cardiovascular anatomy and physiology",
+      "medical technology",
+      "patient care",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Licensed Practical and Licensed Vocational Nurse",
+    "skills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "medication management",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Electrician",
+    "skills": [
+      "electrical systems",
+      "wiring",
+      "blueprints",
+      "safety protocols",
+      "problem-solving",
+      "attention to detail",
+      "communication"
+    ]
+  },
+  {
+    "job": "Massage Therapist",
+    "skills": [
+      "anatomy",
+      "physiology",
+      "massage techniques",
+      "communication",
+      "empathy",
+      "attention to detail"
+    ]
+  },
+  {
+    "job": "Hearing Aid Specialist",
+    "skills": [
+      "audiology",
+      "hearing technology",
+      "patient care",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Genetic Counselor",
+    "skills": [
+      "genetics",
+      "counseling",
+      "communication",
+      "empathy",
+      "attention to detail",
+      "critical thinking"
+    ]
+  },
+  {
+    "job": "Recreation and Fitness Worker",
+    "skills": [
+      "exercise science",
+      "fitness programs",
+      "communication",
+      "empathy",
+      "attention to detail"
+    ]
+  },
+  {
+    "job": "Patrol Officer",
+    "skills": [
+      "law enforcement",
+      "public safety",
+      "communication",
+      "attention to detail",
+      "critical thinking",
+      "problem-solving"
+    ]
+  },
+  {
+    "job": "Clinical Laboratory Technician",
+    "skills": [
+      "medical technology",
+      "laboratory testing",
+      "data analysis",
+      "communication",
+      "attention to detail",
+      "critical thinking"
+    ]
+  },
+  {
+    "job": "Restaurant Cook",
+    "skills": [
+      "culinary arts",
+      "cooking techniques",
+      "food safety",
+      "attention to detail",
+      "communication",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Solar Photovoltaic Installer",
+    "skills": [
+      "solar panel installation",
+      "electrical systems",
+      "safety protocols",
+      "problem-solving",
+      "attention to detail",
+      "communication"
+    ]
+  },
+  {
+    "job": "Pharmacist",
+    "skills": [
+      "pharmaceuticals",
+      "medication management",
+      "patient care",
+      "communication",
+      "attention to detail",
+      "critical thinking"
+    ]
+  },
+  {
+    "job": "Audiologist",
+    "skills": [
+      "audiology",
+      "hearing technology",
+      "patient care",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Middle School Teacher",
+    "skills": [
+      "teaching",
+      "classroom management",
+      "curriculum design",
+      "communication",
+      "empathy",
+      "problem-solving"
+    ]
+  },
+  {
+    "job": "Pharmacy Technician",
+    "skills": [
+      "pharmaceuticals",
+      "medication management",
+      "patient care",
+      "communication",
+      "attention to detail",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Credit Counselor",
+    "skills": [
+      "financial counseling",
+      "debt management",
+      "communication",
+      "attention to detail",
+      "problem-solving"
+    ]
+  },
+  {
+    "job": "Technical Writer",
+    "skills": [
+      "technical writing",
+      "research",
+      "communication",
+      "attention to detail",
+      "critical thinking"
+    ]
+  },
+  {
+    "job": "Firefighter",
+    "skills": [
+      "fire safety",
+      "public safety",
+      "emergency response",
+      "communication",
+      "attention to detail",
+      "critical thinking"
+    ]
+  },
+  {
+    "job": "Nail Technician",
+    "skills": [
+      "nail care",
+      "sanitation",
+      "communication",
+      "attention to detail",
+      "teamwork"
+    ]
+  },
+  {
+    "job": "Sales Manager",
+    "skills": [
+      "sales",
+      "management",
+      "leadership",
+      "communication",
+      "problem-solving",
+      "strategic planning"
+    ]
+  },
+  {
+    "job": "Environmental Engineer",
+    "skills": [
+      "environmental science",
+      "engineering",
+      "sustainability",
+      "communication",
+      "problem-solving",
+      "critical thinking"
+    ]
+  },
+  {
+    "job": "HR Specialist",
+    "skills": [
+      "human resources",
+      "employment law",
+      "communication",
+      "problem-solving",
+      "attention to detail",
+      "critical thinking"
+    ]
+  },
+  {
+    "job": "Political Scientist",
+    "skills": [
+      "political science",
+      "research",
+      "communication",
+      "critical thinking",
+      "problem-solving"
+    ]
+  }
+]
