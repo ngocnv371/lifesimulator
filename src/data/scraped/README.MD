@@ -123,15 +123,15 @@ Political Scientist - political science, research, communication, critical think
 list.map((l) => {
   const parts = l.replace('.', '').split(" - ");
   return {
-    job: parts[0].trim(),
-    skills: parts[1].split(", ").map((d) => d.trim()),
+    name: parts[0].trim(),
+    requiredSkills: parts[1].split(", ").map((d) => d.trim()),
   };
 });
 
 // we should get
 var example = {
-  job: "Software Developer",
-  skills: [
+  name: "Software Developer",
+  requiredSkills: [
     "problem-solving",
     "programming languages",
     "data structures and algorithms",
