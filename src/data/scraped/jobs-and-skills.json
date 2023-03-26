@@ -1,0 +1,1129 @@
+[
+  {
+    "name": "Software Developer",
+    "requiredSkills": [
+      "problem-solving",
+      "programming languages",
+      "data structures and algorithms",
+      "version control",
+      "software design",
+      "software testing",
+      "debugging",
+      "critical thinking",
+      "communication"
+    ]
+  },
+  {
+    "name": "Nurse Practitioner",
+    "requiredSkills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "medication management",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Medical and Health Services Manager",
+    "requiredSkills": [
+      "healthcare regulations and policies",
+      "healthcare administration",
+      "budgeting",
+      "management",
+      "leadership",
+      "communication",
+      "strategic planning"
+    ]
+  },
+  {
+    "name": "Physician Assistant",
+    "requiredSkills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "medication management",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Information Security Analyst",
+    "requiredSkills": [
+      "network security",
+      "cybersecurity",
+      "vulnerability assessments",
+      "risk management",
+      "cryptography",
+      "security policies",
+      "communication",
+      "analytical thinking"
+    ]
+  },
+  {
+    "name": "Physical Therapist",
+    "requiredSkills": [
+      "anatomy",
+      "physiology",
+      "exercise science",
+      "rehabilitation",
+      "patient care",
+      "communication",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Financial Manager",
+    "requiredSkills": [
+      "accounting",
+      "financial analysis",
+      "financial planning",
+      "management",
+      "leadership",
+      "communication",
+      "strategic planning"
+    ]
+  },
+  {
+    "name": "IT Manager",
+    "requiredSkills": [
+      "IT infrastructure",
+      "project management",
+      "leadership",
+      "communication",
+      "strategic planning",
+      "networking",
+      "software development"
+    ]
+  },
+  {
+    "name": "Web Developer",
+    "requiredSkills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "web development frameworks",
+      "responsive design",
+      "user experience design",
+      "version control",
+      "communication"
+    ]
+  },
+  {
+    "name": "Dentist",
+    "requiredSkills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Lawyer",
+    "requiredSkills": [
+      "legal knowledge",
+      "critical thinking",
+      "research",
+      "communication",
+      "negotiation",
+      "problem-solving",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "Veterinarian",
+    "requiredSkills": [
+      "animal health and behavior",
+      "diagnosis",
+      "treatment",
+      "surgery",
+      "communication",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Physician",
+    "requiredSkills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "medication management",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Orthodontist",
+    "requiredSkills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Market Research Analyst",
+    "requiredSkills": [
+      "research methods",
+      "data analysis",
+      "statistical analysis",
+      "communication",
+      "critical thinking",
+      "problem-solving"
+    ]
+  },
+  {
+    "name": "Logistician",
+    "requiredSkills": [
+      "logistics",
+      "supply chain management",
+      "inventory management",
+      "transportation",
+      "communication",
+      "attention to detail",
+      "problem-solving"
+    ]
+  },
+  {
+    "name": "Registered Nurse",
+    "requiredSkills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "medication management",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Management Analyst",
+    "requiredSkills": [
+      "business management",
+      "data analysis",
+      "communication",
+      "critical thinking",
+      "problem-solving",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "Occupational Therapy Assistant",
+    "requiredSkills": [
+      "anatomy",
+      "physiology",
+      "rehabilitation",
+      "patient care",
+      "communication",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Computer Systems Analyst",
+    "requiredSkills": [
+      "computer systems",
+      "software design",
+      "data analysis",
+      "communication",
+      "critical thinking",
+      "problem-solving"
+    ]
+  },
+  {
+    "name": "Financial Advisor",
+    "requiredSkills": [
+      "financial planning",
+      "investment strategies",
+      "communication",
+      "analytical thinking",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "Data Scientist",
+    "requiredSkills": [
+      "statistical analysis",
+      "data analysis",
+      "machine learning",
+      "programming languages",
+      "communication",
+      "critical thinking"
+    ]
+  },
+  {
+    "name": "Financial Analyst",
+    "requiredSkills": [
+      "financial analysis",
+      "financial planning",
+      "data analysis",
+      "communication",
+      "analytical thinking",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "Oral and Maxillofacial Surgeon",
+    "requiredSkills": [
+      "surgical skills",
+      "clinical knowledge",
+      "patient care",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Nurse Anesthetist",
+    "requiredSkills": [
+      "anesthesia administration",
+      "patient monitoring",
+      "patient care",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Epidemiologist/Medical Scientist",
+    "requiredSkills": [
+      "public health",
+      "research methods",
+      "data analysis",
+      "statistics",
+      "critical thinking",
+      "communication",
+      "problem-solving"
+    ]
+  },
+  {
+    "name": "Actuary",
+    "requiredSkills": [
+      "mathematics",
+      "statistics",
+      "risk management",
+      "analytical thinking",
+      "communication",
+      "problem-solving"
+    ]
+  },
+  {
+    "name": "Operations Research Analyst",
+    "requiredSkills": [
+      "mathematical modeling",
+      "data analysis",
+      "problem-solving",
+      "critical thinking",
+      "communication"
+    ]
+  },
+  {
+    "name": "Database Administrator",
+    "requiredSkills": [
+      "database management",
+      "database design",
+      "data analysis",
+      "communication",
+      "problem-solving",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "Statistician",
+    "requiredSkills": [
+      "statistical analysis",
+      "research methods",
+      "data analysis",
+      "communication",
+      "critical thinking"
+    ]
+  },
+  {
+    "name": "Speech-Language Pathologist",
+    "requiredSkills": [
+      "communication disorders",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Psychiatrist",
+    "requiredSkills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "medication management",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Optometrist",
+    "requiredSkills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Pediatrician",
+    "requiredSkills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "medication management",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Dental Hygienist",
+    "requiredSkills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Respiratory Therapist",
+    "requiredSkills": [
+      "respiratory care",
+      "patient monitoring",
+      "patient care",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Mental Health Counselor",
+    "requiredSkills": [
+      "counseling",
+      "communication",
+      "empathy",
+      "problem-solving",
+      "critical thinking",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "Physical Therapist Assistant",
+    "requiredSkills": [
+      "anatomy",
+      "physiology",
+      "rehabilitation",
+      "patient care",
+      "communication",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Business Operations Manager",
+    "requiredSkills": [
+      "business management",
+      "leadership",
+      "communication",
+      "strategic planning",
+      "problem-solving",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "School Psychologist",
+    "requiredSkills": [
+      "psychology",
+      "assessment",
+      "communication",
+      "problem-solving",
+      "critical thinking",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "Anesthesiologist",
+    "requiredSkills": [
+      "anesthesia administration",
+      "patient monitoring",
+      "patient care",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Obstetrician and Gynecologist",
+    "requiredSkills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "medication management",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Biochemist",
+    "requiredSkills": [
+      "biochemistry",
+      "research methods",
+      "data analysis",
+      "critical thinking",
+      "communication"
+    ]
+  },
+  {
+    "name": "Construction Manager",
+    "requiredSkills": [
+      "construction management",
+      "leadership",
+      "communication",
+      "problem-solving",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "Marketing Manager",
+    "requiredSkills": [
+      "marketing",
+      "leadership",
+      "communication",
+      "strategic planning",
+      "problem-solving",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "Chiropractor",
+    "requiredSkills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Pilot",
+    "requiredSkills": [
+      "aviation",
+      "communication",
+      "critical thinking",
+      "attention to detail",
+      "problem-solving"
+    ]
+  },
+  {
+    "name": "Medical Records Technician",
+    "requiredSkills": [
+      "medical records management",
+      "data analysis",
+      "communication",
+      "attention to detail",
+      "problem-solving"
+    ]
+  },
+  {
+    "name": "Psychologist",
+    "requiredSkills": [
+      "psychology",
+      "assessment",
+      "communication",
+      "problem-solving",
+      "critical thinking",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "Biomedical Engineer",
+    "requiredSkills": [
+      "biomedical engineering",
+      "research methods",
+      "data analysis",
+      "critical thinking",
+      "communication"
+    ]
+  },
+  {
+    "name": "Petroleum Engineer",
+    "requiredSkills": [
+      "petroleum engineering",
+      "research methods",
+      "data analysis",
+      "critical thinking",
+      "communication"
+    ]
+  },
+  {
+    "name": "High School Teacher",
+    "requiredSkills": [
+      "teaching",
+      "communication",
+      "empathy",
+      "problem-solving",
+      "critical thinking",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "Substance Abuse and Behavioral Disorder Counselor",
+    "requiredSkills": [
+      "counseling",
+      "communication",
+      "empathy",
+      "problem-solving",
+      "critical thinking",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "Veterinary Technologist and Technician",
+    "requiredSkills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Wind Turbine Technician",
+    "requiredSkills": ["wind turbine technology", "communication", "critical thinking"]
+  },
+  {
+    "name": "Computer Network Architect",
+    "requiredSkills": [
+      "network design",
+      "network protocols",
+      "network security",
+      "communication",
+      "critical thinking",
+      "problem-solving",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "Public Relations Specialist",
+    "requiredSkills": [
+      "communication",
+      "media relations",
+      "writing",
+      "public speaking",
+      "critical thinking",
+      "problem-solving",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "Elementary School Teacher",
+    "requiredSkills": [
+      "teaching",
+      "classroom management",
+      "lesson planning",
+      "communication",
+      "creativity",
+      "patience",
+      "empathy"
+    ]
+  },
+  {
+    "name": "School Counselor",
+    "requiredSkills": [
+      "counseling",
+      "psychology",
+      "communication",
+      "empathy",
+      "problem-solving",
+      "critical thinking"
+    ]
+  },
+  {
+    "name": "Social and Community Service Manager",
+    "requiredSkills": [
+      "social and community services",
+      "management",
+      "leadership",
+      "communication",
+      "strategic planning",
+      "critical thinking"
+    ]
+  },
+  {
+    "name": "Computer Systems Administrator",
+    "requiredSkills": [
+      "computer systems",
+      "network administration",
+      "system security",
+      "communication",
+      "problem-solving",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "Community Health Worker",
+    "requiredSkills": [
+      "community health",
+      "patient care",
+      "communication",
+      "empathy",
+      "problem-solving"
+    ]
+  },
+  {
+    "name": "Landscaper and Groundskeeper",
+    "requiredSkills": [
+      "landscaping",
+      "groundskeeping",
+      "plant care",
+      "communication",
+      "physical fitness"
+    ]
+  },
+  {
+    "name": "Diagnostic Medical Sonographer",
+    "requiredSkills": [
+      "medical imaging",
+      "patient care",
+      "communication",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "Home Health Aide",
+    "requiredSkills": ["patient care", "communication", "empathy", "problem-solving"]
+  },
+  {
+    "name": "Personal Care Aide",
+    "requiredSkills": ["patient care", "communication", "empathy", "problem-solving"]
+  },
+  {
+    "name": "Prosthodontist",
+    "requiredSkills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Paralegal",
+    "requiredSkills": [
+      "legal knowledge",
+      "critical thinking",
+      "research",
+      "communication",
+      "attention to detail",
+      "problem-solving"
+    ]
+  },
+  {
+    "name": "Delivery Truck Driver",
+    "requiredSkills": [
+      "driving",
+      "navigation",
+      "time management",
+      "communication",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "Orthotist and Prosthetist",
+    "requiredSkills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Industrial Psychologist",
+    "requiredSkills": [
+      "psychology",
+      "communication",
+      "critical thinking",
+      "problem-solving",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "Occupational Therapist",
+    "requiredSkills": [
+      "anatomy",
+      "physiology",
+      "rehabilitation",
+      "patient care",
+      "communication",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Loan Officer",
+    "requiredSkills": [
+      "finance",
+      "credit analysis",
+      "communication",
+      "critical thinking",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "MRI Technologist",
+    "requiredSkills": [
+      "medical imaging",
+      "patient care",
+      "communication",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "Accountant",
+    "requiredSkills": [
+      "accounting",
+      "financial analysis",
+      "communication",
+      "attention to detail",
+      "critical thinking"
+    ]
+  },
+  {
+    "name": "Dietitian and Nutritionist",
+    "requiredSkills": [
+      "nutrition",
+      "patient care",
+      "communication",
+      "empathy",
+      "problem-solving"
+    ]
+  },
+  {
+    "name": "Medical Assistant",
+    "requiredSkills": [
+      "clinical knowledge",
+      "patient care",
+      "medical terminology",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Cardiovascular Technologist",
+    "requiredSkills": [
+      "cardiovascular anatomy and physiology",
+      "medical technology",
+      "patient care",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Licensed Practical and Licensed Vocational Nurse",
+    "requiredSkills": [
+      "clinical knowledge",
+      "patient care",
+      "diagnosis",
+      "treatment",
+      "medication management",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Electrician",
+    "requiredSkills": [
+      "electrical systems",
+      "wiring",
+      "blueprints",
+      "safety protocols",
+      "problem-solving",
+      "attention to detail",
+      "communication"
+    ]
+  },
+  {
+    "name": "Massage Therapist",
+    "requiredSkills": [
+      "anatomy",
+      "physiology",
+      "massage techniques",
+      "communication",
+      "empathy",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "Hearing Aid Specialist",
+    "requiredSkills": [
+      "audiology",
+      "hearing technology",
+      "patient care",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Genetic Counselor",
+    "requiredSkills": [
+      "genetics",
+      "counseling",
+      "communication",
+      "empathy",
+      "attention to detail",
+      "critical thinking"
+    ]
+  },
+  {
+    "name": "Recreation and Fitness Worker",
+    "requiredSkills": [
+      "exercise science",
+      "fitness programs",
+      "communication",
+      "empathy",
+      "attention to detail"
+    ]
+  },
+  {
+    "name": "Patrol Officer",
+    "requiredSkills": [
+      "law enforcement",
+      "public safety",
+      "communication",
+      "attention to detail",
+      "critical thinking",
+      "problem-solving"
+    ]
+  },
+  {
+    "name": "Clinical Laboratory Technician",
+    "requiredSkills": [
+      "medical technology",
+      "laboratory testing",
+      "data analysis",
+      "communication",
+      "attention to detail",
+      "critical thinking"
+    ]
+  },
+  {
+    "name": "Restaurant Cook",
+    "requiredSkills": [
+      "culinary arts",
+      "cooking techniques",
+      "food safety",
+      "attention to detail",
+      "communication",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Solar Photovoltaic Installer",
+    "requiredSkills": [
+      "solar panel installation",
+      "electrical systems",
+      "safety protocols",
+      "problem-solving",
+      "attention to detail",
+      "communication"
+    ]
+  },
+  {
+    "name": "Pharmacist",
+    "requiredSkills": [
+      "pharmaceuticals",
+      "medication management",
+      "patient care",
+      "communication",
+      "attention to detail",
+      "critical thinking"
+    ]
+  },
+  {
+    "name": "Audiologist",
+    "requiredSkills": [
+      "audiology",
+      "hearing technology",
+      "patient care",
+      "communication",
+      "attention to detail",
+      "empathy",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Middle School Teacher",
+    "requiredSkills": [
+      "teaching",
+      "classroom management",
+      "curriculum design",
+      "communication",
+      "empathy",
+      "problem-solving"
+    ]
+  },
+  {
+    "name": "Pharmacy Technician",
+    "requiredSkills": [
+      "pharmaceuticals",
+      "medication management",
+      "patient care",
+      "communication",
+      "attention to detail",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Credit Counselor",
+    "requiredSkills": [
+      "financial counseling",
+      "debt management",
+      "communication",
+      "attention to detail",
+      "problem-solving"
+    ]
+  },
+  {
+    "name": "Technical Writer",
+    "requiredSkills": [
+      "technical writing",
+      "research",
+      "communication",
+      "attention to detail",
+      "critical thinking"
+    ]
+  },
+  {
+    "name": "Firefighter",
+    "requiredSkills": [
+      "fire safety",
+      "public safety",
+      "emergency response",
+      "communication",
+      "attention to detail",
+      "critical thinking"
+    ]
+  },
+  {
+    "name": "Nail Technician",
+    "requiredSkills": [
+      "nail care",
+      "sanitation",
+      "communication",
+      "attention to detail",
+      "teamwork"
+    ]
+  },
+  {
+    "name": "Sales Manager",
+    "requiredSkills": [
+      "sales",
+      "management",
+      "leadership",
+      "communication",
+      "problem-solving",
+      "strategic planning"
+    ]
+  },
+  {
+    "name": "Environmental Engineer",
+    "requiredSkills": [
+      "environmental science",
+      "engineering",
+      "sustainability",
+      "communication",
+      "problem-solving",
+      "critical thinking"
+    ]
+  },
+  {
+    "name": "HR Specialist",
+    "requiredSkills": [
+      "human resources",
+      "employment law",
+      "communication",
+      "problem-solving",
+      "attention to detail",
+      "critical thinking"
+    ]
+  },
+  {
+    "name": "Political Scientist",
+    "requiredSkills": [
+      "political science",
+      "research",
+      "communication",
+      "critical thinking",
+      "problem-solving"
+    ]
+  }
+]
