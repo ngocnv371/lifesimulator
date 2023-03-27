@@ -28,10 +28,6 @@
     "description": "the ability to identify and resolve software errors or bugs that may affect the performance or functionality of software applications and systems."
   },
   {
-    "name": "Critical thinking",
-    "description": "the ability to analyze information and situations objectively and make sound decisions based on logical reasoning and evidence."
-  },
-  {
     "name": "Communication",
     "description": "the ability to convey ideas and information clearly and effectively through verbal and written communication."
   },
@@ -60,10 +56,6 @@
     "description": "the ability to pay close attention to details and avoid errors or mistakes in medical treatment and care."
   },
   {
-    "name": "Empathy",
-    "description": "the ability to understand and connect with patients on an emotional level, and provide compassionate care."
-  },
-  {
     "name": "Teamwork",
     "description": "the ability to work effectively with other healthcare professionals, such as nurses, doctors, and technicians, to provide comprehensive patient care."
   },
@@ -86,10 +78,6 @@
   {
     "name": "Leadership",
     "description": "the ability to inspire and motivate team members, and create a positive work environment."
-  },
-  {
-    "name": "Strategic planning",
-    "description": "the ability to think long-term and develop plans and strategies to achieve organizational goals."
   },
   {
     "name": "Network security",
@@ -204,10 +192,6 @@
     "description": "The process of reaching an agreement between parties with different goals or objectives."
   },
   {
-    "name": "Attention to detail",
-    "description": "The ability to focus on small details and ensure that everything is correct and in order."
-  },
-  {
     "name": "Animal health and behavior",
     "description": "The study of the health and behavior of animals, including their care and treatment."
   },
@@ -226,10 +210,6 @@
   {
     "name": "Statistical analysis",
     "description": "The process of analyzing data using statistical methods to identify significant patterns or relationships."
-  },
-  {
-    "name": "Problem-solving",
-    "description": "The ability to identify problems, develop creative solutions, and implement effective strategies to solve them."
   },
   {
     "name": "Logistics",
@@ -258,10 +238,6 @@
   {
     "name": "Investment Strategies",
     "description": "The methods and approaches used to make investment decisions, including risk management and asset allocation."
-  },
-  {
-    "name": "Analytical Thinking",
-    "description": "The ability to break down complex information into smaller components to analyze and evaluate data and solve problems."
   },
   {
     "name": "Machine Learning",
