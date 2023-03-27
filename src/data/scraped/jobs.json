@@ -1,1243 +1,1343 @@
 [
   {
-    "name": "Software Developer",
-    "requiredSkills": [
-      "problem-solving",
-      "programming languages",
-      "data structures and algorithms",
-      "version control",
-      "software design",
-      "software testing",
-      "debugging",
-      "critical thinking",
-      "communication"
-    ],
-    "description": "A software developer is a professional who designs and codes software programs for various platforms and purposes. They work with clients, managers and other developers to understand the requirements and specifications of the software. They use programming languages such as Java, C++, Python or JavaScript to create efficient and functional code. They also test, debug, deploy and maintain the software, as well as gather and evaluate user feedback. A software developer should have a bachelor's degree in computer science, engineering or a related field, as well as experience with software development methodologies, tools and frameworks."
-  },
-  {
-    "name": "Nurse Practitioner",
-    "requiredSkills": [
-      "clinical knowledge",
-      "patient care",
-      "diagnosis",
-      "treatment",
-      "medication management",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "A nurse practitioner is an advanced practice registered nurse who provides primary or specialty health care services to patients. They assess, diagnose and treat various health conditions, prescribe medications and order tests. They also educate and counsel patients on health promotion and disease prevention. A nurse practitioner should have a master's degree or a doctoral degree in nursing, as well as a license and certification in their specialty area."
-  },
-  {
-    "name": "Medical and Health Services Manager",
-    "requiredSkills": [
-      "healthcare regulations and policies",
-      "healthcare administration",
-      "budgeting",
-      "management",
-      "leadership",
-      "communication",
-      "strategic planning"
-    ],
-    "description": "A medical and health services manager is a professional who plans, directs and coordinates the delivery of health care services in hospitals, clinics, nursing homes or other health care facilities. They oversee the budget, staff, policies and quality of care of their organization. They also communicate with physicians, nurses, patients and other stakeholders. A medical and health services manager should have a bachelor's degree or a master's degree in health administration, public health, business administration or a related field, as well as experience in health care management."
-  },
-  {
-    "name": "Physician Assistant",
-    "requiredSkills": [
-      "clinical knowledge",
-      "patient care",
-      "diagnosis",
-      "treatment",
-      "medication management",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "A physician assistant is a medical professional who works under the supervision of a physician to provide diagnostic, therapeutic and preventive health care services to patients. They examine, diagnose and treat various illnesses and injuries, prescribe medications and order tests. They also educate and counsel patients on health issues and lifestyle choices. A physician assistant should have a master's degree from an accredited physician assistant program, as well as a license and certification from the National Commission on Certification of Physician Assistants."
-  },
-  {
-    "name": "Information Security Analyst",
-    "requiredSkills": [
-      "network security",
-      "cybersecurity",
-      "vulnerability assessments",
-      "risk management",
-      "cryptography",
-      "security policies",
-      "communication",
-      "analytical thinking"
-    ],
-    "description": "An information security analyst is a professional who protects the data and systems of an organization from cyberattacks and unauthorized access. They monitor, analyze and respond to security incidents, implement security policies and procedures, perform risk assessments and audits, and recommend security solutions. They also educate and train users on security best practices. An information security analyst should have a bachelor's degree in computer science, information systems, cybersecurity or a related field, as well as experience with security tools and techniques."
-  },
-  {
-    "name": "Physical Therapist",
-    "requiredSkills": [
-      "anatomy",
-      "physiology",
-      "exercise science",
-      "rehabilitation",
-      "patient care",
-      "communication",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "A physical therapist is a health care professional who helps patients recover from injuries, illnesses or disabilities that affect their movement and function. They evaluate, diagnose and treat patients using various physical modalities such as exercises, massage, heat, cold or electrical stimulation. They also educate and advise patients on how to prevent or manage their conditions. A physical therapist should have a doctoral degree from an accredited physical therapy program, as well as a license from the state board of physical therapy."
-  },
-  {
-    "name": "Financial Manager",
-    "requiredSkills": [
-      "accounting",
-      "financial analysis",
-      "financial planning",
-      "management",
-      "leadership",
-      "communication",
-      "strategic planning"
-    ],
-    "description": "A financial manager is a professional who oversees the financial activities of an organization. They prepare financial reports, statements and forecasts, analyze financial data and trends, monitor cash flow and budgets, advise management on financial decisions and strategies, and ensure compliance with financial laws and regulations. They also supervise financial staff such as accountants or analysts. A financial manager should have a bachelor's degree or a master's degree in finance, accounting, economics or a related field, as well as experience in financial management."
-  },
-  {
-    "name": "IT Manager",
-    "requiredSkills": [
-      "IT infrastructure",
-      "project management",
-      "leadership",
-      "communication",
-      "strategic planning",
-      "networking",
-      "software development"
-    ],
-    "description": "An IT manager is a professional who manages the information technology resources of an organization. They plan, coordinate and direct the installation, maintenance and support of hardware, software, networks and systems. They also oversee IT staff such as technicians or developers, evaluate IT performance and needs, implement IT policies and procedures, and ensure IT security and reliability. An IT manager should have a bachelor's degree or a master's degree in computer science, information systems or a related field, as well as experience in IT management."
-  },
-  {
-    "name": "Web Developer",
-    "requiredSkills": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "web development frameworks",
-      "responsive design",
-      "user experience design",
-      "version control",
-      "communication"
-    ],
-    "description": "A web developer is a professional who creates websites for various purposes such as e-commerce, entertainment or education. They design, code and modify web pages using HTML, CSS, JavaScript or other web technologies. They also test, debug and optimize web applications for usability, functionality and accessibility. A web developer should have an associate's degree or a bachelor's degree in web development, computer science or a related field, as well as experience with web development tools and frameworks."
-  },
-  {
-    "name": "Dentist",
-    "requiredSkills": [
-      "clinical knowledge",
-      "patient care",
-      "diagnosis",
-      "treatment",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "A dentist is a healthcare professional who specializes in the diagnosis, treatment and prevention of diseases and conditions of the oral cavity. Dentists perform various procedures to improve the oral health and appearance of their patients, such as cleaning teeth, filling cavities, extracting teeth, placing implants, whitening teeth and correcting bite problems. Dentists also educate their patients on how to maintain good oral hygiene and prevent dental problems. To become a dentist, one needs to complete a bachelor's degree, a four-year dental school program and a state licensing exam."
-  },
-  {
-    "name": "Lawyer",
-    "requiredSkills": [
-      "legal knowledge",
-      "critical thinking",
-      "research",
-      "communication",
-      "negotiation",
-      "problem-solving",
-      "attention to detail"
-    ],
-    "description": "A lawyer is a legal professional who represents clients in various matters involving the law. Lawyers advise their clients on their rights and obligations, research and analyze legal issues, draft and review documents, negotiate settlements and contracts, and advocate for their clients in court or before other authorities. Lawyers may specialize in different areas of law, such as criminal law, family law, corporate law, intellectual property law or environmental law. To become a lawyer, one needs to complete a bachelor's degree, a three-year law school program and a bar exam."
-  },
-  {
-    "name": "Veterinarian",
-    "requiredSkills": [
-      "animal health and behavior",
-      "diagnosis",
-      "treatment",
-      "surgery",
-      "communication",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "A veterinarian is a medical professional who provides healthcare services to animals. Veterinarians diagnose and treat diseases and injuries of animals, perform surgeries and procedures, prescribe medications and vaccines, conduct tests and examinations, and advise animal owners on proper care and nutrition. Veterinarians may work with different types of animals, such as pets, livestock, wildlife or zoo animals. Veterinarians may also specialize in specific fields of veterinary medicine, such as surgery, dermatology, oncology or cardiology. To become a veterinarian, one needs to complete a bachelor's degree, a four-year veterinary school program and a state licensing exam."
-  },
-  {
-    "name": "Physician",
-    "requiredSkills": [
-      "clinical knowledge",
-      "patient care",
-      "diagnosis",
-      "treatment",
-      "medication management",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "A physician is a medical professional who diagnoses and treats various health conditions of human beings. Physicians examine patients, order and interpret tests, prescribe medications and therapies, perform procedures and surgeries, and monitor patients' progress and recovery. Physicians may work in different settings, such as hospitals, clinics, private practices or public health agencies. Physicians may also specialize in different areas of medicine, such as pediatrics, internal medicine, surgery, psychiatry or radiology. To become a physician, one needs to complete a bachelor's degree, a four-year medical school program, a residency program and a board certification exam."
-  },
-  {
-    "name": "Orthodontist",
-    "requiredSkills": [
-      "clinical knowledge",
-      "patient care",
-      "diagnosis",
-      "treatment",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "An orthodontist is a dental professional who specializes in the diagnosis, prevention and correction of malocclusion and other irregularities of the teeth and jaws. Orthodontists use various devices and techniques to align the teeth and improve the bite and facial appearance of their patients. Orthodontists also treat problems related to the growth and development of the jaws and facial bones. Orthodontists may work in private practices or dental clinics. To become an orthodontist, one needs to complete a bachelor's degree, a four-year dental school program, a three-year orthodontic residency program and a board certification exam."
-  },
-  {
-    "name": "Market Research Analyst",
-    "requiredSkills": [
-      "research methods",
-      "data analysis",
-      "statistical analysis",
-      "communication",
-      "critical thinking",
-      "problem-solving"
-    ],
-    "description": "A market research analyst is a business professional who collects and analyzes data on consumer behavior, market trends, competitors' strategies and industry conditions. Market research analysts use various methods and tools to gather information from primary and secondary sources, such as surveys, interviews, focus groups, online databases or reports. Market research analysts use statistical techniques to interpret data and generate insights and recommendations for their clients or employers. Market research analysts may work for market research firms or consulting agencies or within marketing departments of various organizations. To become a market research analyst, one needs to have at least a bachelor's degree in marketing, business administration, statistics or a related field."
-  },
-  {
-    "name": "Logistician",
-    "requiredSkills": [
-      "logistics",
-      "supply chain management",
-      "inventory management",
-      "transportation",
-      "communication",
-      "attention to detail",
-      "problem-solving"
-    ],
-    "description": "A logistician is a supply chain professional who plans,coordinatesand monitors the movement of goods,servicesand information from the point of origin to the point of consumption. Logisticians manage various aspects of logistics operations,such as transportation,warehousing,inventory,distribution,procurementand customer service. Logisticians use software systemsand analytical tools to optimize the efficiencyand effectiveness of logistics processesand ensure compliance with lawsand regulations. Logisticians may work for logistics companiesor within logistics departments of various organizations.To become a logistician,one needs to have at least a bachelor's degree in logistics,business administration,engineeringor a related field."
-  },
-  {
-    "name": "Registered Nurse",
-    "requiredSkills": [
-      "clinical knowledge",
-      "patient care",
-      "diagnosis",
-      "treatment",
-      "medication management",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "A registered nurse (RN) provides and coordinates patient care, educates patients and the public about various health conditions, and provides advice and emotional support to patients and their family members. RNs work in hospitals, clinics, nursing homes, schools, and other health care settings. RNs must have a bachelor's degree in nursing (BSN) or an associate degree in nursing (ADN), pass a national licensing exam, and complete continuing education requirements."
-  },
-  {
-    "name": "Management Analyst",
-    "requiredSkills": [
-      "business management",
-      "data analysis",
-      "communication",
-      "critical thinking",
-      "problem-solving",
-      "attention to detail"
-    ],
-    "description": "A management analyst (also known as a management consultant) advises managers on how to improve the efficiency and profitability of their organizations. Management analysts gather and analyze data, conduct interviews, make recommendations, and prepare reports for their clients. Management analysts may specialize in a specific industry, such as health care, finance, or education. Management analysts typically have a bachelor's degree in business administration, management, or a related field, and some may have a master's degree or a professional certification."
-  },
-  {
-    "name": "Occupational Therapy Assistant",
-    "requiredSkills": [
-      "anatomy",
-      "physiology",
-      "rehabilitation",
-      "patient care",
-      "communication",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "An occupational therapy assistant (OTA) helps patients with physical, mental, or developmental disabilities improve their ability to perform daily activities. OTAs work under the supervision of occupational therapists and follow a treatment plan that is tailored to each patient's needs and goals. OTAs may assist patients with exercises, self-care skills, leisure activities, adaptive equipment, and home modifications. OTAs must have an associate degree from an accredited occupational therapy assistant program and pass a national certification exam."
-  },
-  {
-    "name": "Computer Systems Analyst",
-    "requiredSkills": [
-      "computer systems",
-      "software design",
-      "data analysis",
-      "communication",
-      "critical thinking",
-      "problem-solving"
-    ],
-    "description": "A computer systems analyst (also known as a systems architect) designs and implements information technology solutions for various organizations. Computer systems analysts study the current systems and procedures of their clients, identify problems and opportunities, propose new systems or modifications, and oversee the development and installation of the systems. Computer systems analysts may specialize in a specific type of system, such as business, scientific, or engineering. Computer systems analysts typically have a bachelor's degree in computer science, information systems, or a related field, and some may have a master's degree or relevant work experience."
-  },
-  {
-    "name": "Financial Advisor",
-    "requiredSkills": [
-      "financial planning",
-      "investment strategies",
-      "communication",
-      "analytical thinking",
-      "attention to detail"
-    ],
-    "description": "A financial advisor (also known as a financial planner) helps individuals and businesses plan and manage their financial goals. Financial advisors assess the financial situation of their clients, provide advice on various topics such as investments, retirement, taxes, insurance, and estate planning, and monitor the performance of their clients' portfolios. Financial advisors may work for financial institutions, brokerage firms, insurance companies, or independently. Financial advisors must have a bachelor's degree in finance, accounting, economics, or a related field, and some may have a master's degree or a professional certification."
-  },
-  {
-    "name": "Data Scientist",
-    "requiredSkills": [
-      "statistical analysis",
-      "data analysis",
-      "machine learning",
-      "programming languages",
-      "communication",
-      "critical thinking"
-    ],
-    "description": "A data scientist analyzes large and complex data sets to discover patterns, trends, and insights that can help organizations make better decisions. Data scientists use various methods and tools such as statistics, machine learning, data mining, visualization, and programming to collect, process, and interpret data from various sources. Data scientists may work in various domains such as business, health care, education, government, or social media. Data scientists typically have a master's degree or a PhD in computer science, mathematics, statistics, or a related field."
-  },
-  {
-    "name": "Financial Analyst",
-    "requiredSkills": [
-      "financial analysis",
-      "financial planning",
-      "data analysis",
-      "communication",
-      "analytical thinking",
-      "attention to detail"
-    ],
-    "description": "A financial analyst is a professional who analyzes financial data and trends to provide insights and recommendations for investment decisions. Financial analysts may work for banks, corporations, investment firms, government agencies, or other organizations. Financial analysts typically have a bachelor's degree in finance, accounting, economics, or a related field, and may also have a master's degree or a professional certification. Financial analysts need strong analytical, communication, and problem-solving skills, as well as knowledge of financial markets and software tools."
-  },
-  {
-    "name": "Oral and Maxillofacial Surgeon",
-    "requiredSkills": [
-      "surgical skills",
-      "clinical knowledge",
-      "patient care",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "An oral and maxillofacial surgeon is a specialist who performs surgery on the mouth, jaws, face, and neck. Oral and maxillofacial surgeons treat various conditions and injuries affecting the oral and facial structures, such as congenital defects, tumors, infections, trauma, and cosmetic issues. Oral and maxillofacial surgeons typically have a dental degree and a medical degree, and complete a residency program in oral and maxillofacial surgery. Oral and maxillofacial surgeons need advanced surgical skills, as well as knowledge of anatomy, physiology, pathology, and pharmacology."
-  },
-  {
-    "name": "Nurse Anesthetist",
-    "requiredSkills": [
-      "anesthesia administration",
-      "patient monitoring",
-      "patient care",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "A nurse anesthetist is a registered nurse who administers anesthesia to patients undergoing surgery or other procedures. Nurse anesthetists work with anesthesiologists, surgeons, and other health care professionals to ensure the safety and comfort of patients before, during, and after anesthesia. Nurse anesthetists typically have a bachelor's degree in nursing and a master's degree or a doctorate in nurse anesthesia. Nurse anesthetists also need to pass a national certification exam and maintain their license and credentials. Nurse anesthetists need excellent clinical judgment, communication, and critical thinking skills, as well as knowledge of anesthesia principles and techniques."
-  },
-  {
-    "name": "Epidemiologist/Medical Scientist",
-    "requiredSkills": [
-      "public health",
-      "research methods",
-      "data analysis",
-      "statistics",
-      "critical thinking",
-      "communication",
-      "problem-solving"
-    ],
-    "description": "An epidemiologist or a medical scientist is a researcher who studies the causes, patterns, and effects of diseases and health conditions in human populations. Epidemiologists or medical scientists design and conduct studies to investigate various aspects of public health, such as disease outbreaks, risk factors, prevention strategies, diagnosis methods, treatment outcomes, and health policies. Epidemiologists or medical scientists typically have a master's degree or a doctorate in epidemiology, public health, biostatistics, or a related field. Epidemiologists or medical scientists need strong scientific reasoning, data analysis, and communication skills, as well as knowledge of epidemiological methods and software tools."
-  },
-  {
-    "name": "Actuary",
-    "requiredSkills": [
-      "mathematics",
-      "statistics",
-      "risk management",
-      "analytical thinking",
-      "communication",
-      "problem-solving"
-    ],
-    "description": "An actuary is a professional who uses mathematical models and statistical techniques to assess the financial risks and uncertainties associated with future events. Actuaries may work for insurance companies, pension plans, consulting firms, government agencies, or other organizations. Actuaries typically have a bachelor's degree in actuarial science,mathematics,statistics,or a related field,and may also have a master's degree or a professional designation.Actuaries need high-level mathematical,computational,and problem-solving skills,as well as knowledge of actuarial theoryand practice."
-  },
-  {
-    "name": "Operations Research Analyst",
-    "requiredSkills": [
-      "mathematical modeling",
-      "data analysis",
-      "problem-solving",
-      "critical thinking",
-      "communication"
-    ],
-    "description": "An operations research analyst is a professional who applies mathematicaland analytical methodsto help organizations optimize their performanceand decision-making processes.Operations research analysts may work for various industries,such as manufacturing,transportation,health care,military,or education.Operations research analysts typically have a bachelor's degreein operations research,mathematics,engineering,computer science,or a related field,and may also have a master's degree or a doctorate.Operations research analysts need strong quantitative,logical,and communication skills,as well as knowledge of operations research techniquesand software tools."
-  },
-  {
-    "name": "Database Administrator",
-    "requiredSkills": [
-      "database management",
-      "database design",
-      "data analysis",
-      "communication",
-      "problem-solving",
-      "attention to detail"
-    ],
-    "description": "A database administrator is a professional who manages the storage,organization,security,and accessof datain databases.Database administrators may work for various organizationsthat use databasesto storeand processinformation,such as businesses,government agencies,or educational institutions.Database administrators typically have a bachelor's degreein computer science,information systems,or a related field,and may also have a master's degree or a certification.Database administrators need proficient technical,organizational,and problem-solving skills,as well as knowledge of database systemsand software tools."
-  },
-  {
-    "name": "Statistician",
-    "requiredSkills": [
-      "statistical analysis",
-      "research methods",
-      "data analysis",
-      "communication",
-      "critical thinking"
-    ],
-    "description": "A statistician is a professional who collects,analyzes,and interpretsdatausing statistical methodsand software tools.Statisticians may work for various sectorsthat rely on datato make informed decisions,such as science,engineering,business,health care,education,or government.Statisticians typically have a bachelor's degreein statistics,mathematics,or a related field,and may also have a master's degree or a doctorate."
-  },
-  {
-    "name": "Speech-Language Pathologist",
-    "requiredSkills": [
-      "communication disorders",
-      "patient care",
-      "diagnosis",
-      "treatment",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "A speech-language pathologist (SLP) is a health professional who evaluates, diagnoses and treats communication and swallowing disorders in children and adults. SLPs work with people who have difficulties with speech, language, voice, fluency, cognition and feeding. SLPs provide individualized therapy, education and counseling to help their clients improve their communication skills and quality of life."
-  },
-  {
-    "name": "Psychiatrist",
-    "requiredSkills": [
-      "clinical knowledge",
-      "patient care",
-      "diagnosis",
-      "treatment",
-      "medication management",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "A psychiatrist is a medical doctor who specializes in the diagnosis, treatment and prevention of mental, emotional and behavioral disorders. Psychiatrists prescribe medication, conduct psychotherapy and provide other interventions to help their patients cope with various mental health issues such as depression, anxiety, bipolar disorder, schizophrenia, substance abuse and more. Psychiatrists also conduct research, teach and supervise other mental health professionals."
-  },
-  {
-    "name": "Optometrist",
-    "requiredSkills": [
-      "clinical knowledge",
-      "patient care",
-      "diagnosis",
-      "treatment",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "An optometrist is a primary eye care provider who examines, diagnoses and treats vision problems and eye diseases. Optometrists prescribe glasses, contact lenses and other devices to correct or enhance vision. Optometrists also provide services such as vision therapy, low vision rehabilitation, ocular disease management and pre- and post-operative care for eye surgeries."
-  },
-  {
-    "name": "Pediatrician",
-    "requiredSkills": [
-      "clinical knowledge",
-      "patient care",
-      "diagnosis",
-      "treatment",
-      "medication management",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "A pediatrician is a medical doctor who specializes in the care of children from birth to 18 years of age. Pediatricians provide comprehensive health services such as physical exams, immunizations, screenings, diagnosis and treatment of acute and chronic illnesses and injuries, referrals to specialists and coordination of care. Pediatricians also offer guidance on nutrition, growth, development, behavior and parenting."
-  },
-  {
-    "name": "Dental Hygienist",
-    "requiredSkills": [
-      "clinical knowledge",
-      "patient care",
-      "diagnosis",
-      "treatment",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "A dental hygienist is a licensed oral health professional who provides preventive and therapeutic dental care to patients. Dental hygienists perform oral examinations, clean teeth, remove plaque and tartar, apply fluoride and sealants, take x-rays and educate patients on oral hygiene practices. Dental hygienists work under the supervision of dentists and collaborate with other dental team members."
-  },
-  {
-    "name": "Respiratory Therapist",
-    "requiredSkills": [
-      "respiratory care",
-      "patient monitoring",
-      "patient care",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "A respiratory therapist (RT) is a health professional who assesses, treats and monitors patients with breathing disorders or cardiopulmonary diseases. RTs provide respiratory care such as oxygen therapy, aerosol therapy, mechanical ventilation, airway management, bronchial hygiene and pulmonary rehabilitation. RTs work in various settings such as hospitals, clinics, home care and emergency services."
-  },
-  {
-    "name": "Mental Health Counselor",
-    "requiredSkills": [
-      "counseling",
-      "communication",
-      "empathy",
-      "problem-solving",
-      "critical thinking",
-      "attention to detail"
-    ],
-    "description": "A mental health counselor (MHC) is a licensed professional who provides counseling services to individuals, couples, families or groups who are experiencing emotional or psychological distress. MHCs use various therapeutic approaches such as cognitive-behavioral therapy, solution-focused therapy or humanistic therapy to help their clients cope with issues such as stress, trauma, grief, relationship problems, self-esteem issues and more. MHCs also conduct assessments, develop treatment plans and evaluate outcomes."
-  },
-  {
-    "name": "Physical Therapist Assistant",
-    "requiredSkills": [
-      "anatomy",
-      "physiology",
-      "rehabilitation",
-      "patient care",
-      "communication",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "A physical therapist assistant (PTA) is a health professional who works under the direction and supervision of a physical therapist (PT). PTAs assist PTs in providing physical therapy services such as exercise instruction, manual therapy, modalities application and patient education. PTAs help patients improve their mobility, function and quality of life after injury or illness."
-  },
-  {
-    "name": "Business Operations Manager",
-    "requiredSkills": [
-      "business management",
-      "leadership",
-      "communication",
-      "strategic planning",
-      "problem-solving",
-      "attention to detail"
-    ],
-    "description": "A Business Operations Manager is a professional who oversees and coordinates the daily functions and strategic goals of a company. They are responsible for ensuring that all business operations are efficient, effective and compliant with quality standards and policies. Some of their duties include managing budgets, hiring and training staff, developing and implementing processes and procedures, monitoring and analyzing performance indicators, and resolving operational issues."
-  },
-  {
-    "name": "School Psychologist",
-    "requiredSkills": [
-      "psychology",
-      "assessment",
-      "communication",
-      "problem-solving",
-      "critical thinking",
-      "attention to detail"
-    ],
-    "description": "A School Psychologist is a professional who provides psychological services to students, teachers and parents in educational settings. They are responsible for assessing and supporting the academic, social and emotional needs of students, as well as promoting positive learning environments and preventing behavioral problems. Some of their duties include conducting psychological evaluations, developing and implementing interventions, consulting and collaborating with school staff and families, and providing crisis management and counseling."
-  },
-  {
-    "name": "Anesthesiologist",
-    "requiredSkills": [
-      "anesthesia administration",
-      "patient monitoring",
-      "patient care",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "An Anesthesiologist is a medical doctor who specializes in administering anesthesia to patients undergoing surgery or other medical procedures. They are responsible for ensuring the safety and comfort of patients before, during and after anesthesia, as well as monitoring their vital signs and managing any complications. Some of their duties include reviewing medical histories, performing physical examinations, preparing and administering anesthesia plans, supervising anesthesia technicians and nurses, and providing postoperative care and pain management."
-  },
-  {
-    "name": "Obstetrician and Gynecologist",
-    "requiredSkills": [
-      "clinical knowledge",
-      "patient care",
-      "diagnosis",
-      "treatment",
-      "medication management",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "An Obstetrician and Gynecologist is a medical doctor who specializes in women's health, especially in pregnancy, childbirth and reproductive system disorders. They are responsible for providing comprehensive care to women of all ages, from adolescence to menopause. Some of their duties include performing pelvic exams, pap smears, ultrasounds and other tests, diagnosing and treating various conditions, prescribing medications and contraceptives, performing surgeries and deliveries, and counseling and educating patients."
-  },
-  {
-    "name": "Biochemist",
-    "requiredSkills": [
-      "biochemistry",
-      "research methods",
-      "data analysis",
-      "critical thinking",
-      "communication"
-    ],
-    "description": "A Biochemist is a scientist who studies the chemical processes and interactions of living organisms. They are responsible for conducting research and experiments to understand how biological molecules function and affect cellular activities, such as metabolism, gene expression, disease development and drug action. Some of their duties include designing and performing laboratory tests, analyzing data and results, writing reports and publications, developing new methods and techniques, collaborating with other scientists and professionals, and applying their knowledge to various fields such as medicine, agriculture, biotechnology and environmental science."
-  },
-  {
-    "name": "Construction Manager",
-    "requiredSkills": [
-      "construction management",
-      "leadership",
-      "communication",
-      "problem-solving",
-      "attention to detail"
-    ],
-    "description": "A Construction Manager is a professional who plans, coordinates and oversees construction projects from start to finish. They are responsible for ensuring that the project meets the client's specifications, budget and timeline, as well as complying with safety regulations and quality standards. Some of their duties include preparing contracts and bids, hiring and supervising contractors and workers, obtaining permits and licenses, scheduling and monitoring activities, solving problems and issues, reporting progress and status, and delivering the final product."
-  },
-  {
-    "name": "Marketing Manager",
-    "requiredSkills": [
-      "marketing",
-      "leadership",
-      "communication",
-      "strategic planning",
-      "problem-solving",
-      "attention to detail"
-    ],
-    "description": "A Marketing Manager is a professional who develops and implements marketing strategies to promote a product or service to potential customers. They are responsible for increasing brand awareness, generating leads and sales, creating customer loyalty and satisfaction. Some of their duties include conducting market research and analysis, identifying target markets and segments, developing marketing plansand campaigns, overseeing marketing activities such as advertising,social media,events,and public relations,evaluatingand measuringthe effectivenessand return on investmentof marketing efforts,and managingmarketing budgetsand resources."
-  },
-  {
-    "name": "Chiropractor",
-    "requiredSkills": [
-      "clinical knowledge",
-      "patient care",
-      "diagnosis",
-      "treatment",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "A Chiropractor is a health care professional who diagnosesand treatsmusculoskeletaland nervous system disordersby manipulatingthe spineand other jointsof the body.They are responsible for improvingthe functionand alignmentof the spineand other structures,as well as relieving pain,inflammation,and muscle tension.Some of their duties include performing physical examinations,taking medical histories,ordering x-raysand other tests,developing treatment plans,applying spinal adjustmentsand other techniques,providing adviceand educationon posture,exercise,nutrition,and lifestyle,and referring patientsto other health care providerswhen necessary."
-  },
-  {
-    "name": "Pilot",
-    "requiredSkills": [
-      "aviation",
-      "communication",
-      "critical thinking",
-      "attention to detail",
-      "problem-solving"
-    ],
-    "description": "A pilot is a professional who flies aircraft for various purposes, such as transporting passengers or cargo, conducting aerial surveys, or performing military missions. A pilot must have a valid license and meet certain physical and mental requirements. A pilot also needs to have good communication, problem-solving, and decision-making skills."
-  },
-  {
-    "name": "Medical Records Technician",
-    "requiredSkills": [
-      "medical records management",
-      "data analysis",
-      "communication",
-      "attention to detail",
-      "problem-solving"
-    ],
-    "description": "A medical records technician is a professional who organizes and manages health information data for patients. A medical records technician ensures that the data is accurate, secure, and accessible. A medical records technician also uses various software and systems to code and classify the data for billing, insurance, and research purposes."
-  },
-  {
-    "name": "Psychologist",
-    "requiredSkills": [
-      "psychology",
-      "assessment",
-      "communication",
-      "problem-solving",
-      "critical thinking",
-      "attention to detail"
-    ],
-    "description": "A psychologist is a professional who studies human behavior and mental processes. A psychologist can work in various settings, such as schools, hospitals, clinics, or private practices. A psychologist can provide various services, such as assessment, diagnosis, treatment, counseling, or consultation. A psychologist must have a doctoral degree and a license to practice."
-  },
-  {
-    "name": "Biomedical Engineer",
-    "requiredSkills": [
-      "biomedical engineering",
-      "research methods",
-      "data analysis",
-      "critical thinking",
-      "communication"
-    ],
-    "description": "A biomedical engineer is a professional who applies engineering principles and methods to solve problems in medicine and biology. A biomedical engineer can design and develop various devices, systems, or procedures that improve health care quality and efficiency. A biomedical engineer can also conduct research and testing to evaluate the safety and effectiveness of the products."
-  },
-  {
-    "name": "Petroleum Engineer",
-    "requiredSkills": [
-      "petroleum engineering",
-      "research methods",
-      "data analysis",
-      "critical thinking",
-      "communication"
-    ],
-    "description": "A petroleum engineer is a professional who designs and oversees the extraction and production of oil and gas from underground reservoirs. A petroleum engineer can work in various stages of the process, such as exploration, drilling, completion, or reservoir management. A petroleum engineer must have a bachelor's degree in engineering and strong analytical and technical skills."
-  },
-  {
-    "name": "High School Teacher",
-    "requiredSkills": [
-      "teaching",
-      "communication",
-      "empathy",
-      "problem-solving",
-      "critical thinking",
-      "attention to detail"
-    ],
-    "description": "A high school teacher is a professional who educates students in grades 9 to 12 on various subjects, such as math, science, history, or language arts. A high school teacher prepares lesson plans, delivers instruction, assesses student learning, and maintains classroom discipline. A high school teacher must have a bachelor's degree and a state certification or license."
-  },
-  {
-    "name": "Substance Abuse and Behavioral Disorder Counselor",
-    "requiredSkills": [
-      "counseling",
-      "communication",
-      "empathy",
-      "problem-solving",
-      "critical thinking",
-      "attention to detail"
-    ],
-    "description": "A substance abuse and behavioral disorder counselor is a professional who helps people who struggle with addiction or mental health issues. A substance abuse and behavioral disorder counselor provides assessment, diagnosis, treatment, and support to the clients and their families. A substance abuse and behavioral disorder counselor must have at least a bachelor's degree and a state license or certification."
-  },
-  {
-    "name": "Veterinary Technologist and Technician",
-    "requiredSkills": [
-      "clinical knowledge",
-      "patient care",
-      "diagnosis",
-      "treatment",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "A veterinary technologist and technician is a professional who assists veterinarians in providing care to animals. A veterinary technologist and technician performs various tasks, such as taking vital signs, collecting samples, administering medications, conducting tests, or preparing equipment. A veterinary technologist and technician must have an associate's degree or higher in veterinary technology and pass a national exam."
-  },
-  {
-    "name": "Wind Turbine Technician",
-    "requiredSkills": [
-      "wind turbine technology",
-      "communication",
-      "critical thinking"
-    ],
-    "description": "A wind turbine technician is a professional who installs, maintains, and repairs wind turbines that generate electricity from wind power. A wind turbine technician works at heights and in various weather conditions. A wind turbine technician also uses various tools and equipment to inspect, troubleshoot, or replace components. A wind turbine technician must have a high school diploma or equivalent and complete a technical program or on-the-job training."
-  },
-  {
-    "name": "Computer Network Architect",
-    "requiredSkills": [
-      "network design",
-      "network protocols",
-      "network security",
-      "communication",
-      "critical thinking",
-      "problem-solving",
-      "attention to detail"
-    ],
-    "description": "A computer network architect is a professional who designs and builds data communication networks for various organizations. A computer network architect can create local area networks (LANs), wide area networks (WANs), intranets, or internet networks. A computer network architect also plans the security, performance, and scalability of the networks. A computer network architect must have a bachelor's degree in computer science or related field and several years of experience."
-  },
-  {
-    "name": "Public Relations Specialist",
-    "requiredSkills": [
-      "communication",
-      "media relations",
-      "writing",
-      "public speaking",
-      "critical thinking",
-      "problem-solving",
-      "attention to detail"
-    ],
-    "description": "A public relations specialist is a professional who creates and maintains a positive image for an individual or an organization. A public relations specialist can write press releases, organize events, manage social media accounts, or handle media inquiries. A public relations specialist also monitors the public opinion and feedback on the client's reputation. A public relations specialist must have a bachelor's degree in public relations, communication, or journalism."
-  },
-  {
-    "name": "Elementary School Teacher",
-    "requiredSkills": [
-      "teaching",
-      "classroom management",
-      "lesson planning",
-      "communication",
-      "creativity",
-      "patience",
-      "empathy"
-    ],
-    "description": "An elementary school teacher is a professional who educates students in grades K to 6 on various subjects, such as reading, writing, math, science, or social studies. An elementary school teacher prepares lesson plans,delivers instruction,assesses student learning,and fosters a positive learning environment.An elementary school teacher must have a bachelor's degreeand a state certification or license."
-  },
-  {
-    "name": "School Counselor",
-    "requiredSkills": [
-      "counseling",
-      "psychology",
-      "communication",
-      "empathy",
-      "problem-solving",
-      "critical thinking"
-    ],
-    "description": "A school counselor is a professional who helps students with academic, social, emotional and career development. They provide guidance, counseling, advocacy and prevention services to students and their families. They also collaborate with teachers, administrators and other school staff to create a positive and supportive learning environment."
-  },
-  {
-    "name": "Social and Community Service Manager",
-    "requiredSkills": [
-      "social and community services",
-      "management",
-      "leadership",
-      "communication",
-      "strategic planning",
-      "critical thinking"
-    ],
-    "description": "A social and community service manager is a professional who oversees and coordinates the activities of social and community service organizations. They plan, implement and evaluate programs that address the needs of various populations, such as children, elderly, homeless, veterans or immigrants. They also manage budgets, staff, volunteers and resources for their organizations."
-  },
-  {
-    "name": "Computer Systems Administrator",
-    "requiredSkills": [
-      "computer systems",
-      "network administration",
-      "system security",
-      "communication",
-      "problem-solving",
-      "attention to detail"
-    ],
-    "description": "A computer systems administrator is a professional who installs, configures, maintains and troubleshoots the hardware and software of computer networks. They ensure the security, performance and availability of network systems and data. They also provide technical support and training to users and other IT staff."
-  },
-  {
-    "name": "Community Health Worker",
-    "requiredSkills": [
-      "community health",
-      "patient care",
-      "communication",
-      "empathy",
-      "problem-solving"
-    ],
-    "description": "A community health worker is a professional who provides health education, outreach and advocacy to individuals and groups in their communities. They help people access health care services, prevent diseases, promote healthy behaviors and address social determinants of health. They also collect and report data on health issues and outcomes."
-  },
-  {
-    "name": "Landscaper and Groundskeeper",
-    "requiredSkills": [
-      "landscaping",
-      "groundskeeping",
-      "plant care",
-      "communication",
-      "physical fitness"
-    ],
-    "description": "A landscaper and groundskeeper is a professional who designs, installs and maintains the outdoor spaces of residential or commercial properties. They plant, prune, mow, water, fertilize and weed lawns, gardens, trees and shrubs. They also remove snow, leaves and debris from walkways, driveways and parking lots."
-  },
-  {
-    "name": "Diagnostic Medical Sonographer",
-    "requiredSkills": [
-      "medical imaging",
-      "patient care",
-      "communication",
-      "attention to detail"
-    ],
-    "description": "A diagnostic medical sonographer is a professional who uses ultrasound equipment to create images of internal organs, tissues and blood vessels for diagnostic purposes. They prepare patients for the procedure, operate the equipment, analyze the images and report the findings to physicians. They also maintain the equipment and follow safety protocols."
-  },
-  {
-    "name": "Home Health Aide",
-    "requiredSkills": [
-      "patient care",
-      "communication",
-      "empathy",
-      "problem-solving"
-    ],
-    "description": "A home health aide is a professional who provides personal care and assistance to people who are ill, disabled or elderly in their homes. They help with daily activities such as bathing, dressing, eating, medication management and housekeeping. They also monitor vital signs, report changes in health status and provide emotional support."
-  },
-  {
-    "name": "Personal Care Aide",
-    "requiredSkills": [
-      "patient care",
-      "communication",
-      "empathy",
-      "problem-solving"
-    ],
-    "description": "A personal care aide is a professional who provides non-medical care and assistance to people who need help with daily living tasks due to aging or disability. They help with personal hygiene, grooming, dressing, mobility and transportation. They also perform light housekeeping chores, prepare meals and provide companionship."
-  },
-  {
-    "name": "Prosthodontist",
-    "requiredSkills": [
-      "clinical knowledge",
-      "patient care",
-      "diagnosis",
-      "treatment",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "A prosthodontist is a dentist who specializes in restoring or replacing damaged or missing teeth with artificial devices such as crowns, bridges, dentures or implants. They diagnose oral problems, design treatment plans, perform surgical procedures and fit prosthetic devices. They also educate patients on oral hygiene and care."
-  },
-  {
-    "name": "Paralegal",
-    "requiredSkills": [
-      "legal knowledge",
-      "critical thinking",
-      "research",
-      "communication",
-      "attention to detail",
-      "problem-solving"
-    ],
-    "description": "A paralegal is a professional who assists lawyers with various legal tasks such as research, drafting documents, filing motions, interviewing witnesses and preparing for trials. They work under the supervision of lawyers and follow ethical standards. They also communicate with clients, courts and other parties involved in legal matters."
-  },
-  {
-    "name": "Delivery Truck Driver",
-    "requiredSkills": [
-      "driving",
-      "navigation",
-      "time management",
-      "communication",
-      "attention to detail"
-    ],
-    "description": "A delivery truck driver is a professional who transports goods from one location to another using a truck or van. They load and unload the cargo, check the condition of the vehicle and the goods, follow traffic rules and safety regulations and maintain records of deliveries. They also collect payments from customers or recipients."
-  },
-  {
-    "name": "Orthotist and Prosthetist",
-    "requiredSkills": [
-      "clinical knowledge",
-      "patient care",
-      "diagnosis",
-      "treatment",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "An orthotist and prosthetist is a professional who designs, fits and adjusts orthopedic braces or artificial limbs for people who have physical disabilities or injuries. They evaluate the needs of patients, take measurements and impressions of body parts, fabricate or modify devices using various materials and tools and provide follow-up care."
-  },
-  {
-    "name": "Industrial Psychologist",
-    "requiredSkills": [
-      "psychology",
-      "communication",
-      "critical thinking",
-      "problem-solving",
-      "attention to detail"
-    ],
-    "description": "An industrial psychologist applies psychological principles and research methods to improve the performance, motivation, and well-being of employees and organizations. They may conduct assessments, design interventions, evaluate programs, and provide consultation and training."
-  },
-  {
-    "name": "Occupational Therapist",
-    "requiredSkills": [
-      "anatomy",
-      "physiology",
-      "rehabilitation",
-      "patient care",
-      "communication",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "An occupational therapist helps people with physical, mental, or developmental disabilities to perform daily activities and achieve their goals. They may assess the client's needs, develop a treatment plan, provide therapy and adaptive equipment, and monitor progress."
-  },
-  {
-    "name": "Loan Officer",
-    "requiredSkills": [
-      "finance",
-      "credit analysis",
-      "communication",
-      "critical thinking",
-      "attention to detail"
-    ],
-    "description": "A loan officer evaluates, authorizes, or recommends approval of loan applications for individuals or businesses. They may review financial information, verify documents, explain loan terms and conditions, and communicate with applicants and underwriters."
-  },
-  {
-    "name": "MRI Technologist",
-    "requiredSkills": [
-      "medical imaging",
-      "patient care",
-      "communication",
-      "attention to detail"
-    ],
-    "description": "An MRI technologist operates magnetic resonance imaging (MRI) scanners to create diagnostic images of the internal structures of the human body. They may prepare patients for the procedure, position them on the scanner table, adjust the scanner settings, and monitor the patient's safety and comfort."
-  },
-  {
-    "name": "Accountant",
-    "requiredSkills": [
-      "accounting",
-      "financial analysis",
-      "communication",
-      "attention to detail",
-      "critical thinking"
-    ],
-    "description": "An accountant prepares and examines financial records for individuals or organizations. They may ensure accuracy and compliance with laws and regulations, analyze data and trends, prepare reports and statements, and provide advice on financial matters."
-  },
-  {
-    "name": "Dietitian and Nutritionist",
-    "requiredSkills": [
-      "nutrition",
-      "patient care",
-      "communication",
-      "empathy",
-      "problem-solving"
-    ],
-    "description": "A dietitian or nutritionist provides guidance on food and nutrition to promote health and prevent or treat diseases. They may assess the client's nutritional needs, develop meal plans, counsel on dietary changes, and evaluate outcomes."
-  },
-  {
-    "name": "Medical Assistant",
-    "requiredSkills": [
-      "clinical knowledge",
-      "patient care",
-      "medical terminology",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "A medical assistant performs administrative and clinical tasks to support the work of physicians and other health professionals. They may schedule appointments, update records, prepare patients for examination, collect samples, perform basic tests, and administer medications."
-  },
-  {
-    "name": "Cardiovascular Technologist",
-    "requiredSkills": [
-      "cardiovascular anatomy and physiology",
-      "medical technology",
-      "patient care",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "A cardiovascular technologist uses imaging and invasive procedures to diagnose and treat heart and blood vessel conditions. They may perform electrocardiograms (EKGs), echocardiograms, stress tests, angiograms, or catheterizations."
-  },
-  {
-    "name": "Licensed Practical and Licensed Vocational Nurse",
-    "requiredSkills": [
-      "clinical knowledge",
-      "patient care",
-      "diagnosis",
-      "treatment",
-      "medication management",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "A licensed practical or vocational nurse (LPN or LVN) provides basic nursing care under the supervision of a registered nurse (RN) or a physician. They may monitor vital signs, administer medications, change dressings, assist with personal hygiene, and document care."
-  },
-  {
-    "name": "Electrician",
-    "requiredSkills": [
-      "electrical systems",
-      "wiring",
-      "blueprints",
-      "safety protocols",
-      "problem-solving",
-      "attention to detail",
-      "communication"
-    ],
-    "description": "An electrician installs, maintains, and repairs electrical systems and equipment for residential, commercial, or industrial settings. They may read blueprints, follow codes and regulations, use tools and instruments, test circuits, troubleshoot problems, and ensure safety."
-  },
-  {
-    "name": "Massage Therapist",
-    "requiredSkills": [
-      "anatomy",
-      "physiology",
-      "massage techniques",
-      "communication",
-      "empathy",
-      "attention to detail"
-    ],
-    "description": "A massage therapist manipulates soft tissues of the body to relieve pain, reduce stress, improve circulation, and promote wellness. They may consult with clients about their medical history and preferences, apply different types of massage techniques, provide feedback and advice, and maintain records."
-  },
-  {
-    "name": "Hearing Aid Specialist",
-    "requiredSkills": [
-      "audiology",
-      "hearing technology",
-      "patient care",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "A hearing aid specialist tests hearing levels, selects appropriate hearing aids for clients with hearing loss, fits and adjusts them to ensure optimal performance and comfort. They may also provide counseling on hearing aid use and care, repair hearing aids, and keep records."
-  },
-  {
-    "name": "Genetic Counselor",
-    "requiredSkills": [
-      "genetics",
-      "counseling",
-      "communication",
-      "empathy",
-      "attention to detail",
-      "critical thinking"
-    ],
-    "description": "A genetic counselor is a health care professional who assesses clients' risk for inherited conditions, such as birth defects or genetic disorders. They provide genetic testing, counseling, education and support to individuals and families. They also collaborate with other health care providers and participate in research and training. A genetic counselor typically needs a master's degree in genetic counseling and a license to practice."
-  },
-  {
-    "name": "Recreation and Fitness Worker",
-    "requiredSkills": [
-      "exercise science",
-      "fitness programs",
-      "communication",
-      "empathy",
-      "attention to detail"
-    ],
-    "description": "A recreation and fitness worker is a health care professional who plans, organizes and leads recreational and fitness activities for people of all ages and abilities. They may work in settings such as parks, community centers, gyms, camps or resorts. They help people improve their physical and mental well-being, learn new skills and have fun. A recreation and fitness worker typically needs a high school diploma and some on-the-job training."
-  },
-  {
-    "name": "Patrol Officer",
-    "requiredSkills": [
-      "law enforcement",
-      "public safety",
-      "communication",
-      "attention to detail",
-      "critical thinking",
-      "problem-solving"
-    ],
-    "description": "A patrol officer is a law enforcement professional who protects the public safety and enforces the law. They patrol assigned areas, respond to calls for service, investigate crimes, arrest suspects, write reports and testify in court. They may also perform traffic control, community outreach and emergency assistance. A patrol officer typically needs a high school diploma, a police academy training and a state certification."
-  },
-  {
-    "name": "Clinical Laboratory Technician",
-    "requiredSkills": [
-      "medical technology",
-      "laboratory testing",
-      "data analysis",
-      "communication",
-      "attention to detail",
-      "critical thinking"
-    ],
-    "description": "A clinical laboratory technician is a health care professional who performs laboratory tests on blood, body fluids and tissues. They use various instruments and techniques to analyze samples, report results and maintain quality control. They may also collect specimens, prepare reagents and calibrate equipment. They work under the supervision of clinical laboratory technologists or other medical professionals. A clinical laboratory technician typically needs an associate's degree or a postsecondary certificate in clinical laboratory science."
-  },
-  {
-    "name": "Restaurant Cook",
-    "requiredSkills": [
-      "culinary arts",
-      "cooking techniques",
-      "food safety",
-      "attention to detail",
-      "communication",
-      "teamwork"
-    ],
-    "description": "A restaurant cook is a food service professional who prepares food for customers in restaurants or other dining establishments. They follow recipes, measure ingredients, cook dishes, ensure food safety and quality, and clean kitchen equipment and utensils. They may also assist with menu planning, inventory management and staff training. A restaurant cook typically needs a high school diploma and some culinary training or experience."
-  },
-  {
-    "name": "Solar Photovoltaic Installer",
-    "requiredSkills": [
-      "solar panel installation",
-      "electrical systems",
-      "safety protocols",
-      "problem-solving",
-      "attention to detail",
-      "communication"
-    ],
-    "description": "A solar photovoltaic installer is an energy professional who installs, maintains and repairs solar panels that convert sunlight into electricity. They work on rooftops or other structures where solar panels are mounted. They measure, cut, assemble, connect and test solar components, follow safety standards and regulations, and troubleshoot problems. A solar photovoltaic installer typically needs a high school diploma and some technical training or apprenticeship."
-  },
-  {
-    "name": "Pharmacist",
-    "requiredSkills": [
-      "pharmaceuticals",
-      "medication management",
-      "patient care",
-      "communication",
-      "attention to detail",
-      "critical thinking"
-    ],
-    "description": "A pharmacist is a health care professional who dispenses medications, advises patients on their proper use and side effects, and monitors drug interactions and therapy outcomes. A pharmacist also provides health education and wellness promotion to the public. To become a pharmacist, one needs to complete a Doctor of Pharmacy degree and pass a licensing exam."
-  },
-  {
-    "name": "Audiologist",
-    "requiredSkills": [
-      "audiology",
-      "hearing technology",
-      "patient care",
-      "communication",
-      "attention to detail",
-      "empathy",
-      "teamwork"
-    ],
-    "description": "An audiologist is a health care professional who diagnoses and treats hearing and balance disorders. An audiologist also provides hearing aids, cochlear implants, and other assistive devices to help patients improve their hearing and communication skills. To become an audiologist, one needs to complete a Doctor of Audiology degree and obtain a state license."
-  },
-  {
-    "name": "Middle School Teacher",
-    "requiredSkills": [
-      "teaching",
-      "classroom management",
-      "curriculum design",
-      "communication",
-      "empathy",
-      "problem-solving"
-    ],
-    "description": "A middle school teacher is an educator who teaches students in grades 6 to 8. A middle school teacher plans and delivers lessons in various subjects, such as math, science, language arts, social studies, and arts. A middle school teacher also assesses student progress, provides feedback, and maintains classroom discipline. To become a middle school teacher, one needs to have a bachelor's degree in education or a related field and a state certification."
-  },
-  {
-    "name": "Pharmacy Technician",
-    "requiredSkills": [
-      "pharmaceuticals",
-      "medication management",
-      "patient care",
-      "communication",
-      "attention to detail",
-      "teamwork"
-    ],
-    "description": "A pharmacy technician is a health care worker who assists pharmacists in preparing and dispensing medications. A pharmacy technician also performs administrative tasks, such as answering phones, filing prescriptions, and managing inventory. To become a pharmacy technician, one needs to have a high school diploma or equivalent and complete a training program or pass a certification exam."
-  },
-  {
-    "name": "Credit Counselor",
-    "requiredSkills": [
-      "financial counseling",
-      "debt management",
-      "communication",
-      "attention to detail",
-      "problem-solving"
-    ],
-    "description": "A credit counselor is a financial professional who helps clients manage their debt and improve their credit score. A credit counselor also educates clients on budgeting, saving, and investing strategies. To become a credit counselor, one needs to have a bachelor's degree in finance, accounting, or a related field and obtain a certification from a recognized organization."
-  },
-  {
-    "name": "Technical Writer",
-    "requiredSkills": [
-      "technical writing",
-      "research",
-      "communication",
-      "attention to detail",
-      "critical thinking"
-    ],
-    "description": "A technical writer is a communication specialist who creates clear and concise documents that explain complex technical information to various audiences. A technical writer also researches, organizes, and edits content for manuals, websites, reports, proposals, and other publications. To become a technical writer, one needs to have a bachelor's degree in English, journalism, or a related field and have strong writing and technical skills."
-  },
-  {
-    "name": "Firefighter",
-    "requiredSkills": [
-      "fire safety",
-      "public safety",
-      "emergency response",
-      "communication",
-      "attention to detail",
-      "critical thinking"
-    ],
-    "description": "A firefighter is an emergency responder who protects people and property from fires and other hazards. A firefighter also performs rescue operations, provides medical care, and maintains fire equipment and vehicles. To become a firefighter, one needs to have a high school diploma or equivalent and complete a rigorous physical and written test."
-  },
-  {
-    "name": "Nail Technician",
-    "requiredSkills": [
-      "nail care",
-      "sanitation",
-      "communication",
-      "attention to detail",
-      "teamwork"
-    ],
-    "description": "A nail technician is a beauty professional who provides manicures and pedicures to clients. A nail technician also shapes, cleans, polishes, and decorates nails using various tools and products. To become a nail technician, one needs to complete a cosmetology program or a specialized nail course and obtain a state license."
-  },
-  {
-    "name": "Sales Manager",
-    "requiredSkills": [
-      "sales",
-      "management",
-      "leadership",
-      "communication",
-      "problem-solving",
-      "strategic planning"
-    ],
-    "description": "A sales manager is a business professional who oversees the sales activities of an organization or a team. A sales manager also sets sales goals, develops sales strategies, trains and motivates sales staff, and monitors sales performance and customer satisfaction. To become a sales manager, one needs to have a bachelor's degree in business administration or marketing and have relevant sales experience."
-  },
-  {
-    "name": "Environmental Engineer",
-    "requiredSkills": [
-      "environmental science",
-      "engineering",
-      "sustainability",
-      "communication",
-      "problem-solving",
-      "critical thinking"
-    ],
-    "description": "An environmental engineer is an engineering professional who designs and implements solutions to environmental problems. An environmental engineer also conducts research, analysis, and testing on air quality, water quality, waste management, pollution control, and renewable energy. To become an environmental engineer, one needs to have a bachelor's degree in environmental engineering or a related field and obtain a state license."
-  },
-  {
-    "name": "HR Specialist",
-    "requiredSkills": [
-      "human resources",
-      "employment law",
-      "communication",
-      "problem-solving",
-      "attention to detail",
-      "critical thinking"
-    ],
-    "description": "An HR specialist is a human resources professional who handles various aspects of employee relations within an organization. An HR specialist also recruits, hires, trains, evaluates, compensates, and benefits employees. To become an HR specialist, one needs to have a bachelor's degree in human resources management or business administration and have strong interpersonal skills."
-  },
-  {
-    "name": "Political Scientist",
-    "requiredSkills": [
-      "political science",
-      "research",
-      "communication",
-      "critical thinking",
-      "problem-solving"
-    ],
-    "description": "A political scientist is a social science professional who studies the origin, development, and operation of political systems and institutions. A political scientist also conducts research, surveys, analysis on political issues such as elections,democracy,conflict,and public policy.To becomea political scientistone needsto havea master'sor doctoraldegreein political scienceora related fieldand havestrong analyticaland communication skills."
+      "name": "Software Developer",
+      "requiredSkills": [
+          "problem-solving",
+          "programming languages",
+          "data structures and algorithms",
+          "version control",
+          "software design",
+          "software testing",
+          "debugging",
+          "critical thinking",
+          "communication"
+      ],
+      "description": "A software developer is a professional who designs and codes software programs for various platforms and purposes. They work with clients, managers and other developers to understand the requirements and specifications of the software. They use programming languages such as Java, C++, Python or JavaScript to create efficient and functional code. They also test, debug, deploy and maintain the software, as well as gather and evaluate user feedback. A software developer should have a bachelor's degree in computer science, engineering or a related field, as well as experience with software development methodologies, tools and frameworks.",
+      "salary": 120730
+  },
+  {
+      "name": "Nurse Practitioner",
+      "requiredSkills": [
+          "clinical knowledge",
+          "patient care",
+          "diagnosis",
+          "treatment",
+          "medication management",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "A nurse practitioner is an advanced practice registered nurse who provides primary or specialty health care services to patients. They assess, diagnose and treat various health conditions, prescribe medications and order tests. They also educate and counsel patients on health promotion and disease prevention. A nurse practitioner should have a master's degree or a doctoral degree in nursing, as well as a license and certification in their specialty area.",
+      "salary": 120680
+  },
+  {
+      "name": "Medical and Health Services Manager",
+      "requiredSkills": [
+          "healthcare regulations and policies",
+          "healthcare administration",
+          "budgeting",
+          "management",
+          "leadership",
+          "communication",
+          "strategic planning"
+      ],
+      "description": "A medical and health services manager is a professional who plans, directs and coordinates the delivery of health care services in hospitals, clinics, nursing homes or other health care facilities. They oversee the budget, staff, policies and quality of care of their organization. They also communicate with physicians, nurses, patients and other stakeholders. A medical and health services manager should have a bachelor's degree or a master's degree in health administration, public health, business administration or a related field, as well as experience in health care management.",
+      "salary": 101340
+  },
+  {
+      "name": "Physician Assistant",
+      "requiredSkills": [
+          "clinical knowledge",
+          "patient care",
+          "diagnosis",
+          "treatment",
+          "medication management",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "A physician assistant is a medical professional who works under the supervision of a physician to provide diagnostic, therapeutic and preventive health care services to patients. They examine, diagnose and treat various illnesses and injuries, prescribe medications and order tests. They also educate and counsel patients on health issues and lifestyle choices. A physician assistant should have a master's degree from an accredited physician assistant program, as well as a license and certification from the National Commission on Certification of Physician Assistants.",
+      "salary": 121530
+  },
+  {
+      "name": "Information Security Analyst",
+      "requiredSkills": [
+          "network security",
+          "cybersecurity",
+          "vulnerability assessments",
+          "risk management",
+          "cryptography",
+          "security policies",
+          "communication",
+          "analytical thinking"
+      ],
+      "description": "An information security analyst is a professional who protects the data and systems of an organization from cyberattacks and unauthorized access. They monitor, analyze and respond to security incidents, implement security policies and procedures, perform risk assessments and audits, and recommend security solutions. They also educate and train users on security best practices. An information security analyst should have a bachelor's degree in computer science, information systems, cybersecurity or a related field, as well as experience with security tools and techniques.",
+      "salary": 102600
+  },
+  {
+      "name": "Physical Therapist",
+      "requiredSkills": [
+          "anatomy",
+          "physiology",
+          "exercise science",
+          "rehabilitation",
+          "patient care",
+          "communication",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "A physical therapist is a health care professional who helps patients recover from injuries, illnesses or disabilities that affect their movement and function. They evaluate, diagnose and treat patients using various physical modalities such as exercises, massage, heat, cold or electrical stimulation. They also educate and advise patients on how to prevent or manage their conditions. A physical therapist should have a doctoral degree from an accredited physical therapy program, as well as a license from the state board of physical therapy.",
+      "salary": 95620
+  },
+  {
+      "name": "Financial Manager",
+      "requiredSkills": [
+          "accounting",
+          "financial analysis",
+          "financial planning",
+          "management",
+          "leadership",
+          "communication",
+          "strategic planning"
+      ],
+      "description": "A financial manager is a professional who oversees the financial activities of an organization. They prepare financial reports, statements and forecasts, analyze financial data and trends, monitor cash flow and budgets, advise management on financial decisions and strategies, and ensure compliance with financial laws and regulations. They also supervise financial staff such as accountants or analysts. A financial manager should have a bachelor's degree or a master's degree in finance, accounting, economics or a related field, as well as experience in financial management.",
+      "salary": 131710
+  },
+  {
+      "name": "IT Manager",
+      "requiredSkills": [
+          "IT infrastructure",
+          "project management",
+          "leadership",
+          "communication",
+          "strategic planning",
+          "networking",
+          "software development"
+      ],
+      "description": "An IT manager is a professional who manages the information technology resources of an organization. They plan, coordinate and direct the installation, maintenance and support of hardware, software, networks and systems. They also oversee IT staff such as technicians or developers, evaluate IT performance and needs, implement IT policies and procedures, and ensure IT security and reliability. An IT manager should have a bachelor's degree or a master's degree in computer science, information systems or a related field, as well as experience in IT management.",
+      "salary": 159010
+  },
+  {
+      "name": "Web Developer",
+      "requiredSkills": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "web development frameworks",
+          "responsive design",
+          "user experience design",
+          "version control",
+          "communication"
+      ],
+      "description": "A web developer is a professional who creates websites for various purposes such as e-commerce, entertainment or education. They design, code and modify web pages using HTML, CSS, JavaScript or other web technologies. They also test, debug and optimize web applications for usability, functionality and accessibility. A web developer should have an associate's degree or a bachelor's degree in web development, computer science or a related field, as well as experience with web development tools and frameworks.",
+      "salary": 77030
+  },
+  {
+      "name": "Dentist",
+      "requiredSkills": [
+          "clinical knowledge",
+          "patient care",
+          "diagnosis",
+          "treatment",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "A dentist is a healthcare professional who specializes in the diagnosis, treatment and prevention of diseases and conditions of the oral cavity. Dentists perform various procedures to improve the oral health and appearance of their patients, such as cleaning teeth, filling cavities, extracting teeth, placing implants, whitening teeth and correcting bite problems. Dentists also educate their patients on how to maintain good oral hygiene and prevent dental problems. To become a dentist, one needs to complete a bachelor's degree, a four-year dental school program and a state licensing exam.",
+      "salary": 160370
+  },
+  {
+      "name": "Lawyer",
+      "requiredSkills": [
+          "legal knowledge",
+          "critical thinking",
+          "research",
+          "communication",
+          "negotiation",
+          "problem-solving",
+          "attention to detail"
+      ],
+      "description": "A lawyer is a legal professional who represents clients in various matters involving the law. Lawyers advise their clients on their rights and obligations, research and analyze legal issues, draft and review documents, negotiate settlements and contracts, and advocate for their clients in court or before other authorities. Lawyers may specialize in different areas of law, such as criminal law, family law, corporate law, intellectual property law or environmental law. To become a lawyer, one needs to complete a bachelor's degree, a three-year law school program and a bar exam.",
+      "salary": 127990
+  },
+  {
+      "name": "Veterinarian",
+      "requiredSkills": [
+          "animal health and behavior",
+          "diagnosis",
+          "treatment",
+          "surgery",
+          "communication",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "A veterinarian is a medical professional who provides healthcare services to animals. Veterinarians diagnose and treat diseases and injuries of animals, perform surgeries and procedures, prescribe medications and vaccines, conduct tests and examinations, and advise animal owners on proper care and nutrition. Veterinarians may work with different types of animals, such as pets, livestock, wildlife or zoo animals. Veterinarians may also specialize in specific fields of veterinary medicine, such as surgery, dermatology, oncology or cardiology. To become a veterinarian, one needs to complete a bachelor's degree, a four-year veterinary school program and a state licensing exam.",
+      "salary": 100370
+  },
+  {
+      "name": "Physician",
+      "requiredSkills": [
+          "clinical knowledge",
+          "patient care",
+          "diagnosis",
+          "treatment",
+          "medication management",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "A physician is a medical professional who diagnoses and treats various health conditions of human beings. Physicians examine patients, order and interpret tests, prescribe medications and therapies, perform procedures and surgeries, and monitor patients' progress and recovery. Physicians may work in different settings, such as hospitals, clinics, private practices or public health agencies. Physicians may also specialize in different areas of medicine, such as pediatrics, internal medicine, surgery, psychiatry or radiology. To become a physician, one needs to complete a bachelor's degree, a four-year medical school program, a residency program and a board certification exam.",
+      "salary": 208000
+  },
+  {
+      "name": "Orthodontist",
+      "requiredSkills": [
+          "clinical knowledge",
+          "patient care",
+          "diagnosis",
+          "treatment",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "An orthodontist is a dental professional who specializes in the diagnosis, prevention and correction of malocclusion and other irregularities of the teeth and jaws. Orthodontists use various devices and techniques to align the teeth and improve the bite and facial appearance of their patients. Orthodontists also treat problems related to the growth and development of the jaws and facial bones. Orthodontists may work in private practices or dental clinics. To become an orthodontist, one needs to complete a bachelor's degree, a four-year dental school program, a three-year orthodontic residency program and a board certification exam.",
+      "salary": 208000
+  },
+  {
+      "name": "Market Research Analyst",
+      "requiredSkills": [
+          "research methods",
+          "data analysis",
+          "statistical analysis",
+          "communication",
+          "critical thinking",
+          "problem-solving"
+      ],
+      "description": "A market research analyst is a business professional who collects and analyzes data on consumer behavior, market trends, competitors' strategies and industry conditions. Market research analysts use various methods and tools to gather information from primary and secondary sources, such as surveys, interviews, focus groups, online databases or reports. Market research analysts use statistical techniques to interpret data and generate insights and recommendations for their clients or employers. Market research analysts may work for market research firms or consulting agencies or within marketing departments of various organizations. To become a market research analyst, one needs to have at least a bachelor's degree in marketing, business administration, statistics or a related field.",
+      "salary": 63920
+  },
+  {
+      "name": "Logistician",
+      "requiredSkills": [
+          "logistics",
+          "supply chain management",
+          "inventory management",
+          "transportation",
+          "communication",
+          "attention to detail",
+          "problem-solving"
+      ],
+      "description": "A logistician is a supply chain professional who plans,coordinatesand monitors the movement of goods,servicesand information from the point of origin to the point of consumption. Logisticians manage various aspects of logistics operations,such as transportation,warehousing,inventory,distribution,procurementand customer service. Logisticians use software systemsand analytical tools to optimize the efficiencyand effectiveness of logistics processesand ensure compliance with lawsand regulations. Logisticians may work for logistics companiesor within logistics departments of various organizations.To become a logistician,one needs to have at least a bachelor's degree in logistics,business administration,engineeringor a related field.",
+      "salary": 77030
+  },
+  {
+      "name": "Registered Nurse",
+      "requiredSkills": [
+          "clinical knowledge",
+          "patient care",
+          "diagnosis",
+          "treatment",
+          "medication management",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "A registered nurse (RN) provides and coordinates patient care, educates patients and the public about various health conditions, and provides advice and emotional support to patients and their family members. RNs work in hospitals, clinics, nursing homes, schools, and other health care settings. RNs must have a bachelor's degree in nursing (BSN) or an associate degree in nursing (ADN), pass a national licensing exam, and complete continuing education requirements.",
+      "salary": 77600
+  },
+  {
+      "name": "Management Analyst",
+      "requiredSkills": [
+          "business management",
+          "data analysis",
+          "communication",
+          "critical thinking",
+          "problem-solving",
+          "attention to detail"
+      ],
+      "description": "A management analyst (also known as a management consultant) advises managers on how to improve the efficiency and profitability of their organizations. Management analysts gather and analyze data, conduct interviews, make recommendations, and prepare reports for their clients. Management analysts may specialize in a specific industry, such as health care, finance, or education. Management analysts typically have a bachelor's degree in business administration, management, or a related field, and some may have a master's degree or a professional certification.",
+      "salary": 93000
+  },
+  {
+      "name": "Occupational Therapy Assistant",
+      "requiredSkills": [
+          "anatomy",
+          "physiology",
+          "rehabilitation",
+          "patient care",
+          "communication",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "An occupational therapy assistant (OTA) helps patients with physical, mental, or developmental disabilities improve their ability to perform daily activities. OTAs work under the supervision of occupational therapists and follow a treatment plan that is tailored to each patient's needs and goals. OTAs may assist patients with exercises, self-care skills, leisure activities, adaptive equipment, and home modifications. OTAs must have an associate degree from an accredited occupational therapy assistant program and pass a national certification exam.",
+      "salary": 61730
+  },
+  {
+      "name": "Computer Systems Analyst",
+      "requiredSkills": [
+          "computer systems",
+          "software design",
+          "data analysis",
+          "communication",
+          "critical thinking",
+          "problem-solving"
+      ],
+      "description": "A computer systems analyst (also known as a systems architect) designs and implements information technology solutions for various organizations. Computer systems analysts study the current systems and procedures of their clients, identify problems and opportunities, propose new systems or modifications, and oversee the development and installation of the systems. Computer systems analysts may specialize in a specific type of system, such as business, scientific, or engineering. Computer systems analysts typically have a bachelor's degree in computer science, information systems, or a related field, and some may have a master's degree or relevant work experience.",
+      "salary": 99270
+  },
+  {
+      "name": "Financial Advisor",
+      "requiredSkills": [
+          "financial planning",
+          "investment strategies",
+          "communication",
+          "analytical thinking",
+          "attention to detail"
+      ],
+      "description": "A financial advisor (also known as a financial planner) helps individuals and businesses plan and manage their financial goals. Financial advisors assess the financial situation of their clients, provide advice on various topics such as investments, retirement, taxes, insurance, and estate planning, and monitor the performance of their clients' portfolios. Financial advisors may work for financial institutions, brokerage firms, insurance companies, or independently. Financial advisors must have a bachelor's degree in finance, accounting, economics, or a related field, and some may have a master's degree or a professional certification.",
+      "salary": 94170
+  },
+  {
+      "name": "Data Scientist",
+      "requiredSkills": [
+          "statistical analysis",
+          "data analysis",
+          "machine learning",
+          "programming languages",
+          "communication",
+          "critical thinking"
+      ],
+      "description": "A data scientist analyzes large and complex data sets to discover patterns, trends, and insights that can help organizations make better decisions. Data scientists use various methods and tools such as statistics, machine learning, data mining, visualization, and programming to collect, process, and interpret data from various sources. Data scientists may work in various domains such as business, health care, education, government, or social media. Data scientists typically have a master's degree or a PhD in computer science, mathematics, statistics, or a related field.",
+      "salary": 100910
+  },
+  {
+      "name": "Financial Analyst",
+      "requiredSkills": [
+          "financial analysis",
+          "financial planning",
+          "data analysis",
+          "communication",
+          "analytical thinking",
+          "attention to detail"
+      ],
+      "description": "A financial analyst is a professional who analyzes financial data and trends to provide insights and recommendations for investment decisions. Financial analysts may work for banks, corporations, investment firms, government agencies, or other organizations. Financial analysts typically have a bachelor's degree in finance, accounting, economics, or a related field, and may also have a master's degree or a professional certification. Financial analysts need strong analytical, communication, and problem-solving skills, as well as knowledge of financial markets and software tools.",
+      "salary": 81730
+  },
+  {
+      "name": "Oral and Maxillofacial Surgeon",
+      "requiredSkills": [
+          "surgical skills",
+          "clinical knowledge",
+          "patient care",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "An oral and maxillofacial surgeon is a specialist who performs surgery on the mouth, jaws, face, and neck. Oral and maxillofacial surgeons treat various conditions and injuries affecting the oral and facial structures, such as congenital defects, tumors, infections, trauma, and cosmetic issues. Oral and maxillofacial surgeons typically have a dental degree and a medical degree, and complete a residency program in oral and maxillofacial surgery. Oral and maxillofacial surgeons need advanced surgical skills, as well as knowledge of anatomy, physiology, pathology, and pharmacology.",
+      "salary": 208000
+  },
+  {
+      "name": "Nurse Anesthetist",
+      "requiredSkills": [
+          "anesthesia administration",
+          "patient monitoring",
+          "patient care",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "A nurse anesthetist is a registered nurse who administers anesthesia to patients undergoing surgery or other procedures. Nurse anesthetists work with anesthesiologists, surgeons, and other health care professionals to ensure the safety and comfort of patients before, during, and after anesthesia. Nurse anesthetists typically have a bachelor's degree in nursing and a master's degree or a doctorate in nurse anesthesia. Nurse anesthetists also need to pass a national certification exam and maintain their license and credentials. Nurse anesthetists need excellent clinical judgment, communication, and critical thinking skills, as well as knowledge of anesthesia principles and techniques.",
+      "salary": 195610
+  },
+  {
+      "name": "Epidemiologist/Medical Scientist",
+      "requiredSkills": [
+          "public health",
+          "research methods",
+          "data analysis",
+          "statistics",
+          "critical thinking",
+          "communication",
+          "problem-solving"
+      ],
+      "description": "An epidemiologist or a medical scientist is a researcher who studies the causes, patterns, and effects of diseases and health conditions in human populations. Epidemiologists or medical scientists design and conduct studies to investigate various aspects of public health, such as disease outbreaks, risk factors, prevention strategies, diagnosis methods, treatment outcomes, and health policies. Epidemiologists or medical scientists typically have a master's degree or a doctorate in epidemiology, public health, biostatistics, or a related field. Epidemiologists or medical scientists need strong scientific reasoning, data analysis, and communication skills, as well as knowledge of epidemiological methods and software tools.",
+      "salary": 78830
+  },
+  {
+      "name": "Actuary",
+      "requiredSkills": [
+          "mathematics",
+          "statistics",
+          "risk management",
+          "analytical thinking",
+          "communication",
+          "problem-solving"
+      ],
+      "description": "An actuary is a professional who uses mathematical models and statistical techniques to assess the financial risks and uncertainties associated with future events. Actuaries may work for insurance companies, pension plans, consulting firms, government agencies, or other organizations. Actuaries typically have a bachelor's degree in actuarial science,mathematics,statistics,or a related field,and may also have a master's degree or a professional designation.Actuaries need high-level mathematical,computational,and problem-solving skills,as well as knowledge of actuarial theoryand practice.",
+      "salary": 105900
+  },
+  {
+      "name": "Operations Research Analyst",
+      "requiredSkills": [
+          "mathematical modeling",
+          "data analysis",
+          "problem-solving",
+          "critical thinking",
+          "communication"
+      ],
+      "description": "An operations research analyst is a professional who applies mathematicaland analytical methodsto help organizations optimize their performanceand decision-making processes.Operations research analysts may work for various industries,such as manufacturing,transportation,health care,military,or education.Operations research analysts typically have a bachelor's degreein operations research,mathematics,engineering,computer science,or a related field,and may also have a master's degree or a doctorate.Operations research analysts need strong quantitative,logical,and communication skills,as well as knowledge of operations research techniquesand software tools.",
+      "salary": 82360
+  },
+  {
+      "name": "Database Administrator",
+      "requiredSkills": [
+          "database management",
+          "database design",
+          "data analysis",
+          "communication",
+          "problem-solving",
+          "attention to detail"
+      ],
+      "description": "A database administrator is a professional who manages the storage,organization,security,and accessof datain databases.Database administrators may work for various organizationsthat use databasesto storeand processinformation,such as businesses,government agencies,or educational institutions.Database administrators typically have a bachelor's degreein computer science,information systems,or a related field,and may also have a master's degree or a certification.Database administrators need proficient technical,organizational,and problem-solving skills,as well as knowledge of database systemsand software tools.",
+      "salary": 96710
+  },
+  {
+      "name": "Statistician",
+      "requiredSkills": [
+          "statistical analysis",
+          "research methods",
+          "data analysis",
+          "communication",
+          "critical thinking"
+      ],
+      "description": "A statistician is a professional who collects,analyzes,and interpretsdatausing statistical methodsand software tools.Statisticians may work for various sectorsthat rely on datato make informed decisions,such as science,engineering,business,health care,education,or government.Statisticians typically have a bachelor's degreein statistics,mathematics,or a related field,and may also have a master's degree or a doctorate.",
+      "salary": 95570
+  },
+  {
+      "name": "Speech-Language Pathologist",
+      "requiredSkills": [
+          "communication disorders",
+          "patient care",
+          "diagnosis",
+          "treatment",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "A speech-language pathologist (SLP) is a health professional who evaluates, diagnoses and treats communication and swallowing disorders in children and adults. SLPs work with people who have difficulties with speech, language, voice, fluency, cognition and feeding. SLPs provide individualized therapy, education and counseling to help their clients improve their communication skills and quality of life.",
+      "salary": 79060
+  },
+  {
+      "name": "Psychiatrist",
+      "requiredSkills": [
+          "clinical knowledge",
+          "patient care",
+          "diagnosis",
+          "treatment",
+          "medication management",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "A psychiatrist is a medical doctor who specializes in the diagnosis, treatment and prevention of mental, emotional and behavioral disorders. Psychiatrists prescribe medication, conduct psychotherapy and provide other interventions to help their patients cope with various mental health issues such as depression, anxiety, bipolar disorder, schizophrenia, substance abuse and more. Psychiatrists also conduct research, teach and supervise other mental health professionals.",
+      "salary": 208000
+  },
+  {
+      "name": "Optometrist",
+      "requiredSkills": [
+          "clinical knowledge",
+          "patient care",
+          "diagnosis",
+          "treatment",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "An optometrist is a primary eye care provider who examines, diagnoses and treats vision problems and eye diseases. Optometrists prescribe glasses, contact lenses and other devices to correct or enhance vision. Optometrists also provide services such as vision therapy, low vision rehabilitation, ocular disease management and pre- and post-operative care for eye surgeries.",
+      "salary": 124300
+  },
+  {
+      "name": "Pediatrician",
+      "requiredSkills": [
+          "clinical knowledge",
+          "patient care",
+          "diagnosis",
+          "treatment",
+          "medication management",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "A pediatrician is a medical doctor who specializes in the care of children from birth to 18 years of age. Pediatricians provide comprehensive health services such as physical exams, immunizations, screenings, diagnosis and treatment of acute and chronic illnesses and injuries, referrals to specialists and coordination of care. Pediatricians also offer guidance on nutrition, growth, development, behavior and parenting.",
+      "salary": 170480
+  },
+  {
+      "name": "Dental Hygienist",
+      "requiredSkills": [
+          "clinical knowledge",
+          "patient care",
+          "diagnosis",
+          "treatment",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "A dental hygienist is a licensed oral health professional who provides preventive and therapeutic dental care to patients. Dental hygienists perform oral examinations, clean teeth, remove plaque and tartar, apply fluoride and sealants, take x-rays and educate patients on oral hygiene practices. Dental hygienists work under the supervision of dentists and collaborate with other dental team members.",
+      "salary": 77810
+  },
+  {
+      "name": "Respiratory Therapist",
+      "requiredSkills": [
+          "respiratory care",
+          "patient monitoring",
+          "patient care",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "A respiratory therapist (RT) is a health professional who assesses, treats and monitors patients with breathing disorders or cardiopulmonary diseases. RTs provide respiratory care such as oxygen therapy, aerosol therapy, mechanical ventilation, airway management, bronchial hygiene and pulmonary rehabilitation. RTs work in various settings such as hospitals, clinics, home care and emergency services.",
+      "salary": 61830
+  },
+  {
+      "name": "Mental Health Counselor",
+      "requiredSkills": [
+          "counseling",
+          "communication",
+          "empathy",
+          "problem-solving",
+          "critical thinking",
+          "attention to detail"
+      ],
+      "description": "A mental health counselor (MHC) is a licensed professional who provides counseling services to individuals, couples, families or groups who are experiencing emotional or psychological distress. MHCs use various therapeutic approaches such as cognitive-behavioral therapy, solution-focused therapy or humanistic therapy to help their clients cope with issues such as stress, trauma, grief, relationship problems, self-esteem issues and more. MHCs also conduct assessments, develop treatment plans and evaluate outcomes.",
+      "salary": 49130
+  },
+  {
+      "name": "Physical Therapist Assistant",
+      "requiredSkills": [
+          "anatomy",
+          "physiology",
+          "rehabilitation",
+          "patient care",
+          "communication",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "A physical therapist assistant (PTA) is a health professional who works under the direction and supervision of a physical therapist (PT). PTAs assist PTs in providing physical therapy services such as exercise instruction, manual therapy, modalities application and patient education. PTAs help patients improve their mobility, function and quality of life after injury or illness.",
+      "salary": 61180
+  },
+  {
+      "name": "Business Operations Manager",
+      "requiredSkills": [
+          "business management",
+          "leadership",
+          "communication",
+          "strategic planning",
+          "problem-solving",
+          "attention to detail"
+      ],
+      "description": "A Business Operations Manager is a professional who oversees and coordinates the daily functions and strategic goals of a company. They are responsible for ensuring that all business operations are efficient, effective and compliant with quality standards and policies. Some of their duties include managing budgets, hiring and training staff, developing and implementing processes and procedures, monitoring and analyzing performance indicators, and resolving operational issues.",
+      "salary": 97970
+  },
+  {
+      "name": "School Psychologist",
+      "requiredSkills": [
+          "psychology",
+          "assessment",
+          "communication",
+          "problem-solving",
+          "critical thinking",
+          "attention to detail"
+      ],
+      "description": "A School Psychologist is a professional who provides psychological services to students, teachers and parents in educational settings. They are responsible for assessing and supporting the academic, social and emotional needs of students, as well as promoting positive learning environments and preventing behavioral problems. Some of their duties include conducting psychological evaluations, developing and implementing interventions, consulting and collaborating with school staff and families, and providing crisis management and counseling.",
+      "salary": 78780
+  },
+  {
+      "name": "Anesthesiologist",
+      "requiredSkills": [
+          "anesthesia administration",
+          "patient monitoring",
+          "patient care",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "An Anesthesiologist is a medical doctor who specializes in administering anesthesia to patients undergoing surgery or other medical procedures. They are responsible for ensuring the safety and comfort of patients before, during and after anesthesia, as well as monitoring their vital signs and managing any complications. Some of their duties include reviewing medical histories, performing physical examinations, preparing and administering anesthesia plans, supervising anesthesia technicians and nurses, and providing postoperative care and pain management.",
+      "salary": 208000
+  },
+  {
+      "name": "Obstetrician and Gynecologist",
+      "requiredSkills": [
+          "clinical knowledge",
+          "patient care",
+          "diagnosis",
+          "treatment",
+          "medication management",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "An Obstetrician and Gynecologist is a medical doctor who specializes in women's health, especially in pregnancy, childbirth and reproductive system disorders. They are responsible for providing comprehensive care to women of all ages, from adolescence to menopause. Some of their duties include performing pelvic exams, pap smears, ultrasounds and other tests, diagnosing and treating various conditions, prescribing medications and contraceptives, performing surgeries and deliveries, and counseling and educating patients.",
+      "salary": 208000
+  },
+  {
+      "name": "Biochemist",
+      "requiredSkills": [
+          "biochemistry",
+          "research methods",
+          "data analysis",
+          "critical thinking",
+          "communication"
+      ],
+      "description": "A Biochemist is a scientist who studies the chemical processes and interactions of living organisms. They are responsible for conducting research and experiments to understand how biological molecules function and affect cellular activities, such as metabolism, gene expression, disease development and drug action. Some of their duties include designing and performing laboratory tests, analyzing data and results, writing reports and publications, developing new methods and techniques, collaborating with other scientists and professionals, and applying their knowledge to various fields such as medicine, agriculture, biotechnology and environmental science.",
+      "salary": 102270
+  },
+  {
+      "name": "Construction Manager",
+      "requiredSkills": [
+          "construction management",
+          "leadership",
+          "communication",
+          "problem-solving",
+          "attention to detail"
+      ],
+      "description": "A Construction Manager is a professional who plans, coordinates and oversees construction projects from start to finish. They are responsible for ensuring that the project meets the client's specifications, budget and timeline, as well as complying with safety regulations and quality standards. Some of their duties include preparing contracts and bids, hiring and supervising contractors and workers, obtaining permits and licenses, scheduling and monitoring activities, solving problems and issues, reporting progress and status, and delivering the final product.",
+      "salary": 98890
+  },
+  {
+      "name": "Marketing Manager",
+      "requiredSkills": [
+          "marketing",
+          "leadership",
+          "communication",
+          "strategic planning",
+          "problem-solving",
+          "attention to detail"
+      ],
+      "description": "A Marketing Manager is a professional who develops and implements marketing strategies to promote a product or service to potential customers. They are responsible for increasing brand awareness, generating leads and sales, creating customer loyalty and satisfaction. Some of their duties include conducting market research and analysis, identifying target markets and segments, developing marketing plansand campaigns, overseeing marketing activities such as advertising,social media,events,and public relations,evaluatingand measuringthe effectivenessand return on investmentof marketing efforts,and managingmarketing budgetsand resources.",
+      "salary": 135030
+  },
+  {
+      "name": "Chiropractor",
+      "requiredSkills": [
+          "clinical knowledge",
+          "patient care",
+          "diagnosis",
+          "treatment",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "A Chiropractor is a health care professional who diagnosesand treatsmusculoskeletaland nervous system disordersby manipulatingthe spineand other jointsof the body.They are responsible for improvingthe functionand alignmentof the spineand other structures,as well as relieving pain,inflammation,and muscle tension.Some of their duties include performing physical examinations,taking medical histories,ordering x-raysand other tests,developing treatment plans,applying spinal adjustmentsand other techniques,providing adviceand educationon posture,exercise,nutrition,and lifestyle,and referring patientsto other health care providerswhen necessary.",
+      "salary": 75000
+  },
+  {
+      "name": "Pilot",
+      "requiredSkills": [
+          "aviation",
+          "communication",
+          "critical thinking",
+          "attention to detail",
+          "problem-solving"
+      ],
+      "description": "A pilot is a professional who flies aircraft for various purposes, such as transporting passengers or cargo, conducting aerial surveys, or performing military missions. A pilot must have a valid license and meet certain physical and mental requirements. A pilot also needs to have good communication, problem-solving, and decision-making skills.",
+      "salary": 134630
+  },
+  {
+      "name": "Medical Records Technician",
+      "requiredSkills": [
+          "medical records management",
+          "data analysis",
+          "communication",
+          "attention to detail",
+          "problem-solving"
+      ],
+      "description": "A medical records technician is a professional who organizes and manages health information data for patients. A medical records technician ensures that the data is accurate, secure, and accessible. A medical records technician also uses various software and systems to code and classify the data for billing, insurance, and research purposes.",
+      "salary": 46660
+  },
+  {
+      "name": "Psychologist",
+      "requiredSkills": [
+          "psychology",
+          "assessment",
+          "communication",
+          "problem-solving",
+          "critical thinking",
+          "attention to detail"
+      ],
+      "description": "A psychologist is a professional who studies human behavior and mental processes. A psychologist can work in various settings, such as schools, hospitals, clinics, or private practices. A psychologist can provide various services, such as assessment, diagnosis, treatment, counseling, or consultation. A psychologist must have a doctoral degree and a license to practice.",
+      "salary": 102900
+  },
+  {
+      "name": "Biomedical Engineer",
+      "requiredSkills": [
+          "biomedical engineering",
+          "research methods",
+          "data analysis",
+          "critical thinking",
+          "communication"
+      ],
+      "description": "A biomedical engineer is a professional who applies engineering principles and methods to solve problems in medicine and biology. A biomedical engineer can design and develop various devices, systems, or procedures that improve health care quality and efficiency. A biomedical engineer can also conduct research and testing to evaluate the safety and effectiveness of the products.",
+      "salary": 97410
+  },
+  {
+      "name": "Petroleum Engineer",
+      "requiredSkills": [
+          "petroleum engineering",
+          "research methods",
+          "data analysis",
+          "critical thinking",
+          "communication"
+      ],
+      "description": "A petroleum engineer is a professional who designs and oversees the extraction and production of oil and gas from underground reservoirs. A petroleum engineer can work in various stages of the process, such as exploration, drilling, completion, or reservoir management. A petroleum engineer must have a bachelor's degree in engineering and strong analytical and technical skills.",
+      "salary": 130850
+  },
+  {
+      "name": "High School Teacher",
+      "requiredSkills": [
+          "teaching",
+          "communication",
+          "empathy",
+          "problem-solving",
+          "critical thinking",
+          "attention to detail"
+      ],
+      "description": "A high school teacher is a professional who educates students in grades 9 to 12 on various subjects, such as math, science, history, or language arts. A high school teacher prepares lesson plans, delivers instruction, assesses student learning, and maintains classroom discipline. A high school teacher must have a bachelor's degree and a state certification or license.",
+      "salary": 61820
+  },
+  {
+      "name": "Substance Abuse and Behavioral Disorder Counselor",
+      "requiredSkills": [
+          "counseling",
+          "communication",
+          "empathy",
+          "problem-solving",
+          "critical thinking",
+          "attention to detail"
+      ],
+      "description": "A substance abuse and behavioral disorder counselor is a professional who helps people who struggle with addiction or mental health issues. A substance abuse and behavioral disorder counselor provides assessment, diagnosis, treatment, and support to the clients and their families. A substance abuse and behavioral disorder counselor must have at least a bachelor's degree and a state license or certification.",
+      "salary": 48520
+  },
+  {
+      "name": "Veterinary Technologist and Technician",
+      "requiredSkills": [
+          "clinical knowledge",
+          "patient care",
+          "diagnosis",
+          "treatment",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "A veterinary technologist and technician is a professional who assists veterinarians in providing care to animals. A veterinary technologist and technician performs various tasks, such as taking vital signs, collecting samples, administering medications, conducting tests, or preparing equipment. A veterinary technologist and technician must have an associate's degree or higher in veterinary technology and pass a national exam.",
+      "salary": 36850
+  },
+  {
+      "name": "Wind Turbine Technician",
+      "requiredSkills": [
+          "wind turbine technology",
+          "communication",
+          "critical thinking"
+      ],
+      "description": "A wind turbine technician is a professional who installs, maintains, and repairs wind turbines that generate electricity from wind power. A wind turbine technician works at heights and in various weather conditions. A wind turbine technician also uses various tools and equipment to inspect, troubleshoot, or replace components. A wind turbine technician must have a high school diploma or equivalent and complete a technical program or on-the-job training.",
+      "salary": 56260
+  },
+  {
+      "name": "Computer Network Architect",
+      "requiredSkills": [
+          "network design",
+          "network protocols",
+          "network security",
+          "communication",
+          "critical thinking",
+          "problem-solving",
+          "attention to detail"
+      ],
+      "description": "A computer network architect is a professional who designs and builds data communication networks for various organizations. A computer network architect can create local area networks (LANs), wide area networks (WANs), intranets, or internet networks. A computer network architect also plans the security, performance, and scalability of the networks. A computer network architect must have a bachelor's degree in computer science or related field and several years of experience.",
+      "salary": 120520
+  },
+  {
+      "name": "Public Relations Specialist",
+      "requiredSkills": [
+          "communication",
+          "media relations",
+          "writing",
+          "public speaking",
+          "critical thinking",
+          "problem-solving",
+          "attention to detail"
+      ],
+      "description": "A public relations specialist is a professional who creates and maintains a positive image for an individual or an organization. A public relations specialist can write press releases, organize events, manage social media accounts, or handle media inquiries. A public relations specialist also monitors the public opinion and feedback on the client's reputation. A public relations specialist must have a bachelor's degree in public relations, communication, or journalism.",
+      "salary": 62800
+  },
+  {
+      "name": "Elementary School Teacher",
+      "requiredSkills": [
+          "teaching",
+          "classroom management",
+          "lesson planning",
+          "communication",
+          "creativity",
+          "patience",
+          "empathy"
+      ],
+      "description": "An elementary school teacher is a professional who educates students in grades K to 6 on various subjects, such as reading, writing, math, science, or social studies. An elementary school teacher prepares lesson plans,delivers instruction,assesses student learning,and fosters a positive learning environment.An elementary school teacher must have a bachelor's degreeand a state certification or license.",
+      "salary": 61400
+  },
+  {
+      "name": "School Counselor",
+      "requiredSkills": [
+          "counseling",
+          "psychology",
+          "communication",
+          "empathy",
+          "problem-solving",
+          "critical thinking"
+      ],
+      "description": "A school counselor is a professional who helps students with academic, social, emotional and career development. They provide guidance, counseling, advocacy and prevention services to students and their families. They also collaborate with teachers, administrators and other school staff to create a positive and supportive learning environment.",
+      "salary": 60510
+  },
+  {
+      "name": "Social and Community Service Manager",
+      "requiredSkills": [
+          "social and community services",
+          "management",
+          "leadership",
+          "communication",
+          "strategic planning",
+          "critical thinking"
+      ],
+      "description": "A social and community service manager is a professional who oversees and coordinates the activities of social and community service organizations. They plan, implement and evaluate programs that address the needs of various populations, such as children, elderly, homeless, veterans or immigrants. They also manage budgets, staff, volunteers and resources for their organizations.",
+      "salary": 74000
+  },
+  {
+      "name": "Computer Systems Administrator",
+      "requiredSkills": [
+          "computer systems",
+          "network administration",
+          "system security",
+          "communication",
+          "problem-solving",
+          "attention to detail"
+      ],
+      "description": "A computer systems administrator is a professional who installs, configures, maintains and troubleshoots the hardware and software of computer networks. They ensure the security, performance and availability of network systems and data. They also provide technical support and training to users and other IT staff.",
+      "salary": 80600
+  },
+  {
+      "name": "Community Health Worker",
+      "requiredSkills": [
+          "community health",
+          "patient care",
+          "communication",
+          "empathy",
+          "problem-solving"
+      ],
+      "description": "A community health worker is a professional who provides health education, outreach and advocacy to individuals and groups in their communities. They help people access health care services, prevent diseases, promote healthy behaviors and address social determinants of health. They also collect and report data on health issues and outcomes.",
+      "salary": 46590
+  },
+  {
+      "name": "Landscaper and Groundskeeper",
+      "requiredSkills": [
+          "landscaping",
+          "groundskeeping",
+          "plant care",
+          "communication",
+          "physical fitness"
+      ],
+      "description": "A landscaper and groundskeeper is a professional who designs, installs and maintains the outdoor spaces of residential or commercial properties. They plant, prune, mow, water, fertilize and weed lawns, gardens, trees and shrubs. They also remove snow, leaves and debris from walkways, driveways and parking lots.",
+      "salary": 34430
+  },
+  {
+      "name": "Diagnostic Medical Sonographer",
+      "requiredSkills": [
+          "medical imaging",
+          "patient care",
+          "communication",
+          "attention to detail"
+      ],
+      "description": "A diagnostic medical sonographer is a professional who uses ultrasound equipment to create images of internal organs, tissues and blood vessels for diagnostic purposes. They prepare patients for the procedure, operate the equipment, analyze the images and report the findings to physicians. They also maintain the equipment and follow safety protocols.",
+      "salary": 77740
+  },
+  {
+      "name": "Home Health Aide",
+      "requiredSkills": [
+          "patient care",
+          "communication",
+          "empathy",
+          "problem-solving"
+      ],
+      "description": "A home health aide is a professional who provides personal care and assistance to people who are ill, disabled or elderly in their homes. They help with daily activities such as bathing, dressing, eating, medication management and housekeeping. They also monitor vital signs, report changes in health status and provide emotional support.",
+      "salary": 29430
+  },
+  {
+      "name": "Personal Care Aide",
+      "requiredSkills": [
+          "patient care",
+          "communication",
+          "empathy",
+          "problem-solving"
+      ],
+      "description": "A personal care aide is a professional who provides non-medical care and assistance to people who need help with daily living tasks due to aging or disability. They help with personal hygiene, grooming, dressing, mobility and transportation. They also perform light housekeeping chores, prepare meals and provide companionship.",
+      "salary": 29430
+  },
+  {
+      "name": "Prosthodontist",
+      "requiredSkills": [
+          "clinical knowledge",
+          "patient care",
+          "diagnosis",
+          "treatment",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "A prosthodontist is a dentist who specializes in restoring or replacing damaged or missing teeth with artificial devices such as crowns, bridges, dentures or implants. They diagnose oral problems, design treatment plans, perform surgical procedures and fit prosthetic devices. They also educate patients on oral hygiene and care.",
+      "salary": 100950
+  },
+  {
+      "name": "Paralegal",
+      "requiredSkills": [
+          "legal knowledge",
+          "critical thinking",
+          "research",
+          "communication",
+          "attention to detail",
+          "problem-solving"
+      ],
+      "description": "A paralegal is a professional who assists lawyers with various legal tasks such as research, drafting documents, filing motions, interviewing witnesses and preparing for trials. They work under the supervision of lawyers and follow ethical standards. They also communicate with clients, courts and other parties involved in legal matters.",
+      "salary": 56230
+  },
+  {
+      "name": "Delivery Truck Driver",
+      "requiredSkills": [
+          "driving",
+          "navigation",
+          "time management",
+          "communication",
+          "attention to detail"
+      ],
+      "description": "A delivery truck driver is a professional who transports goods from one location to another using a truck or van. They load and unload the cargo, check the condition of the vehicle and the goods, follow traffic rules and safety regulations and maintain records of deliveries. They also collect payments from customers or recipients.",
+      "salary": 38280
+  },
+  {
+      "name": "Orthotist and Prosthetist",
+      "requiredSkills": [
+          "clinical knowledge",
+          "patient care",
+          "diagnosis",
+          "treatment",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "An orthotist and prosthetist is a professional who designs, fits and adjusts orthopedic braces or artificial limbs for people who have physical disabilities or injuries. They evaluate the needs of patients, take measurements and impressions of body parts, fabricate or modify devices using various materials and tools and provide follow-up care.",
+      "salary": 75440
+  },
+  {
+      "name": "Industrial Psychologist",
+      "requiredSkills": [
+          "psychology",
+          "communication",
+          "critical thinking",
+          "problem-solving",
+          "attention to detail"
+      ],
+      "description": "An industrial psychologist applies psychological principles and research methods to improve the performance, motivation, and well-being of employees and organizations. They may conduct assessments, design interventions, evaluate programs, and provide consultation and training.",
+      "salary": 105310
+  },
+  {
+      "name": "Occupational Therapist",
+      "requiredSkills": [
+          "anatomy",
+          "physiology",
+          "rehabilitation",
+          "patient care",
+          "communication",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "An occupational therapist helps people with physical, mental, or developmental disabilities to perform daily activities and achieve their goals. They may assess the client's needs, develop a treatment plan, provide therapy and adaptive equipment, and monitor progress.",
+      "salary": 85570
+  },
+  {
+      "name": "Loan Officer",
+      "requiredSkills": [
+          "finance",
+          "credit analysis",
+          "communication",
+          "critical thinking",
+          "attention to detail"
+      ],
+      "description": "A loan officer evaluates, authorizes, or recommends approval of loan applications for individuals or businesses. They may review financial information, verify documents, explain loan terms and conditions, and communicate with applicants and underwriters.",
+      "salary": 63380
+  },
+  {
+      "name": "MRI Technologist",
+      "requiredSkills": [
+          "medical imaging",
+          "patient care",
+          "communication",
+          "attention to detail"
+      ],
+      "description": "An MRI technologist operates magnetic resonance imaging (MRI) scanners to create diagnostic images of the internal structures of the human body. They may prepare patients for the procedure, position them on the scanner table, adjust the scanner settings, and monitor the patient's safety and comfort.",
+      "salary": 77360
+  },
+  {
+      "name": "Accountant",
+      "requiredSkills": [
+          "accounting",
+          "financial analysis",
+          "communication",
+          "attention to detail",
+          "critical thinking"
+      ],
+      "description": "An accountant prepares and examines financial records for individuals or organizations. They may ensure accuracy and compliance with laws and regulations, analyze data and trends, prepare reports and statements, and provide advice on financial matters.",
+      "salary": 77250
+  },
+  {
+      "name": "Dietitian and Nutritionist",
+      "requiredSkills": [
+          "nutrition",
+          "patient care",
+          "communication",
+          "empathy",
+          "problem-solving"
+      ],
+      "description": "A dietitian or nutritionist provides guidance on food and nutrition to promote health and prevent or treat diseases. They may assess the client's nutritional needs, develop meal plans, counsel on dietary changes, and evaluate outcomes.",
+      "salary": 61650
+  },
+  {
+      "name": "Medical Assistant",
+      "requiredSkills": [
+          "clinical knowledge",
+          "patient care",
+          "medical terminology",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "A medical assistant performs administrative and clinical tasks to support the work of physicians and other health professionals. They may schedule appointments, update records, prepare patients for examination, collect samples, perform basic tests, and administer medications.",
+      "salary": 37190
+  },
+  {
+      "name": "Cardiovascular Technologist",
+      "requiredSkills": [
+          "cardiovascular anatomy and physiology",
+          "medical technology",
+          "patient care",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "A cardiovascular technologist uses imaging and invasive procedures to diagnose and treat heart and blood vessel conditions. They may perform electrocardiograms (EKGs), echocardiograms, stress tests, angiograms, or catheterizations.",
+      "salary": 60570
+  },
+  {
+      "name": "Licensed Practical and Licensed Vocational Nurse",
+      "requiredSkills": [
+          "clinical knowledge",
+          "patient care",
+          "diagnosis",
+          "treatment",
+          "medication management",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "A licensed practical or vocational nurse (LPN or LVN) provides basic nursing care under the supervision of a registered nurse (RN) or a physician. They may monitor vital signs, administer medications, change dressings, assist with personal hygiene, and document care.",
+      "salary": 48070
+  },
+  {
+      "name": "Electrician",
+      "requiredSkills": [
+          "electrical systems",
+          "wiring",
+          "blueprints",
+          "safety protocols",
+          "problem-solving",
+          "attention to detail",
+          "communication"
+      ],
+      "description": "An electrician installs, maintains, and repairs electrical systems and equipment for residential, commercial, or industrial settings. They may read blueprints, follow codes and regulations, use tools and instruments, test circuits, troubleshoot problems, and ensure safety.",
+      "salary": 60040
+  },
+  {
+      "name": "Massage Therapist",
+      "requiredSkills": [
+          "anatomy",
+          "physiology",
+          "massage techniques",
+          "communication",
+          "empathy",
+          "attention to detail"
+      ],
+      "description": "A massage therapist manipulates soft tissues of the body to relieve pain, reduce stress, improve circulation, and promote wellness. They may consult with clients about their medical history and preferences, apply different types of massage techniques, provide feedback and advice, and maintain records.",
+      "salary": 46910
+  },
+  {
+      "name": "Hearing Aid Specialist",
+      "requiredSkills": [
+          "audiology",
+          "hearing technology",
+          "patient care",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "A hearing aid specialist tests hearing levels, selects appropriate hearing aids for clients with hearing loss, fits and adjusts them to ensure optimal performance and comfort. They may also provide counseling on hearing aid use and care, repair hearing aids, and keep records.",
+      "salary": 59500
+  },
+  {
+      "name": "Genetic Counselor",
+      "requiredSkills": [
+          "genetics",
+          "counseling",
+          "communication",
+          "empathy",
+          "attention to detail",
+          "critical thinking"
+      ],
+      "description": "A genetic counselor is a health care professional who assesses clients' risk for inherited conditions, such as birth defects or genetic disorders. They provide genetic testing, counseling, education and support to individuals and families. They also collaborate with other health care providers and participate in research and training. A genetic counselor typically needs a master's degree in genetic counseling and a license to practice.",
+      "salary": 80150
+  },
+  {
+      "name": "Recreation and Fitness Worker",
+      "requiredSkills": [
+          "exercise science",
+          "fitness programs",
+          "communication",
+          "empathy",
+          "attention to detail"
+      ],
+      "description": "A recreation and fitness worker is a health care professional who plans, organizes and leads recreational and fitness activities for people of all ages and abilities. They may work in settings such as parks, community centers, gyms, camps or resorts. They help people improve their physical and mental well-being, learn new skills and have fun. A recreation and fitness worker typically needs a high school diploma and some on-the-job training.",
+      "salary": 30930
+  },
+  {
+      "name": "Patrol Officer",
+      "requiredSkills": [
+          "law enforcement",
+          "public safety",
+          "communication",
+          "attention to detail",
+          "critical thinking",
+          "problem-solving"
+      ],
+      "description": "A patrol officer is a law enforcement professional who protects the public safety and enforces the law. They patrol assigned areas, respond to calls for service, investigate crimes, arrest suspects, write reports and testify in court. They may also perform traffic control, community outreach and emergency assistance. A patrol officer typically needs a high school diploma, a police academy training and a state certification.",
+      "salary": 64610
+  },
+  {
+      "name": "Clinical Laboratory Technician",
+      "requiredSkills": [
+          "medical technology",
+          "laboratory testing",
+          "data analysis",
+          "communication",
+          "attention to detail",
+          "critical thinking"
+      ],
+      "description": "A clinical laboratory technician is a health care professional who performs laboratory tests on blood, body fluids and tissues. They use various instruments and techniques to analyze samples, report results and maintain quality control. They may also collect specimens, prepare reagents and calibrate equipment. They work under the supervision of clinical laboratory technologists or other medical professionals. A clinical laboratory technician typically needs an associate's degree or a postsecondary certificate in clinical laboratory science.",
+      "salary": 57800
+  },
+  {
+      "name": "Restaurant Cook",
+      "requiredSkills": [
+          "culinary arts",
+          "cooking techniques",
+          "food safety",
+          "attention to detail",
+          "communication",
+          "teamwork"
+      ],
+      "description": "A restaurant cook is a food service professional who prepares food for customers in restaurants or other dining establishments. They follow recipes, measure ingredients, cook dishes, ensure food safety and quality, and clean kitchen equipment and utensils. They may also assist with menu planning, inventory management and staff training. A restaurant cook typically needs a high school diploma and some culinary training or experience.",
+      "salary": 30010
+  },
+  {
+      "name": "Solar Photovoltaic Installer",
+      "requiredSkills": [
+          "solar panel installation",
+          "electrical systems",
+          "safety protocols",
+          "problem-solving",
+          "attention to detail",
+          "communication"
+      ],
+      "description": "A solar photovoltaic installer is an energy professional who installs, maintains and repairs solar panels that convert sunlight into electricity. They work on rooftops or other structures where solar panels are mounted. They measure, cut, assemble, connect and test solar components, follow safety standards and regulations, and troubleshoot problems. A solar photovoltaic installer typically needs a high school diploma and some technical training or apprenticeship.",
+      "salary": 47670
+  },
+  {
+      "name": "Pharmacist",
+      "requiredSkills": [
+          "pharmaceuticals",
+          "medication management",
+          "patient care",
+          "communication",
+          "attention to detail",
+          "critical thinking"
+      ],
+      "description": "A pharmacist is a health care professional who dispenses medications, advises patients on their proper use and side effects, and monitors drug interactions and therapy outcomes. A pharmacist also provides health education and wellness promotion to the public. To become a pharmacist, one needs to complete a Doctor of Pharmacy degree and pass a licensing exam.",
+      "salary": 128570
+  },
+  {
+      "name": "Audiologist",
+      "requiredSkills": [
+          "audiology",
+          "hearing technology",
+          "patient care",
+          "communication",
+          "attention to detail",
+          "empathy",
+          "teamwork"
+      ],
+      "description": "An audiologist is a health care professional who diagnoses and treats hearing and balance disorders. An audiologist also provides hearing aids, cochlear implants, and other assistive devices to help patients improve their hearing and communication skills. To become an audiologist, one needs to complete a Doctor of Audiology degree and obtain a state license.",
+      "salary": 78950
+  },
+  {
+      "name": "Middle School Teacher",
+      "requiredSkills": [
+          "teaching",
+          "classroom management",
+          "curriculum design",
+          "communication",
+          "empathy",
+          "problem-solving"
+      ],
+      "description": "A middle school teacher is an educator who teaches students in grades 6 to 8. A middle school teacher plans and delivers lessons in various subjects, such as math, science, language arts, social studies, and arts. A middle school teacher also assesses student progress, provides feedback, and maintains classroom discipline. To become a middle school teacher, one needs to have a bachelor's degree in education or a related field and a state certification.",
+      "salary": 61320
+  },
+  {
+      "name": "Pharmacy Technician",
+      "requiredSkills": [
+          "pharmaceuticals",
+          "medication management",
+          "patient care",
+          "communication",
+          "attention to detail",
+          "teamwork"
+      ],
+      "description": "A pharmacy technician is a health care worker who assists pharmacists in preparing and dispensing medications. A pharmacy technician also performs administrative tasks, such as answering phones, filing prescriptions, and managing inventory. To become a pharmacy technician, one needs to have a high school diploma or equivalent and complete a training program or pass a certification exam.",
+      "salary": 36740
+  },
+  {
+      "name": "Credit Counselor",
+      "requiredSkills": [
+          "financial counseling",
+          "debt management",
+          "communication",
+          "attention to detail",
+          "problem-solving"
+      ],
+      "description": "A credit counselor is a financial professional who helps clients manage their debt and improve their credit score. A credit counselor also educates clients on budgeting, saving, and investing strategies. To become a credit counselor, one needs to have a bachelor's degree in finance, accounting, or a related field and obtain a certification from a recognized organization.",
+      "salary": 47580
+  },
+  {
+      "name": "Technical Writer",
+      "requiredSkills": [
+          "technical writing",
+          "research",
+          "communication",
+          "attention to detail",
+          "critical thinking"
+      ],
+      "description": "A technical writer is a communication specialist who creates clear and concise documents that explain complex technical information to various audiences. A technical writer also researches, organizes, and edits content for manuals, websites, reports, proposals, and other publications. To become a technical writer, one needs to have a bachelor's degree in English, journalism, or a related field and have strong writing and technical skills.",
+      "salary": 78060
+  },
+  {
+      "name": "Firefighter",
+      "requiredSkills": [
+          "fire safety",
+          "public safety",
+          "emergency response",
+          "communication",
+          "attention to detail",
+          "critical thinking"
+      ],
+      "description": "A firefighter is an emergency responder who protects people and property from fires and other hazards. A firefighter also performs rescue operations, provides medical care, and maintains fire equipment and vehicles. To become a firefighter, one needs to have a high school diploma or equivalent and complete a rigorous physical and written test.",
+      "salary": 50700
+  },
+  {
+      "name": "Nail Technician",
+      "requiredSkills": [
+          "nail care",
+          "sanitation",
+          "communication",
+          "attention to detail",
+          "teamwork"
+      ],
+      "description": "A nail technician is a beauty professional who provides manicures and pedicures to clients. A nail technician also shapes, cleans, polishes, and decorates nails using various tools and products. To become a nail technician, one needs to complete a cosmetology program or a specialized nail course and obtain a state license.",
+      "salary": 29210
+  },
+  {
+      "name": "Sales Manager",
+      "requiredSkills": [
+          "sales",
+          "management",
+          "leadership",
+          "communication",
+          "problem-solving",
+          "strategic planning"
+      ],
+      "description": "A sales manager is a business professional who oversees the sales activities of an organization or a team. A sales manager also sets sales goals, develops sales strategies, trains and motivates sales staff, and monitors sales performance and customer satisfaction. To become a sales manager, one needs to have a bachelor's degree in business administration or marketing and have relevant sales experience.",
+      "salary": 127490
+  },
+  {
+      "name": "Environmental Engineer",
+      "requiredSkills": [
+          "environmental science",
+          "engineering",
+          "sustainability",
+          "communication",
+          "problem-solving",
+          "critical thinking"
+      ],
+      "description": "An environmental engineer is an engineering professional who designs and implements solutions to environmental problems. An environmental engineer also conducts research, analysis, and testing on air quality, water quality, waste management, pollution control, and renewable energy. To become an environmental engineer, one needs to have a bachelor's degree in environmental engineering or a related field and obtain a state license.",
+      "salary": 96820
+  },
+  {
+      "name": "HR Specialist",
+      "requiredSkills": [
+          "human resources",
+          "employment law",
+          "communication",
+          "problem-solving",
+          "attention to detail",
+          "critical thinking"
+      ],
+      "description": "An HR specialist is a human resources professional who handles various aspects of employee relations within an organization. An HR specialist also recruits, hires, trains, evaluates, compensates, and benefits employees. To become an HR specialist, one needs to have a bachelor's degree in human resources management or business administration and have strong interpersonal skills.",
+      "salary": 61570
+  },
+  {
+      "name": "Political Scientist",
+      "requiredSkills": [
+          "political science",
+          "research",
+          "communication",
+          "critical thinking",
+          "problem-solving"
+      ],
+      "description": "A political scientist is a social science professional who studies the origin, development, and operation of political systems and institutions. A political scientist also conducts research, surveys, analysis on political issues such as elections,democracy,conflict,and public policy.To becomea political scientistone needsto havea master'sor doctoraldegreein political scienceora related fieldand havestrong analyticaland communication skills.",
+      "salary": 122510
   }
 ]
