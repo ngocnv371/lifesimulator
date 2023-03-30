@@ -4,11 +4,7 @@ export interface Skill {
   maxLevel: number;
   tags: string;
   active: boolean;
-  /**
-   * description for a certain level threshold
-   * `{3: 'good', 6: 'very good'}` means 'good' is the description for level 1, 2, 3
-   */
-  levelDescriptions: Record<number, string>;
+  description: string;
   /**
    * cost to unlock is `upgradeCost[0]` and to level up is `upgradeCost[level]`
    */

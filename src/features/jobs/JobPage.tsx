@@ -14,7 +14,7 @@ import {
   IonToolbar,
   useIonAlert,
 } from "@ionic/react";
-import { cash, search, time } from "ionicons/icons";
+import { cash, help, search, time } from "ionicons/icons";
 import { useAppDispatch, useAppSelector } from "../../app/store";
 import { formatCurrency } from "../../app/utils";
 import { quit, selectJob } from "./JobSlice";
@@ -63,7 +63,10 @@ const JobPage: React.FC = () => {
           </IonButtons>
           <IonTitle>Your Job</IonTitle>
           <IonButtons slot="end">
-            <IonButton routerLink="/job/browse">
+            <IonButton routerLink="/career/paths">
+              <IonIcon icon={help}></IonIcon>
+            </IonButton>
+            <IonButton routerLink="/career/jobs">
               <IonIcon icon={search}></IonIcon>
             </IonButton>
           </IonButtons>

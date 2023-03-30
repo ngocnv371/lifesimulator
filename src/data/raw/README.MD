@@ -502,25 +502,25 @@ temp2.map(t => {
 
 > I'll give you a list of skills, I need you to rank them based on the difficulty to acquire them. putting them in 5 categories, from 1 to 5, with increasing difficulty. Do you understand?
 
-Output
+Output (after manually revised - this is biased of course)
 
 ## Category 1: Easiest to acquire
 
-Communication, Attention to detail, Teamwork, Analytical thinking, Legal knowledge, Research methods, Logistics, Supply Chain Management, Inventory Management, Transportation, Classroom Management, Lesson Planning, Creativity, Patience, Empathy, Social and Community Services, Writing, Public Speaking, Navigation, Time Management, Financial counseling, Debt management, Technical writing, Nail care, Sanitation, Sales, Human Resources, Employment Law
+Safety protocols, Communication, Attention to detail, Teamwork, Analytical thinking, Legal knowledge, Research methods, Logistics, Supply Chain Management, Inventory Management, Transportation, Classroom Management, Creativity, Patience, Empathy, Social and Community Services, Writing, Public Speaking, Navigation, Time Management, Debt management, Critical Thinking, Nail care, Sanitation, Sales, Landscaping, Groundskeeping, Plant Care, Driving, Wiring, Patient care, Healthcare regulations and policies, Budgeting, Employment Law, Blueprints, Assessment
 ## Category 2:
 
-HTML, CSS, JavaScript, Web development frameworks, Responsive design, User experience design, Marketing, Media Relations, Solar panel installation, Culinary arts, Cooking techniques, Food safety, Pharmaceuticals, Environmental science, Sustainability
+Programming languages, Version control, Data structures and algorithms, HTML, CSS, JavaScript, Web development frameworks, Responsive design, User experience design, Marketing, Media Relations, Solar panel installation, Culinary arts, Cooking techniques, Food safety, Pharmaceuticals, Research, Negotiation, Lesson Planning, Mathematics, Curriculum design, Fire safety, Medical Imaging, Healthcare administration, Management, Leadership, Accounting, Human Resources, Financial counseling, Technical writing
 ## Category 3:
 
-Programming languages, Version control, Software design, Software testing, Debugging, Networking, Software development, Legal knowledge, Animal health and behavior, Research, Negotiation, Marketing, Aviation, Biomedical Engineering, Teaching, Wind Turbine Technology, Network Design, Network Protocols, Classroom Management, Lesson Planning, Creativity, Patience, Empathy, Social and Community Services, Network Administration, System Security, Community Health, Landscaping, Groundskeeping, Plant Care, Driving, Credit Analysis, Nutrition, Financial planning, Electrical Systems, Wiring, Blueprints, Safety protocols, Massage techniques, Audiology, Hearing technology, Genetics, Fitness programs, Laboratory testing, Environmental science, Engineering, Sustainability
+Software testing, Debugging, Networking, Software development, Animal health and behavior, Aviation, Wind Turbine Technology, Network Design, Network Protocols, Teaching, Network Administration, System Security, Community Health, Credit Analysis, Nutrition, Financial planning, Electrical Systems, Massage techniques, Audiology, Fitness programs, Laboratory testing, Engineering, Sustainability
 ## Category 4:
 
-Data structures and algorithms, Software development, Cryptography, Security policies, Database Management, Database Design, Public Health, Statistics, Mathematics, Mathematical Modeling, Curriculum design, Financial analysis, Investment Strategies, Machine Learning, Critical Thinking, Surgical Skills, Anesthesia Administration, Patient Monitoring, Public safety, Emergency response, Fire safety, Physical Fitness, Medical Imaging, Cardiovascular Anatomy and Physiology, Medical Technology
+Clinical knowledge, Software design, Cryptography, Security policies, Database Management, Database Design, Public Health, Statistics, Mathematical Modeling, Financial analysis, Investment Strategies, Machine Learning, Surgical Skills, Anesthesia Administration, Patient Monitoring, Public safety, Emergency response, Physical Fitness, Cardiovascular Anatomy and Physiology, Medical Technology, Medication management, Anatomy, Exercise science
 ## Category 5: Most difficult to acquire
 
-Clinical knowledge, Patient care, Diagnosis, Treatment, Medication management, Healthcare regulations and policies, Healthcare administration, Budgeting, Management, Leadership, Network security, Cybersecurity, Vulnerability assessments, Risk management, Anatomy, Physiology, Exercise science, Rehabilitation, Accounting, Project management, Strategic planning, Legal knowledge, Surgery, Data analysis, Statistical analysis, Biomedical Engineering, Petroleum Engineering, Counseling, Psychology, Assessment, Biochemistry, Public safety, Emergency response, Fire safety, Public Health, Safety protocols, Investments, Landscaping, Groundskeeping, Plant Care, Safety protocols, Audiology, Hearing technology, Genetics, Fitness programs, Environmental science, Engineering, Sustainability, Human Resources, Employment Law, Political Science
+Diagnosis, Treatment, Network security, Cybersecurity, Vulnerability assessments, Risk management, Physiology, Rehabilitation, Project management, Strategic planning, Surgery, Data analysis, Statistical analysis, Biomedical Engineering, Petroleum Engineering, Counseling, Psychology, Biochemistry, Investments, Hearing technology, Genetics, Environmental science, Political Science
 
-# Step 5: Generate Required skills fro skills
+# Step 5: Generate Required skills to acquire skills
 
 > I'll give you a list of skills. You will help me list the required skills in order to acquire said skill. You will output them in this format: "Skill 1: Required Skill 1, Required Skill 2,..."
 > Only use skills in the list as required skills.
@@ -674,4 +674,16 @@ Web Development Frameworks: HTML, CSS, JavaScript
 Wind Turbine Technology: Electrical Systems, Renewable Energy, Engineering
 Wiring: Electrical Systems, Construction Management, Blueprints
 Writing: Creativity, Communication, Research
+```
+
+# Step 6: break cyclic dependency
+
+Some skills require skills that require it. We need to make the "tier 0" skills that doesn't require anything.
+
+# Step 6: generate price to acquire skills
+
+```javascript
+var demands = {}
+const required = skills.flatMap(s => s.requiredSkills)
+
 ```

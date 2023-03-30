@@ -36,6 +36,8 @@ import JobPage from "./features/jobs/JobPage";
 import InvestmentsPage from "./features/investments/InvestmentsPage";
 import BrowseInvestmentsPage from "./features/investments/browse/BrowseInvestmentsPage";
 import InvestmentDetailPage from "./features/investments/detail/InvestmentDetailPage";
+import CareerPathsPage from "./features/career/paths/CareerPathsPage";
+import CareerPathDetailPage from "./features/career/paths/CareerPathDetailPage";
 
 setupIonicReact();
 
@@ -61,12 +63,6 @@ const App: React.FC = () => {
             <Route path="/skills" exact={true}>
               <SkillsPage />
             </Route>
-            <Route path="/job/browse" exact={true}>
-              <BrowseJobsPage />
-            </Route>
-            <Route path="/job" exact={true}>
-              <JobPage />
-            </Route>
             <Route path="/investments/browse/all" exact={true}>
               <BrowseInvestmentsPage />
             </Route>
@@ -75,6 +71,18 @@ const App: React.FC = () => {
             </Route>
             <Route path="/investments" exact={true}>
               <InvestmentsPage />
+            </Route>
+            <Route path="/career" exact={true}>
+              <JobPage />
+            </Route>
+            <Route path="/career/jobs" exact={true}>
+              <BrowseJobsPage />
+            </Route>
+            <Route path="/career/paths/:id" exact={true}>
+              <CareerPathDetailPage />
+            </Route>
+            <Route path="/career/paths" exact={true}>
+              <CareerPathsPage />
             </Route>
           </IonRouterOutlet>
         </IonSplitPane>

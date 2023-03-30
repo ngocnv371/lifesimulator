@@ -59,8 +59,8 @@ const appPages: AppPage[] = [
     mdIcon: hammerSharp,
   },
   {
-    title: "Job",
-    url: "/job",
+    title: "Career",
+    url: "/career",
     iosIcon: bag,
     mdIcon: bagSharp,
   },

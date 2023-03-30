@@ -1,12 +1,12 @@
 import { Skill, SkillLevel } from "../app/models";
 import { calculateProgression, getThresholdValue } from "../app/utils";
-import rawSkills from "./scraped/skills.json";
+import rawSkills from "./raw/skills.json";
 import faker from "faker";
 
 const skills: Skill[] = rawSkills.map((r) => ({
   id: r.name.toLocaleLowerCase(),
   name: r.name,
-  levelDescriptions: { 0: r.description },
+  description: r.description,
   maxLevel: 10,
   active: false,
   tags: "",
@@ -23,13 +23,12 @@ export function getSkillById(id: string) {
 
 export function getSkillByLevel(id: string, level: number): SkillLevel {
   const skill = map[id];
-  const description = getThresholdValue(skill.levelDescriptions, level);
   const cost = calculateProgression(skill.upgradeCosts, level / skill.maxLevel);
   const canLevelUp = level < skill.maxLevel;
   return {
     ...skill,
     level,
-    description,
+    description: skill.description,
     cost,
     canLevelUp,
   };

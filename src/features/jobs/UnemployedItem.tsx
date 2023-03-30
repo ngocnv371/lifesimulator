@@ -10,7 +10,7 @@ const UnemployedItem: React.FC = () => {
           <p>Do something about it</p>
         </IonLabel>
       </IonItem>
-      <IonItem routerLink="/job/browse">
+      <IonItem routerLink="/career/jobs">
         <IonLabel>Find a job</IonLabel>
         <IonIcon color="primary" slot="end" icon={search}></IonIcon>
       </IonItem>

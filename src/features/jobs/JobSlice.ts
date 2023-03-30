@@ -1,5 +1,5 @@
 import { createSelector, createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { getJobById, getJobsBySkills } from "../../data/jobs";
+import { getJobById, getJobs, getJobsBySkills } from "../../data/jobs";
 
 type State = {
   id: string;
@@ -24,7 +24,7 @@ const slice = createSlice({
 
 export const selectAvailableJobs = createSelector(
   [(state) => state.skills],
-  (skills) => getJobsBySkills(skills)
+  (skills) => getJobs(skills)
 );
 
 export const selectJob = (state: { job: State }) => getJobById(state.job.id);
