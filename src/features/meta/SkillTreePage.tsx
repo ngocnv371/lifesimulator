@@ -60,11 +60,41 @@ const SkillTreePage: React.FC = () => {
         const isRequired =
           selected &&
           selected.requiredSkills.some((r) => r.toLocaleLowerCase() === s.id);
+        const onClick = () => {
+          if (!selected) {
+            setSelected(s);
+            return;
+          }
+
+          if (selected.id === s.id) {
+            setSelected(null);
+            return;
+          }
+
+          if (isRequired) {
+            // remove this skill from `selected.requiredSkills`
+            const updated = {
+              ...selected,
+              requiredSkills: selected.requiredSkills.filter(
+                (r) => r.toLocaleLowerCase() !== s.id
+              ),
+            }
+            setSelected(updated);
+            setSkills(skills.map((t) => (t.id === selected.id ? updated : t)));
+          } else {
+            const updated = {
+              ...selected,
+              requiredSkills: selected.requiredSkills.concat(s.name),
+            }
+            setSelected(updated);
+            setSkills(skills.map((t) => (t.id === selected.id ? updated : t)));
+          }
+        };
         return (
           <IonChip
-            color={isActive ? "primary" : isRequired ? "secondary" : ""}
+            color={isActive ? "success" : isRequired ? "secondary" : ""}
             key={s.id}
-            onClick={() => setSelected(s)}
+            onClick={onClick}
           >
             <IonLabel>{s.name}</IonLabel>
             {isRequired && <IonIcon icon={closeCircle}></IonIcon>}
