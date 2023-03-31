@@ -11,6 +11,8 @@ const skills: Skill[] = rawSkills.map((r) => ({
   active: false,
   tags: "",
   upgradeCosts: ["linear", 1000, 1000 + faker.datatype.number(10000)],
+  requiredSkills: r.requiredSkills,
+  tier: 1
 }));
 
 // pickpocket ->
@@ -18,7 +20,11 @@ const skills: Skill[] = rawSkills.map((r) => ({
 const map = Object.fromEntries(skills.map((s) => [s.id, s]));
 
 export function getSkillById(id: string) {
-  return map[id];
+  const item = map[id.toLocaleLowerCase()];
+  if (!item) {
+    throw new Error(`skill not found: ${id}`)
+  }
+  return item;
 }
 
 export function getSkillByLevel(id: string, level: number): SkillLevel {

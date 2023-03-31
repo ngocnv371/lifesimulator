@@ -16,6 +16,8 @@ import {
   archiveSharp,
   bag,
   bagSharp,
+  bookOutline,
+  bookSharp,
   bookmarkOutline,
   cashOutline,
   cashSharp,
@@ -69,6 +71,12 @@ const appPages: AppPage[] = [
     url: "/investments",
     iosIcon: cashOutline,
     mdIcon: cashSharp,
+  },
+  {
+    title: "Skill Tree",
+    url: "/meta/skilltree",
+    iosIcon: bookOutline,
+    mdIcon: bookSharp,
   },
 ];
 

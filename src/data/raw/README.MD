@@ -518,7 +518,7 @@ Software testing, Debugging, Networking, Software development, Animal health and
 Clinical knowledge, Software design, Cryptography, Security policies, Database Management, Database Design, Public Health, Statistics, Mathematical Modeling, Financial analysis, Investment Strategies, Machine Learning, Surgical Skills, Anesthesia Administration, Patient Monitoring, Public safety, Emergency response, Physical Fitness, Cardiovascular Anatomy and Physiology, Medical Technology, Medication management, Anatomy, Exercise science
 ## Category 5: Most difficult to acquire
 
-Diagnosis, Treatment, Network security, Cybersecurity, Vulnerability assessments, Risk management, Physiology, Rehabilitation, Project management, Strategic planning, Surgery, Data analysis, Statistical analysis, Biomedical Engineering, Petroleum Engineering, Counseling, Psychology, Biochemistry, Investments, Hearing technology, Genetics, Environmental science, Political Science
+Diagnosis, Treatment, Network security, Cybersecurity, Vulnerability assessments, Risk management, Physiology, Rehabilitation, Project management, Strategic planning, Surgery, Data analysis, Statistical analysis, Biomedical Engineering, Petroleum Engineering, Counseling, Psychology, Biochemistry, Hearing technology, Genetics, Environmental science, Political Science
 
 # Step 5: Generate Required skills to acquire skills
 

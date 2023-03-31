@@ -9,6 +9,8 @@ export interface Skill {
    * cost to unlock is `upgradeCost[0]` and to level up is `upgradeCost[level]`
    */
   upgradeCosts: Progression;
+  requiredSkills: string[];
+  tier: number;
 }
 
 export type Curve = "linear" | "ease-out" | "ease-in-out" | "ease-in";
