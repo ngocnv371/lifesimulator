@@ -1,47 +1,36 @@
 [
   {
-    "name": "Safety Protocols",
-    "description": "Knowledge of established procedures and guidelines for ensuring safety in a variety of settings, including workplaces, laboratories, and public spaces.",
-    "requiredSkills": [
-      "Emergency Response",
-      "Risk Management",
-      "Communication",
-      "Critical Thinking",
-      "Problem Solving"
+    "id": "accounting",
+    "name": "Accounting",
+    "description": "The process of tracking and analyzing financial transactions to prepare financial statements, including balance sheets, income statements, and cash flow statements.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      3483
     ],
-    "tier": 1
-  },
-  {
-    "name": "Communication",
-    "description": "the ability to convey ideas and information clearly and effectively through verbal and written communication.",
     "requiredSkills": [
-      "Public Speaking",
-      "Media Relations",
-      "Counseling",
-      "Social And Community Services"
+      "Financial Analysis",
+      "Budgeting",
+      "Financial Planning",
+      "Financial Counseling"
     ],
-    "tier": 1
+    "tier": 2
   },
   {
-    "name": "Attention To Detail",
-    "description": "the ability to pay close attention to details and avoid errors or mistakes in medical treatment and care.",
-    "requiredSkills": [
-      "Critical Thinking",
-      "Problem Solving",
-      "Debugging",
-      "Patience"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Teamwork",
-    "description": "the ability to work effectively with other healthcare professionals, such as nurses, doctors, and technicians, to provide comprehensive patient care.",
-    "requiredSkills": ["Communication", "Leadership", "Empathy"],
-    "tier": 1
-  },
-  {
+    "id": "analytical thinking",
     "name": "Analytical Thinking",
     "description": "The ability to analyze complex problems, break them down into their component parts, and develop logical solutions.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      9935
+    ],
     "requiredSkills": [
       "Critical Thinking",
       "Problem Solving",
@@ -51,69 +40,257 @@
     "tier": 1
   },
   {
-    "name": "Legal Knowledge",
-    "description": "The knowledge of laws and regulations that apply to specific industries or areas of law.",
+    "id": "anatomy",
+    "name": "Anatomy",
+    "description": "The study of the structure of living organisms, including humans, animals, and plants.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      6797
+    ],
     "requiredSkills": [
-      "Communication",
-      "Employment Law",
+      "Cardiovascular Anatomy And Physiology",
+      "Respiratory Care",
+      "Physiology",
+      "Medical Terminology"
+    ],
+    "tier": 4
+  },
+  {
+    "id": "anesthesia administration",
+    "name": "Anesthesia Administration",
+    "description": "The ability to administer anesthetics to patients safely and effectively.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      8233
+    ],
+    "requiredSkills": [
+      "Patient Monitoring",
+      "Surgical Skills",
+      "Emergency Response",
+      "Pharmacology"
+    ],
+    "tier": 4
+  },
+  {
+    "id": "animal health and behavior",
+    "name": "Animal Health And Behavior",
+    "description": "The study of the health and behavior of animals, including their care and treatment.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      7897
+    ],
+    "requiredSkills": [
+      "Physiology",
+      "Anatomy",
+      "Genetics",
+      "Empathy"
+    ],
+    "tier": 3
+  },
+  {
+    "id": "assessment",
+    "name": "Assessment",
+    "description": "The process of evaluating or measuring a person's skills, knowledge, or abilities.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      1403
+    ],
+    "requiredSkills": [
+      "Evaluation Techniques",
+      "Data Analysis",
+      "Research Methods",
+      "Statistical Analysis"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "attention to detail",
+    "name": "Attention To Detail",
+    "description": "the ability to pay close attention to details and avoid errors or mistakes in medical treatment and care.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      6495
+    ],
+    "requiredSkills": [
+      "Critical Thinking",
       "Problem Solving",
-      "Research"
+      "Debugging",
+      "Patience"
     ],
     "tier": 1
   },
   {
-    "name": "Research Methods",
-    "description": "The techniques used to collect and analyze data in research studies.",
+    "id": "audiology",
+    "name": "Audiology",
+    "description": "The study and treatment of hearing disorders and related conditions, including the assessment of hearing ability, the prescription and fitting of hearing aids, and the development of hearing rehabilitation plans.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      7488
+    ],
     "requiredSkills": [
-      "Statistics",
-      "Experimental Design",
-      "Data Analysis",
-      "Psychology",
-      "Communication"
+      "Hearing Technology",
+      "Communication",
+      "Anatomy",
+      "Physiology"
     ],
-    "tier": 1
+    "tier": 3
   },
   {
-    "name": "Logistics",
-    "description": "The management of the flow of goods, services, and information from the point of origin to the point of consumption.",
+    "id": "aviation",
+    "name": "Aviation",
+    "description": "The study of flight and the design, development, and maintenance of aircraft.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      10695
+    ],
     "requiredSkills": [
-      "Attention To Detail",
-      "Data Analysis",
-      "Inventory Management",
-      "Supply Chain Management"
+      "Navigation",
+      "Wind Turbine Technology",
+      "Technical Writing",
+      "Aerospace Engineering"
     ],
-    "tier": 1
+    "tier": 3
   },
   {
-    "name": "Supply Chain Management",
-    "description": "The coordination and management of all activities involved in the creation and delivery of a product, from raw materials to the final product.",
+    "id": "biochemistry",
+    "name": "Biochemistry",
+    "description": "The study of chemical processes within living organisms.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      1075
+    ],
     "requiredSkills": [
-      "Logistics",
-      "Inventory Management",
-      "Business Management"
+      "Genetics",
+      "Molecular Biology",
+      "Medical Terminology",
+      "Laboratory Testing"
     ],
-    "tier": 1
+    "tier": 5
   },
   {
-    "name": "Inventory Management",
-    "description": "The process of managing and controlling the flow of goods and materials in and out of an organization's inventory.",
+    "id": "biomedical engineering",
+    "name": "Biomedical Engineering",
+    "description": "The application of engineering principles and design concepts to medicine and biology.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      3939
+    ],
     "requiredSkills": [
-      "Attention To Detail",
-      "Data Analysis",
-      "Logistics",
-      "Supply Chain Management"
+      "Electrical Systems",
+      "Medical Technology",
+      "Machine Learning",
+      "Technical Writing"
+    ],
+    "tier": 5
+  },
+  {
+    "id": "blueprints",
+    "name": "Blueprints",
+    "description": "The ability to read, interpret and create blueprints, technical drawings or diagrams for various purposes such as construction, manufacturing, or engineering.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      10352
+    ],
+    "requiredSkills": [
+      "Construction Management",
+      "Electrical Systems",
+      "Wiring",
+      "Technical Writing"
     ],
     "tier": 1
   },
   {
-    "name": "Transportation",
-    "description": "The movement of people or goods from one place to another.",
-    "requiredSkills": ["Navigation", "Driving", "Logistics"],
+    "id": "budgeting",
+    "name": "Budgeting",
+    "description": "the ability to manage financial resources effectively and allocate resources to achieve organizational goals.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      1053
+    ],
+    "requiredSkills": [
+      "Financial Analysis",
+      "Financial Planning",
+      "Accounting",
+      "Financial Counseling"
+    ],
     "tier": 1
   },
   {
+    "id": "cardiovascular anatomy and physiology",
+    "name": "Cardiovascular Anatomy And Physiology",
+    "description": "Knowledge of the structure and function of the cardiovascular system, including the heart, blood vessels, and blood.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      10340
+    ],
+    "requiredSkills": [
+      "Anatomy",
+      "Physiology",
+      "Medical Terminology",
+      "Medical Imaging"
+    ],
+    "tier": 4
+  },
+  {
+    "id": "classroom management",
     "name": "Classroom Management",
     "description": "The ability to create a positive and engaging learning environment that fosters student participation and success.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      7079
+    ],
     "requiredSkills": [
       "Lesson Planning",
       "Communication",
@@ -123,8 +300,117 @@
     "tier": 1
   },
   {
+    "id": "clinical knowledge",
+    "name": "Clinical Knowledge",
+    "description": "understanding of medical terminology, anatomy, and physiology, as well as the ability to apply this knowledge in the diagnosis and treatment of patients.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      5139
+    ],
+    "requiredSkills": [
+      "Diagnosis",
+      "Patient Care",
+      "Pharmacology",
+      "Medical Terminology"
+    ],
+    "tier": 4
+  },
+  {
+    "id": "communication",
+    "name": "Communication",
+    "description": "the ability to convey ideas and information clearly and effectively through verbal and written communication.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      3597
+    ],
+    "requiredSkills": [
+      "Public Speaking",
+      "Media Relations",
+      "Counseling",
+      "Social And Community Services"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "community health",
+    "name": "Community Health",
+    "description": "Knowledge of public health principles and practices, and the ability to promote healthy lifestyles and behaviors within a community.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      7783
+    ],
+    "requiredSkills": [
+      "Public Health",
+      "Health Education",
+      "Environmental Science",
+      "Epidemiology"
+    ],
+    "tier": 3
+  },
+  {
+    "id": "cooking techniques",
+    "name": "Cooking Techniques",
+    "description": "Knowledge of various cooking methods, including baking, broiling, sautéing, frying, and grilling, and their application in food preparation.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      6684
+    ],
+    "requiredSkills": [
+      "Culinary Arts",
+      "Food Safety",
+      "Nutrition",
+      "Creativity"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "counseling",
+    "name": "Counseling",
+    "description": "The process of helping individuals or groups to achieve emotional, social, or behavioral change.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      6918
+    ],
+    "requiredSkills": [
+      "Communication",
+      "Empathy",
+      "Psychology",
+      "Assessment"
+    ],
+    "tier": 5
+  },
+  {
+    "id": "creativity",
     "name": "Creativity",
     "description": "The ability to generate innovative and original ideas to solve problems or improve products, services, or processes.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      4653
+    ],
     "requiredSkills": [
       "Problem Solving",
       "Culinary Arts",
@@ -134,90 +420,37 @@
     "tier": 1
   },
   {
-    "name": "Patience",
-    "description": "The ability to remain calm and composed in challenging situations or when dealing with difficult individuals.",
-    "requiredSkills": [
-      "Empathy",
-      "Communication",
-      "Self Control",
-      "Active Listening",
-      "Time Management"
+    "id": "credit analysis",
+    "name": "Credit Analysis",
+    "description": "Knowledge of credit risk assessment and lending practices, including credit scoring, underwriting, and loan origination.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      1355
     ],
-    "tier": 1
-  },
-  {
-    "name": "Empathy",
-    "description": "The ability to understand and share the feelings of others, and to respond appropriately to their needs and concerns.",
-    "requiredSkills": [
-      "Active Listening",
-      "Communication",
-      "Emotional Intelligence",
-      "Interpersonal Skills"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Social And Community Services",
-    "description": "Knowledge of the principles and practices involved in providing social and community services to diverse populations.",
-    "requiredSkills": [
-      "Community Health",
-      "Counseling",
-      "Empathy",
-      "Communication",
-      "Problem Solving"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Writing",
-    "description": "The ability to communicate ideas and information clearly and effectively through written words.",
-    "requiredSkills": ["Creativity", "Communication", "Research"],
-    "tier": 1
-  },
-  {
-    "name": "Public Speaking",
-    "description": "The ability to communicate ideas and information clearly and effectively through spoken words, often in front of large audiences.",
-    "requiredSkills": [
-      "Communication",
-      "Public Relations",
-      "Presentation Skills",
-      "Confidence",
-      "Persuasion"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Navigation",
-    "description": "The ability to navigate using maps, GPS, and other tools to reach a desired destination.",
-    "requiredSkills": [
-      "Map Reading",
-      "Spatial Reasoning",
-      "Patience",
-      "Attention To Detail",
-      "Time Management"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Time Management",
-    "description": "The ability to prioritize tasks and manage time effectively to meet deadlines and achieve goals.",
-    "requiredSkills": ["Organization", "Prioritization", "Task Management"],
-    "tier": 1
-  },
-  {
-    "name": "Debt Management",
-    "description": "Knowledge of strategies and techniques for managing debt, including debt consolidation, payment plans, and negotiation with creditors.",
     "requiredSkills": [
       "Financial Analysis",
       "Financial Planning",
       "Accounting",
-      "Credit Analysis"
+      "Debt Management"
     ],
-    "tier": 1
+    "tier": 3
   },
   {
+    "id": "critical thinking",
     "name": "Critical Thinking",
     "description": "The ability to objectively analyze information and evaluate arguments to form a well-reasoned judgment or decision.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      6592
+    ],
     "requiredSkills": [
       "Problem Solving",
       "Analytical Thinking",
@@ -227,76 +460,257 @@
     "tier": 1
   },
   {
-    "name": "Nail Care",
-    "description": "The ability to provide nail care services, including manicures, pedicures, and nail art, using various tools and techniques.",
+    "id": "cryptography",
+    "name": "Cryptography",
+    "description": "the ability to develop and implement secure cryptographic systems to protect data and communication channels.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      9856
+    ],
     "requiredSkills": [
-      "Attention To Detail",
-      "Manicure And Pedicure Techniques",
-      "Sanitation"
+      "Network Security",
+      "System Security",
+      "Mathematics",
+      "Data Analysis"
+    ],
+    "tier": 4
+  },
+  {
+    "id": "css",
+    "name": "CSS",
+    "description": "Cascading Style Sheets, a coding language used to style and format web pages.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      3316
+    ],
+    "requiredSkills": [
+      "HTML",
+      "Web Development Frameworks",
+      "Responsive Design",
+      "User Experience Design"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "culinary arts",
+    "name": "Culinary Arts",
+    "description": "Knowledge of various cooking techniques, recipe development, and menu planning, as well as food presentation and service.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      2375
+    ],
+    "requiredSkills": [
+      "Cooking Techniques",
+      "Nutrition",
+      "Creativity",
+      "Budgeting"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "curriculum design",
+    "name": "Curriculum Design",
+    "description": "The ability to design and develop educational curricula for various levels and subjects, based on learning goals and objectives.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      10847
+    ],
+    "requiredSkills": [
+      "Lesson Planning",
+      "Teaching",
+      "Educational Psychology",
+      "Educational Technology"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "cybersecurity",
+    "name": "Cybersecurity",
+    "description": "the ability to protect computer systems and networks from theft or damage to hardware, software or electronic data.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      4329
+    ],
+    "requiredSkills": [
+      "Network Security",
+      "System Security",
+      "Cryptography",
+      "Vulnerability Assessments"
+    ],
+    "tier": 5
+  },
+  {
+    "id": "data analysis",
+    "name": "Data Analysis",
+    "description": "The process of examining data to identify patterns and draw conclusions.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      8287
+    ],
+    "requiredSkills": [
+      "Statistical Analysis",
+      "Research Methods",
+      "Database Design",
+      "Data Structures And Algorithms"
+    ],
+    "tier": 5
+  },
+  {
+    "id": "data structures and algorithms",
+    "name": "Data Structures And Algorithms",
+    "description": "the ability to design and implement efficient data structures and algorithms to manipulate and analyze large amounts of data.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      2996
+    ],
+    "requiredSkills": [
+      "Programming Languages",
+      "Machine Learning",
+      "Database Design",
+      "Statistical Analysis"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "database design",
+    "name": "Database Design",
+    "description": "The process of creating a detailed data model of a database to ensure it meets the needs of the user and the organization.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      10780
+    ],
+    "requiredSkills": [
+      "Database Management",
+      "Data Analysis",
+      "Sql",
+      "Data Modeling"
+    ],
+    "tier": 4
+  },
+  {
+    "id": "database management",
+    "name": "Database Management",
+    "description": "The process of designing, implementing, and maintaining databases to store and manage information.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      4735
+    ],
+    "requiredSkills": [
+      "Database Design",
+      "Sql",
+      "Network Administration",
+      "It Infrastructure"
+    ],
+    "tier": 4
+  },
+  {
+    "id": "debt management",
+    "name": "Debt Management",
+    "description": "Knowledge of strategies and techniques for managing debt, including debt consolidation, payment plans, and negotiation with creditors.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      10901
+    ],
+    "requiredSkills": [
+      "Financial Analysis",
+      "Financial Planning",
+      "Accounting",
+      "Credit Analysis"
     ],
     "tier": 1
   },
   {
-    "name": "Sanitation",
-    "description": "Knowledge of proper sanitation practices, including cleaning and disinfection of surfaces and equipment, to prevent the spread of disease and infection.",
+    "id": "debugging",
+    "name": "Debugging",
+    "description": "the ability to identify and resolve software errors or bugs that may affect the performance or functionality of software applications and systems.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      4817
+    ],
     "requiredSkills": [
-      "Attention To Detail",
-      "Time Management",
-      "Cleaning Techniques",
       "Problem Solving",
-      "Communication"
+      "Critical Thinking",
+      "Programming Languages",
+      "Technical Writing"
     ],
-    "tier": 1
+    "tier": 3
   },
   {
-    "name": "Sales",
-    "description": "The ability to sell products or services to customers, including prospecting, lead generation, and negotiation.",
+    "id": "diagnosis",
+    "name": "Diagnosis",
+    "description": "the ability to analyze patient symptoms and medical history to make accurate diagnoses.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      2816
+    ],
     "requiredSkills": [
-      "Communication",
-      "Persuasion",
-      "Customer Service",
-      "Negotiation",
-      "Problem Solving"
+      "Clinical Knowledge",
+      "Medical Terminology",
+      "Medical Imaging",
+      "Patient Care"
     ],
-    "tier": 1
+    "tier": 5
   },
   {
-    "name": "Landscaping",
-    "description": "The ability to design and maintain outdoor spaces, including plant selection, soil management, and irrigation.",
-    "requiredSkills": [
-      "Attention To Detail",
-      "Horticulture",
-      "Groundskeeping",
-      "Plant Care"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Groundskeeping",
-    "description": "The ability to maintain and care for outdoor spaces, including mowing, trimming, pruning, and fertilizing.",
-    "requiredSkills": [
-      "Attention To Detail",
-      "Horticulture",
-      "Landscaping",
-      "Plant Care"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Plant Care",
-    "description": "Knowledge of the principles and practices involved in caring for plants, including watering, fertilizing, and pest control.",
-    "requiredSkills": [
-      "Horticulture",
-      "Botany",
-      "Landscaping",
-      "Environmental Science",
-      "Problem Solving"
-    ],
-    "tier": 1
-  },
-  {
+    "id": "driving",
     "name": "Driving",
     "description": "The ability to operate a vehicle safely and effectively, following traffic laws and regulations.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      8678
+    ],
     "requiredSkills": [
       "Patience",
       "Attention To Detail",
@@ -309,569 +723,17 @@
     "tier": 1
   },
   {
-    "name": "Wiring",
-    "description": "The ability to install, repair, or maintain electrical wiring and systems for various applications such as residential, commercial, or industrial.",
-    "requiredSkills": [
-      "Electrical Systems",
-      "Construction Management",
-      "Blueprints"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Patient Care",
-    "description": "the ability to provide compassionate and effective care to patients, including monitoring their health status and administering medication and treatments.",
-    "requiredSkills": [
-      "Empathy",
-      "Communication",
-      "Critical Thinking",
-      "Patience",
-      "Attention To Detail"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Healthcare Regulations And Policies",
-    "description": "knowledge of healthcare laws and regulations, as well as the ability to ensure compliance with these regulations in healthcare settings.",
-    "requiredSkills": [
-      "Communication",
-      "Healthcare Administration",
-      "Legal Knowledge",
-      "Problem Solving"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Budgeting",
-    "description": "the ability to manage financial resources effectively and allocate resources to achieve organizational goals.",
-    "requiredSkills": [
-      "Financial Analysis",
-      "Financial Planning",
-      "Accounting",
-      "Financial Counseling"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Employment Law",
-    "description": "the legal principles and regulations that govern the employer-employee relationship, including laws related to discrimination, harassment, wages, hours, benefits, and termination.",
-    "requiredSkills": [
-      "Attention To Detail",
-      "Communication",
-      "Legal Knowledge",
-      "Problem Solving"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Blueprints",
-    "description": "The ability to read, interpret and create blueprints, technical drawings or diagrams for various purposes such as construction, manufacturing, or engineering.",
-    "requiredSkills": [
-      "Construction Management",
-      "Electrical Systems",
-      "Wiring",
-      "Technical Writing"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Assessment",
-    "description": "The process of evaluating or measuring a person's skills, knowledge, or abilities.",
-    "requiredSkills": [
-      "Evaluation Techniques",
-      "Data Analysis",
-      "Research Methods",
-      "Statistical Analysis"
-    ],
-    "tier": 1
-  },
-  {
-    "name": "Programming Languages",
-    "description": "proficiency in one or more programming languages, such as Java, Python, or C++, to create software applications and systems.",
-    "requiredSkills": [
-      "Software Development",
-      "Computer Systems",
-      "Data Structures And Algorithms",
-      "Debugging",
-      "Problem Solving"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Version Control",
-    "description": "the ability to use version control tools, such as Git or SVN, to manage changes in code and collaborate with team members.",
-    "requiredSkills": ["Programming Languages", "Debugging", "Software Design"],
-    "tier": 2
-  },
-  {
-    "name": "Data Structures And Algorithms",
-    "description": "the ability to design and implement efficient data structures and algorithms to manipulate and analyze large amounts of data.",
-    "requiredSkills": [
-      "Programming Languages",
-      "Machine Learning",
-      "Database Design",
-      "Statistical Analysis"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "HTML",
-    "description": "Hypertext Markup Language, a coding language used to create web pages.",
-    "requiredSkills": ["CSS", "Web Development Frameworks", "Writing"],
-    "tier": 2
-  },
-  {
-    "name": "CSS",
-    "description": "Cascading Style Sheets, a coding language used to style and format web pages.",
-    "requiredSkills": [
-      "HTML",
-      "Web Development Frameworks",
-      "Responsive Design",
-      "User Experience Design"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Javascript",
-    "description": "A scripting language used to add interactivity to web pages.",
-    "requiredSkills": [
-      "CSS",
-      "HTML",
-      "Programming Languages",
-      "Web Development Frameworks"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Web Development Frameworks",
-    "description": "Pre-written libraries and tools used to streamline the web development process.",
-    "requiredSkills": ["HTML", "CSS", "Javascript"],
-    "tier": 2
-  },
-  {
-    "name": "Responsive Design",
-    "description": "The process of designing web pages that adapt to different screen sizes and device types.",
-    "requiredSkills": [
-      "Web Development Frameworks",
-      "HTML",
-      "CSS",
-      "User Experience Design",
-      "Problem Solving"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "User Experience Design",
-    "description": "The process of designing digital products that meet the needs and expectations of users.",
-    "requiredSkills": [
-      "Web Development Frameworks",
-      "Responsive Design",
-      "User Research"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Marketing",
-    "description": "The process of promoting and selling products or services to customers.",
-    "requiredSkills": [
-      "Communication",
-      "Market Research",
-      "Product Management",
-      "Public Relations"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Media Relations",
-    "description": "The ability to establish and maintain positive relationships with media outlets and journalists to promote a company or organization's message.",
-    "requiredSkills": [
-      "Communication",
-      "Journalism",
-      "Public Relations",
-      "Social Media"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Solar Panel Installation",
-    "description": "The ability to install and maintain solar panel systems for residential, commercial, or industrial applications.",
-    "requiredSkills": [
-      "Electrical Systems",
-      "Wiring",
-      "Sustainability",
-      "Problem Solving",
-      "Attention To Detail"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Culinary Arts",
-    "description": "Knowledge of various cooking techniques, recipe development, and menu planning, as well as food presentation and service.",
-    "requiredSkills": [
-      "Cooking Techniques",
-      "Nutrition",
-      "Creativity",
-      "Budgeting"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Cooking Techniques",
-    "description": "Knowledge of various cooking methods, including baking, broiling, sautéing, frying, and grilling, and their application in food preparation.",
-    "requiredSkills": [
-      "Culinary Arts",
-      "Food Safety",
-      "Nutrition",
-      "Creativity"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Food Safety",
-    "description": "Knowledge of food safety regulations, including proper handling, storage, preparation, and cooking of food to prevent contamination and illness.",
-    "requiredSkills": [
-      "Attention To Detail",
-      "Communication",
-      "Food Regulations",
-      "Foodborne Illness Prevention",
-      "Sanitation"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Pharmaceuticals",
-    "description": "Knowledge of the development, production, and distribution of pharmaceuticals, including drug discovery, clinical trials, and regulatory compliance.",
-    "requiredSkills": [
-      "Pharmacology",
-      "Chemistry",
-      "Physiology",
-      "Biology",
-      "Clinical Knowledge"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Research",
-    "description": "The process of gathering and analyzing data to answer questions or solve problems.",
-    "requiredSkills": [
-      "Research Methods",
-      "Data Analysis",
-      "Statistics",
-      "Critical Thinking",
-      "Technical Writing"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Negotiation",
-    "description": "The process of reaching an agreement between parties with different goals or objectives.",
-    "requiredSkills": [
-      "Communication",
-      "Active Listening",
-      "Persuasion",
-      "Problem Solving",
-      "Empathy"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Lesson Planning",
-    "description": "The ability to create engaging lesson plans that align with learning objectives and cater to the diverse needs of students.",
-    "requiredSkills": [
-      "Classroom Management",
-      "Curriculum Design",
-      "Education Psychology",
-      "Instructional Design"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Mathematics",
-    "description": "The study of numbers, quantities, and shapes, and the relationships between them.",
-    "requiredSkills": ["Analytical Thinking", "Problem Solving", "Statistics"],
-    "tier": 2
-  },
-  {
-    "name": "Curriculum Design",
-    "description": "The ability to design and develop educational curricula for various levels and subjects, based on learning goals and objectives.",
-    "requiredSkills": [
-      "Lesson Planning",
-      "Teaching",
-      "Educational Psychology",
-      "Educational Technology"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Fire Safety",
-    "description": "Knowledge of fire safety regulations and procedures, including prevention, detection, and suppression of fires.",
-    "requiredSkills": [
-      "Critical Thinking",
-      "Emergency Response",
-      "Safety Protocols",
-      "Teamwork"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Medical Imaging",
-    "description": "Knowledge of the principles and practices involved in medical imaging technologies, such as X-rays, MRI, and CT scans.",
-    "requiredSkills": [
-      "Anatomy",
-      "Medical Terminology",
-      "Physics",
-      "Radiology"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Healthcare Administration",
-    "description": "the ability to manage healthcare facilities and operations, including budgeting, staffing, and strategic planning.",
-    "requiredSkills": [
-      "Communication",
-      "Healthcare Regulations And Policies",
-      "Human Resources",
-      "Leadership"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Management",
-    "description": "the ability to lead and manage teams effectively, including setting goals, delegating tasks, and providing feedback.",
-    "requiredSkills": [
-      "Communication",
-      "Decision Making",
-      "Leadership",
-      "Problem Solving",
-      "Teamwork"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Leadership",
-    "description": "the ability to inspire and motivate team members, and create a positive work environment.",
-    "requiredSkills": [
-      "Communication",
-      "Decision Making",
-      "Empathy",
-      "Teamwork"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Accounting",
-    "description": "The process of tracking and analyzing financial transactions to prepare financial statements, including balance sheets, income statements, and cash flow statements.",
-    "requiredSkills": [
-      "Financial Analysis",
-      "Budgeting",
-      "Financial Planning",
-      "Financial Counseling"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Human Resources",
-    "description": "the function within an organization that is responsible for recruiting, hiring, training, and managing employees, as well as overseeing employee benefits, compensation, and performance evaluations.",
-    "requiredSkills": [
-      "Communication",
-      "Employment Law",
-      "Leadership",
-      "Problem Solving",
-      "Recruitment"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Financial Counseling",
-    "description": "The ability to provide financial advice and counseling to individuals or groups, including budgeting, debt management, and investment strategies.",
-    "requiredSkills": [
-      "Accounting",
-      "Financial Planning",
-      "Interpersonal Skills",
-      "Listening Skills"
-    ],
-    "tier": 2
-  },
-  {
-    "name": "Technical Writing",
-    "description": "The ability to write technical documentation, including user manuals, technical reports, and instructional materials, for various industries and applications.",
-    "requiredSkills": ["Writing", "Communication", "Research"],
-    "tier": 2
-  },
-  {
-    "name": "Software Testing",
-    "description": "the ability to write and execute test plans and test cases to ensure the quality of software applications and systems.",
-    "requiredSkills": [
-      "Software Development",
-      "Debugging",
-      "Test Automation",
-      "Technical Writing",
-      "Problem Solving"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Debugging",
-    "description": "the ability to identify and resolve software errors or bugs that may affect the performance or functionality of software applications and systems.",
-    "requiredSkills": [
-      "Problem Solving",
-      "Critical Thinking",
-      "Programming Languages",
-      "Technical Writing"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Networking",
-    "description": "The process of connecting computers, devices, and other resources to create a communications network.",
-    "requiredSkills": [
-      "Network Protocols",
-      "Communication",
-      "Problem Solving",
-      "Technical Writing",
-      "Active Listening"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Software Development",
-    "description": "The process of designing, coding, testing, and maintaining software applications.",
-    "requiredSkills": [
-      "Programming Languages",
-      "Data Structures And Algorithms",
-      "Debugging",
-      "Problem Solving",
-      "Creativity"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Animal Health And Behavior",
-    "description": "The study of the health and behavior of animals, including their care and treatment.",
-    "requiredSkills": ["Physiology", "Anatomy", "Genetics", "Empathy"],
-    "tier": 3
-  },
-  {
-    "name": "Aviation",
-    "description": "The study of flight and the design, development, and maintenance of aircraft.",
-    "requiredSkills": [
-      "Navigation",
-      "Wind Turbine Technology",
-      "Technical Writing",
-      "Aerospace Engineering"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Wind Turbine Technology",
-    "description": "Knowledge of the technology and engineering principles involved in designing, constructing, and maintaining wind turbines.",
-    "requiredSkills": ["Electrical Systems", "Renewable Energy", "Engineering"],
-    "tier": 3
-  },
-  {
-    "name": "Network Design",
-    "description": "The ability to plan and design computer networks that are efficient, scalable, and secure.",
-    "requiredSkills": [
-      "Networking",
-      "Network Protocols",
-      "Technical Writing",
-      "Computer Systems",
-      "Communication"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Network Protocols",
-    "description": "Understanding of the communication protocols and technologies used in computer networks, such as TCP/IP, DNS, and DHCP.",
-    "requiredSkills": [
-      "Networking",
-      "Network Security",
-      "Computer Systems",
-      "Problem Solving",
-      "Technical Writing"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Teaching",
-    "description": "The ability to impart knowledge or skills to others in a way that is understandable and engaging.",
-    "requiredSkills": [
-      "Classroom Management",
-      "Lesson Planning",
-      "Communication"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Network Administration",
-    "description": "The ability to manage and maintain computer networks, including installing, configuring, and troubleshooting hardware and software.",
-    "requiredSkills": [
-      "Computer Systems",
-      "Network Protocols",
-      "Network Security",
-      "Technical Writing",
-      "Problem Solving"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "System Security",
-    "description": "Knowledge of security measures and protocols to protect computer systems and networks from unauthorized access, theft, and damage.",
-    "requiredSkills": [
-      "Cybersecurity",
-      "Network Security",
-      "Vulnerability Assessments"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Community Health",
-    "description": "Knowledge of public health principles and practices, and the ability to promote healthy lifestyles and behaviors within a community.",
-    "requiredSkills": [
-      "Public Health",
-      "Health Education",
-      "Environmental Science",
-      "Epidemiology"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Credit Analysis",
-    "description": "Knowledge of credit risk assessment and lending practices, including credit scoring, underwriting, and loan origination.",
-    "requiredSkills": [
-      "Financial Analysis",
-      "Financial Planning",
-      "Accounting",
-      "Debt Management"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Nutrition",
-    "description": "Knowledge of the principles and practices involved in promoting healthy eating habits and managing dietary needs.",
-    "requiredSkills": [
-      "Physiology",
-      "Biochemistry",
-      "Exercise Science",
-      "Research Methods",
-      "Communication"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Financial Planning",
-    "description": "The process of developing a comprehensive financial plan to achieve financial goals, including retirement planning, investment planning, and estate planning.",
-    "requiredSkills": [
-      "Accounting",
-      "Budgeting",
-      "Financial Analysis",
-      "Investment Strategies"
-    ],
-    "tier": 3
-  },
-  {
+    "id": "electrical systems",
     "name": "Electrical Systems",
     "description": "Knowledge of electrical principles and practices, including wiring, circuits, and electrical safety protocols.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      10742
+    ],
     "requiredSkills": [
       "Analytical Thinking",
       "Attention To Detail",
@@ -881,241 +743,17 @@
     "tier": 3
   },
   {
-    "name": "Massage Techniques",
-    "description": "Knowledge of the various massage techniques and their application to improve physical and emotional well-being, relieve pain and tension, and promote relaxation.",
-    "requiredSkills": ["Anatomy", "Massage Therapy Techniques", "Physiology"],
-    "tier": 3
-  },
-  {
-    "name": "Audiology",
-    "description": "The study and treatment of hearing disorders and related conditions, including the assessment of hearing ability, the prescription and fitting of hearing aids, and the development of hearing rehabilitation plans.",
-    "requiredSkills": [
-      "Hearing Technology",
-      "Communication",
-      "Anatomy",
-      "Physiology"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Fitness Programs",
-    "description": "The ability to design, implement, and evaluate fitness programs for individuals or groups, based on their health and fitness goals and needs.",
-    "requiredSkills": [
-      "Assessment",
-      "Exercise Physiology",
-      "Nutrition",
-      "Physical Fitness",
-      "Program Development"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Laboratory Testing",
-    "description": "Knowledge of laboratory testing procedures and techniques, including the collection and analysis of samples, data interpretation, and reporting of findings.",
-    "requiredSkills": [
-      "Attention To Detail",
-      "Laboratory Safety",
-      "Laboratory Testing Techniques",
-      "Scientific Method"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Engineering",
-    "description": "the application of science, mathematics, and design to create practical solutions to real-world problems, such as designing and building structures, machines, systems, and materials.",
-    "requiredSkills": [
-      "Analytical Thinking",
-      "Mathematics",
-      "Physics",
-      "Problem Solving"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Sustainability",
-    "description": "the practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs, often through reducing environmental impact, conserving natural resources, and promoting social and economic equity.",
-    "requiredSkills": [
-      "Environmental Science",
-      "Renewable Energy",
-      "Business Management"
-    ],
-    "tier": 3
-  },
-  {
-    "name": "Clinical Knowledge",
-    "description": "understanding of medical terminology, anatomy, and physiology, as well as the ability to apply this knowledge in the diagnosis and treatment of patients.",
-    "requiredSkills": [
-      "Diagnosis",
-      "Patient Care",
-      "Pharmacology",
-      "Medical Terminology"
-    ],
-    "tier": 4
-  },
-  {
-    "name": "Software Design",
-    "description": "the ability to design software applications and systems that are scalable, maintainable, and user-friendly.",
-    "requiredSkills": [
-      "Software Development",
-      "Programming Languages",
-      "User Experience Design",
-      "Problem Solving",
-      "Creativity"
-    ],
-    "tier": 4
-  },
-  {
-    "name": "Cryptography",
-    "description": "the ability to develop and implement secure cryptographic systems to protect data and communication channels.",
-    "requiredSkills": [
-      "Network Security",
-      "System Security",
-      "Mathematics",
-      "Data Analysis"
-    ],
-    "tier": 4
-  },
-  {
-    "name": "Security Policies",
-    "description": "The ability to develop and implement policies and procedures to protect assets and data from unauthorized access, theft, and misuse.",
-    "requiredSkills": [
-      "Risk Management",
-      "Network Security",
-      "Cybersecurity",
-      "Technical Writing",
-      "Problem Solving"
-    ],
-    "tier": 4
-  },
-  {
-    "name": "Database Management",
-    "description": "The process of designing, implementing, and maintaining databases to store and manage information.",
-    "requiredSkills": [
-      "Database Design",
-      "Sql",
-      "Network Administration",
-      "It Infrastructure"
-    ],
-    "tier": 4
-  },
-  {
-    "name": "Database Design",
-    "description": "The process of creating a detailed data model of a database to ensure it meets the needs of the user and the organization.",
-    "requiredSkills": [
-      "Database Management",
-      "Data Analysis",
-      "Sql",
-      "Data Modeling"
-    ],
-    "tier": 4
-  },
-  {
-    "name": "Public Health",
-    "description": "The science and practice of protecting and improving the health of communities through research, education, and policy.",
-    "requiredSkills": [
-      "Epidemiology",
-      "Healthcare Regulations And Policies",
-      "Community Health",
-      "Research Methods",
-      "Statistics"
-    ],
-    "tier": 4
-  },
-  {
-    "name": "Statistics",
-    "description": "The science of collecting, analyzing, and interpreting data.",
-    "requiredSkills": [
-      "Mathematics",
-      "Research Methods",
-      "Data Analysis",
-      "Probability Theory",
-      "Problem Solving"
-    ],
-    "tier": 4
-  },
-  {
-    "name": "Mathematical Modeling",
-    "description": "The process of using mathematical concepts and techniques to describe and simulate complex real-world systems or phenomena.",
-    "requiredSkills": ["Data Analysis", "Mathematics", "Statistical Analysis"],
-    "tier": 4
-  },
-  {
-    "name": "Financial Analysis",
-    "description": "The process of analyzing financial data to identify trends, risks, and opportunities.",
-    "requiredSkills": [
-      "Accounting",
-      "Data Analysis",
-      "Financial Planning",
-      "Problem Solving"
-    ],
-    "tier": 4
-  },
-  {
-    "name": "Investment Strategies",
-    "description": "The methods and approaches used to make investment decisions, including risk management and asset allocation.",
-    "requiredSkills": [
-      "Financial Analysis",
-      "Financial Planning",
-      "Risk Management",
-      "Statistics"
-    ],
-    "tier": 4
-  },
-  {
-    "name": "Machine Learning",
-    "description": "The use of algorithms and statistical models to allow computer systems to improve their performance on a specific task.",
-    "requiredSkills": [
-      "Data Analysis",
-      "Mathematics",
-      "Programming Languages",
-      "Statistics"
-    ],
-    "tier": 4
-  },
-  {
-    "name": "Surgical Skills",
-    "description": "The ability to perform surgical procedures with precision and accuracy.",
-    "requiredSkills": ["Anatomy", "Physiology", "Medical Technology"],
-    "tier": 4
-  },
-  {
-    "name": "Anesthesia Administration",
-    "description": "The ability to administer anesthetics to patients safely and effectively.",
-    "requiredSkills": [
-      "Patient Monitoring",
-      "Surgical Skills",
-      "Emergency Response",
-      "Pharmacology"
-    ],
-    "tier": 4
-  },
-  {
-    "name": "Patient Monitoring",
-    "description": "The ability to use various medical devices to monitor patient vital signs during surgery or in intensive care settings.",
-    "requiredSkills": [
-      "Clinical Knowledge",
-      "Attention To Detail",
-      "Problem Solving",
-      "Critical Thinking",
-      "Communication"
-    ],
-    "tier": 4
-  },
-  {
-    "name": "Public Safety",
-    "description": "Knowledge of emergency response procedures and protocols, disaster preparedness, and public safety regulations.",
-    "requiredSkills": [
-      "Emergency Response",
-      "Risk Management",
-      "Safety Protocols",
-      "Communication",
-      "Critical Thinking"
-    ],
-    "tier": 4
-  },
-  {
+    "id": "emergency response",
     "name": "Emergency Response",
     "description": "Knowledge of emergency response procedures and protocols, including first aid, CPR, and disaster preparedness.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      4327
+    ],
     "requiredSkills": [
       "Communication",
       "Critical Thinking",
@@ -1126,64 +764,97 @@
     "tier": 4
   },
   {
-    "name": "Physical Fitness",
-    "description": "The ability to maintain physical fitness through regular exercise and healthy lifestyle choices.",
-    "requiredSkills": [
-      "Exercise Science",
-      "Physiology",
-      "Anatomy",
-      "Nutrition",
-      "Patience"
+    "id": "empathy",
+    "name": "Empathy",
+    "description": "The ability to understand and share the feelings of others, and to respond appropriately to their needs and concerns.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      6061
     ],
-    "tier": 4
+    "requiredSkills": [
+      "Active Listening",
+      "Communication",
+      "Emotional Intelligence",
+      "Interpersonal Skills"
+    ],
+    "tier": 1
   },
   {
-    "name": "Cardiovascular Anatomy And Physiology",
-    "description": "Knowledge of the structure and function of the cardiovascular system, including the heart, blood vessels, and blood.",
-    "requiredSkills": [
-      "Anatomy",
-      "Physiology",
-      "Medical Terminology",
-      "Medical Imaging"
+    "id": "employment law",
+    "name": "Employment Law",
+    "description": "the legal principles and regulations that govern the employer-employee relationship, including laws related to discrimination, harassment, wages, hours, benefits, and termination.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      3705
     ],
-    "tier": 4
-  },
-  {
-    "name": "Medical Technology",
-    "description": "Knowledge of the principles and practices involved in medical technology, including equipment operation and maintenance.",
-    "requiredSkills": [
-      "Anatomy",
-      "Medical Terminology",
-      "Medical Instrumentation",
-      "Medical Device Regulation"
-    ],
-    "tier": 4
-  },
-  {
-    "name": "Medication Management",
-    "description": "the ability to prescribe and administer medication safely and effectively.",
     "requiredSkills": [
       "Attention To Detail",
-      "Medical Terminology",
-      "Pharmacology",
-      "Record Keeping"
+      "Communication",
+      "Legal Knowledge",
+      "Problem Solving"
     ],
-    "tier": 4
+    "tier": 1
   },
   {
-    "name": "Anatomy",
-    "description": "The study of the structure of living organisms, including humans, animals, and plants.",
+    "id": "engineering",
+    "name": "Engineering",
+    "description": "the application of science, mathematics, and design to create practical solutions to real-world problems, such as designing and building structures, machines, systems, and materials.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      2763
+    ],
     "requiredSkills": [
-      "Cardiovascular Anatomy And Physiology",
-      "Respiratory Care",
-      "Physiology",
-      "Medical Terminology"
+      "Analytical Thinking",
+      "Mathematics",
+      "Physics",
+      "Problem Solving"
     ],
-    "tier": 4
+    "tier": 3
   },
   {
+    "id": "environmental science",
+    "name": "Environmental Science",
+    "description": "The study of the environment and its interactions with living organisms, including the impact of human activity on ecosystems and natural resources.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      6419
+    ],
+    "requiredSkills": [
+      "Data Analysis",
+      "Environmental Regulations",
+      "Research Methods",
+      "Sustainability"
+    ],
+    "tier": 5
+  },
+  {
+    "id": "exercise science",
     "name": "Exercise Science",
     "description": "The study of the physiological and metabolic responses to exercise and physical activity.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      1116
+    ],
     "requiredSkills": [
       "Anatomy",
       "Assessment",
@@ -1194,25 +865,781 @@
     "tier": 4
   },
   {
-    "name": "Diagnosis",
-    "description": "the ability to analyze patient symptoms and medical history to make accurate diagnoses.",
+    "id": "financial analysis",
+    "name": "Financial Analysis",
+    "description": "The process of analyzing financial data to identify trends, risks, and opportunities.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      1590
+    ],
     "requiredSkills": [
-      "Clinical Knowledge",
-      "Medical Terminology",
-      "Medical Imaging",
-      "Patient Care"
+      "Accounting",
+      "Data Analysis",
+      "Financial Planning",
+      "Problem Solving"
+    ],
+    "tier": 4
+  },
+  {
+    "id": "financial counseling",
+    "name": "Financial Counseling",
+    "description": "The ability to provide financial advice and counseling to individuals or groups, including budgeting, debt management, and investment strategies.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      5536
+    ],
+    "requiredSkills": [
+      "Accounting",
+      "Financial Planning",
+      "Interpersonal Skills",
+      "Listening Skills"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "financial planning",
+    "name": "Financial Planning",
+    "description": "The process of developing a comprehensive financial plan to achieve financial goals, including retirement planning, investment planning, and estate planning.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      6824
+    ],
+    "requiredSkills": [
+      "Accounting",
+      "Budgeting",
+      "Financial Analysis",
+      "Investment Strategies"
+    ],
+    "tier": 3
+  },
+  {
+    "id": "fire safety",
+    "name": "Fire Safety",
+    "description": "Knowledge of fire safety regulations and procedures, including prevention, detection, and suppression of fires.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      9722
+    ],
+    "requiredSkills": [
+      "Critical Thinking",
+      "Emergency Response",
+      "Safety Protocols",
+      "Teamwork"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "fitness programs",
+    "name": "Fitness Programs",
+    "description": "The ability to design, implement, and evaluate fitness programs for individuals or groups, based on their health and fitness goals and needs.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      2609
+    ],
+    "requiredSkills": [
+      "Assessment",
+      "Exercise Physiology",
+      "Nutrition",
+      "Physical Fitness",
+      "Program Development"
+    ],
+    "tier": 3
+  },
+  {
+    "id": "food safety",
+    "name": "Food Safety",
+    "description": "Knowledge of food safety regulations, including proper handling, storage, preparation, and cooking of food to prevent contamination and illness.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      6343
+    ],
+    "requiredSkills": [
+      "Attention To Detail",
+      "Communication",
+      "Food Regulations",
+      "Foodborne Illness Prevention",
+      "Sanitation"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "genetics",
+    "name": "Genetics",
+    "description": "The study of genes, heredity, and genetic variation in organisms, and their impact on development, health, and disease.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      9561
+    ],
+    "requiredSkills": [
+      "Analytical Thinking",
+      "Biochemistry",
+      "Molecular Biology",
+      "Problem Solving"
     ],
     "tier": 5
   },
   {
-    "name": "Treatment",
-    "description": "the ability to design and implement effective treatment plans based on patient diagnoses and medical history.",
-    "requiredSkills": ["Diagnosis", "Patient Care", "Medication Management"],
+    "id": "groundskeeping",
+    "name": "Groundskeeping",
+    "description": "The ability to maintain and care for outdoor spaces, including mowing, trimming, pruning, and fertilizing.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      10618
+    ],
+    "requiredSkills": [
+      "Attention To Detail",
+      "Horticulture",
+      "Landscaping",
+      "Plant Care"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "healthcare administration",
+    "name": "Healthcare Administration",
+    "description": "the ability to manage healthcare facilities and operations, including budgeting, staffing, and strategic planning.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      3459
+    ],
+    "requiredSkills": [
+      "Communication",
+      "Healthcare Regulations And Policies",
+      "Human Resources",
+      "Leadership"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "healthcare regulations and policies",
+    "name": "Healthcare Regulations And Policies",
+    "description": "knowledge of healthcare laws and regulations, as well as the ability to ensure compliance with these regulations in healthcare settings.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      5777
+    ],
+    "requiredSkills": [
+      "Communication",
+      "Healthcare Administration",
+      "Legal Knowledge",
+      "Problem Solving"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "hearing technology",
+    "name": "Hearing Technology",
+    "description": "Knowledge of the latest hearing technology, including hearing aids, cochlear implants, and other assistive devices, as well as their use and maintenance.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      1071
+    ],
+    "requiredSkills": [
+      "Anatomy",
+      "Audiology",
+      "Communication Disorders",
+      "Hearing Aid Technology"
+    ],
     "tier": 5
   },
   {
+    "id": "html",
+    "name": "HTML",
+    "description": "Hypertext Markup Language, a coding language used to create web pages.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      3058
+    ],
+    "requiredSkills": [
+      "CSS",
+      "Web Development Frameworks",
+      "Writing"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "human resources",
+    "name": "Human Resources",
+    "description": "the function within an organization that is responsible for recruiting, hiring, training, and managing employees, as well as overseeing employee benefits, compensation, and performance evaluations.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      8963
+    ],
+    "requiredSkills": [
+      "Communication",
+      "Employment Law",
+      "Leadership",
+      "Problem Solving",
+      "Recruitment"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "inventory management",
+    "name": "Inventory Management",
+    "description": "The process of managing and controlling the flow of goods and materials in and out of an organization's inventory.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      4053
+    ],
+    "requiredSkills": [
+      "Attention To Detail",
+      "Data Analysis",
+      "Logistics",
+      "Supply Chain Management"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "investment strategies",
+    "name": "Investment Strategies",
+    "description": "The methods and approaches used to make investment decisions, including risk management and asset allocation.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      10454
+    ],
+    "requiredSkills": [
+      "Financial Analysis",
+      "Financial Planning",
+      "Risk Management",
+      "Statistics"
+    ],
+    "tier": 4
+  },
+  {
+    "id": "javascript",
+    "name": "Javascript",
+    "description": "A scripting language used to add interactivity to web pages.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      5541
+    ],
+    "requiredSkills": [
+      "CSS",
+      "HTML",
+      "Programming Languages",
+      "Web Development Frameworks"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "laboratory testing",
+    "name": "Laboratory Testing",
+    "description": "Knowledge of laboratory testing procedures and techniques, including the collection and analysis of samples, data interpretation, and reporting of findings.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      6499
+    ],
+    "requiredSkills": [
+      "Attention To Detail",
+      "Laboratory Safety",
+      "Laboratory Testing Techniques",
+      "Scientific Method"
+    ],
+    "tier": 3
+  },
+  {
+    "id": "landscaping",
+    "name": "Landscaping",
+    "description": "The ability to design and maintain outdoor spaces, including plant selection, soil management, and irrigation.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      4179
+    ],
+    "requiredSkills": [
+      "Attention To Detail",
+      "Horticulture",
+      "Groundskeeping",
+      "Plant Care"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "leadership",
+    "name": "Leadership",
+    "description": "the ability to inspire and motivate team members, and create a positive work environment.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      1941
+    ],
+    "requiredSkills": [
+      "Communication",
+      "Decision Making",
+      "Empathy",
+      "Teamwork"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "legal knowledge",
+    "name": "Legal Knowledge",
+    "description": "The knowledge of laws and regulations that apply to specific industries or areas of law.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      1622
+    ],
+    "requiredSkills": [
+      "Communication",
+      "Employment Law",
+      "Problem Solving",
+      "Research"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "lesson planning",
+    "name": "Lesson Planning",
+    "description": "The ability to create engaging lesson plans that align with learning objectives and cater to the diverse needs of students.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      2394
+    ],
+    "requiredSkills": [
+      "Classroom Management",
+      "Curriculum Design",
+      "Education Psychology",
+      "Instructional Design"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "logistics",
+    "name": "Logistics",
+    "description": "The management of the flow of goods, services, and information from the point of origin to the point of consumption.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      2720
+    ],
+    "requiredSkills": [
+      "Attention To Detail",
+      "Data Analysis",
+      "Inventory Management",
+      "Supply Chain Management"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "machine learning",
+    "name": "Machine Learning",
+    "description": "The use of algorithms and statistical models to allow computer systems to improve their performance on a specific task.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      6830
+    ],
+    "requiredSkills": [
+      "Data Analysis",
+      "Mathematics",
+      "Programming Languages",
+      "Statistics"
+    ],
+    "tier": 4
+  },
+  {
+    "id": "management",
+    "name": "Management",
+    "description": "the ability to lead and manage teams effectively, including setting goals, delegating tasks, and providing feedback.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      6116
+    ],
+    "requiredSkills": [
+      "Communication",
+      "Decision Making",
+      "Leadership",
+      "Problem Solving",
+      "Teamwork"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "marketing",
+    "name": "Marketing",
+    "description": "The process of promoting and selling products or services to customers.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      10000
+    ],
+    "requiredSkills": [
+      "Communication",
+      "Market Research",
+      "Product Management",
+      "Public Relations"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "massage techniques",
+    "name": "Massage Techniques",
+    "description": "Knowledge of the various massage techniques and their application to improve physical and emotional well-being, relieve pain and tension, and promote relaxation.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      10169
+    ],
+    "requiredSkills": [
+      "Anatomy",
+      "Massage Therapy Techniques",
+      "Physiology"
+    ],
+    "tier": 3
+  },
+  {
+    "id": "mathematical modeling",
+    "name": "Mathematical Modeling",
+    "description": "The process of using mathematical concepts and techniques to describe and simulate complex real-world systems or phenomena.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      6411
+    ],
+    "requiredSkills": [
+      "Data Analysis",
+      "Mathematics",
+      "Statistical Analysis"
+    ],
+    "tier": 4
+  },
+  {
+    "id": "mathematics",
+    "name": "Mathematics",
+    "description": "The study of numbers, quantities, and shapes, and the relationships between them.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      9623
+    ],
+    "requiredSkills": [
+      "Analytical Thinking",
+      "Problem Solving",
+      "Statistics"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "media relations",
+    "name": "Media Relations",
+    "description": "The ability to establish and maintain positive relationships with media outlets and journalists to promote a company or organization's message.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      2113
+    ],
+    "requiredSkills": [
+      "Communication",
+      "Journalism",
+      "Public Relations",
+      "Social Media"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "medical imaging",
+    "name": "Medical Imaging",
+    "description": "Knowledge of the principles and practices involved in medical imaging technologies, such as X-rays, MRI, and CT scans.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      9533
+    ],
+    "requiredSkills": [
+      "Anatomy",
+      "Medical Terminology",
+      "Physics",
+      "Radiology"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "medical technology",
+    "name": "Medical Technology",
+    "description": "Knowledge of the principles and practices involved in medical technology, including equipment operation and maintenance.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      5319
+    ],
+    "requiredSkills": [
+      "Anatomy",
+      "Medical Terminology",
+      "Medical Instrumentation",
+      "Medical Device Regulation"
+    ],
+    "tier": 4
+  },
+  {
+    "id": "medication management",
+    "name": "Medication Management",
+    "description": "the ability to prescribe and administer medication safely and effectively.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      10900
+    ],
+    "requiredSkills": [
+      "Attention To Detail",
+      "Medical Terminology",
+      "Pharmacology",
+      "Record Keeping"
+    ],
+    "tier": 4
+  },
+  {
+    "id": "nail care",
+    "name": "Nail Care",
+    "description": "The ability to provide nail care services, including manicures, pedicures, and nail art, using various tools and techniques.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      4866
+    ],
+    "requiredSkills": [
+      "Attention To Detail",
+      "Manicure And Pedicure Techniques",
+      "Sanitation"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "navigation",
+    "name": "Navigation",
+    "description": "The ability to navigate using maps, GPS, and other tools to reach a desired destination.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      8506
+    ],
+    "requiredSkills": [
+      "Map Reading",
+      "Spatial Reasoning",
+      "Patience",
+      "Attention To Detail",
+      "Time Management"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "negotiation",
+    "name": "Negotiation",
+    "description": "The process of reaching an agreement between parties with different goals or objectives.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      5542
+    ],
+    "requiredSkills": [
+      "Communication",
+      "Active Listening",
+      "Persuasion",
+      "Problem Solving",
+      "Empathy"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "network administration",
+    "name": "Network Administration",
+    "description": "The ability to manage and maintain computer networks, including installing, configuring, and troubleshooting hardware and software.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      7419
+    ],
+    "requiredSkills": [
+      "Computer Systems",
+      "Network Protocols",
+      "Network Security",
+      "Technical Writing",
+      "Problem Solving"
+    ],
+    "tier": 3
+  },
+  {
+    "id": "network design",
+    "name": "Network Design",
+    "description": "The ability to plan and design computer networks that are efficient, scalable, and secure.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      1315
+    ],
+    "requiredSkills": [
+      "Networking",
+      "Network Protocols",
+      "Technical Writing",
+      "Computer Systems",
+      "Communication"
+    ],
+    "tier": 3
+  },
+  {
+    "id": "network protocols",
+    "name": "Network Protocols",
+    "description": "Understanding of the communication protocols and technologies used in computer networks, such as TCP/IP, DNS, and DHCP.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      6366
+    ],
+    "requiredSkills": [
+      "Networking",
+      "Network Security",
+      "Computer Systems",
+      "Problem Solving",
+      "Technical Writing"
+    ],
+    "tier": 3
+  },
+  {
+    "id": "network security",
     "name": "Network Security",
     "description": "the ability to secure computer networks and systems against cyber attacks, unauthorized access, and data breaches.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      6710
+    ],
     "requiredSkills": [
       "Network Protocols",
       "Cybersecurity",
@@ -1223,119 +1650,122 @@
     "tier": 5
   },
   {
-    "name": "Cybersecurity",
-    "description": "the ability to protect computer systems and networks from theft or damage to hardware, software or electronic data.",
-    "requiredSkills": [
-      "Network Security",
-      "System Security",
-      "Cryptography",
-      "Vulnerability Assessments"
+    "id": "networking",
+    "name": "Networking",
+    "description": "The process of connecting computers, devices, and other resources to create a communications network.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      3074
     ],
-    "tier": 5
-  },
-  {
-    "name": "Vulnerability Assessments",
-    "description": "the ability to identify and assess potential vulnerabilities and threats to computer systems and networks.",
-    "requiredSkills": ["Cybersecurity", "Network Security", "System Security"],
-    "tier": 5
-  },
-  {
-    "name": "Risk Management",
-    "description": "the ability to assess and mitigate risks to computer systems and networks.",
     "requiredSkills": [
-      "Problem Solving",
-      "Critical Thinking",
+      "Network Protocols",
       "Communication",
-      "Analytics",
-      "Leadership"
+      "Problem Solving",
+      "Technical Writing",
+      "Active Listening"
     ],
-    "tier": 5
+    "tier": 3
   },
   {
-    "name": "Physiology",
-    "description": "The study of the function of living organisms, including humans, animals, and plants.",
+    "id": "nutrition",
+    "name": "Nutrition",
+    "description": "Knowledge of the principles and practices involved in promoting healthy eating habits and managing dietary needs.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      6942
+    ],
     "requiredSkills": [
-      "Anatomy",
+      "Physiology",
       "Biochemistry",
       "Exercise Science",
       "Research Methods",
-      "Statistics"
+      "Communication"
     ],
-    "tier": 5
+    "tier": 3
   },
   {
-    "name": "Rehabilitation",
-    "description": "The process of restoring function and improving quality of life for individuals with physical or mental disabilities.",
-    "requiredSkills": [
-      "Patient Care",
-      "Physical Therapy",
-      "Occupational Therapy",
-      "Psychology",
-      "Problem Solving"
+    "id": "patience",
+    "name": "Patience",
+    "description": "The ability to remain calm and composed in challenging situations or when dealing with difficult individuals.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      1425
     ],
-    "tier": 5
-  },
-  {
-    "name": "Project Management",
-    "description": "The process of planning, organizing, and managing resources to complete specific goals and objectives.",
     "requiredSkills": [
-      "Time Management",
-      "Leadership",
+      "Empathy",
       "Communication",
+      "Self Control",
+      "Active Listening",
+      "Time Management"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "patient care",
+    "name": "Patient Care",
+    "description": "the ability to provide compassionate and effective care to patients, including monitoring their health status and administering medication and treatments.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      5660
+    ],
+    "requiredSkills": [
+      "Empathy",
+      "Communication",
+      "Critical Thinking",
+      "Patience",
+      "Attention To Detail"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "patient monitoring",
+    "name": "Patient Monitoring",
+    "description": "The ability to use various medical devices to monitor patient vital signs during surgery or in intensive care settings.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      4090
+    ],
+    "requiredSkills": [
+      "Clinical Knowledge",
+      "Attention To Detail",
       "Problem Solving",
-      "Budgeting"
+      "Critical Thinking",
+      "Communication"
     ],
-    "tier": 5
+    "tier": 4
   },
   {
-    "name": "Strategic Planning",
-    "description": "The process of defining an organization's vision, mission, and long-term goals, and developing a plan to achieve them.",
-    "requiredSkills": ["Leadership", "Business Management", "Problem Solving"],
-    "tier": 5
-  },
-  {
-    "name": "Surgery",
-    "description": "The branch of medicine that involves the treatment of injuries, diseases, and deformities through surgical procedures.",
-    "requiredSkills": ["Anatomy", "Physiology", "Surgical Skills"],
-    "tier": 5
-  },
-  {
-    "name": "Data Analysis",
-    "description": "The process of examining data to identify patterns and draw conclusions.",
-    "requiredSkills": [
-      "Statistical Analysis",
-      "Research Methods",
-      "Database Design",
-      "Data Structures And Algorithms"
-    ],
-    "tier": 5
-  },
-  {
-    "name": "Statistical Analysis",
-    "description": "The process of analyzing data using statistical methods to identify significant patterns or relationships.",
-    "requiredSkills": [
-      "Research Methods",
-      "Statistics",
-      "Data Analysis",
-      "Problem Solving",
-      "Critical Thinking"
-    ],
-    "tier": 5
-  },
-  {
-    "name": "Biomedical Engineering",
-    "description": "The application of engineering principles and design concepts to medicine and biology.",
-    "requiredSkills": [
-      "Electrical Systems",
-      "Medical Technology",
-      "Machine Learning",
-      "Technical Writing"
-    ],
-    "tier": 5
-  },
-  {
+    "id": "petroleum engineering",
     "name": "Petroleum Engineering",
     "description": "The study and application of engineering principles to the exploration, development, and production of oil and gas resources.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      10330
+    ],
     "requiredSkills": [
       "Mathematics",
       "Physics",
@@ -1346,14 +1776,164 @@
     "tier": 5
   },
   {
-    "name": "Counseling",
-    "description": "The process of helping individuals or groups to achieve emotional, social, or behavioral change.",
-    "requiredSkills": ["Communication", "Empathy", "Psychology", "Assessment"],
+    "id": "pharmaceuticals",
+    "name": "Pharmaceuticals",
+    "description": "Knowledge of the development, production, and distribution of pharmaceuticals, including drug discovery, clinical trials, and regulatory compliance.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      6185
+    ],
+    "requiredSkills": [
+      "Pharmacology",
+      "Chemistry",
+      "Physiology",
+      "Biology",
+      "Clinical Knowledge"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "physical fitness",
+    "name": "Physical Fitness",
+    "description": "The ability to maintain physical fitness through regular exercise and healthy lifestyle choices.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      5211
+    ],
+    "requiredSkills": [
+      "Exercise Science",
+      "Physiology",
+      "Anatomy",
+      "Nutrition",
+      "Patience"
+    ],
+    "tier": 4
+  },
+  {
+    "id": "physiology",
+    "name": "Physiology",
+    "description": "The study of the function of living organisms, including humans, animals, and plants.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      3904
+    ],
+    "requiredSkills": [
+      "Anatomy",
+      "Biochemistry",
+      "Exercise Science",
+      "Research Methods",
+      "Statistics"
+    ],
     "tier": 5
   },
   {
+    "id": "plant care",
+    "name": "Plant Care",
+    "description": "Knowledge of the principles and practices involved in caring for plants, including watering, fertilizing, and pest control.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      4258
+    ],
+    "requiredSkills": [
+      "Horticulture",
+      "Botany",
+      "Landscaping",
+      "Environmental Science",
+      "Problem Solving"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "political science",
+    "name": "Political Science",
+    "description": "the study of government, politics, and public policy, including topics such as political institutions, political behavior, international relations, and political philosophy.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      7167
+    ],
+    "requiredSkills": [
+      "Public Policy",
+      "Research Methods",
+      "Statistics",
+      "Communication",
+      "Critical Thinking"
+    ],
+    "tier": 5
+  },
+  {
+    "id": "programming languages",
+    "name": "Programming Languages",
+    "description": "proficiency in one or more programming languages, such as Java, Python, or C++, to create software applications and systems.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      8547
+    ],
+    "requiredSkills": [
+      "Software Development",
+      "Computer Systems",
+      "Data Structures And Algorithms",
+      "Debugging",
+      "Problem Solving"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "project management",
+    "name": "Project Management",
+    "description": "The process of planning, organizing, and managing resources to complete specific goals and objectives.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      7496
+    ],
+    "requiredSkills": [
+      "Time Management",
+      "Leadership",
+      "Communication",
+      "Problem Solving",
+      "Budgeting"
+    ],
+    "tier": 5
+  },
+  {
+    "id": "psychology",
     "name": "Psychology",
     "description": "The scientific study of behavior and mental processes.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      7807
+    ],
     "requiredSkills": [
       "Research Methods",
       "Statistics",
@@ -1364,59 +1944,763 @@
     "tier": 5
   },
   {
-    "name": "Biochemistry",
-    "description": "The study of chemical processes within living organisms.",
-    "requiredSkills": [
-      "Genetics",
-      "Molecular Biology",
-      "Medical Terminology",
-      "Laboratory Testing"
+    "id": "public health",
+    "name": "Public Health",
+    "description": "The science and practice of protecting and improving the health of communities through research, education, and policy.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      3902
     ],
-    "tier": 5
+    "requiredSkills": [
+      "Epidemiology",
+      "Healthcare Regulations And Policies",
+      "Community Health",
+      "Research Methods",
+      "Statistics"
+    ],
+    "tier": 4
   },
   {
-    "name": "Hearing Technology",
-    "description": "Knowledge of the latest hearing technology, including hearing aids, cochlear implants, and other assistive devices, as well as their use and maintenance.",
-    "requiredSkills": [
-      "Anatomy",
-      "Audiology",
-      "Communication Disorders",
-      "Hearing Aid Technology"
+    "id": "public safety",
+    "name": "Public Safety",
+    "description": "Knowledge of emergency response procedures and protocols, disaster preparedness, and public safety regulations.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      8780
     ],
-    "tier": 5
+    "requiredSkills": [
+      "Emergency Response",
+      "Risk Management",
+      "Safety Protocols",
+      "Communication",
+      "Critical Thinking"
+    ],
+    "tier": 4
   },
   {
-    "name": "Genetics",
-    "description": "The study of genes, heredity, and genetic variation in organisms, and their impact on development, health, and disease.",
+    "id": "public speaking",
+    "name": "Public Speaking",
+    "description": "The ability to communicate ideas and information clearly and effectively through spoken words, often in front of large audiences.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      6120
+    ],
     "requiredSkills": [
-      "Analytical Thinking",
-      "Biochemistry",
-      "Molecular Biology",
+      "Communication",
+      "Public Relations",
+      "Presentation Skills",
+      "Confidence",
+      "Persuasion"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "rehabilitation",
+    "name": "Rehabilitation",
+    "description": "The process of restoring function and improving quality of life for individuals with physical or mental disabilities.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      5918
+    ],
+    "requiredSkills": [
+      "Patient Care",
+      "Physical Therapy",
+      "Occupational Therapy",
+      "Psychology",
       "Problem Solving"
     ],
     "tier": 5
   },
   {
-    "name": "Environmental Science",
-    "description": "The study of the environment and its interactions with living organisms, including the impact of human activity on ecosystems and natural resources.",
+    "id": "research",
+    "name": "Research",
+    "description": "The process of gathering and analyzing data to answer questions or solve problems.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      6930
+    ],
     "requiredSkills": [
-      "Data Analysis",
-      "Environmental Regulations",
       "Research Methods",
-      "Sustainability"
+      "Data Analysis",
+      "Statistics",
+      "Critical Thinking",
+      "Technical Writing"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "research methods",
+    "name": "Research Methods",
+    "description": "The techniques used to collect and analyze data in research studies.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      6113
+    ],
+    "requiredSkills": [
+      "Statistics",
+      "Experimental Design",
+      "Data Analysis",
+      "Psychology",
+      "Communication"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "responsive design",
+    "name": "Responsive Design",
+    "description": "The process of designing web pages that adapt to different screen sizes and device types.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      3472
+    ],
+    "requiredSkills": [
+      "Web Development Frameworks",
+      "HTML",
+      "CSS",
+      "User Experience Design",
+      "Problem Solving"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "risk management",
+    "name": "Risk Management",
+    "description": "the ability to assess and mitigate risks to computer systems and networks.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      10538
+    ],
+    "requiredSkills": [
+      "Problem Solving",
+      "Critical Thinking",
+      "Communication",
+      "Analytics",
+      "Leadership"
     ],
     "tier": 5
   },
   {
-    "name": "Political Science",
-    "description": "the study of government, politics, and public policy, including topics such as political institutions, political behavior, international relations, and political philosophy.",
+    "id": "safety protocols",
+    "name": "Safety Protocols",
+    "description": "Knowledge of established procedures and guidelines for ensuring safety in a variety of settings, including workplaces, laboratories, and public spaces.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      8850
+    ],
     "requiredSkills": [
-      "Public Policy",
+      "Emergency Response",
+      "Risk Management",
+      "Communication",
+      "Critical Thinking",
+      "Problem Solving"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "sales",
+    "name": "Sales",
+    "description": "The ability to sell products or services to customers, including prospecting, lead generation, and negotiation.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      7962
+    ],
+    "requiredSkills": [
+      "Communication",
+      "Persuasion",
+      "Customer Service",
+      "Negotiation",
+      "Problem Solving"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "sanitation",
+    "name": "Sanitation",
+    "description": "Knowledge of proper sanitation practices, including cleaning and disinfection of surfaces and equipment, to prevent the spread of disease and infection.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      3363
+    ],
+    "requiredSkills": [
+      "Attention To Detail",
+      "Time Management",
+      "Cleaning Techniques",
+      "Problem Solving",
+      "Communication"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "security policies",
+    "name": "Security Policies",
+    "description": "The ability to develop and implement policies and procedures to protect assets and data from unauthorized access, theft, and misuse.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      8936
+    ],
+    "requiredSkills": [
+      "Risk Management",
+      "Network Security",
+      "Cybersecurity",
+      "Technical Writing",
+      "Problem Solving"
+    ],
+    "tier": 4
+  },
+  {
+    "id": "social and community services",
+    "name": "Social And Community Services",
+    "description": "Knowledge of the principles and practices involved in providing social and community services to diverse populations.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      10356
+    ],
+    "requiredSkills": [
+      "Community Health",
+      "Counseling",
+      "Empathy",
+      "Communication",
+      "Problem Solving"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "software design",
+    "name": "Software Design",
+    "description": "the ability to design software applications and systems that are scalable, maintainable, and user-friendly.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      3978
+    ],
+    "requiredSkills": [
+      "Software Development",
+      "Programming Languages",
+      "User Experience Design",
+      "Problem Solving",
+      "Creativity"
+    ],
+    "tier": 4
+  },
+  {
+    "id": "software development",
+    "name": "Software Development",
+    "description": "The process of designing, coding, testing, and maintaining software applications.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      4401
+    ],
+    "requiredSkills": [
+      "Programming Languages",
+      "Data Structures And Algorithms",
+      "Debugging",
+      "Problem Solving",
+      "Creativity"
+    ],
+    "tier": 3
+  },
+  {
+    "id": "software testing",
+    "name": "Software Testing",
+    "description": "the ability to write and execute test plans and test cases to ensure the quality of software applications and systems.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      3967
+    ],
+    "requiredSkills": [
+      "Software Development",
+      "Debugging",
+      "Test Automation",
+      "Technical Writing",
+      "Problem Solving"
+    ],
+    "tier": 3
+  },
+  {
+    "id": "solar panel installation",
+    "name": "Solar Panel Installation",
+    "description": "The ability to install and maintain solar panel systems for residential, commercial, or industrial applications.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      1144
+    ],
+    "requiredSkills": [
+      "Electrical Systems",
+      "Wiring",
+      "Sustainability",
+      "Problem Solving",
+      "Attention To Detail"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "statistical analysis",
+    "name": "Statistical Analysis",
+    "description": "The process of analyzing data using statistical methods to identify significant patterns or relationships.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      8927
+    ],
+    "requiredSkills": [
       "Research Methods",
       "Statistics",
-      "Communication",
+      "Data Analysis",
+      "Problem Solving",
       "Critical Thinking"
     ],
     "tier": 5
+  },
+  {
+    "id": "statistics",
+    "name": "Statistics",
+    "description": "The science of collecting, analyzing, and interpreting data.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      7688
+    ],
+    "requiredSkills": [
+      "Mathematics",
+      "Research Methods",
+      "Data Analysis",
+      "Probability Theory",
+      "Problem Solving"
+    ],
+    "tier": 4
+  },
+  {
+    "id": "strategic planning",
+    "name": "Strategic Planning",
+    "description": "The process of defining an organization's vision, mission, and long-term goals, and developing a plan to achieve them.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      8482
+    ],
+    "requiredSkills": [
+      "Leadership",
+      "Business Management",
+      "Problem Solving"
+    ],
+    "tier": 5
+  },
+  {
+    "id": "supply chain management",
+    "name": "Supply Chain Management",
+    "description": "The coordination and management of all activities involved in the creation and delivery of a product, from raw materials to the final product.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      9942
+    ],
+    "requiredSkills": [
+      "Logistics",
+      "Inventory Management",
+      "Business Management"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "surgery",
+    "name": "Surgery",
+    "description": "The branch of medicine that involves the treatment of injuries, diseases, and deformities through surgical procedures.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      10670
+    ],
+    "requiredSkills": [
+      "Anatomy",
+      "Physiology",
+      "Surgical Skills"
+    ],
+    "tier": 5
+  },
+  {
+    "id": "surgical skills",
+    "name": "Surgical Skills",
+    "description": "The ability to perform surgical procedures with precision and accuracy.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      8012
+    ],
+    "requiredSkills": [
+      "Anatomy",
+      "Physiology",
+      "Medical Technology"
+    ],
+    "tier": 4
+  },
+  {
+    "id": "sustainability",
+    "name": "Sustainability",
+    "description": "the practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs, often through reducing environmental impact, conserving natural resources, and promoting social and economic equity.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      9048
+    ],
+    "requiredSkills": [
+      "Environmental Science",
+      "Renewable Energy",
+      "Business Management"
+    ],
+    "tier": 3
+  },
+  {
+    "id": "system security",
+    "name": "System Security",
+    "description": "Knowledge of security measures and protocols to protect computer systems and networks from unauthorized access, theft, and damage.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      1667
+    ],
+    "requiredSkills": [
+      "Cybersecurity",
+      "Network Security",
+      "Vulnerability Assessments"
+    ],
+    "tier": 3
+  },
+  {
+    "id": "teaching",
+    "name": "Teaching",
+    "description": "The ability to impart knowledge or skills to others in a way that is understandable and engaging.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      10254
+    ],
+    "requiredSkills": [
+      "Classroom Management",
+      "Lesson Planning",
+      "Communication"
+    ],
+    "tier": 3
+  },
+  {
+    "id": "teamwork",
+    "name": "Teamwork",
+    "description": "the ability to work effectively with other healthcare professionals, such as nurses, doctors, and technicians, to provide comprehensive patient care.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      3193
+    ],
+    "requiredSkills": [
+      "Communication",
+      "Leadership",
+      "Empathy"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "technical writing",
+    "name": "Technical Writing",
+    "description": "The ability to write technical documentation, including user manuals, technical reports, and instructional materials, for various industries and applications.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      1727
+    ],
+    "requiredSkills": [
+      "Writing",
+      "Communication",
+      "Research"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "time management",
+    "name": "Time Management",
+    "description": "The ability to prioritize tasks and manage time effectively to meet deadlines and achieve goals.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      8433
+    ],
+    "requiredSkills": [
+      "Organization",
+      "Prioritization",
+      "Task Management"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "transportation",
+    "name": "Transportation",
+    "description": "The movement of people or goods from one place to another.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      10484
+    ],
+    "requiredSkills": [
+      "Navigation",
+      "Driving",
+      "Logistics"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "treatment",
+    "name": "Treatment",
+    "description": "the ability to design and implement effective treatment plans based on patient diagnoses and medical history.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      7067
+    ],
+    "requiredSkills": [
+      "Diagnosis",
+      "Patient Care",
+      "Medication Management"
+    ],
+    "tier": 5
+  },
+  {
+    "id": "user experience design",
+    "name": "User Experience Design",
+    "description": "The process of designing digital products that meet the needs and expectations of users.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      9239
+    ],
+    "requiredSkills": [
+      "Web Development Frameworks",
+      "Responsive Design",
+      "User Research"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "version control",
+    "name": "Version Control",
+    "description": "the ability to use version control tools, such as Git or SVN, to manage changes in code and collaborate with team members.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      2123
+    ],
+    "requiredSkills": [
+      "Programming Languages",
+      "Debugging",
+      "Software Design"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "vulnerability assessments",
+    "name": "Vulnerability Assessments",
+    "description": "the ability to identify and assess potential vulnerabilities and threats to computer systems and networks.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      1436
+    ],
+    "requiredSkills": [
+      "Cybersecurity",
+      "Network Security",
+      "System Security"
+    ],
+    "tier": 5
+  },
+  {
+    "id": "web development frameworks",
+    "name": "Web Development Frameworks",
+    "description": "Pre-written libraries and tools used to streamline the web development process.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      5056
+    ],
+    "requiredSkills": [
+      "HTML",
+      "CSS",
+      "Javascript"
+    ],
+    "tier": 2
+  },
+  {
+    "id": "wind turbine technology",
+    "name": "Wind Turbine Technology",
+    "description": "Knowledge of the technology and engineering principles involved in designing, constructing, and maintaining wind turbines.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      4452
+    ],
+    "requiredSkills": [
+      "Electrical Systems",
+      "Renewable Energy",
+      "Engineering"
+    ],
+    "tier": 3
+  },
+  {
+    "id": "wiring",
+    "name": "Wiring",
+    "description": "The ability to install, repair, or maintain electrical wiring and systems for various applications such as residential, commercial, or industrial.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      7877
+    ],
+    "requiredSkills": [
+      "Electrical Systems",
+      "Construction Management",
+      "Blueprints"
+    ],
+    "tier": 1
+  },
+  {
+    "id": "writing",
+    "name": "Writing",
+    "description": "The ability to communicate ideas and information clearly and effectively through written words.",
+    "maxLevel": 10,
+    "active": false,
+    "tags": "",
+    "upgradeCosts": [
+      "linear",
+      1000,
+      7443
+    ],
+    "requiredSkills": [
+      "Creativity",
+      "Communication",
+      "Research"
+    ],
+    "tier": 1
   }
 ]
