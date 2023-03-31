@@ -3,7 +3,7 @@ import { calculateProgression, getThresholdValue } from "../app/utils";
 import rawSkills from "./raw/skills.json";
 import faker from "faker";
 
-const skills: Skill[] = rawSkills.map((r) => ({
+export const skills: Skill[] = rawSkills.map((r) => ({
   id: r.name.toLocaleLowerCase(),
   name: r.name,
   description: r.description,
@@ -12,10 +12,8 @@ const skills: Skill[] = rawSkills.map((r) => ({
   tags: "",
   upgradeCosts: ["linear", 1000, 1000 + faker.datatype.number(10000)],
   requiredSkills: r.requiredSkills,
-  tier: 1
+  tier: r.tier
 }));
-
-// pickpocket ->
 
 const map = Object.fromEntries(skills.map((s) => [s.id, s]));
 

@@ -1,72 +1,15 @@
 [
   {
-    "name": "Problem Solving",
-    "description": "the ability to analyze and solve complex problems, identify and evaluate potential solutions, and make effective decisions.",
+    "name": "Safety Protocols",
+    "description": "Knowledge of established procedures and guidelines for ensuring safety in a variety of settings, including workplaces, laboratories, and public spaces.",
     "requiredSkills": [
+      "Emergency Response",
+      "Risk Management",
+      "Communication",
       "Critical Thinking",
-      "Creativity",
-      "Analytical Thinking",
-      "Decision Making",
-      "Patience"
-    ]
-  },
-  {
-    "name": "Programming Languages",
-    "description": "proficiency in one or more programming languages, such as Java, Python, or C++, to create software applications and systems.",
-    "requiredSkills": [
-      "Software Development",
-      "Computer Systems",
-      "Data Structures And Algorithms",
-      "Debugging",
       "Problem Solving"
-    ]
-  },
-  {
-    "name": "Data Structures And Algorithms",
-    "description": "the ability to design and implement efficient data structures and algorithms to manipulate and analyze large amounts of data.",
-    "requiredSkills": [
-      "Programming Languages",
-      "Machine Learning",
-      "Database Design",
-      "Statistical Analysis"
-    ]
-  },
-  {
-    "name": "Version Control",
-    "description": "the ability to use version control tools, such as Git or SVN, to manage changes in code and collaborate with team members.",
-    "requiredSkills": ["Programming Languages", "Debugging", "Software Design"]
-  },
-  {
-    "name": "Software Design",
-    "description": "the ability to design software applications and systems that are scalable, maintainable, and user-friendly.",
-    "requiredSkills": [
-      "Software Development",
-      "Programming Languages",
-      "User Experience Design",
-      "Problem Solving",
-      "Creativity"
-    ]
-  },
-  {
-    "name": "Software Testing",
-    "description": "the ability to write and execute test plans and test cases to ensure the quality of software applications and systems.",
-    "requiredSkills": [
-      "Software Development",
-      "Debugging",
-      "Test Automation",
-      "Technical Writing",
-      "Problem Solving"
-    ]
-  },
-  {
-    "name": "Debugging",
-    "description": "the ability to identify and resolve software errors or bugs that may affect the performance or functionality of software applications and systems.",
-    "requiredSkills": [
-      "Problem Solving",
-      "Critical Thinking",
-      "Programming Languages",
-      "Technical Writing"
-    ]
+    ],
+    "tier": 1
   },
   {
     "name": "Communication",
@@ -76,53 +19,8 @@
       "Media Relations",
       "Counseling",
       "Social And Community Services"
-    ]
-  },
-  {
-    "name": "Clinical Knowledge",
-    "description": "understanding of medical terminology, anatomy, and physiology, as well as the ability to apply this knowledge in the diagnosis and treatment of patients.",
-    "requiredSkills": [
-      "Diagnosis",
-      "Patient Care",
-      "Pharmacology",
-      "Medical Terminology"
-    ]
-  },
-  {
-    "name": "Patient Care",
-    "description": "the ability to provide compassionate and effective care to patients, including monitoring their health status and administering medication and treatments.",
-    "requiredSkills": [
-      "Empathy",
-      "Communication",
-      "Critical Thinking",
-      "Patience",
-      "Attention To Detail"
-    ]
-  },
-  {
-    "name": "Diagnosis",
-    "description": "the ability to analyze patient symptoms and medical history to make accurate diagnoses.",
-    "requiredSkills": [
-      "Clinical Knowledge",
-      "Medical Terminology",
-      "Medical Imaging",
-      "Patient Care"
-    ]
-  },
-  {
-    "name": "Treatment",
-    "description": "the ability to design and implement effective treatment plans based on patient diagnoses and medical history.",
-    "requiredSkills": ["Diagnosis", "Patient Care", "Medication Management"]
-  },
-  {
-    "name": "Medication Management",
-    "description": "the ability to prescribe and administer medication safely and effectively.",
-    "requiredSkills": [
-      "Attention To Detail",
-      "Medical Terminology",
-      "Pharmacology",
-      "Record Keeping"
-    ]
+    ],
+    "tier": 1
   },
   {
     "name": "Attention To Detail",
@@ -132,121 +30,14 @@
       "Problem Solving",
       "Debugging",
       "Patience"
-    ]
+    ],
+    "tier": 1
   },
   {
     "name": "Teamwork",
     "description": "the ability to work effectively with other healthcare professionals, such as nurses, doctors, and technicians, to provide comprehensive patient care.",
-    "requiredSkills": ["Communication", "Leadership", "Empathy"]
-  },
-  {
-    "name": "Healthcare Regulations And Policies",
-    "description": "knowledge of healthcare laws and regulations, as well as the ability to ensure compliance with these regulations in healthcare settings.",
-    "requiredSkills": [
-      "Communication",
-      "Healthcare Administration",
-      "Legal Knowledge",
-      "Problem Solving"
-    ]
-  },
-  {
-    "name": "Healthcare Administration",
-    "description": "the ability to manage healthcare facilities and operations, including budgeting, staffing, and strategic planning.",
-    "requiredSkills": [
-      "Communication",
-      "Healthcare Regulations And Policies",
-      "Human Resources",
-      "Leadership"
-    ]
-  },
-  {
-    "name": "Budgeting",
-    "description": "the ability to manage financial resources effectively and allocate resources to achieve organizational goals.",
-    "requiredSkills": [
-      "Financial Analysis",
-      "Financial Planning",
-      "Accounting",
-      "Financial Counseling"
-    ]
-  },
-  {
-    "name": "Management",
-    "description": "the ability to lead and manage teams effectively, including setting goals, delegating tasks, and providing feedback.",
-    "requiredSkills": [
-      "Communication",
-      "Decision Making",
-      "Leadership",
-      "Problem Solving",
-      "Teamwork"
-    ]
-  },
-  {
-    "name": "Leadership",
-    "description": "the ability to inspire and motivate team members, and create a positive work environment.",
-    "requiredSkills": [
-      "Communication",
-      "Decision Making",
-      "Empathy",
-      "Teamwork"
-    ]
-  },
-  {
-    "name": "Network Security",
-    "description": "the ability to secure computer networks and systems against cyber attacks, unauthorized access, and data breaches.",
-    "requiredSkills": [
-      "Network Protocols",
-      "Cybersecurity",
-      "Risk Management",
-      "Technical Writing",
-      "Problem Solving"
-    ]
-  },
-  {
-    "name": "Cybersecurity",
-    "description": "the ability to protect computer systems and networks from theft or damage to hardware, software or electronic data.",
-    "requiredSkills": [
-      "Network Security",
-      "System Security",
-      "Cryptography",
-      "Vulnerability Assessments"
-    ]
-  },
-  {
-    "name": "Vulnerability Assessments",
-    "description": "the ability to identify and assess potential vulnerabilities and threats to computer systems and networks.",
-    "requiredSkills": ["Cybersecurity", "Network Security", "System Security"]
-  },
-  {
-    "name": "Risk Management",
-    "description": "the ability to assess and mitigate risks to computer systems and networks.",
-    "requiredSkills": [
-      "Problem Solving",
-      "Critical Thinking",
-      "Communication",
-      "Analytics",
-      "Leadership"
-    ]
-  },
-  {
-    "name": "Cryptography",
-    "description": "the ability to develop and implement secure cryptographic systems to protect data and communication channels.",
-    "requiredSkills": [
-      "Network Security",
-      "System Security",
-      "Mathematics",
-      "Data Analysis"
-    ]
-  },
-  {
-    "name": "Security Policies",
-    "description": "The ability to develop and implement policies and procedures to protect assets and data from unauthorized access, theft, and misuse.",
-    "requiredSkills": [
-      "Risk Management",
-      "Network Security",
-      "Cybersecurity",
-      "Technical Writing",
-      "Problem Solving"
-    ]
+    "requiredSkills": ["Communication", "Leadership", "Empathy"],
+    "tier": 1
   },
   {
     "name": "Analytical Thinking",
@@ -256,178 +47,8 @@
       "Problem Solving",
       "Research Methods",
       "Statistical Analysis"
-    ]
-  },
-  {
-    "name": "Anatomy",
-    "description": "The study of the structure of living organisms, including humans, animals, and plants.",
-    "requiredSkills": [
-      "Cardiovascular Anatomy And Physiology",
-      "Respiratory Care",
-      "Physiology",
-      "Medical Terminology"
-    ]
-  },
-  {
-    "name": "Physiology",
-    "description": "The study of the function of living organisms, including humans, animals, and plants.",
-    "requiredSkills": [
-      "Anatomy",
-      "Biochemistry",
-      "Exercise Science",
-      "Research Methods",
-      "Statistics"
-    ]
-  },
-  {
-    "name": "Exercise Science",
-    "description": "The study of the physiological and metabolic responses to exercise and physical activity.",
-    "requiredSkills": [
-      "Anatomy",
-      "Assessment",
-      "Exercise Physiology",
-      "Nutrition",
-      "Physical Fitness"
-    ]
-  },
-  {
-    "name": "Rehabilitation",
-    "description": "The process of restoring function and improving quality of life for individuals with physical or mental disabilities.",
-    "requiredSkills": [
-      "Patient Care",
-      "Physical Therapy",
-      "Occupational Therapy",
-      "Psychology",
-      "Problem Solving"
-    ]
-  },
-  {
-    "name": "Accounting",
-    "description": "The process of tracking and analyzing financial transactions to prepare financial statements, including balance sheets, income statements, and cash flow statements.",
-    "requiredSkills": [
-      "Financial Analysis",
-      "Budgeting",
-      "Financial Planning",
-      "Financial Counseling"
-    ]
-  },
-  {
-    "name": "Financial Analysis",
-    "description": "The process of analyzing financial data to identify trends, risks, and opportunities.",
-    "requiredSkills": [
-      "Accounting",
-      "Data Analysis",
-      "Financial Planning",
-      "Problem Solving"
-    ]
-  },
-  {
-    "name": "Financial Planning",
-    "description": "The process of developing a comprehensive financial plan to achieve financial goals, including retirement planning, investment planning, and estate planning.",
-    "requiredSkills": [
-      "Accounting",
-      "Budgeting",
-      "Financial Analysis",
-      "Investment Strategies"
-    ]
-  },
-  {
-    "name": "It Infrastructure",
-    "description": "The collection of hardware, software, and network resources that support an organization's information technology services.",
-    "requiredSkills": [
-      "Network Administration",
-      "System Security",
-      "Technical Writing",
-      "Troubleshooting"
-    ]
-  },
-  {
-    "name": "Project Management",
-    "description": "The process of planning, organizing, and managing resources to complete specific goals and objectives.",
-    "requiredSkills": [
-      "Time Management",
-      "Leadership",
-      "Communication",
-      "Problem Solving",
-      "Budgeting"
-    ]
-  },
-  {
-    "name": "Strategic Planning",
-    "description": "The process of defining an organization's vision, mission, and long-term goals, and developing a plan to achieve them.",
-    "requiredSkills": ["Leadership", "Business Management", "Problem Solving"]
-  },
-  {
-    "name": "Networking",
-    "description": "The process of connecting computers, devices, and other resources to create a communications network.",
-    "requiredSkills": [
-      "Network Protocols",
-      "Communication",
-      "Problem Solving",
-      "Technical Writing",
-      "Active Listening"
-    ]
-  },
-  {
-    "name": "Software Development",
-    "description": "The process of designing, coding, testing, and maintaining software applications.",
-    "requiredSkills": [
-      "Programming Languages",
-      "Data Structures And Algorithms",
-      "Debugging",
-      "Problem Solving",
-      "Creativity"
-    ]
-  },
-  {
-    "name": "HTML",
-    "description": "Hypertext Markup Language, a coding language used to create web pages.",
-    "requiredSkills": ["CSS", "Web Development Frameworks", "Writing"]
-  },
-  {
-    "name": "CSS",
-    "description": "Cascading Style Sheets, a coding language used to style and format web pages.",
-    "requiredSkills": [
-      "HTML",
-      "Web Development Frameworks",
-      "Responsive Design",
-      "User Experience Design"
-    ]
-  },
-  {
-    "name": "Javascript",
-    "description": "A scripting language used to add interactivity to web pages.",
-    "requiredSkills": [
-      "CSS",
-      "HTML",
-      "Programming Languages",
-      "Web Development Frameworks"
-    ]
-  },
-  {
-    "name": "Web Development Frameworks",
-    "description": "Pre-written libraries and tools used to streamline the web development process.",
-    "requiredSkills": ["HTML", "CSS", "Javascript"]
-  },
-  {
-    "name": "Responsive Design",
-    "description": "The process of designing web pages that adapt to different screen sizes and device types.",
-    "requiredSkills": [
-      "Web Development Frameworks",
-      "HTML",
-      "CSS",
-      "User Experience Design",
-      "Problem Solving"
-    ]
-  },
-  {
-    "name": "User Experience Design",
-    "description": "The process of designing digital products that meet the needs and expectations of users.",
-    "requiredSkills": [
-      "Web Development Frameworks",
-      "Responsive Design",
-      "User Research"
-    ]
+    ],
+    "tier": 1
   },
   {
     "name": "Legal Knowledge",
@@ -437,39 +58,8 @@
       "Employment Law",
       "Problem Solving",
       "Research"
-    ]
-  },
-  {
-    "name": "Research",
-    "description": "The process of gathering and analyzing data to answer questions or solve problems.",
-    "requiredSkills": [
-      "Research Methods",
-      "Data Analysis",
-      "Statistics",
-      "Critical Thinking",
-      "Technical Writing"
-    ]
-  },
-  {
-    "name": "Negotiation",
-    "description": "The process of reaching an agreement between parties with different goals or objectives.",
-    "requiredSkills": [
-      "Communication",
-      "Active Listening",
-      "Persuasion",
-      "Problem Solving",
-      "Empathy"
-    ]
-  },
-  {
-    "name": "Animal Health And Behavior",
-    "description": "The study of the health and behavior of animals, including their care and treatment.",
-    "requiredSkills": ["Physiology", "Anatomy", "Genetics", "Empathy"]
-  },
-  {
-    "name": "Surgery",
-    "description": "The branch of medicine that involves the treatment of injuries, diseases, and deformities through surgical procedures.",
-    "requiredSkills": ["Anatomy", "Physiology", "Surgical Skills"]
+    ],
+    "tier": 1
   },
   {
     "name": "Research Methods",
@@ -480,28 +70,8 @@
       "Data Analysis",
       "Psychology",
       "Communication"
-    ]
-  },
-  {
-    "name": "Data Analysis",
-    "description": "The process of examining data to identify patterns and draw conclusions.",
-    "requiredSkills": [
-      "Statistical Analysis",
-      "Research Methods",
-      "Database Design",
-      "Data Structures And Algorithms"
-    ]
-  },
-  {
-    "name": "Statistical Analysis",
-    "description": "The process of analyzing data using statistical methods to identify significant patterns or relationships.",
-    "requiredSkills": [
-      "Research Methods",
-      "Statistics",
-      "Data Analysis",
-      "Problem Solving",
-      "Critical Thinking"
-    ]
+    ],
+    "tier": 1
   },
   {
     "name": "Logistics",
@@ -511,7 +81,8 @@
       "Data Analysis",
       "Inventory Management",
       "Supply Chain Management"
-    ]
+    ],
+    "tier": 1
   },
   {
     "name": "Supply Chain Management",
@@ -520,7 +91,8 @@
       "Logistics",
       "Inventory Management",
       "Business Management"
-    ]
+    ],
+    "tier": 1
   },
   {
     "name": "Inventory Management",
@@ -530,320 +102,14 @@
       "Data Analysis",
       "Logistics",
       "Supply Chain Management"
-    ]
+    ],
+    "tier": 1
   },
   {
     "name": "Transportation",
     "description": "The movement of people or goods from one place to another.",
-    "requiredSkills": ["Navigation", "Driving", "Logistics"]
-  },
-  {
-    "name": "Business Management",
-    "description": "The planning, organization, and control of all aspects of a business, including operations, finances, and personnel.",
-    "requiredSkills": [
-      "Leadership",
-      "Budgeting",
-      "Marketing",
-      "Supply Chain Management"
-    ]
-  },
-  {
-    "name": "Computer Systems",
-    "description": "The combination of hardware, software, and network components that allow computer systems to operate and communicate with each other.",
-    "requiredSkills": [
-      "It Infrastructure",
-      "Network Security",
-      "Network Protocols",
-      "Database Management"
-    ]
-  },
-  {
-    "name": "Investment Strategies",
-    "description": "The methods and approaches used to make investment decisions, including risk management and asset allocation.",
-    "requiredSkills": [
-      "Financial Analysis",
-      "Financial Planning",
-      "Risk Management",
-      "Statistics"
-    ]
-  },
-  {
-    "name": "Machine Learning",
-    "description": "The use of algorithms and statistical models to allow computer systems to improve their performance on a specific task.",
-    "requiredSkills": [
-      "Data Analysis",
-      "Mathematics",
-      "Programming Languages",
-      "Statistics"
-    ]
-  },
-  {
-    "name": "Critical Thinking",
-    "description": "The ability to objectively analyze information and evaluate arguments to form a well-reasoned judgment or decision.",
-    "requiredSkills": [
-      "Problem Solving",
-      "Analytical Thinking",
-      "Research Methods",
-      "Evaluation Techniques"
-    ]
-  },
-  {
-    "name": "Surgical Skills",
-    "description": "The ability to perform surgical procedures with precision and accuracy.",
-    "requiredSkills": ["Anatomy", "Physiology", "Medical Technology"]
-  },
-  {
-    "name": "Anesthesia Administration",
-    "description": "The ability to administer anesthetics to patients safely and effectively.",
-    "requiredSkills": [
-      "Patient Monitoring",
-      "Surgical Skills",
-      "Emergency Response",
-      "Pharmacology"
-    ]
-  },
-  {
-    "name": "Patient Monitoring",
-    "description": "The ability to use various medical devices to monitor patient vital signs during surgery or in intensive care settings.",
-    "requiredSkills": [
-      "Clinical Knowledge",
-      "Attention To Detail",
-      "Problem Solving",
-      "Critical Thinking",
-      "Communication"
-    ]
-  },
-  {
-    "name": "Public Health",
-    "description": "The science and practice of protecting and improving the health of communities through research, education, and policy.",
-    "requiredSkills": [
-      "Epidemiology",
-      "Healthcare Regulations And Policies",
-      "Community Health",
-      "Research Methods",
-      "Statistics"
-    ]
-  },
-  {
-    "name": "Statistics",
-    "description": "The science of collecting, analyzing, and interpreting data.",
-    "requiredSkills": [
-      "Mathematics",
-      "Research Methods",
-      "Data Analysis",
-      "Probability Theory",
-      "Problem Solving"
-    ]
-  },
-  {
-    "name": "Mathematics",
-    "description": "The study of numbers, quantities, and shapes, and the relationships between them.",
-    "requiredSkills": ["Analytical Thinking", "Problem Solving", "Statistics"]
-  },
-  {
-    "name": "Mathematical Modeling",
-    "description": "The process of using mathematical concepts and techniques to describe and simulate complex real-world systems or phenomena.",
-    "requiredSkills": ["Data Analysis", "Mathematics", "Statistical Analysis"]
-  },
-  {
-    "name": "Database Management",
-    "description": "The process of designing, implementing, and maintaining databases to store and manage information.",
-    "requiredSkills": [
-      "Database Design",
-      "Sql",
-      "Network Administration",
-      "It Infrastructure"
-    ]
-  },
-  {
-    "name": "Database Design",
-    "description": "The process of creating a detailed data model of a database to ensure it meets the needs of the user and the organization.",
-    "requiredSkills": [
-      "Database Management",
-      "Data Analysis",
-      "Sql",
-      "Data Modeling"
-    ]
-  },
-  {
-    "name": "Communication Disorders",
-    "description": "The study and treatment of disorders that affect speech, language, and communication.",
-    "requiredSkills": [
-      "Speech And Language Therapy",
-      "Audiology",
-      "Anatomy",
-      "Physiology"
-    ]
-  },
-  {
-    "name": "Respiratory Care",
-    "description": "The study and treatment of disorders that affect the respiratory system.",
-    "requiredSkills": [
-      "Clinical Knowledge",
-      "Patient Care",
-      "Anatomy",
-      "Physiology",
-      "Critical Thinking"
-    ]
-  },
-  {
-    "name": "Counseling",
-    "description": "The process of helping individuals or groups to achieve emotional, social, or behavioral change.",
-    "requiredSkills": ["Communication", "Empathy", "Psychology", "Assessment"]
-  },
-  {
-    "name": "Psychology",
-    "description": "The scientific study of behavior and mental processes.",
-    "requiredSkills": [
-      "Research Methods",
-      "Statistics",
-      "Communication",
-      "Critical Thinking",
-      "Empathy"
-    ]
-  },
-  {
-    "name": "Assessment",
-    "description": "The process of evaluating or measuring a person's skills, knowledge, or abilities.",
-    "requiredSkills": [
-      "Evaluation Techniques",
-      "Data Analysis",
-      "Research Methods",
-      "Statistical Analysis"
-    ]
-  },
-  {
-    "name": "Biochemistry",
-    "description": "The study of chemical processes within living organisms.",
-    "requiredSkills": [
-      "Genetics",
-      "Molecular Biology",
-      "Medical Terminology",
-      "Laboratory Testing"
-    ]
-  },
-  {
-    "name": "Construction Management",
-    "description": "The planning, coordination, and control of a construction project from start to finish.",
-    "requiredSkills": [
-      "Budgeting",
-      "Blueprints",
-      "Project Management",
-      "Leadership"
-    ]
-  },
-  {
-    "name": "Marketing",
-    "description": "The process of promoting and selling products or services to customers.",
-    "requiredSkills": [
-      "Communication",
-      "Market Research",
-      "Product Management",
-      "Public Relations"
-    ]
-  },
-  {
-    "name": "Aviation",
-    "description": "The study of flight and the design, development, and maintenance of aircraft.",
-    "requiredSkills": [
-      "Navigation",
-      "Wind Turbine Technology",
-      "Technical Writing",
-      "Aerospace Engineering"
-    ]
-  },
-  {
-    "name": "Medical Records Management",
-    "description": "The process of organizing, storing, and managing patient medical records.",
-    "requiredSkills": [
-      "Attention To Detail",
-      "Electronic Health Records (ehr)",
-      "Medical Terminology",
-      "Record Keeping"
-    ]
-  },
-  {
-    "name": "Biomedical Engineering",
-    "description": "The application of engineering principles and design concepts to medicine and biology.",
-    "requiredSkills": [
-      "Electrical Systems",
-      "Medical Technology",
-      "Machine Learning",
-      "Technical Writing"
-    ]
-  },
-  {
-    "name": "Petroleum Engineering",
-    "description": "The study and application of engineering principles to the exploration, development, and production of oil and gas resources.",
-    "requiredSkills": [
-      "Mathematics",
-      "Physics",
-      "Geology",
-      "Risk Management",
-      "Technical Writing"
-    ]
-  },
-  {
-    "name": "Teaching",
-    "description": "The ability to impart knowledge or skills to others in a way that is understandable and engaging.",
-    "requiredSkills": [
-      "Classroom Management",
-      "Lesson Planning",
-      "Communication"
-    ]
-  },
-  {
-    "name": "Wind Turbine Technology",
-    "description": "Knowledge of the technology and engineering principles involved in designing, constructing, and maintaining wind turbines.",
-    "requiredSkills": ["Electrical Systems", "Renewable Energy", "Engineering"]
-  },
-  {
-    "name": "Network Design",
-    "description": "The ability to plan and design computer networks that are efficient, scalable, and secure.",
-    "requiredSkills": [
-      "Networking",
-      "Network Protocols",
-      "Technical Writing",
-      "Computer Systems",
-      "Communication"
-    ]
-  },
-  {
-    "name": "Network Protocols",
-    "description": "Understanding of the communication protocols and technologies used in computer networks, such as TCP/IP, DNS, and DHCP.",
-    "requiredSkills": [
-      "Networking",
-      "Network Security",
-      "Computer Systems",
-      "Problem Solving",
-      "Technical Writing"
-    ]
-  },
-  {
-    "name": "Media Relations",
-    "description": "The ability to establish and maintain positive relationships with media outlets and journalists to promote a company or organization's message.",
-    "requiredSkills": [
-      "Communication",
-      "Journalism",
-      "Public Relations",
-      "Social Media"
-    ]
-  },
-  {
-    "name": "Writing",
-    "description": "The ability to communicate ideas and information clearly and effectively through written words.",
-    "requiredSkills": ["Creativity", "Communication", "Research"]
-  },
-  {
-    "name": "Public Speaking",
-    "description": "The ability to communicate ideas and information clearly and effectively through spoken words, often in front of large audiences.",
-    "requiredSkills": [
-      "Communication",
-      "Public Relations",
-      "Presentation Skills",
-      "Confidence",
-      "Persuasion"
-    ]
+    "requiredSkills": ["Navigation", "Driving", "Logistics"],
+    "tier": 1
   },
   {
     "name": "Classroom Management",
@@ -853,17 +119,8 @@
       "Communication",
       "Counseling",
       "Leadership"
-    ]
-  },
-  {
-    "name": "Lesson Planning",
-    "description": "The ability to create engaging lesson plans that align with learning objectives and cater to the diverse needs of students.",
-    "requiredSkills": [
-      "Classroom Management",
-      "Curriculum Design",
-      "Education Psychology",
-      "Instructional Design"
-    ]
+    ],
+    "tier": 1
   },
   {
     "name": "Creativity",
@@ -873,7 +130,8 @@
       "Culinary Arts",
       "Marketing",
       "Writing"
-    ]
+    ],
+    "tier": 1
   },
   {
     "name": "Patience",
@@ -884,7 +142,8 @@
       "Self Control",
       "Active Listening",
       "Time Management"
-    ]
+    ],
+    "tier": 1
   },
   {
     "name": "Empathy",
@@ -894,7 +153,8 @@
       "Communication",
       "Emotional Intelligence",
       "Interpersonal Skills"
-    ]
+    ],
+    "tier": 1
   },
   {
     "name": "Social And Community Services",
@@ -905,37 +165,100 @@
       "Empathy",
       "Communication",
       "Problem Solving"
-    ]
+    ],
+    "tier": 1
   },
   {
-    "name": "Network Administration",
-    "description": "The ability to manage and maintain computer networks, including installing, configuring, and troubleshooting hardware and software.",
+    "name": "Writing",
+    "description": "The ability to communicate ideas and information clearly and effectively through written words.",
+    "requiredSkills": ["Creativity", "Communication", "Research"],
+    "tier": 1
+  },
+  {
+    "name": "Public Speaking",
+    "description": "The ability to communicate ideas and information clearly and effectively through spoken words, often in front of large audiences.",
     "requiredSkills": [
-      "Computer Systems",
-      "Network Protocols",
-      "Network Security",
-      "Technical Writing",
+      "Communication",
+      "Public Relations",
+      "Presentation Skills",
+      "Confidence",
+      "Persuasion"
+    ],
+    "tier": 1
+  },
+  {
+    "name": "Navigation",
+    "description": "The ability to navigate using maps, GPS, and other tools to reach a desired destination.",
+    "requiredSkills": [
+      "Map Reading",
+      "Spatial Reasoning",
+      "Patience",
+      "Attention To Detail",
+      "Time Management"
+    ],
+    "tier": 1
+  },
+  {
+    "name": "Time Management",
+    "description": "The ability to prioritize tasks and manage time effectively to meet deadlines and achieve goals.",
+    "requiredSkills": ["Organization", "Prioritization", "Task Management"],
+    "tier": 1
+  },
+  {
+    "name": "Debt Management",
+    "description": "Knowledge of strategies and techniques for managing debt, including debt consolidation, payment plans, and negotiation with creditors.",
+    "requiredSkills": [
+      "Financial Analysis",
+      "Financial Planning",
+      "Accounting",
+      "Credit Analysis"
+    ],
+    "tier": 1
+  },
+  {
+    "name": "Critical Thinking",
+    "description": "The ability to objectively analyze information and evaluate arguments to form a well-reasoned judgment or decision.",
+    "requiredSkills": [
+      "Problem Solving",
+      "Analytical Thinking",
+      "Research Methods",
+      "Evaluation Techniques"
+    ],
+    "tier": 1
+  },
+  {
+    "name": "Nail Care",
+    "description": "The ability to provide nail care services, including manicures, pedicures, and nail art, using various tools and techniques.",
+    "requiredSkills": [
+      "Attention To Detail",
+      "Manicure And Pedicure Techniques",
+      "Sanitation"
+    ],
+    "tier": 1
+  },
+  {
+    "name": "Sanitation",
+    "description": "Knowledge of proper sanitation practices, including cleaning and disinfection of surfaces and equipment, to prevent the spread of disease and infection.",
+    "requiredSkills": [
+      "Attention To Detail",
+      "Time Management",
+      "Cleaning Techniques",
+      "Problem Solving",
+      "Communication"
+    ],
+    "tier": 1
+  },
+  {
+    "name": "Sales",
+    "description": "The ability to sell products or services to customers, including prospecting, lead generation, and negotiation.",
+    "requiredSkills": [
+      "Communication",
+      "Persuasion",
+      "Customer Service",
+      "Negotiation",
       "Problem Solving"
-    ]
-  },
-  {
-    "name": "System Security",
-    "description": "Knowledge of security measures and protocols to protect computer systems and networks from unauthorized access, theft, and damage.",
-    "requiredSkills": [
-      "Cybersecurity",
-      "Network Security",
-      "Vulnerability Assessments"
-    ]
-  },
-  {
-    "name": "Community Health",
-    "description": "Knowledge of public health principles and practices, and the ability to promote healthy lifestyles and behaviors within a community.",
-    "requiredSkills": [
-      "Public Health",
-      "Health Education",
-      "Environmental Science",
-      "Epidemiology"
-    ]
+    ],
+    "tier": 1
   },
   {
     "name": "Landscaping",
@@ -945,7 +268,8 @@
       "Horticulture",
       "Groundskeeping",
       "Plant Care"
-    ]
+    ],
+    "tier": 1
   },
   {
     "name": "Groundskeeping",
@@ -955,7 +279,8 @@
       "Horticulture",
       "Landscaping",
       "Plant Care"
-    ]
+    ],
+    "tier": 1
   },
   {
     "name": "Plant Care",
@@ -966,23 +291,8 @@
       "Landscaping",
       "Environmental Science",
       "Problem Solving"
-    ]
-  },
-  {
-    "name": "Physical Fitness",
-    "description": "The ability to maintain physical fitness through regular exercise and healthy lifestyle choices.",
-    "requiredSkills": [
-      "Exercise Science",
-      "Physiology",
-      "Anatomy",
-      "Nutrition",
-      "Patience"
-    ]
-  },
-  {
-    "name": "Medical Imaging",
-    "description": "Knowledge of the principles and practices involved in medical imaging technologies, such as X-rays, MRI, and CT scans.",
-    "requiredSkills": ["Anatomy", "Medical Terminology", "Physics", "Radiology"]
+    ],
+    "tier": 1
   },
   {
     "name": "Driving",
@@ -995,95 +305,8 @@
       "Time Management",
       "Vehicle Maintenance",
       "Vehicle Operation"
-    ]
-  },
-  {
-    "name": "Navigation",
-    "description": "The ability to navigate using maps, GPS, and other tools to reach a desired destination.",
-    "requiredSkills": [
-      "Map Reading",
-      "Spatial Reasoning",
-      "Patience",
-      "Attention To Detail",
-      "Time Management"
-    ]
-  },
-  {
-    "name": "Time Management",
-    "description": "The ability to prioritize tasks and manage time effectively to meet deadlines and achieve goals.",
-    "requiredSkills": ["Organization", "Prioritization", "Task Management"]
-  },
-  {
-    "name": "Finance",
-    "description": "Knowledge of financial principles and practices, including budgeting, accounting, and investment strategies.",
-    "requiredSkills": [
-      "Accounting",
-      "Budgeting",
-      "Financial Analysis",
-      "Financial Planning",
-      "Investment Strategies"
-    ]
-  },
-  {
-    "name": "Credit Analysis",
-    "description": "Knowledge of credit risk assessment and lending practices, including credit scoring, underwriting, and loan origination.",
-    "requiredSkills": [
-      "Financial Analysis",
-      "Financial Planning",
-      "Accounting",
-      "Debt Management"
-    ]
-  },
-  {
-    "name": "Nutrition",
-    "description": "Knowledge of the principles and practices involved in promoting healthy eating habits and managing dietary needs.",
-    "requiredSkills": [
-      "Physiology",
-      "Biochemistry",
-      "Exercise Science",
-      "Research Methods",
-      "Communication"
-    ]
-  },
-  {
-    "name": "Medical Terminology",
-    "description": "Knowledge of medical terminology used in the healthcare industry to describe diseases, conditions, and treatments.",
-    "requiredSkills": [
-      "Anatomy",
-      "Medical Records Management",
-      "Medical Technology",
-      "Physiology"
-    ]
-  },
-  {
-    "name": "Cardiovascular Anatomy And Physiology",
-    "description": "Knowledge of the structure and function of the cardiovascular system, including the heart, blood vessels, and blood.",
-    "requiredSkills": [
-      "Anatomy",
-      "Physiology",
-      "Medical Terminology",
-      "Medical Imaging"
-    ]
-  },
-  {
-    "name": "Medical Technology",
-    "description": "Knowledge of the principles and practices involved in medical technology, including equipment operation and maintenance.",
-    "requiredSkills": [
-      "Anatomy",
-      "Medical Terminology",
-      "Medical Instrumentation",
-      "Medical Device Regulation"
-    ]
-  },
-  {
-    "name": "Electrical Systems",
-    "description": "Knowledge of electrical principles and practices, including wiring, circuits, and electrical safety protocols.",
-    "requiredSkills": [
-      "Analytical Thinking",
-      "Attention To Detail",
-      "Electrical Engineering",
-      "Problem Solving"
-    ]
+    ],
+    "tier": 1
   },
   {
     "name": "Wiring",
@@ -1092,7 +315,53 @@
       "Electrical Systems",
       "Construction Management",
       "Blueprints"
-    ]
+    ],
+    "tier": 1
+  },
+  {
+    "name": "Patient Care",
+    "description": "the ability to provide compassionate and effective care to patients, including monitoring their health status and administering medication and treatments.",
+    "requiredSkills": [
+      "Empathy",
+      "Communication",
+      "Critical Thinking",
+      "Patience",
+      "Attention To Detail"
+    ],
+    "tier": 1
+  },
+  {
+    "name": "Healthcare Regulations And Policies",
+    "description": "knowledge of healthcare laws and regulations, as well as the ability to ensure compliance with these regulations in healthcare settings.",
+    "requiredSkills": [
+      "Communication",
+      "Healthcare Administration",
+      "Legal Knowledge",
+      "Problem Solving"
+    ],
+    "tier": 1
+  },
+  {
+    "name": "Budgeting",
+    "description": "the ability to manage financial resources effectively and allocate resources to achieve organizational goals.",
+    "requiredSkills": [
+      "Financial Analysis",
+      "Financial Planning",
+      "Accounting",
+      "Financial Counseling"
+    ],
+    "tier": 1
+  },
+  {
+    "name": "Employment Law",
+    "description": "the legal principles and regulations that govern the employer-employee relationship, including laws related to discrimination, harassment, wages, hours, benefits, and termination.",
+    "requiredSkills": [
+      "Attention To Detail",
+      "Communication",
+      "Legal Knowledge",
+      "Problem Solving"
+    ],
+    "tier": 1
   },
   {
     "name": "Blueprints",
@@ -1102,126 +371,126 @@
       "Electrical Systems",
       "Wiring",
       "Technical Writing"
-    ]
+    ],
+    "tier": 1
   },
   {
-    "name": "Safety Protocols",
-    "description": "Knowledge of established procedures and guidelines for ensuring safety in a variety of settings, including workplaces, laboratories, and public spaces.",
+    "name": "Assessment",
+    "description": "The process of evaluating or measuring a person's skills, knowledge, or abilities.",
     "requiredSkills": [
-      "Emergency Response",
-      "Risk Management",
-      "Communication",
-      "Critical Thinking",
+      "Evaluation Techniques",
+      "Data Analysis",
+      "Research Methods",
+      "Statistical Analysis"
+    ],
+    "tier": 1
+  },
+  {
+    "name": "Programming Languages",
+    "description": "proficiency in one or more programming languages, such as Java, Python, or C++, to create software applications and systems.",
+    "requiredSkills": [
+      "Software Development",
+      "Computer Systems",
+      "Data Structures And Algorithms",
+      "Debugging",
       "Problem Solving"
-    ]
+    ],
+    "tier": 2
   },
   {
-    "name": "Massage Techniques",
-    "description": "Knowledge of the various massage techniques and their application to improve physical and emotional well-being, relieve pain and tension, and promote relaxation.",
-    "requiredSkills": ["Anatomy", "Massage Therapy Techniques", "Physiology"]
+    "name": "Version Control",
+    "description": "the ability to use version control tools, such as Git or SVN, to manage changes in code and collaborate with team members.",
+    "requiredSkills": ["Programming Languages", "Debugging", "Software Design"],
+    "tier": 2
   },
   {
-    "name": "Audiology",
-    "description": "The study and treatment of hearing disorders and related conditions, including the assessment of hearing ability, the prescription and fitting of hearing aids, and the development of hearing rehabilitation plans.",
+    "name": "Data Structures And Algorithms",
+    "description": "the ability to design and implement efficient data structures and algorithms to manipulate and analyze large amounts of data.",
     "requiredSkills": [
-      "Hearing Technology",
-      "Communication",
-      "Anatomy",
-      "Physiology"
-    ]
+      "Programming Languages",
+      "Machine Learning",
+      "Database Design",
+      "Statistical Analysis"
+    ],
+    "tier": 2
   },
   {
-    "name": "Hearing Technology",
-    "description": "Knowledge of the latest hearing technology, including hearing aids, cochlear implants, and other assistive devices, as well as their use and maintenance.",
-    "requiredSkills": [
-      "Anatomy",
-      "Audiology",
-      "Communication Disorders",
-      "Hearing Aid Technology"
-    ]
+    "name": "HTML",
+    "description": "Hypertext Markup Language, a coding language used to create web pages.",
+    "requiredSkills": ["CSS", "Web Development Frameworks", "Writing"],
+    "tier": 2
   },
   {
-    "name": "Genetics",
-    "description": "The study of genes, heredity, and genetic variation in organisms, and their impact on development, health, and disease.",
+    "name": "CSS",
+    "description": "Cascading Style Sheets, a coding language used to style and format web pages.",
     "requiredSkills": [
-      "Analytical Thinking",
-      "Biochemistry",
-      "Molecular Biology",
+      "HTML",
+      "Web Development Frameworks",
+      "Responsive Design",
+      "User Experience Design"
+    ],
+    "tier": 2
+  },
+  {
+    "name": "Javascript",
+    "description": "A scripting language used to add interactivity to web pages.",
+    "requiredSkills": [
+      "CSS",
+      "HTML",
+      "Programming Languages",
+      "Web Development Frameworks"
+    ],
+    "tier": 2
+  },
+  {
+    "name": "Web Development Frameworks",
+    "description": "Pre-written libraries and tools used to streamline the web development process.",
+    "requiredSkills": ["HTML", "CSS", "Javascript"],
+    "tier": 2
+  },
+  {
+    "name": "Responsive Design",
+    "description": "The process of designing web pages that adapt to different screen sizes and device types.",
+    "requiredSkills": [
+      "Web Development Frameworks",
+      "HTML",
+      "CSS",
+      "User Experience Design",
       "Problem Solving"
-    ]
+    ],
+    "tier": 2
   },
   {
-    "name": "Fitness Programs",
-    "description": "The ability to design, implement, and evaluate fitness programs for individuals or groups, based on their health and fitness goals and needs.",
+    "name": "User Experience Design",
+    "description": "The process of designing digital products that meet the needs and expectations of users.",
     "requiredSkills": [
-      "Assessment",
-      "Exercise Physiology",
-      "Nutrition",
-      "Physical Fitness",
-      "Program Development"
-    ]
+      "Web Development Frameworks",
+      "Responsive Design",
+      "User Research"
+    ],
+    "tier": 2
   },
   {
-    "name": "Law Enforcement",
-    "description": "Knowledge of law enforcement procedures and practices, including crime prevention, investigation, and enforcement of laws and regulations.",
+    "name": "Marketing",
+    "description": "The process of promoting and selling products or services to customers.",
     "requiredSkills": [
       "Communication",
-      "Critical Thinking",
-      "Legal Knowledge",
-      "Problem Solving"
-    ]
+      "Market Research",
+      "Product Management",
+      "Public Relations"
+    ],
+    "tier": 2
   },
   {
-    "name": "Public Safety",
-    "description": "Knowledge of emergency response procedures and protocols, disaster preparedness, and public safety regulations.",
+    "name": "Media Relations",
+    "description": "The ability to establish and maintain positive relationships with media outlets and journalists to promote a company or organization's message.",
     "requiredSkills": [
-      "Emergency Response",
-      "Risk Management",
-      "Safety Protocols",
       "Communication",
-      "Critical Thinking"
-    ]
-  },
-  {
-    "name": "Laboratory Testing",
-    "description": "Knowledge of laboratory testing procedures and techniques, including the collection and analysis of samples, data interpretation, and reporting of findings.",
-    "requiredSkills": [
-      "Attention To Detail",
-      "Laboratory Safety",
-      "Laboratory Testing Techniques",
-      "Scientific Method"
-    ]
-  },
-  {
-    "name": "Culinary Arts",
-    "description": "Knowledge of various cooking techniques, recipe development, and menu planning, as well as food presentation and service.",
-    "requiredSkills": [
-      "Cooking Techniques",
-      "Nutrition",
-      "Creativity",
-      "Budgeting"
-    ]
-  },
-  {
-    "name": "Cooking Techniques",
-    "description": "Knowledge of various cooking methods, including baking, broiling, sautéing, frying, and grilling, and their application in food preparation.",
-    "requiredSkills": [
-      "Culinary Arts",
-      "Food Safety",
-      "Nutrition",
-      "Creativity"
-    ]
-  },
-  {
-    "name": "Food Safety",
-    "description": "Knowledge of food safety regulations, including proper handling, storage, preparation, and cooking of food to prevent contamination and illness.",
-    "requiredSkills": [
-      "Attention To Detail",
-      "Communication",
-      "Food Regulations",
-      "Foodborne Illness Prevention",
-      "Sanitation"
-    ]
+      "Journalism",
+      "Public Relations",
+      "Social Media"
+    ],
+    "tier": 2
   },
   {
     "name": "Solar Panel Installation",
@@ -1232,7 +501,42 @@
       "Sustainability",
       "Problem Solving",
       "Attention To Detail"
-    ]
+    ],
+    "tier": 2
+  },
+  {
+    "name": "Culinary Arts",
+    "description": "Knowledge of various cooking techniques, recipe development, and menu planning, as well as food presentation and service.",
+    "requiredSkills": [
+      "Cooking Techniques",
+      "Nutrition",
+      "Creativity",
+      "Budgeting"
+    ],
+    "tier": 2
+  },
+  {
+    "name": "Cooking Techniques",
+    "description": "Knowledge of various cooking methods, including baking, broiling, sautéing, frying, and grilling, and their application in food preparation.",
+    "requiredSkills": [
+      "Culinary Arts",
+      "Food Safety",
+      "Nutrition",
+      "Creativity"
+    ],
+    "tier": 2
+  },
+  {
+    "name": "Food Safety",
+    "description": "Knowledge of food safety regulations, including proper handling, storage, preparation, and cooking of food to prevent contamination and illness.",
+    "requiredSkills": [
+      "Attention To Detail",
+      "Communication",
+      "Food Regulations",
+      "Foodborne Illness Prevention",
+      "Sanitation"
+    ],
+    "tier": 2
   },
   {
     "name": "Pharmaceuticals",
@@ -1243,7 +547,49 @@
       "Physiology",
       "Biology",
       "Clinical Knowledge"
-    ]
+    ],
+    "tier": 2
+  },
+  {
+    "name": "Research",
+    "description": "The process of gathering and analyzing data to answer questions or solve problems.",
+    "requiredSkills": [
+      "Research Methods",
+      "Data Analysis",
+      "Statistics",
+      "Critical Thinking",
+      "Technical Writing"
+    ],
+    "tier": 2
+  },
+  {
+    "name": "Negotiation",
+    "description": "The process of reaching an agreement between parties with different goals or objectives.",
+    "requiredSkills": [
+      "Communication",
+      "Active Listening",
+      "Persuasion",
+      "Problem Solving",
+      "Empathy"
+    ],
+    "tier": 2
+  },
+  {
+    "name": "Lesson Planning",
+    "description": "The ability to create engaging lesson plans that align with learning objectives and cater to the diverse needs of students.",
+    "requiredSkills": [
+      "Classroom Management",
+      "Curriculum Design",
+      "Education Psychology",
+      "Instructional Design"
+    ],
+    "tier": 2
+  },
+  {
+    "name": "Mathematics",
+    "description": "The study of numbers, quantities, and shapes, and the relationships between them.",
+    "requiredSkills": ["Analytical Thinking", "Problem Solving", "Statistics"],
+    "tier": 2
   },
   {
     "name": "Curriculum Design",
@@ -1253,32 +599,8 @@
       "Teaching",
       "Educational Psychology",
       "Educational Technology"
-    ]
-  },
-  {
-    "name": "Financial Counseling",
-    "description": "The ability to provide financial advice and counseling to individuals or groups, including budgeting, debt management, and investment strategies.",
-    "requiredSkills": [
-      "Accounting",
-      "Financial Planning",
-      "Interpersonal Skills",
-      "Listening Skills"
-    ]
-  },
-  {
-    "name": "Debt Management",
-    "description": "Knowledge of strategies and techniques for managing debt, including debt consolidation, payment plans, and negotiation with creditors.",
-    "requiredSkills": [
-      "Financial Analysis",
-      "Financial Planning",
-      "Accounting",
-      "Credit Analysis"
-    ]
-  },
-  {
-    "name": "Technical Writing",
-    "description": "The ability to write technical documentation, including user manuals, technical reports, and instructional materials, for various industries and applications.",
-    "requiredSkills": ["Writing", "Communication", "Research"]
+    ],
+    "tier": 2
   },
   {
     "name": "Fire Safety",
@@ -1288,78 +610,64 @@
       "Emergency Response",
       "Safety Protocols",
       "Teamwork"
-    ]
+    ],
+    "tier": 2
   },
   {
-    "name": "Emergency Response",
-    "description": "Knowledge of emergency response procedures and protocols, including first aid, CPR, and disaster preparedness.",
+    "name": "Medical Imaging",
+    "description": "Knowledge of the principles and practices involved in medical imaging technologies, such as X-rays, MRI, and CT scans.",
     "requiredSkills": [
-      "Communication",
-      "Critical Thinking",
-      "Emergency Medicine",
-      "First Aid",
-      "Problem Solving"
-    ]
-  },
-  {
-    "name": "Nail Care",
-    "description": "The ability to provide nail care services, including manicures, pedicures, and nail art, using various tools and techniques.",
-    "requiredSkills": [
-      "Attention To Detail",
-      "Manicure And Pedicure Techniques",
-      "Sanitation"
-    ]
-  },
-  {
-    "name": "Sanitation",
-    "description": "Knowledge of proper sanitation practices, including cleaning and disinfection of surfaces and equipment, to prevent the spread of disease and infection.",
-    "requiredSkills": [
-      "Attention To Detail",
-      "Time Management",
-      "Cleaning Techniques",
-      "Problem Solving",
-      "Communication"
-    ]
-  },
-  {
-    "name": "Sales",
-    "description": "The ability to sell products or services to customers, including prospecting, lead generation, and negotiation.",
-    "requiredSkills": [
-      "Communication",
-      "Persuasion",
-      "Customer Service",
-      "Negotiation",
-      "Problem Solving"
-    ]
-  },
-  {
-    "name": "Environmental Science",
-    "description": "The study of the environment and its interactions with living organisms, including the impact of human activity on ecosystems and natural resources.",
-    "requiredSkills": [
-      "Data Analysis",
-      "Environmental Regulations",
-      "Research Methods",
-      "Sustainability"
-    ]
-  },
-  {
-    "name": "Engineering",
-    "description": "the application of science, mathematics, and design to create practical solutions to real-world problems, such as designing and building structures, machines, systems, and materials.",
-    "requiredSkills": [
-      "Analytical Thinking",
-      "Mathematics",
+      "Anatomy",
+      "Medical Terminology",
       "Physics",
-      "Problem Solving"
-    ]
+      "Radiology"
+    ],
+    "tier": 2
   },
   {
-    "name": "Sustainability",
-    "description": "the practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs, often through reducing environmental impact, conserving natural resources, and promoting social and economic equity.",
+    "name": "Healthcare Administration",
+    "description": "the ability to manage healthcare facilities and operations, including budgeting, staffing, and strategic planning.",
     "requiredSkills": [
-      "Environmental Science",
-      "Renewable Energy",
-      "Business Management"
-    ]
+      "Communication",
+      "Healthcare Regulations And Policies",
+      "Human Resources",
+      "Leadership"
+    ],
+    "tier": 2
+  },
+  {
+    "name": "Management",
+    "description": "the ability to lead and manage teams effectively, including setting goals, delegating tasks, and providing feedback.",
+    "requiredSkills": [
+      "Communication",
+      "Decision Making",
+      "Leadership",
+      "Problem Solving",
+      "Teamwork"
+    ],
+    "tier": 2
+  },
+  {
+    "name": "Leadership",
+    "description": "the ability to inspire and motivate team members, and create a positive work environment.",
+    "requiredSkills": [
+      "Communication",
+      "Decision Making",
+      "Empathy",
+      "Teamwork"
+    ],
+    "tier": 2
+  },
+  {
+    "name": "Accounting",
+    "description": "The process of tracking and analyzing financial transactions to prepare financial statements, including balance sheets, income statements, and cash flow statements.",
+    "requiredSkills": [
+      "Financial Analysis",
+      "Budgeting",
+      "Financial Planning",
+      "Financial Counseling"
+    ],
+    "tier": 2
   },
   {
     "name": "Human Resources",
@@ -1370,17 +678,734 @@
       "Leadership",
       "Problem Solving",
       "Recruitment"
-    ]
+    ],
+    "tier": 2
   },
   {
-    "name": "Employment Law",
-    "description": "the legal principles and regulations that govern the employer-employee relationship, including laws related to discrimination, harassment, wages, hours, benefits, and termination.",
+    "name": "Financial Counseling",
+    "description": "The ability to provide financial advice and counseling to individuals or groups, including budgeting, debt management, and investment strategies.",
+    "requiredSkills": [
+      "Accounting",
+      "Financial Planning",
+      "Interpersonal Skills",
+      "Listening Skills"
+    ],
+    "tier": 2
+  },
+  {
+    "name": "Technical Writing",
+    "description": "The ability to write technical documentation, including user manuals, technical reports, and instructional materials, for various industries and applications.",
+    "requiredSkills": ["Writing", "Communication", "Research"],
+    "tier": 2
+  },
+  {
+    "name": "Software Testing",
+    "description": "the ability to write and execute test plans and test cases to ensure the quality of software applications and systems.",
+    "requiredSkills": [
+      "Software Development",
+      "Debugging",
+      "Test Automation",
+      "Technical Writing",
+      "Problem Solving"
+    ],
+    "tier": 3
+  },
+  {
+    "name": "Debugging",
+    "description": "the ability to identify and resolve software errors or bugs that may affect the performance or functionality of software applications and systems.",
+    "requiredSkills": [
+      "Problem Solving",
+      "Critical Thinking",
+      "Programming Languages",
+      "Technical Writing"
+    ],
+    "tier": 3
+  },
+  {
+    "name": "Networking",
+    "description": "The process of connecting computers, devices, and other resources to create a communications network.",
+    "requiredSkills": [
+      "Network Protocols",
+      "Communication",
+      "Problem Solving",
+      "Technical Writing",
+      "Active Listening"
+    ],
+    "tier": 3
+  },
+  {
+    "name": "Software Development",
+    "description": "The process of designing, coding, testing, and maintaining software applications.",
+    "requiredSkills": [
+      "Programming Languages",
+      "Data Structures And Algorithms",
+      "Debugging",
+      "Problem Solving",
+      "Creativity"
+    ],
+    "tier": 3
+  },
+  {
+    "name": "Animal Health And Behavior",
+    "description": "The study of the health and behavior of animals, including their care and treatment.",
+    "requiredSkills": ["Physiology", "Anatomy", "Genetics", "Empathy"],
+    "tier": 3
+  },
+  {
+    "name": "Aviation",
+    "description": "The study of flight and the design, development, and maintenance of aircraft.",
+    "requiredSkills": [
+      "Navigation",
+      "Wind Turbine Technology",
+      "Technical Writing",
+      "Aerospace Engineering"
+    ],
+    "tier": 3
+  },
+  {
+    "name": "Wind Turbine Technology",
+    "description": "Knowledge of the technology and engineering principles involved in designing, constructing, and maintaining wind turbines.",
+    "requiredSkills": ["Electrical Systems", "Renewable Energy", "Engineering"],
+    "tier": 3
+  },
+  {
+    "name": "Network Design",
+    "description": "The ability to plan and design computer networks that are efficient, scalable, and secure.",
+    "requiredSkills": [
+      "Networking",
+      "Network Protocols",
+      "Technical Writing",
+      "Computer Systems",
+      "Communication"
+    ],
+    "tier": 3
+  },
+  {
+    "name": "Network Protocols",
+    "description": "Understanding of the communication protocols and technologies used in computer networks, such as TCP/IP, DNS, and DHCP.",
+    "requiredSkills": [
+      "Networking",
+      "Network Security",
+      "Computer Systems",
+      "Problem Solving",
+      "Technical Writing"
+    ],
+    "tier": 3
+  },
+  {
+    "name": "Teaching",
+    "description": "The ability to impart knowledge or skills to others in a way that is understandable and engaging.",
+    "requiredSkills": [
+      "Classroom Management",
+      "Lesson Planning",
+      "Communication"
+    ],
+    "tier": 3
+  },
+  {
+    "name": "Network Administration",
+    "description": "The ability to manage and maintain computer networks, including installing, configuring, and troubleshooting hardware and software.",
+    "requiredSkills": [
+      "Computer Systems",
+      "Network Protocols",
+      "Network Security",
+      "Technical Writing",
+      "Problem Solving"
+    ],
+    "tier": 3
+  },
+  {
+    "name": "System Security",
+    "description": "Knowledge of security measures and protocols to protect computer systems and networks from unauthorized access, theft, and damage.",
+    "requiredSkills": [
+      "Cybersecurity",
+      "Network Security",
+      "Vulnerability Assessments"
+    ],
+    "tier": 3
+  },
+  {
+    "name": "Community Health",
+    "description": "Knowledge of public health principles and practices, and the ability to promote healthy lifestyles and behaviors within a community.",
+    "requiredSkills": [
+      "Public Health",
+      "Health Education",
+      "Environmental Science",
+      "Epidemiology"
+    ],
+    "tier": 3
+  },
+  {
+    "name": "Credit Analysis",
+    "description": "Knowledge of credit risk assessment and lending practices, including credit scoring, underwriting, and loan origination.",
+    "requiredSkills": [
+      "Financial Analysis",
+      "Financial Planning",
+      "Accounting",
+      "Debt Management"
+    ],
+    "tier": 3
+  },
+  {
+    "name": "Nutrition",
+    "description": "Knowledge of the principles and practices involved in promoting healthy eating habits and managing dietary needs.",
+    "requiredSkills": [
+      "Physiology",
+      "Biochemistry",
+      "Exercise Science",
+      "Research Methods",
+      "Communication"
+    ],
+    "tier": 3
+  },
+  {
+    "name": "Financial Planning",
+    "description": "The process of developing a comprehensive financial plan to achieve financial goals, including retirement planning, investment planning, and estate planning.",
+    "requiredSkills": [
+      "Accounting",
+      "Budgeting",
+      "Financial Analysis",
+      "Investment Strategies"
+    ],
+    "tier": 3
+  },
+  {
+    "name": "Electrical Systems",
+    "description": "Knowledge of electrical principles and practices, including wiring, circuits, and electrical safety protocols.",
+    "requiredSkills": [
+      "Analytical Thinking",
+      "Attention To Detail",
+      "Electrical Engineering",
+      "Problem Solving"
+    ],
+    "tier": 3
+  },
+  {
+    "name": "Massage Techniques",
+    "description": "Knowledge of the various massage techniques and their application to improve physical and emotional well-being, relieve pain and tension, and promote relaxation.",
+    "requiredSkills": ["Anatomy", "Massage Therapy Techniques", "Physiology"],
+    "tier": 3
+  },
+  {
+    "name": "Audiology",
+    "description": "The study and treatment of hearing disorders and related conditions, including the assessment of hearing ability, the prescription and fitting of hearing aids, and the development of hearing rehabilitation plans.",
+    "requiredSkills": [
+      "Hearing Technology",
+      "Communication",
+      "Anatomy",
+      "Physiology"
+    ],
+    "tier": 3
+  },
+  {
+    "name": "Fitness Programs",
+    "description": "The ability to design, implement, and evaluate fitness programs for individuals or groups, based on their health and fitness goals and needs.",
+    "requiredSkills": [
+      "Assessment",
+      "Exercise Physiology",
+      "Nutrition",
+      "Physical Fitness",
+      "Program Development"
+    ],
+    "tier": 3
+  },
+  {
+    "name": "Laboratory Testing",
+    "description": "Knowledge of laboratory testing procedures and techniques, including the collection and analysis of samples, data interpretation, and reporting of findings.",
     "requiredSkills": [
       "Attention To Detail",
-      "Communication",
-      "Legal Knowledge",
+      "Laboratory Safety",
+      "Laboratory Testing Techniques",
+      "Scientific Method"
+    ],
+    "tier": 3
+  },
+  {
+    "name": "Engineering",
+    "description": "the application of science, mathematics, and design to create practical solutions to real-world problems, such as designing and building structures, machines, systems, and materials.",
+    "requiredSkills": [
+      "Analytical Thinking",
+      "Mathematics",
+      "Physics",
       "Problem Solving"
-    ]
+    ],
+    "tier": 3
+  },
+  {
+    "name": "Sustainability",
+    "description": "the practice of meeting the needs of the present without compromising the ability of future generations to meet their own needs, often through reducing environmental impact, conserving natural resources, and promoting social and economic equity.",
+    "requiredSkills": [
+      "Environmental Science",
+      "Renewable Energy",
+      "Business Management"
+    ],
+    "tier": 3
+  },
+  {
+    "name": "Clinical Knowledge",
+    "description": "understanding of medical terminology, anatomy, and physiology, as well as the ability to apply this knowledge in the diagnosis and treatment of patients.",
+    "requiredSkills": [
+      "Diagnosis",
+      "Patient Care",
+      "Pharmacology",
+      "Medical Terminology"
+    ],
+    "tier": 4
+  },
+  {
+    "name": "Software Design",
+    "description": "the ability to design software applications and systems that are scalable, maintainable, and user-friendly.",
+    "requiredSkills": [
+      "Software Development",
+      "Programming Languages",
+      "User Experience Design",
+      "Problem Solving",
+      "Creativity"
+    ],
+    "tier": 4
+  },
+  {
+    "name": "Cryptography",
+    "description": "the ability to develop and implement secure cryptographic systems to protect data and communication channels.",
+    "requiredSkills": [
+      "Network Security",
+      "System Security",
+      "Mathematics",
+      "Data Analysis"
+    ],
+    "tier": 4
+  },
+  {
+    "name": "Security Policies",
+    "description": "The ability to develop and implement policies and procedures to protect assets and data from unauthorized access, theft, and misuse.",
+    "requiredSkills": [
+      "Risk Management",
+      "Network Security",
+      "Cybersecurity",
+      "Technical Writing",
+      "Problem Solving"
+    ],
+    "tier": 4
+  },
+  {
+    "name": "Database Management",
+    "description": "The process of designing, implementing, and maintaining databases to store and manage information.",
+    "requiredSkills": [
+      "Database Design",
+      "Sql",
+      "Network Administration",
+      "It Infrastructure"
+    ],
+    "tier": 4
+  },
+  {
+    "name": "Database Design",
+    "description": "The process of creating a detailed data model of a database to ensure it meets the needs of the user and the organization.",
+    "requiredSkills": [
+      "Database Management",
+      "Data Analysis",
+      "Sql",
+      "Data Modeling"
+    ],
+    "tier": 4
+  },
+  {
+    "name": "Public Health",
+    "description": "The science and practice of protecting and improving the health of communities through research, education, and policy.",
+    "requiredSkills": [
+      "Epidemiology",
+      "Healthcare Regulations And Policies",
+      "Community Health",
+      "Research Methods",
+      "Statistics"
+    ],
+    "tier": 4
+  },
+  {
+    "name": "Statistics",
+    "description": "The science of collecting, analyzing, and interpreting data.",
+    "requiredSkills": [
+      "Mathematics",
+      "Research Methods",
+      "Data Analysis",
+      "Probability Theory",
+      "Problem Solving"
+    ],
+    "tier": 4
+  },
+  {
+    "name": "Mathematical Modeling",
+    "description": "The process of using mathematical concepts and techniques to describe and simulate complex real-world systems or phenomena.",
+    "requiredSkills": ["Data Analysis", "Mathematics", "Statistical Analysis"],
+    "tier": 4
+  },
+  {
+    "name": "Financial Analysis",
+    "description": "The process of analyzing financial data to identify trends, risks, and opportunities.",
+    "requiredSkills": [
+      "Accounting",
+      "Data Analysis",
+      "Financial Planning",
+      "Problem Solving"
+    ],
+    "tier": 4
+  },
+  {
+    "name": "Investment Strategies",
+    "description": "The methods and approaches used to make investment decisions, including risk management and asset allocation.",
+    "requiredSkills": [
+      "Financial Analysis",
+      "Financial Planning",
+      "Risk Management",
+      "Statistics"
+    ],
+    "tier": 4
+  },
+  {
+    "name": "Machine Learning",
+    "description": "The use of algorithms and statistical models to allow computer systems to improve their performance on a specific task.",
+    "requiredSkills": [
+      "Data Analysis",
+      "Mathematics",
+      "Programming Languages",
+      "Statistics"
+    ],
+    "tier": 4
+  },
+  {
+    "name": "Surgical Skills",
+    "description": "The ability to perform surgical procedures with precision and accuracy.",
+    "requiredSkills": ["Anatomy", "Physiology", "Medical Technology"],
+    "tier": 4
+  },
+  {
+    "name": "Anesthesia Administration",
+    "description": "The ability to administer anesthetics to patients safely and effectively.",
+    "requiredSkills": [
+      "Patient Monitoring",
+      "Surgical Skills",
+      "Emergency Response",
+      "Pharmacology"
+    ],
+    "tier": 4
+  },
+  {
+    "name": "Patient Monitoring",
+    "description": "The ability to use various medical devices to monitor patient vital signs during surgery or in intensive care settings.",
+    "requiredSkills": [
+      "Clinical Knowledge",
+      "Attention To Detail",
+      "Problem Solving",
+      "Critical Thinking",
+      "Communication"
+    ],
+    "tier": 4
+  },
+  {
+    "name": "Public Safety",
+    "description": "Knowledge of emergency response procedures and protocols, disaster preparedness, and public safety regulations.",
+    "requiredSkills": [
+      "Emergency Response",
+      "Risk Management",
+      "Safety Protocols",
+      "Communication",
+      "Critical Thinking"
+    ],
+    "tier": 4
+  },
+  {
+    "name": "Emergency Response",
+    "description": "Knowledge of emergency response procedures and protocols, including first aid, CPR, and disaster preparedness.",
+    "requiredSkills": [
+      "Communication",
+      "Critical Thinking",
+      "Emergency Medicine",
+      "First Aid",
+      "Problem Solving"
+    ],
+    "tier": 4
+  },
+  {
+    "name": "Physical Fitness",
+    "description": "The ability to maintain physical fitness through regular exercise and healthy lifestyle choices.",
+    "requiredSkills": [
+      "Exercise Science",
+      "Physiology",
+      "Anatomy",
+      "Nutrition",
+      "Patience"
+    ],
+    "tier": 4
+  },
+  {
+    "name": "Cardiovascular Anatomy And Physiology",
+    "description": "Knowledge of the structure and function of the cardiovascular system, including the heart, blood vessels, and blood.",
+    "requiredSkills": [
+      "Anatomy",
+      "Physiology",
+      "Medical Terminology",
+      "Medical Imaging"
+    ],
+    "tier": 4
+  },
+  {
+    "name": "Medical Technology",
+    "description": "Knowledge of the principles and practices involved in medical technology, including equipment operation and maintenance.",
+    "requiredSkills": [
+      "Anatomy",
+      "Medical Terminology",
+      "Medical Instrumentation",
+      "Medical Device Regulation"
+    ],
+    "tier": 4
+  },
+  {
+    "name": "Medication Management",
+    "description": "the ability to prescribe and administer medication safely and effectively.",
+    "requiredSkills": [
+      "Attention To Detail",
+      "Medical Terminology",
+      "Pharmacology",
+      "Record Keeping"
+    ],
+    "tier": 4
+  },
+  {
+    "name": "Anatomy",
+    "description": "The study of the structure of living organisms, including humans, animals, and plants.",
+    "requiredSkills": [
+      "Cardiovascular Anatomy And Physiology",
+      "Respiratory Care",
+      "Physiology",
+      "Medical Terminology"
+    ],
+    "tier": 4
+  },
+  {
+    "name": "Exercise Science",
+    "description": "The study of the physiological and metabolic responses to exercise and physical activity.",
+    "requiredSkills": [
+      "Anatomy",
+      "Assessment",
+      "Exercise Physiology",
+      "Nutrition",
+      "Physical Fitness"
+    ],
+    "tier": 4
+  },
+  {
+    "name": "Diagnosis",
+    "description": "the ability to analyze patient symptoms and medical history to make accurate diagnoses.",
+    "requiredSkills": [
+      "Clinical Knowledge",
+      "Medical Terminology",
+      "Medical Imaging",
+      "Patient Care"
+    ],
+    "tier": 5
+  },
+  {
+    "name": "Treatment",
+    "description": "the ability to design and implement effective treatment plans based on patient diagnoses and medical history.",
+    "requiredSkills": ["Diagnosis", "Patient Care", "Medication Management"],
+    "tier": 5
+  },
+  {
+    "name": "Network Security",
+    "description": "the ability to secure computer networks and systems against cyber attacks, unauthorized access, and data breaches.",
+    "requiredSkills": [
+      "Network Protocols",
+      "Cybersecurity",
+      "Risk Management",
+      "Technical Writing",
+      "Problem Solving"
+    ],
+    "tier": 5
+  },
+  {
+    "name": "Cybersecurity",
+    "description": "the ability to protect computer systems and networks from theft or damage to hardware, software or electronic data.",
+    "requiredSkills": [
+      "Network Security",
+      "System Security",
+      "Cryptography",
+      "Vulnerability Assessments"
+    ],
+    "tier": 5
+  },
+  {
+    "name": "Vulnerability Assessments",
+    "description": "the ability to identify and assess potential vulnerabilities and threats to computer systems and networks.",
+    "requiredSkills": ["Cybersecurity", "Network Security", "System Security"],
+    "tier": 5
+  },
+  {
+    "name": "Risk Management",
+    "description": "the ability to assess and mitigate risks to computer systems and networks.",
+    "requiredSkills": [
+      "Problem Solving",
+      "Critical Thinking",
+      "Communication",
+      "Analytics",
+      "Leadership"
+    ],
+    "tier": 5
+  },
+  {
+    "name": "Physiology",
+    "description": "The study of the function of living organisms, including humans, animals, and plants.",
+    "requiredSkills": [
+      "Anatomy",
+      "Biochemistry",
+      "Exercise Science",
+      "Research Methods",
+      "Statistics"
+    ],
+    "tier": 5
+  },
+  {
+    "name": "Rehabilitation",
+    "description": "The process of restoring function and improving quality of life for individuals with physical or mental disabilities.",
+    "requiredSkills": [
+      "Patient Care",
+      "Physical Therapy",
+      "Occupational Therapy",
+      "Psychology",
+      "Problem Solving"
+    ],
+    "tier": 5
+  },
+  {
+    "name": "Project Management",
+    "description": "The process of planning, organizing, and managing resources to complete specific goals and objectives.",
+    "requiredSkills": [
+      "Time Management",
+      "Leadership",
+      "Communication",
+      "Problem Solving",
+      "Budgeting"
+    ],
+    "tier": 5
+  },
+  {
+    "name": "Strategic Planning",
+    "description": "The process of defining an organization's vision, mission, and long-term goals, and developing a plan to achieve them.",
+    "requiredSkills": ["Leadership", "Business Management", "Problem Solving"],
+    "tier": 5
+  },
+  {
+    "name": "Surgery",
+    "description": "The branch of medicine that involves the treatment of injuries, diseases, and deformities through surgical procedures.",
+    "requiredSkills": ["Anatomy", "Physiology", "Surgical Skills"],
+    "tier": 5
+  },
+  {
+    "name": "Data Analysis",
+    "description": "The process of examining data to identify patterns and draw conclusions.",
+    "requiredSkills": [
+      "Statistical Analysis",
+      "Research Methods",
+      "Database Design",
+      "Data Structures And Algorithms"
+    ],
+    "tier": 5
+  },
+  {
+    "name": "Statistical Analysis",
+    "description": "The process of analyzing data using statistical methods to identify significant patterns or relationships.",
+    "requiredSkills": [
+      "Research Methods",
+      "Statistics",
+      "Data Analysis",
+      "Problem Solving",
+      "Critical Thinking"
+    ],
+    "tier": 5
+  },
+  {
+    "name": "Biomedical Engineering",
+    "description": "The application of engineering principles and design concepts to medicine and biology.",
+    "requiredSkills": [
+      "Electrical Systems",
+      "Medical Technology",
+      "Machine Learning",
+      "Technical Writing"
+    ],
+    "tier": 5
+  },
+  {
+    "name": "Petroleum Engineering",
+    "description": "The study and application of engineering principles to the exploration, development, and production of oil and gas resources.",
+    "requiredSkills": [
+      "Mathematics",
+      "Physics",
+      "Geology",
+      "Risk Management",
+      "Technical Writing"
+    ],
+    "tier": 5
+  },
+  {
+    "name": "Counseling",
+    "description": "The process of helping individuals or groups to achieve emotional, social, or behavioral change.",
+    "requiredSkills": ["Communication", "Empathy", "Psychology", "Assessment"],
+    "tier": 5
+  },
+  {
+    "name": "Psychology",
+    "description": "The scientific study of behavior and mental processes.",
+    "requiredSkills": [
+      "Research Methods",
+      "Statistics",
+      "Communication",
+      "Critical Thinking",
+      "Empathy"
+    ],
+    "tier": 5
+  },
+  {
+    "name": "Biochemistry",
+    "description": "The study of chemical processes within living organisms.",
+    "requiredSkills": [
+      "Genetics",
+      "Molecular Biology",
+      "Medical Terminology",
+      "Laboratory Testing"
+    ],
+    "tier": 5
+  },
+  {
+    "name": "Hearing Technology",
+    "description": "Knowledge of the latest hearing technology, including hearing aids, cochlear implants, and other assistive devices, as well as their use and maintenance.",
+    "requiredSkills": [
+      "Anatomy",
+      "Audiology",
+      "Communication Disorders",
+      "Hearing Aid Technology"
+    ],
+    "tier": 5
+  },
+  {
+    "name": "Genetics",
+    "description": "The study of genes, heredity, and genetic variation in organisms, and their impact on development, health, and disease.",
+    "requiredSkills": [
+      "Analytical Thinking",
+      "Biochemistry",
+      "Molecular Biology",
+      "Problem Solving"
+    ],
+    "tier": 5
+  },
+  {
+    "name": "Environmental Science",
+    "description": "The study of the environment and its interactions with living organisms, including the impact of human activity on ecosystems and natural resources.",
+    "requiredSkills": [
+      "Data Analysis",
+      "Environmental Regulations",
+      "Research Methods",
+      "Sustainability"
+    ],
+    "tier": 5
   },
   {
     "name": "Political Science",
@@ -1391,6 +1416,7 @@
       "Statistics",
       "Communication",
       "Critical Thinking"
-    ]
+    ],
+    "tier": 5
   }
 ]
