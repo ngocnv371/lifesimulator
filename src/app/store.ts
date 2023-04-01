@@ -4,6 +4,8 @@ import {
   configureStore,
   Dispatch,
 } from "@reduxjs/toolkit";
+import storage from "redux-persist/lib/storage";
+import { persistReducer, persistStore } from "redux-persist";
 import { TypedUseSelectorHook, useDispatch, useSelector } from "react-redux";
 import thunk, { ThunkDispatch } from "redux-thunk";
 import profileReducer from "../features/profile/ProfileSlice";
@@ -12,6 +14,11 @@ import skillsReducer from "../features/skills/SkillsSlice";
 import jobReducer from "../features/jobs/JobSlice";
 import investmentsReducer from "../features/investments/InvestmentsSlice";
 import skilltreeReducer from "../features/meta/skilltree/SkillTreeSlice";
+
+const rootPersistConfig = {
+  key: "lifesimulator",
+  storage,
+};
 
 const rootReducer = combineReducers({
   profile: profileReducer,
@@ -22,11 +29,15 @@ const rootReducer = combineReducers({
   skilltree: skilltreeReducer,
 });
 
+const persistedReducer = persistReducer(rootPersistConfig, rootReducer);
+
 export const store = configureStore({
-  reducer: rootReducer,
+  reducer: persistedReducer,
   devTools: process.env.NODE_ENV !== "production",
   middleware: [thunk],
 });
+
+export const persistor = persistStore(store);
 
 export type StoreType = typeof store;
 export type RootState = ReturnType<typeof store.getState>;
