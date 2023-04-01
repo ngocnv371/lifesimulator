@@ -1,4 +1,10 @@
-import { IonChip, IonLabel, IonList, IonListHeader } from "@ionic/react";
+import {
+  IonChip,
+  IonLabel,
+  IonList,
+  IonListHeader,
+  useIonToast,
+} from "@ionic/react";
 import { useAppDispatch, useAppSelector } from "../../../app/store";
 import {
   selectSkillById,
@@ -12,11 +18,13 @@ import { Skill } from "../../../app/models";
 type SkillChipProps = {
   tier: number;
   selectedSkill: string;
-  onSelect: (id: string) => void;
+  editMode: boolean;
+  onSelect: (id: string, selected: boolean, required: boolean) => void;
 };
 
 const SkillTierGroup: React.FC<SkillChipProps> = (props) => {
   const dispatch = useAppDispatch();
+  const [toast] = useIonToast();
   const skills = useAppSelector(selectSkillsByTier(props.tier));
   const selectedSkill = useAppSelector(selectSkillById(props.selectedSkill));
 
@@ -31,38 +39,41 @@ const SkillTierGroup: React.FC<SkillChipProps> = (props) => {
 
     const id = e.dataTransfer.getData("id");
     dispatch(tierChanged({ id, tier: props.tier }));
+    toast({
+      message: `'${id}' skill moved to tier ${props.tier}`,
+      color: "primary",
+      duration: 2000,
+    });
   };
-
-  function handleClick(item: typeof skills[0]) {
-    if (!props.onSelect) {
-      return;
-    }
-
-    if (item.id === props.selectedSkill) {
-      props.onSelect("");
-    } else {
-      props.onSelect(item.id);
-    }
-  }
 
   return (
     <IonList onDragOver={(e) => e.preventDefault()} onDrop={handleDrop}>
       <IonListHeader>Tier {props.tier}</IonListHeader>
-      {skills.map((item) => (
-        <SkillChip
-          key={item.id}
-          id={item.id}
-          name={item.name}
-          selected={item.id === props.selectedSkill}
-          isRequirement={
-            selectedSkill &&
-            selectedSkill.requiredSkills.some(
-              (r) => r.toLocaleLowerCase() === item.id
-            )
-          }
-          onClick={() => handleClick(item)}
-        />
-      ))}
+      {skills.map((item) => {
+        const isRequired =
+          selectedSkill &&
+          selectedSkill.requiredSkills.some(
+            (r) => r.toLocaleLowerCase() === item.id
+          );
+        return (
+          <SkillChip
+            key={item.id}
+            id={item.id}
+            name={item.name}
+            selected={item.id === props.selectedSkill}
+            isRequirement={isRequired}
+            editMode={props.editMode}
+            onClick={() =>
+              props.onSelect &&
+              props.onSelect(
+                item.id,
+                item.id === props.selectedSkill,
+                Boolean(isRequired)
+              )
+            }
+          />
+        );
+      })}
     </IonList>
   );
 };
