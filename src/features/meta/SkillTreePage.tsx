@@ -109,7 +109,7 @@ const SkillTreePage: React.FC = () => {
         {editMode && (
           <p>In Edit Mode, select a skill, then toggle its requirements</p>
         )}
-        {[1, 2, 3, 4, 5].map((tier) => (
+        {[1, 2, 3, 4, 5, 6].map((tier) => (
           <SkillTierGroup
             key={tier}
             tier={tier}

@@ -1,10 +1,26 @@
 import { PayloadAction, createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import rawSkills from "../../../data/raw/skills.json";
+import rawJobs from "../../../data/raw/jobs.json";
 import { RootState } from "../../../app/store";
 
-type State = typeof rawSkills;
+interface TreeItem {
+  id: string;
+  name: string;
+  requiredSkills: string[];
+  tier: number;
+}
 
-const initialState: State = rawSkills;
+type State = TreeItem[];
+
+const initialState: State = [
+  ...rawSkills,
+  ...rawJobs.map((j) => ({
+    id: j.name.toLocaleLowerCase(),
+    tier: 6,
+    name: j.name,
+    requiredSkills: j.requiredSkills,
+  })),
+];
 
 const slice = createSlice({
   name: "skilltree",

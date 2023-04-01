@@ -33,6 +33,11 @@ const SkillTierGroup: React.FC<SkillChipProps> = (props) => {
   }
 
   const handleDrop: DragEventHandler<HTMLIonListElement> = (e) => {
+    // no dnd on Jobs
+    if (props.tier > 5) {
+      return;
+    }
+
     if (!e.dataTransfer) {
       return;
     }
@@ -48,7 +53,8 @@ const SkillTierGroup: React.FC<SkillChipProps> = (props) => {
 
   return (
     <IonList onDragOver={(e) => e.preventDefault()} onDrop={handleDrop}>
-      <IonListHeader>Tier {props.tier}</IonListHeader>
+      {props.tier < 6 && <IonListHeader>Tier {props.tier}</IonListHeader>}
+      {props.tier === 6 && <IonListHeader>Jobs</IonListHeader>}
       {skills.map((item) => {
         const isRequired =
           selectedSkill &&
@@ -63,6 +69,7 @@ const SkillTierGroup: React.FC<SkillChipProps> = (props) => {
             selected={item.id === props.selectedSkill}
             isRequirement={isRequired}
             editMode={props.editMode}
+            draggable={item.tier < 6}
             onClick={() =>
               props.onSelect &&
               props.onSelect(

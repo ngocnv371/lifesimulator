@@ -8,13 +8,14 @@ type SkillChipProps = {
   selected?: boolean;
   isRequirement?: boolean;
   editMode: boolean;
+  draggable?: boolean;
   onClick?: MouseEventHandler<HTMLIonChipElement>;
 };
 
 const SkillChip: React.FC<SkillChipProps> = (props) => {
   return (
     <IonChip
-      draggable="true"
+      draggable={props.draggable}
       color={
         props.selected ? "primary" : props.isRequirement ? "secondary" : ""
       }
