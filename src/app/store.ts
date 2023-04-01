@@ -11,6 +11,7 @@ import inventoryReducer from "../features/inventory/InventorySlice";
 import skillsReducer from "../features/skills/SkillsSlice";
 import jobReducer from "../features/jobs/JobSlice";
 import investmentsReducer from "../features/investments/InvestmentsSlice";
+import skilltreeReducer from "../features/meta/skilltree/SkillTreeSlice";
 
 const rootReducer = combineReducers({
   profile: profileReducer,
@@ -18,6 +19,7 @@ const rootReducer = combineReducers({
   skills: skillsReducer,
   job: jobReducer,
   investments: investmentsReducer,
+  skilltree: skilltreeReducer,
 });
 
 export const store = configureStore({

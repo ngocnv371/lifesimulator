@@ -5,15 +5,18 @@ import {
   IonContent,
   IonHeader,
   IonIcon,
+  IonItem,
   IonLabel,
+  IonList,
   IonPage,
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
-import { useEffect, useState } from "react";
+import { useEffect, useState, DragEventHandler, DragEvent } from "react";
 import { skills as originalSkills } from "../../data/skills";
 import { Skill } from "../../app/models";
 import { closeCircle, download } from "ionicons/icons";
+import SkillTierGroup from "./skilltree/SkillTierGroup";
 
 const SkillTreePage: React.FC = () => {
   const [skills, setSkills] = useState<Skill[]>(originalSkills);
@@ -78,14 +81,14 @@ const SkillTreePage: React.FC = () => {
               requiredSkills: selected.requiredSkills.filter(
                 (r) => r.toLocaleLowerCase() !== s.id
               ),
-            }
+            };
             setSelected(updated);
             setSkills(skills.map((t) => (t.id === selected.id ? updated : t)));
           } else {
             const updated = {
               ...selected,
               requiredSkills: selected.requiredSkills.concat(s.name),
-            }
+            };
             setSelected(updated);
             setSkills(skills.map((t) => (t.id === selected.id ? updated : t)));
           }
@@ -119,16 +122,9 @@ const SkillTreePage: React.FC = () => {
         <IonButton onClick={() => clearTier1Requirements()}>
           Clear Tier 1 Requirements
         </IonButton>
-        <h1>Tier 1</h1>
-        {renderTier(1)}
-        <h1>Tier 2</h1>
-        {renderTier(2)}
-        <h1>Tier 3</h1>
-        {renderTier(3)}
-        <h1>Tier 4</h1>
-        {renderTier(4)}
-        <h1>Tier 5</h1>
-        {renderTier(5)}
+        {[1, 2, 3, 4, 5].map((tier) => (
+          <SkillTierGroup key={tier} tier={tier} />
+        ))}
       </IonContent>
     </IonPage>
   );
