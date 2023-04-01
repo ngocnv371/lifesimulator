@@ -38,7 +38,8 @@ import {
 } from "ionicons/icons";
 import "./Menu.css";
 import Cheats from "../features/cheat/Cheats";
-import NextDayItem from "./NextDayItem";
+import NextDayItem from "./menu/NextDayItem";
+import FactoryResetItem from "./menu/FactoryResetItem";
 
 interface AppPage {
   url: string;
@@ -119,6 +120,7 @@ const Menu: React.FC = () => {
         <IonMenuToggle autoHide={false}>
           <NextDayItem />
         </IonMenuToggle>
+        <FactoryResetItem />
         
         <Cheats />
 
