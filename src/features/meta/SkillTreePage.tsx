@@ -26,6 +26,7 @@ import {
   tier1RequirementsCleared,
 } from "./skilltree/SkillTreeSlice";
 import useStackedToast from "../jobs/useStackedToast";
+import DirectedGraph from "./skilltree/DirectedGraph";
 
 const SkillTreePage: React.FC = () => {
   const dispatch = useAppDispatch();
@@ -118,6 +119,7 @@ const SkillTreePage: React.FC = () => {
             onSelect={handleSelect}
           />
         ))}
+        <DirectedGraph />
       </IonContent>
     </IonPage>
   );

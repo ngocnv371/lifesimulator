@@ -14,12 +14,12 @@ type State = TreeItem[];
 
 const initialState: State = [
   ...rawSkills,
-  ...rawJobs.map((j) => ({
-    id: j.name.toLocaleLowerCase(),
-    tier: 6,
-    name: j.name,
-    requiredSkills: j.requiredSkills,
-  })),
+  // ...rawJobs.map((j) => ({
+  //   id: j.name.toLocaleLowerCase(),
+  //   tier: 6,
+  //   name: j.name,
+  //   requiredSkills: j.requiredSkills,
+  // })),
 ];
 
 const slice = createSlice({
@@ -49,7 +49,7 @@ const slice = createSlice({
       if (hasRequired) {
         // remove requirement
         skill.requiredSkills = skill.requiredSkills.filter(
-          (r) => r.toLocaleLowerCase() != requirement.toLocaleLowerCase()
+          (r) => r.toLocaleLowerCase() !== requirement.toLocaleLowerCase()
         );
       } else {
         // add requirement
@@ -69,12 +69,14 @@ const slice = createSlice({
 export const exportJSON = createAsyncThunk<void, void, { state: RootState }>(
   "skilltree/exportJSON",
   (arg, api) => {
+    console.log('skilltree/exportJSON')
     const skills = api.getState().skilltree;
     const jsonData = JSON.stringify(
-      skills.sort((a, b) => a.name.localeCompare(b.name)),
+      skills.slice().sort((a, b) => a.name.localeCompare(b.name)),
       null,
       2
     );
+    console.log('json', jsonData)
     const blob = new Blob([jsonData], { type: "application/json" });
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
@@ -83,6 +85,7 @@ export const exportJSON = createAsyncThunk<void, void, { state: RootState }>(
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
+    console.log('downloaded')
   }
 );
 
